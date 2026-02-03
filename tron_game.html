@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tron AI - SimpleTool Demo</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#000;min-height:100vh;display:flex;align-items:center;justify-content:center;font-family:'Segoe UI',system-ui,sans-serif;color:#fff}
+.container{display:flex;gap:20px;align-items:flex-start}
+.game-wrapper{display:flex;flex-direction:column;align-items:center}
+.title{font-size:32px;font-weight:bold;margin-bottom:15px;background:linear-gradient(90deg,#0ff,#f0f,#ff0);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-transform:uppercase;letter-spacing:4px}
+.stats-bar{display:flex;gap:15px;margin-bottom:10px;font-size:14px}
+.stat{padding:8px 14px;background:rgba(255,255,255,.05);border:1px solid #333;border-radius:20px}
+.stat span{font-weight:bold}
+.stat.p1 span{color:#0ff}
+.stat.p2 span{color:#f0f}
+.stat.p3 span{color:#ff0}
+.stat.p4 span{color:#0f0}
+.game-area{position:relative}
+canvas{border:2px solid #333;box-shadow:0 0 50px rgba(0,255,255,.2),0 0 100px rgba(255,0,255,.1);border-radius:4px}
+.controls{margin-top:15px;display:flex;gap:10px}
+.btn{padding:10px 25px;font-size:14px;font-weight:bold;background:transparent;border:2px solid #0ff;color:#0ff;cursor:pointer;border-radius:6px;transition:all .2s}
+.btn:hover{background:#0ff;color:#000}
+.btn.stop{border-color:#f44;color:#f44}
+.btn.stop:hover{background:#f44}
+.panel{width:340px;background:rgba(0,0,0,.9);border:1px solid #333;border-radius:10px;padding:15px;font-size:12px}
+.panel h3{color:#0ff;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid #222}
+.config-row{display:flex;align-items:center;justify-content:space-between;margin:8px 0}
+.config-row label{color:#888}
+.config-row input{width:200px;padding:6px 10px;background:#111;border:1px solid #333;color:#fff;border-radius:4px;font-size:12px}
+.config-row input[type=number]{width:50px}
+.config-row select{background:#111;border:1px solid #333;color:#fff;padding:6px;border-radius:4px}
+.status-row{display:flex;align-items:center;gap:8px;margin:10px 0}
+.status-dot{width:10px;height:10px;border-radius:50%;background:#666}
+.status-dot.ok{background:#0f0;box-shadow:0 0 8px #0f0}
+.status-dot.err{background:#f44}
+.players-section{margin:15px 0}
+.player-row{display:flex;align-items:center;gap:10px;margin:6px 0;padding:8px;background:rgba(255,255,255,.03);border-radius:6px}
+.player-color{width:20px;height:20px;border-radius:4px}
+.player-name{flex:1;font-weight:bold}
+.player-status{font-size:11px;padding:2px 8px;border-radius:10px;background:rgba(255,255,255,.1)}
+.player-status.alive{color:#0f0}
+.player-status.dead{color:#f44}
+.log-section{max-height:150px;overflow-y:auto;background:#050505;border-radius:6px;padding:8px;margin-top:10px}
+.log-entry{padding:3px 6px;margin:2px 0;font-family:monospace;font-size:10px;border-left:3px solid #333}
+.log-entry .name{font-weight:bold}
+.log-entry .ms{color:#888;font-size:9px}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.95);display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:4px}
+.overlay.hidden{display:none}
+.overlay h2{font-size:42px;margin-bottom:20px;text-shadow:0 0 30px currentColor}
+.overlay h2.p1{color:#0ff}
+.overlay h2.p2{color:#f0f}
+.overlay h2.p3{color:#ff0}
+.overlay h2.p4{color:#0f0}
+.winner-display{font-size:18px;color:#888;margin-bottom:20px}
+.round-info{font-size:14px;color:#666;margin-bottom:20px}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="game-wrapper">
+    <div class="title">⚡ TRON</div>
+    <div class="stats-bar">
+      <div class="stat p1">P1: <span id="score-0">0</span></div>
+      <div class="stat p2">P2: <span id="score-1">0</span></div>
+      <div class="stat p3">P3: <span id="score-2">0</span></div>
+      <div class="stat p4">P4: <span id="score-3">0</span></div>
+    </div>
+    <div class="game-area">
+      <canvas id="game" width="600" height="600"></canvas>
+      <div class="overlay" id="overlay">
+        <h2 id="overlay-title">TRON AI</h2>
+        <div class="winner-display" id="winner-display"></div>
+        <div class="round-info" id="round-info">Round 1 / 5</div>
+        <button class="btn" id="start-btn">START GAME</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button class="btn" id="next-btn">NEXT ROUND</button>
+      <button class="btn stop" id="stop-btn">STOP</button>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>⚙️ Configuration</h3>
+    <div class="config-row">
+      <label>Server URL</label>
+    </div>
+    <div class="config-row">
+      <input type="text" id="server-url" value="http://localhost:8899">
+    </div>
+    <div class="status-row">
+      <div class="status-dot" id="status-dot"></div>
+      <span id="status-text">Click Start to connect</span>
+    </div>
+    <div class="config-row">
+      <label>Players</label>
+      <select id="player-count">
+        <option value="2">2 Players</option>
+        <option value="3">3 Players</option>
+        <option value="4" selected>4 Players</option>
+      </select>
+    </div>
+    <div class="config-row">
+      <label>Game Speed</label>
+      <select id="game-speed">
+        <option value="80">Slow</option>
+        <option value="50" selected>Normal</option>
+        <option value="30">Fast</option>
+      </select>
+    </div>
+    <div class="config-row">
+      <label>Rounds</label>
+      <input type="number" id="total-rounds" value="5" min="1" max="20">
+    </div>
+    <h3>🎮 Players</h3>
+    <div class="players-section" id="players-section"></div>
+    <h3>📊 Decision Log</h3>
+    <div class="log-section" id="log-section"></div>
+  </div>
+</div>
+<script>
+const $ = id => document.getElementById(id);
+
+const PLAYERS_CONFIG = [
+  { name: 'Cyan', color: '#0ff', startCorner: 0 },
+  { name: 'Magenta', color: '#f0f', startCorner: 1 },
+  { name: 'Yellow', color: '#ff0', startCorner: 2 },
+  { name: 'Green', color: '#0f0', startCorner: 3 }
+];
+
+const TOOLS = [{
+  type: "function",
+  function: {
+    name: "turn",
+    description: "Turn the light cycle. Straight=keep current direction, left=turn 90° counter-clockwise, right=turn 90° clockwise.",
+    parameters: {
+      type: "object",
+      properties: {
+        direction: {
+          type: "string",
+          enum: ["straight", "left", "right"],
+          description: "straight=no turn, left=turn left 90°, right=turn right 90°"
+        }
+      },
+      required: ["direction"]
+    }
+  }
+}];
+
+class FCClient {
+  constructor(url) { this.url = url.replace(/\/$/, ''); }
+  async health() {
+    try {
+      const r = await fetch(`${this.url}/health`, { signal: AbortSignal.timeout(3000) });
+      const d = await r.json();
+      return { ok: d.loaded === true || d.status === 'ok' };
+    } catch(e) { return { ok: false }; }
+  }
+  async call(messages, env) {
+    const t0 = performance.now();
+    try {
+      const r = await fetch(`${this.url}/v1/function_call`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ messages, tools: TOOLS, environment: env })
+      });
+      const d = await r.json();
+      const ms = performance.now() - t0;
+      let dir = String(d.args?.direction || d.heads?.arg1 || '').toLowerCase().trim();
+      if (!['straight','left','right'].includes(dir)) dir = 'straight';
+      return { direction: dir, ms, raw: d };
+    } catch(e) {
+      return { direction: 'straight', ms: performance.now() - t0, error: e.message };
+    }
+  }
+}
+
+class TronGame {
+  constructor() {
+    this.canvas = $('game');
+    this.ctx = this.canvas.getContext('2d');
+    this.W = this.canvas.width;
+    this.H = this.canvas.height;
+    this.cellSize = 6;
+    this.gridW = Math.floor(this.W / this.cellSize);
+    this.gridH = Math.floor(this.H / this.cellSize);
+    this.client = null;
+    this.running = false;
+    this.round = 1;
+    this.totalRounds = 5;
+    this.scores = [0, 0, 0, 0];
+    this.reset();
+  }
+
+  reset() {
+    this.grid = Array(this.gridW).fill(null).map(() => Array(this.gridH).fill(-1));
+    this.playerCount = parseInt($('player-count').value);
+    this.totalRounds = parseInt($('total-rounds').value);
+    
+    const corners = [
+      { x: 10, y: 10, dir: 0 },                    // 左上，向右
+      { x: this.gridW - 10, y: 10, dir: 2 },      // 右上，向左
+      { x: this.gridW - 10, y: this.gridH - 10, dir: 2 }, // 右下，向左
+      { x: 10, y: this.gridH - 10, dir: 0 }       // 左下，向右
+    ];
+
+    this.players = [];
+    for (let i = 0; i < this.playerCount; i++) {
+      const c = corners[i];
+      this.players.push({
+        id: i,
+        ...PLAYERS_CONFIG[i],
+        x: c.x,
+        y: c.y,
+        dir: c.dir, // 0=right, 1=down, 2=left, 3=up
+        alive: true,
+        trail: [{x: c.x, y: c.y}]
+      });
+      this.grid[c.x][c.y] = i;
+    }
+
+    this.updatePlayersUI();
+    this.render();
+  }
+
+  async start() {
+    this.client = new FCClient($('server-url').value);
+    const health = await this.client.health();
+    $('status-dot').className = 'status-dot ' + (health.ok ? 'ok' : 'err');
+    $('status-text').textContent = health.ok ? 'Connected' : 'Connection failed';
+    if (!health.ok) return;
+
+    this.round = 1;
+    this.scores = [0, 0, 0, 0];
+    this.updateScores();
+    this.reset();
+    this.running = true;
+    $('overlay').classList.add('hidden');
+    this.loop();
+  }
+
+  nextRound() {
+    if (this.round >= this.totalRounds) {
+      this.endGame();
+      return;
+    }
+    this.round++;
+    $('round-info').textContent = `Round ${this.round} / ${this.totalRounds}`;
+    this.reset();
+    this.running = true;
+    $('overlay').classList.add('hidden');
+    this.loop();
+  }
+
+  stop() { this.running = false; }
+
+  async loop() {
+    if (!this.running) return;
+
+    // 所有存活玩家同时决策
+    const decisions = await Promise.all(
+      this.players.filter(p => p.alive).map(p => this.aiDecision(p))
+    );
+
+    // 执行移动
+    for (const p of this.players) {
+      if (!p.alive) continue;
+      this.movePlayer(p);
+    }
+
+    // 碰撞检测
+    this.checkCollisions();
+
+    // 更新UI
+    this.updatePlayersUI();
+    this.render();
+
+    // 检查回合结束
+    const alive = this.players.filter(p => p.alive);
+    if (alive.length <= 1) {
+      this.endRound(alive[0] || null);
+      return;
+    }
+
+    const speed = parseInt($('game-speed').value);
+    setTimeout(() => this.loop(), speed);
+  }
+
+  async aiDecision(player) {
+    const p = player;
+    const dirs = [[1,0],[0,1],[-1,0],[0,-1]]; // right, down, left, up
+    const dirNames = ['right','down','left','up'];
+    
+    // 检测三个方向的危险距离
+    const checkDist = (dx, dy, max=20) => {
+      let dist = 0;
+      let x = p.x, y = p.y;
+      for (let i = 0; i < max; i++) {
+        x += dx; y += dy;
+        if (x < 0 || x >= this.gridW || y < 0 || y >= this.gridH) break;
+        if (this.grid[x][y] !== -1) break;
+        dist++;
+      }
+      return dist;
+    };
+
+    const straight = dirs[p.dir];
+    const leftDir = dirs[(p.dir + 3) % 4];
+    const rightDir = dirs[(p.dir + 1) % 4];
+
+    const distStraight = checkDist(straight[0], straight[1]);
+    const distLeft = checkDist(leftDir[0], leftDir[1]);
+    const distRight = checkDist(rightDir[0], rightDir[1]);
+
+    // 找最近的敌人
+    let nearestEnemy = null;
+    let minDist = Infinity;
+    for (const other of this.players) {
+      if (other.id === p.id || !other.alive) continue;
+      const d = Math.abs(other.x - p.x) + Math.abs(other.y - p.y);
+      if (d < minDist) { minDist = d; nearestEnemy = other; }
+    }
+
+    // Environment
+    const env = [
+      `pos=${p.x},${p.y}`,
+      `facing=${dirNames[p.dir]}`,
+      `dist_straight=${distStraight}`,
+      `dist_left=${distLeft}`,
+      `dist_right=${distRight}`,
+      `grid=${this.gridW}x${this.gridH}`,
+      nearestEnemy ? `enemy=${nearestEnemy.x},${nearestEnemy.y}` : 'enemy=none'
+    ];
+
+    // Query - 生存优先决策
+    let instruction;
+    const danger = 3;
+    
+    if (distStraight <= danger && distLeft <= danger && distRight <= danger) {
+      // 三面受敌，选最长的
+      const best = Math.max(distStraight, distLeft, distRight);
+      if (best === distStraight) instruction = `TRAPPED! Go STRAIGHT (${distStraight} cells).`;
+      else if (best === distLeft) instruction = `TRAPPED! Turn LEFT (${distLeft} cells).`;
+      else instruction = `TRAPPED! Turn RIGHT (${distRight} cells).`;
+    } else if (distStraight <= danger) {
+      // 前方危险
+      if (distLeft >= distRight) instruction = `Wall ahead! Turn LEFT (${distLeft} cells free).`;
+      else instruction = `Wall ahead! Turn RIGHT (${distRight} cells free).`;
+    } else {
+      // 前方安全，考虑策略
+      const maxDist = Math.max(distStraight, distLeft, distRight);
+      if (distStraight >= maxDist * 0.7) {
+        instruction = `Path clear. Go STRAIGHT (${distStraight} cells). Left=${distLeft}, Right=${distRight}.`;
+      } else if (distLeft > distRight) {
+        instruction = `Better path LEFT (${distLeft} cells). Straight=${distStraight}.`;
+      } else {
+        instruction = `Better path RIGHT (${distRight} cells). Straight=${distStraight}.`;
+      }
+    }
+
+    const query = `Tron light cycle. ${instruction} Call turn(straight/left/right).`;
+
+    const result = await this.client.call([{ role: 'user', content: query }], env);
+    this.logDecision(p, result);
+
+    // 应用转向
+    if (result.direction === 'left') p.dir = (p.dir + 3) % 4;
+    else if (result.direction === 'right') p.dir = (p.dir + 1) % 4;
+
+    return result;
+  }
+
+  movePlayer(p) {
+    const dirs = [[1,0],[0,1],[-1,0],[0,-1]];
+    const d = dirs[p.dir];
+    p.x += d[0];
+    p.y += d[1];
+    p.trail.push({x: p.x, y: p.y});
+  }
+
+  checkCollisions() {
+    for (const p of this.players) {
+      if (!p.alive) continue;
+      
+      // 墙壁
+      if (p.x < 0 || p.x >= this.gridW || p.y < 0 || p.y >= this.gridH) {
+        p.alive = false;
+        continue;
+      }
+      
+      // 光迹碰撞
+      if (this.grid[p.x][p.y] !== -1) {
+        p.alive = false;
+        continue;
+      }
+      
+      // 标记位置
+      this.grid[p.x][p.y] = p.id;
+    }
+
+    // 头对头碰撞
+    const alive = this.players.filter(p => p.alive);
+    for (let i = 0; i < alive.length; i++) {
+      for (let j = i + 1; j < alive.length; j++) {
+        if (alive[i].x === alive[j].x && alive[i].y === alive[j].y) {
+          alive[i].alive = false;
+          alive[j].alive = false;
+        }
+      }
+    }
+  }
+
+  endRound(winner) {
+    this.running = false;
+    if (winner) {
+      this.scores[winner.id]++;
+      this.updateScores();
+    }
+    
+    $('overlay').classList.remove('hidden');
+    if (winner) {
+      $('overlay-title').textContent = `${winner.name} WINS`;
+      $('overlay-title').className = `p${winner.id + 1}`;
+    } else {
+      $('overlay-title').textContent = 'DRAW';
+      $('overlay-title').className = '';
+    }
+    $('winner-display').textContent = this.round >= this.totalRounds ? 'Final Round!' : 'Round Over';
+    $('round-info').textContent = `Round ${this.round} / ${this.totalRounds}`;
+    $('start-btn').textContent = this.round >= this.totalRounds ? 'VIEW RESULTS' : 'NEXT ROUND';
+  }
+
+  endGame() {
+    const maxScore = Math.max(...this.scores.slice(0, this.playerCount));
+    const winners = this.players.filter(p => this.scores[p.id] === maxScore);
+    
+    $('overlay').classList.remove('hidden');
+    if (winners.length === 1) {
+      $('overlay-title').textContent = `${winners[0].name} CHAMPION!`;
+      $('overlay-title').className = `p${winners[0].id + 1}`;
+    } else {
+      $('overlay-title').textContent = 'TIE GAME!';
+      $('overlay-title').className = '';
+    }
+    $('winner-display').textContent = `Final Scores: ${this.scores.slice(0, this.playerCount).join(' - ')}`;
+    $('round-info').textContent = 'Game Complete';
+    $('start-btn').textContent = 'NEW GAME';
+  }
+
+  updateScores() {
+    for (let i = 0; i < 4; i++) {
+      $(`score-${i}`).textContent = this.scores[i];
+    }
+  }
+
+  updatePlayersUI() {
+    const section = $('players-section');
+    section.innerHTML = '';
+    for (const p of this.players) {
+      const row = document.createElement('div');
+      row.className = 'player-row';
+      row.innerHTML = `
+        <div class="player-color" style="background:${p.color};box-shadow:0 0 10px ${p.color}"></div>
+        <div class="player-name" style="color:${p.color}">${p.name}</div>
+        <div class="player-status ${p.alive ? 'alive' : 'dead'}">${p.alive ? 'ALIVE' : 'DEAD'}</div>
+      `;
+      section.appendChild(row);
+    }
+  }
+
+  logDecision(player, result) {
+    const entry = document.createElement('div');
+    entry.className = 'log-entry';
+    entry.style.borderColor = player.color;
+    entry.innerHTML = `<span class="name" style="color:${player.color}">${player.name}</span> → ${result.direction} <span class="ms">${Math.round(result.ms)}ms</span>`;
+    $('log-section').insertBefore(entry, $('log-section').firstChild);
+    while ($('log-section').children.length > 40) $('log-section').lastChild.remove();
+  }
+
+  render() {
+    const ctx = this.ctx;
+    const cs = this.cellSize;
+
+    // 黑色背景
+    ctx.fillStyle = '#000';
+    ctx.fillRect(0, 0, this.W, this.H);
+
+    // 网格线
+    ctx.strokeStyle = 'rgba(0,255,255,0.03)';
+    ctx.lineWidth = 1;
+    for (let x = 0; x <= this.gridW; x++) {
+      ctx.beginPath();
+      ctx.moveTo(x * cs, 0);
+      ctx.lineTo(x * cs, this.H);
+      ctx.stroke();
+    }
+    for (let y = 0; y <= this.gridH; y++) {
+      ctx.beginPath();
+      ctx.moveTo(0, y * cs);
+      ctx.lineTo(this.W, y * cs);
+      ctx.stroke();
+    }
+
+    // 绘制光迹
+    for (const p of this.players) {
+      if (p.trail.length < 2) continue;
+      
+      ctx.strokeStyle = p.color;
+      ctx.lineWidth = cs - 1;
+      ctx.lineCap = 'square';
+      ctx.shadowBlur = 10;
+      ctx.shadowColor = p.color;
+      
+      ctx.beginPath();
+      ctx.moveTo(p.trail[0].x * cs + cs/2, p.trail[0].y * cs + cs/2);
+      for (let i = 1; i < p.trail.length; i++) {
+        ctx.lineTo(p.trail[i].x * cs + cs/2, p.trail[i].y * cs + cs/2);
+      }
+      ctx.stroke();
+    }
+
+    // 绘制头部
+    for (const p of this.players) {
+      if (!p.alive) continue;
+      
+      ctx.shadowBlur = 20;
+      ctx.shadowColor = p.color;
+      ctx.fillStyle = '#fff';
+      ctx.beginPath();
+      ctx.arc(p.x * cs + cs/2, p.y * cs + cs/2, cs, 0, Math.PI * 2);
+      ctx.fill();
+      
+      ctx.fillStyle = p.color;
+      ctx.beginPath();
+      ctx.arc(p.x * cs + cs/2, p.y * cs + cs/2, cs * 0.6, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    ctx.shadowBlur = 0;
+  }
+}
+
+const game = new TronGame();
+
+$('start-btn').onclick = () => {
+  if ($('start-btn').textContent === 'NEW GAME') {
+    game.start();
+  } else if ($('start-btn').textContent === 'NEXT ROUND') {
+    game.nextRound();
+  } else if ($('start-btn').textContent === 'VIEW RESULTS') {
+    game.endGame();
+  } else {
+    game.start();
+  }
+};
+$('next-btn').onclick = () => { if (!game.running) game.nextRound(); };
+$('stop-btn').onclick = () => { game.stop(); $('overlay').classList.remove('hidden'); };
+$('player-count').onchange = () => game.reset();
+
+game.render();
+</script>
+</body>
+</html>
