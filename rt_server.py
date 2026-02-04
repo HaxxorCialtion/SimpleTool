@@ -17,7 +17,7 @@ import uvicorn
 from vllm import LLM, SamplingParams
 
 # ==================== Config ====================
-MODEL_PATH = "./models/ST-Qwen3-4B-AWQ"
+MODEL_PATH = "./models/RT-Qwen3-4B-AWQ"
 SERVER_HOST = "0.0.0.0"
 SERVER_PORT = 8899
 MAX_HISTORY = 6
