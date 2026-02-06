@@ -120,8 +120,8 @@ Then open <http://127.0.0.1:8080/neon_arena.html>
 and enter your SimpleTool server URL (default: `http://localhost:8899`).   
 Try to beat the LLM-based AIs!
 <p align="center">
-  <img src="assets/demo_pong.gif" alt="Pong Demo" width="400">
-  <img src="assets/demo_arena.gif" alt="Arena Demo" width="400">
+  <video src="assets/demo_pong.webm" autoplay loop muted width="400"></video>
+  <video src="assets/demo_arena.webm" autoplay loop muted width="400"></video>
 </p>
 
 ---
