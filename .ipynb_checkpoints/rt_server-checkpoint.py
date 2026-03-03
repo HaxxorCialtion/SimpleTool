@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 SimpleTool vLLM Server - Multi-Head Parallel Decoding for Real-Time Function Calling
+Supports both v1 and v2 prompt formats. HTML clients need zero changes.
 """
 
 import json
@@ -17,7 +18,8 @@ import uvicorn
 from vllm import LLM, SamplingParams
 
 # ==================== Config ====================
-MODEL_PATH = "./models/RT-Qwen3-4B-AWQ"
+MODEL_PATH = "../../RT-Qwen3-4B-v2"       # v2 model path
+MODEL_VERSION = "v2"                           # "v1" or "v2"
 SERVER_HOST = "0.0.0.0"
 SERVER_PORT = 8899
 MAX_HISTORY = 6
@@ -28,7 +30,8 @@ os.environ.setdefault("CUDA_VISIBLE_DEVICES", "0")
 HEAD_TAGS = ["<content>", "<function>", "<arg1>", "<arg2>", "<arg3>", "<arg4>", "<arg5>", "<arg6>"]
 STOP_TOKENS = ["<|null|>", "</content>", "</function>", "</arg1>", "</arg2>", "</arg3>", "</arg4>", "</arg5>", "</arg6>", "<|im_end|>"]
 
-SYSTEM_TEMPLATE = """<|im_start|>system
+# ── v1: generic head-format instructions in system, domain context in user ──
+V1_SYSTEM_TEMPLATE = """<|im_start|>system
 You are a multi-head parallel function calling model. 
 ## Output Heads
 
@@ -48,6 +51,23 @@ You are a multi-head parallel function calling model.
 <|im_end|>
 """
 
+V1_USER_TEMPLATE = "<|im_start|>user\nenvironment: {env}\nhistory: [{hist}]\n\n{query}<|im_end|>\n<|im_start|>assistant\n"
+
+# ── v2: domain system prompt + tools in system, leaner user turn ──
+V2_SYSTEM_TEMPLATE = """<|im_start|>system
+{system_prompt}
+
+## Available Tools:
+
+{tools_json}
+<|im_end|>
+"""
+
+V2_USER_TEMPLATE = "<|im_start|>user\nhistory: [{hist}]\n\n{query}<|im_end|>\n<|im_start|>assistant\n"
+
+# Default system prompt when HTML client doesn't send one (backward compat)
+V2_DEFAULT_SYSTEM = "You are a real-time function calling assistant. Convert user commands into function calls using the available tools."
+
 
 # ==================== Data Models ====================
 class Message(BaseModel):
@@ -58,8 +78,12 @@ class Message(BaseModel):
 class FCRequest(BaseModel):
     messages: List[Message]
     tools: List[Dict[str, Any]]
+    # ── v1 fields (still accepted, used when version=v1) ──
     environment: Optional[List[str]] = None
     history: Optional[List[str]] = None
+    # ── v2 optional: domain system prompt ──
+    system: Optional[str] = None
+    # ── shared ──
     max_tokens: int = 32
     temperature: float = 0.0
     include_content_head: bool = False
@@ -77,13 +101,14 @@ class FCResponse(BaseModel):
 
 # ==================== SimpleTool Engine ====================
 class SimpleToolEngine:
-    def __init__(self, model_path: str):
+    def __init__(self, model_path: str, version: str = "v2"):
         self.model_path = model_path
+        self.version = version
         self.llm: Optional[LLM] = None
         self.sampling_params = None
 
     def initialize(self):
-        print(f"[SimpleTool] Loading model: {self.model_path}")
+        print(f"[SimpleTool] Loading model ({self.version}): {self.model_path}")
         self.llm = LLM(
             model=self.model_path,
             trust_remote_code=True,
@@ -99,15 +124,19 @@ class SimpleToolEngine:
             stop=STOP_TOKENS,
             include_stop_str_in_output=True
         )
-        print("[SimpleTool] Model loaded!")
+        print(f"[SimpleTool] Model loaded! (version={self.version})")
         self._warmup()
 
     def _warmup(self):
         print("[SimpleTool] Warming up...")
-        dummy_tools = '[{"type":"function","function":{"name":"test","parameters":{}}}]'
-        prompt = SYSTEM_TEMPLATE.format(tools_json=dummy_tools)
-        prompt += "<|im_start|>user\nenvironment: []\nhistory: []\n\ntest<|im_end|>\n<|im_start|>assistant\n"
-        prompts = [prompt + tag for tag in HEAD_TAGS]
+        dummy_tools = '{"type":"function","function":{"name":"test","parameters":{}}}'
+        if self.version == "v1":
+            prefix = V1_SYSTEM_TEMPLATE.format(tools_json=dummy_tools)
+            prefix += V1_USER_TEMPLATE.format(env="[]", hist="", query="test")
+        else:
+            prefix = V2_SYSTEM_TEMPLATE.format(system_prompt=V2_DEFAULT_SYSTEM, tools_json=dummy_tools)
+            prefix += V2_USER_TEMPLATE.format(hist="", query="test")
+        prompts = [prefix + tag for tag in HEAD_TAGS[:2]]  # function + arg1 enough
         self.llm.generate(prompts, self.sampling_params)
         print("[SimpleTool] Warmup complete!")
 
@@ -115,7 +144,6 @@ class SimpleToolEngine:
         return "\n".join(json.dumps(t, ensure_ascii=False) for t in tools)
 
     def _extract_param_info(self, tools: List[Dict]) -> List[str]:
-        """Extract parameter names in order from tool definitions."""
         names = []
         for tool in tools:
             func = tool.get("function", {})
@@ -126,7 +154,6 @@ class SimpleToolEngine:
         return names[:6]
 
     def _get_max_args(self, tools: List[Dict]) -> int:
-        """Get max argument count across all tools."""
         max_args = 0
         for tool in tools:
             func = tool.get("function", {})
@@ -134,23 +161,49 @@ class SimpleToolEngine:
             max_args = max(max_args, len(params))
         return min(max_args, 6)
 
-    def call(self, request: FCRequest) -> FCResponse:
-        start = time.perf_counter()
-
+    def _build_prompt(self, request: FCRequest) -> str:
+        """Build the shared prefix according to version."""
         tools_json = self._build_tools_json(request.tools)
-        system_prompt = SYSTEM_TEMPLATE.format(tools_json=tools_json)
 
-        env_str = json.dumps(request.environment or [], ensure_ascii=False)
-        hist_list = (request.history or [])[-MAX_HISTORY:]
-        hist_str = ", ".join(hist_list) if hist_list else ""
-
+        # Extract query from messages
         query = ""
         for msg in request.messages:
             if msg.role == "user":
                 query = msg.content
 
-        user_turn = f"<|im_start|>user\nenvironment: {env_str}\nhistory: [{hist_str}]\n\n{query}<|im_end|>\n<|im_start|>assistant\n"
-        full_prefix = system_prompt + user_turn
+        hist_list = (request.history or [])[-MAX_HISTORY:]
+        hist_str = ", ".join(hist_list) if hist_list else ""
+
+        if self.version == "v1":
+            # ── v1: head descriptions + tools in system, env+history+query in user ──
+            env_str = json.dumps(request.environment or [], ensure_ascii=False)
+            system_part = V1_SYSTEM_TEMPLATE.format(tools_json=tools_json)
+            user_part = V1_USER_TEMPLATE.format(env=env_str, hist=hist_str, query=query)
+        else:
+            # ── v2: domain system + tools in system, history+query in user ──
+            # If client sends a system prompt, use it; otherwise use default.
+            # For legacy HTML clients that send environment[], fold it into query.
+            system_prompt = request.system or V2_DEFAULT_SYSTEM
+            system_part = V2_SYSTEM_TEMPLATE.format(
+                system_prompt=system_prompt,
+                tools_json=tools_json
+            )
+            # Backward compat: if environment is provided (old HTML clients),
+            # prepend it to the query so the model still sees context.
+            env_prefix = ""
+            if request.environment:
+                env_prefix = "environment: " + json.dumps(request.environment, ensure_ascii=False) + "\n"
+            user_part = V2_USER_TEMPLATE.format(
+                hist=hist_str,
+                query=env_prefix + query
+            )
+
+        return system_part + user_part
+
+    def call(self, request: FCRequest) -> FCResponse:
+        start = time.perf_counter()
+
+        full_prefix = self._build_prompt(request)
 
         # Dynamic head selection based on max args
         max_args = self._get_max_args(request.tools)
@@ -218,13 +271,13 @@ engine: Optional[SimpleToolEngine] = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global engine
-    engine = SimpleToolEngine(MODEL_PATH)
+    engine = SimpleToolEngine(MODEL_PATH, version=MODEL_VERSION)
     engine.initialize()
     yield
     print("[Server] Shutdown")
 
 
-app = FastAPI(title="SimpleTool Server", version="1.0.0", lifespan=lifespan)
+app = FastAPI(title="SimpleTool Server", version="2.0.0", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
@@ -240,7 +293,8 @@ async def health():
     return {
         "status": "ok",
         "loaded": engine is not None and engine.llm is not None,
-        "model": MODEL_PATH
+        "model": MODEL_PATH,
+        "version": MODEL_VERSION,
     }
 
 
@@ -267,15 +321,15 @@ if __name__ == "__main__":
 ║   ███████║██║██║ ╚═╝ ██║██║     ███████╗███████╗                   ║
 ║   ╚══════╝╚═╝╚═╝     ╚═╝╚═╝     ╚══════╝╚══════╝                   ║
 ║                                                                    ║
-║          SimpleTool vLLM-Server v1.0                               ║
-║          Having a Realtime LLM based control time!                 ║
+║          SimpleTool vLLM-Server v2.0                               ║
+║          Multi-Head Parallel Decoding — v1/v2 Compatible           ║
 ║                                                                    ║
 ║   Run Demos: Open demos/*.html in browser                          ║
 ║   Build New: Send simpletool-game-guide.md to AI(Claude Gemini...) ║
-║              for Building new your own HTML games easily           ║                                        ║
+║              for Building new your own HTML games easily           ║
 ║   Endpoints:                                                       ║
-║     GET  /health           - Health check                          ║
-║     POST /v1/function_call - Function call API                     ║
+║     GET  /health           - Health check (+ version info)         ║
+║     POST /v1/function_call - Function call API (v1 & v2)          ║
 ║                                                                    ║
 ╚════════════════════════════════════════════════════════════════════╝
     """)
