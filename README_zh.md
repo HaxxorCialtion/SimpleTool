@@ -1,3 +1,18 @@
+---
+library_name: transformers
+tags:
+- simpletool
+- tool-calling
+- parallel-decoding
+license: apache-2.0
+datasets:
+- your-dataset-name
+language:
+- en
+- zh
+pipeline_tag: text-generation
+arxiv: 2603.00030
+---
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
