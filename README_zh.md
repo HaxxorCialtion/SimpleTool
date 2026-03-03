@@ -103,7 +103,7 @@ modelscope download --model cialtion/SimpleTool \
 | RT-Qwen2.5-14B-AWQ | 14B | ~130ms | [🤗](https://huggingface.co/Cialtion/SimpleTool/tree/main/RT-Qwen2.5-14B-AWQ) | [链接](https://www.modelscope.cn/models/cialtion/SimpleTool/tree/master/RT-Qwen2.5-14B-AWQ) |
 | RT-Qwen3-30B-A3B-AWQ | 30B(A3B) | ~ | [🤗](https://huggingface.co/Cialtion/SimpleTool/tree/main/RT-Qwen3-30B_awq_w4a16) | [链接](https://www.modelscope.cn/models/cialtion/SimpleTool/tree/master/RT-Qwen3-30B_awq_w4a16) |
 
-> 延迟数据在 RTX 4090 上使用 vLLM 前缀缓存测得。v2 模型采用改进的提示格式，包含领域专用系统提示；v1 模型使用通用的多头指令头。
+> 延迟数据在 RTX 4090 上使用 vLLM 前缀缓存测得。v2 模型采用改进的更干净的提示词；v1 模型使用之前的多头指令头。
 
 </details>
 

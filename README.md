@@ -103,7 +103,7 @@ modelscope download --model cialtion/SimpleTool \
 | RT-Qwen2.5-14B-AWQ | 14B | ~130ms | [🤗](https://huggingface.co/Cialtion/SimpleTool/tree/main/RT-Qwen2.5-14B-AWQ) | [Link](https://www.modelscope.cn/models/cialtion/SimpleTool/tree/master/RT-Qwen2.5-14B-AWQ) |
 | RT-Qwen3-30B-A3B-AWQ | 30B(A3B) | ~ | [🤗](https://huggingface.co/Cialtion/SimpleTool/tree/main/RT-Qwen3-30B_awq_w4a16) | [Link](https://www.modelscope.cn/models/cialtion/SimpleTool/tree/master/RT-Qwen3-30B_awq_w4a16) |
 
-> Latency measured on RTX 4090 with vLLM prefix caching. v2 models use an improved prompt format with domain-specific system prompts; v1 models use a generic multi-head instruction header.
+> Latency measured on RTX 4090 with vLLM prefix caching. v2 models use an improved and clearer prompt format; v1 models use a former multi-head instruction header. You can also download fp16 models in huggingface or modelscope.
 
 </details>
 
