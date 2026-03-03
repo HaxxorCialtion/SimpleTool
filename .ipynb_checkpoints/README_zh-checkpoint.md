@@ -281,6 +281,12 @@ SimpleTool/
 }
 ```
 
+## 联系方式
+
+- **邮箱**：cialtion737410@sjtu.edu.cn / cialtion@outlook.com
+- **QQ 群**：861244702
+- **Bilibili**：[Cialtion](https://space.bilibili.com/Cialtion)
+
 ## 许可证
 
 Apache 2.0

@@ -281,6 +281,12 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 }
 ```
 
+## Contact
+
+- **Email**: cialtion737410@sjtu.edu.cn / cialtion@outlook.com
+- **QQ Group**: 861244702
+- **Bilibili**: [Cialtion](https://space.bilibili.com/Cialtion)
+
 ## License
 
 Apache 2.0
