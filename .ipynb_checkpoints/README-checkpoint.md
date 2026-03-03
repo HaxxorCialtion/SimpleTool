@@ -251,7 +251,8 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 ## Roadmap
 
 - [ ] **World Simulation** — Large-scale (1,000+ NPCs) real-time AI world simulation with < 200ms action latency per agent
-- [ ] **Native Windows Support** — Windows game engine plugins and native runtime(no need for docker or wsl)
+- [ ] **Speculative & Multi-Token Decoding** — Speculative decoding and multi-token prediction for further latency reduction
+- [ ] **Native Windows Support** — Windows game engine plugins and native runtime (no need for Docker or WSL)
 - [ ] **Apple Ecosystem** — Mac and iPhone on-device deployment (CoreML / Metal)
 - [ ] **v3 Architecture** — Fast thinking (real-time SimpleTool) + slow thinking (async meta-cognition) fusion
 - [ ] **Embodied Intelligence** — Virtual 3D digital humans, large-scale game engine integration demos

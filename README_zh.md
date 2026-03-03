@@ -251,7 +251,8 @@ SimpleTool/
 ## 路线图
 
 - [ ] **世界模拟** — 大规模（1,000+ NPC）实时 AI 异步世界模拟，单智能体行动端到端延迟 < 200ms
-- [ ] **Windows 原生支持** — Windows 游戏引擎插件与原生运行（无需docker或wsl）
+- [ ] **推测解码与多 Token 预测** — 引入推测解码（Speculative Decoding）和多 Token 预测，进一步压缩推理延迟
+- [ ] **Windows 原生支持** — Windows 游戏引擎插件与原生运行（无需 Docker 或 WSL）
 - [ ] **Apple 生态** — Mac 和 iPhone 端侧部署（CoreML / Metal）
 - [ ] **v3 架构** — 快思考（实时 SimpleTool）+ 慢思考（异步元认知）融合
 - [ ] **具身智能** — 虚拟 3D 数字人，大型游戏引擎集成演示
