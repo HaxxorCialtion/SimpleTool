@@ -7,9 +7,17 @@
   <b>Parallel Decoding for Real-Time LLM Function Calling</b>
 </p>
 
+<h2 align="center">ICML 2026 Accepted Paper</h2>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.00030"><b>Paper</b></a> ·
+  <a href="assets/realtimetool_icml2026_poster.pdf"><b>ICML Poster</b></a>
+</p>
+
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
-  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-Accepted-4B8BBE"></a>
+  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
+  <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#demo-videos"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -22,7 +30,7 @@
 </p>
 
 <p align="center">
-  <b>News:</b> Accepted to <b>ICML 2026</b> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, and demos.
+  <b>News:</b> Accepted to <b>ICML 2026</b> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
 </p>
 
 ---
@@ -46,7 +54,7 @@ Traditional function calling generates tokens sequentially — `function → arg
 
 By decoding function name and arguments as parallel streams sharing the same prefix KV cache, latency drops from `sum(all_token_times)` to `max(per_head_time)`. The parallel heads utilize idle compute capacity within the memory-bandwidth-bound decode phase, making parallelization nearly free.
 
-For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030). The camera-ready paper is titled **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** and has been accepted to **ICML 2026**.
+For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030) and [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf). The camera-ready paper is titled **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** and has been accepted to **ICML 2026**.
 
 ---
 
@@ -240,7 +248,8 @@ SimpleTool/
 ├── demos/                   # HTML game clients
 │   ├── pong_game.html
 │   └── neon_arena/
-├── assets/                  # Figures for README
+├── assets/                  # Figures, videos, and ICML poster
+│   └── realtimetool_icml2026_poster.pdf
 ├── requirements.txt
 ├── simpletool-game.skill.md # Guide for building new games with AI
 ├── README.md

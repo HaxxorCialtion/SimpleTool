@@ -7,9 +7,17 @@
   <b>面向实时 LLM 函数调用的并行解码架构</b>
 </p>
 
+<h2 align="center">ICML 2026 接收论文</h2>
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2603.00030"><b>论文</b></a> ·
+  <a href="assets/realtimetool_icml2026_poster.pdf"><b>ICML Poster</b></a>
+</p>
+
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
-  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-Accepted-4B8BBE"></a>
+  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
+  <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#演示视频"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -22,7 +30,7 @@
 </p>
 
 <p align="center">
-  <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <b>ICML 2026</b> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型与 Demo。
+  <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <b>ICML 2026</b> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型、Demo 与 <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>。
 </p>
 
 ---
@@ -46,7 +54,7 @@ SimpleTool 通过多头并行解码实现**实时 LLM 函数调用**。我们引
 
 将函数名和各参数作为共享同一前缀 KV 缓存的并行流进行解码，延迟从 `sum(所有token耗时)` 降为 `max(单头耗时)`。并行解码头利用了解码阶段显存带宽受限时的闲置算力，使得并行化几乎零开销。
 
-更多细节请参阅我们的 [arXiv 论文](https://arxiv.org/abs/2603.00030)。Camera-ready 论文题为 **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling**，已被 **ICML 2026** 接收。
+更多细节请参阅我们的 [arXiv 论文](https://arxiv.org/abs/2603.00030) 和 [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf)。Camera-ready 论文题为 **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling**，已被 **ICML 2026** 接收。
 
 ---
 
@@ -240,7 +248,8 @@ SimpleTool/
 ├── demos/                   # HTML 游戏客户端
 │   ├── pong_game.html
 │   └── neon_arena/
-├── assets/                  # README 配图
+├── assets/                  # README 配图、视频与 ICML poster
+│   └── realtimetool_icml2026_poster.pdf
 ├── requirements.txt
 ├── simpletool-game.skill.md # 用 AI 构建新游戏的指南
 ├── README.md
