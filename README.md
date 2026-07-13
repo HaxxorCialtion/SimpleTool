@@ -18,6 +18,8 @@
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
   <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/VLM%20Backbone-Coming%20Soon-FF6B35?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#demo-videos"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -31,6 +33,8 @@
 
 <p align="center">
   <b>News:</b> Accepted to <b>ICML 2026</b> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
+  <br>
+  <b>Coming soon:</b> open-source <b>VLM backbone</b> and native inference backends for <b>Windows, Mac, and iPhone</b>.
 </p>
 
 ---
@@ -266,8 +270,8 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 
 - [ ] **World Simulation** — Large-scale (1,000+ NPCs) real-time AI world simulation with < 200ms action latency per agent
 - [ ] **Speculative & Multi-Token Decoding** — Speculative decoding and multi-token prediction for further latency reduction
-- [ ] **Native Windows Support** — Windows game engine plugins and native runtime (no need for Docker or WSL)
-- [ ] **Apple Ecosystem** — Mac and iPhone on-device deployment (CoreML / Metal)
+- [ ] **VLM Backbone Release** — Open-source vision-language backbone for real-time visual grounding and tool use
+- [ ] **Native Inference Backends** — Windows, Mac, and iPhone runtimes for local deployment without server round-trips
 - [ ] **v3 Architecture** — Fast thinking (real-time SimpleTool) + slow thinking (async meta-cognition) fusion
 - [ ] **Embodied Intelligence** — Virtual 3D digital humans, large-scale game engine integration demos
 - [ ] **Open Source Training** — Full training code and dataset release

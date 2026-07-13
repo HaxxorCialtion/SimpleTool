@@ -18,6 +18,8 @@
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
   <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
+  <img src="https://img.shields.io/badge/VLM%20Backbone-Coming%20Soon-FF6B35?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#演示视频"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -31,6 +33,8 @@
 
 <p align="center">
   <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <b>ICML 2026</b> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型、Demo 与 <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>。
+  <br>
+  <b>即将开源：</b><b>VLM backbone</b>，以及面向 <b>Windows、Mac、iPhone</b> 的原生推理 backend。
 </p>
 
 ---
@@ -266,8 +270,8 @@ SimpleTool/
 
 - [ ] **世界模拟** — 大规模（1,000+ NPC）实时 AI 异步世界模拟，单智能体行动端到端延迟 < 200ms
 - [ ] **推测解码与多 Token 预测** — 引入推测解码（Speculative Decoding）和多 Token 预测，进一步压缩推理延迟
-- [ ] **Windows 原生支持** — Windows 游戏引擎插件与原生运行（无需 Docker 或 WSL）
-- [ ] **Apple 生态** — Mac 和 iPhone 端侧部署（CoreML / Metal）
+- [ ] **VLM Backbone 开源** — 面向实时视觉 grounding 与工具调用的视觉语言 backbone
+- [ ] **原生推理 Backend** — Windows、Mac、iPhone 本地运行，减少服务端往返延迟
 - [ ] **v3 架构** — 快思考（实时 SimpleTool）+ 慢思考（异步元认知）融合
 - [ ] **具身智能** — 虚拟 3D 数字人，大型游戏引擎集成演示
 - [ ] **开源训练** — 完整训练代码与数据集开放
