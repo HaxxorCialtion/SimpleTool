@@ -9,6 +9,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
+  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-Accepted-4B8BBE"></a>
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#demo-videos"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -18,6 +19,10 @@
 
 <p align="center">
   A 4B-parameter LLM achieving <b>16 Hz end-to-end real-time function calling</b> — fast enough to drive game AI, robotic arms, and digital humans.
+</p>
+
+<p align="center">
+  <b>News:</b> Accepted to <b>ICML 2026</b> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, and demos.
 </p>
 
 ---
@@ -41,7 +46,7 @@ Traditional function calling generates tokens sequentially — `function → arg
 
 By decoding function name and arguments as parallel streams sharing the same prefix KV cache, latency drops from `sum(all_token_times)` to `max(per_head_time)`. The parallel heads utilize idle compute capacity within the memory-bandwidth-bound decode phase, making parallelization nearly free.
 
-For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030).
+For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030). The camera-ready paper is titled **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** and has been accepted to **ICML 2026**.
 
 ---
 
@@ -274,10 +279,10 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 ## Citation
 
 ```bibtex
-@article{shi2026simpletool,
-  title={SimpleTool: Parallel Decoding for Real-Time LLM Function Calling},
+@inproceedings{shi2026realtimetool,
+  title={RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling},
   author={Shi, Xiaoxin and Wan, Jiaxin and Dong, Linkang and Jiang, Wei and Liu, Yue and Huang, Zengfeng},
-  journal={arXiv preprint arXiv:2603.00030},
+  booktitle={Proceedings of the International Conference on Machine Learning (ICML 2026)},
   year={2026}
 }
 ```
