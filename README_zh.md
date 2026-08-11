@@ -11,12 +11,13 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><b>论文</b></a> ·
+  <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 论文页</b></a> ·
   <a href="assets/realtimetool_icml2026_poster.pdf"><b>ICML Poster</b></a>
 </p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
-  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
+  <a href="https://icml.cc/virtual/2026/poster/62617"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <img src="https://img.shields.io/badge/VLM%20Backbone-Coming%20Soon-FF6B35?style=for-the-badge">
   <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
@@ -32,7 +33,7 @@
 </p>
 
 <p align="center">
-  <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <b>ICML 2026</b> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型、Demo 与 <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>。
+  <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 2026</b></a> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型、Demo 与 <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>。
   <br>
   <b>即将开源：</b><b>VLM backbone</b>，以及面向 <b>Windows、Mac、iPhone</b> 的原生推理 backend。
 </p>
@@ -58,7 +59,7 @@ SimpleTool 通过多头并行解码实现**实时 LLM 函数调用**。我们引
 
 将函数名和各参数作为共享同一前缀 KV 缓存的并行流进行解码，延迟从 `sum(所有token耗时)` 降为 `max(单头耗时)`。并行解码头利用了解码阶段显存带宽受限时的闲置算力，使得并行化几乎零开销。
 
-更多细节请参阅我们的 [arXiv 论文](https://arxiv.org/abs/2603.00030) 和 [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf)。Camera-ready 论文题为 **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling**，已被 **ICML 2026** 接收。
+更多细节请参阅我们的 [arXiv 论文](https://arxiv.org/abs/2603.00030)、[ICML 2026 官方论文页](https://icml.cc/virtual/2026/poster/62617) 和 [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf)。Camera-ready 论文题为 **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling**，已被 **ICML 2026** 接收。
 
 ---
 

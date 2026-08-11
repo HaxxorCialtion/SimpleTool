@@ -11,12 +11,13 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><b>Paper</b></a> ·
+  <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML Paper Page</b></a> ·
   <a href="assets/realtimetool_icml2026_poster.pdf"><b>ICML Poster</b></a>
 </p>
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
-  <a href="https://icml.cc/Conferences/2026"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
+  <a href="https://icml.cc/virtual/2026/poster/62617"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <img src="https://img.shields.io/badge/VLM%20Backbone-Coming%20Soon-FF6B35?style=for-the-badge">
   <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
@@ -32,7 +33,7 @@
 </p>
 
 <p align="center">
-  <b>News:</b> Accepted to <b>ICML 2026</b> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
+  <b>News:</b> Accepted to <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 2026</b></a> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
   <br>
   <b>Coming soon:</b> open-source <b>VLM backbone</b> and native inference backends for <b>Windows, Mac, and iPhone</b>.
 </p>
@@ -58,7 +59,7 @@ Traditional function calling generates tokens sequentially — `function → arg
 
 By decoding function name and arguments as parallel streams sharing the same prefix KV cache, latency drops from `sum(all_token_times)` to `max(per_head_time)`. The parallel heads utilize idle compute capacity within the memory-bandwidth-bound decode phase, making parallelization nearly free.
 
-For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030) and [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf). The camera-ready paper is titled **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** and has been accepted to **ICML 2026**.
+For more details, see our [arXiv paper](https://arxiv.org/abs/2603.00030), [ICML 2026 official paper page](https://icml.cc/virtual/2026/poster/62617), and [ICML 2026 poster](assets/realtimetool_icml2026_poster.pdf). The camera-ready paper is titled **RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling** and has been accepted to **ICML 2026**.
 
 ---
 
