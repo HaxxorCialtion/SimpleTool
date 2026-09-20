@@ -224,14 +224,16 @@ def training_branches(row, mode: str):
     if "head_values" in row and row["head_values"] != values:
         raise ProtocolError("head_values disagree with arguments/schema")
     branches = []
+    active = active_heads(row["tools"])
     if mode == "adaptive":
         content = _literal(row.get("content", "")) + "</content>"
-        branches.append(Branch("content", content_prefix(row["prompt"], mode), content, .5))
-        prefixes = head_prefixes(row["prompt"], mode, content)
-        weight = 1 / 14
+        branches.append(Branch("content", content_prefix(row["prompt"], mode), content,
+                               1 / (len(active) + 1)))
+        prefixes = head_prefixes(row["prompt"], mode, content, active)
+        weight = 1 / (len(active) + 1)
     else:
-        prefixes = head_prefixes(row["prompt"], mode)
-        weight = 1 / 7
+        prefixes = head_prefixes(row["prompt"], mode, heads=active)
+        weight = 1 / len(active)
     branches.extend(Branch(head, prefixes[head], values[head] + f"</{head}>", weight)
-                    for head in HEADS)
+                    for head in active)
     return branches
