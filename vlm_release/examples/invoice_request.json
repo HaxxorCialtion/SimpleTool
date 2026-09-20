@@ -1,0 +1,12 @@
+{
+  "messages": [
+    {"role": "system", "content": "Process the displayed invoice. Record the printed TOTAL only if all five fields are present, subtotal plus tax equals total exactly, and total is at most USD 500. Otherwise ask_expert."},
+    {"role": "user", "content": "Review the invoice image according to the policy."}
+  ],
+  "tools": [
+    {"type":"function","function":{"name":"record_expense","parameters":{"type":"object","properties":{"invoice_id":{"type":"string"},"vendor":{"type":"string"},"amount":{"type":"number"}},"required":["invoice_id","vendor","amount"],"additionalProperties":false}}},
+    {"type":"function","function":{"name":"ask_expert","parameters":{"type":"object","properties":{"reason":{"type":"string"}},"required":["reason"],"additionalProperties":false}}}
+  ],
+  "mode": "adaptive",
+  "image_file": "invoice.png"
+}

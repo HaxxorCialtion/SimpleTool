@@ -310,3 +310,7 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 ## License
 
 Apache 2.0
+
+## SimpleTool-VLM (Qwen3-VL structured image tool calls)
+
+The VLM release is in [`vlm_release/`](vlm_release/). It provides Direct and Adaptive image-to-tool inference, dynamic argument-head activation, raw branch outputs, and an invoice protocol example. Reference and quantized checkpoints are published under the [`Cialtion`](https://huggingface.co/Cialtion) Hugging Face account when each upload is complete. See [`vlm_release/MODEL_CARD.md`](vlm_release/MODEL_CARD.md) for scope and limitations.
