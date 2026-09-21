@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f7f9fc"/>
+<text x="800" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#14213d">Two decision layers, different boundaries</text>
+<text x="800" y="116" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#52627a">Jev is a structured state decision layer; SimpleTool-VLM grounds executable tools in pixels.</text>
+<rect x="70" y="175" width="690" height="590" rx="28" fill="#e9f3ff" stroke="#3478c7" stroke-width="4"/>
+<rect x="840" y="175" width="690" height="590" rx="28" fill="#fff1e6" stroke="#e87522" stroke-width="4"/>
+<text x="415" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#1b5d9b">SimpleTool-VLM</text>
+<text x="1185" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#b65312">Jev / System One</text>
+<text x="120" y="315" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Input</text>
+<text x="120" y="360" font-family="Arial, sans-serif" font-size="26" fill="#203452">image pixels + prompt + tool schema</text>
+<text x="120" y="430" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Output</text>
+<text x="120" y="475" font-family="Arial, sans-serif" font-size="26" fill="#203452">function + arg1…argN + raw branches</text>
+<text x="120" y="545" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Strength</text>
+<text x="120" y="590" font-family="Arial, sans-serif" font-size="26" fill="#203452">visual grounding and executable tool calls</text>
+<text x="120" y="660" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Boundary</text>
+<text x="120" y="705" font-family="Arial, sans-serif" font-size="26" fill="#203452">vision + generation cost; confidence calibration</text>
+<text x="890" y="315" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Input</text>
+<text x="890" y="360" font-family="Arial, sans-serif" font-size="26" fill="#5b351c">compact text / structured state</text>
+<text x="890" y="430" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Output</text>
+<text x="890" y="475" font-family="Arial, sans-serif" font-size="26" fill="#5b351c">Choice / Noul / Score + probabilities</text>
+<text x="890" y="545" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Strength</text>
+<text x="890" y="590" font-family="Arial, sans-serif" font-size="26" fill="#5b351c">fast typed decisions over many questions</text>
+<text x="890" y="660" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#14213d">Boundary</text>
+<text x="890" y="705" font-family="Arial, sans-serif" font-size="26" fill="#5b351c">needs upstream perception/state construction</text>
+<line x1="760" y1="470" x2="840" y2="470" stroke="#68768a" stroke-width="5" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#68768a"/></marker></defs>
+<text x="800" y="835" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#52627a">Complementary layers, not a speed leaderboard. Jev demo state is structured rather than image pixels.</text>
+</svg>

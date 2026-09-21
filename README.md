@@ -314,3 +314,21 @@ Apache 2.0
 ## SimpleTool-VLM (Qwen3-VL structured image tool calls)
 
 The VLM release is in [`vlm_release/`](vlm_release/). It provides Direct and Adaptive image-to-tool inference, dynamic argument-head activation, raw branch outputs, and an invoice protocol example. Reference and quantized checkpoints are published under the [`Cialtion`](https://huggingface.co/Cialtion) Hugging Face account when each upload is complete. See [`vlm_release/MODEL_CARD.md`](vlm_release/MODEL_CARD.md) for scope and limitations.
+
+## Recent updates
+
+### SimpleTool-VLM
+
+The repository now includes a Qwen3-VL structured image-to-tool release under [`vlm_release/`](vlm_release/), with Direct/Adaptive modes, schema-sized argument heads, raw branch outputs, and reproducible examples. Reference and quantized checkpoints are available from the [`Cialtion`](https://huggingface.co/Cialtion) Hugging Face account.
+
+### VLA grasp case study
+
+[`simpletool-vla-prompt-assisted-grasp.mp4`](assets/simpletool-vla-prompt-assisted-grasp.mp4) shows a successful MuJoCo Panda red-cube grasp loop. This is an auditable prompt-assisted case: the prompt supplied geometry, grasp order, height, gripper settings, and the calibrated RGB-D localization tool. It demonstrates tool-mediated execution, not autonomous trajectory discovery. See [`docs/vla_case_study.md`](docs/vla_case_study.md) for the exact claim boundary.
+
+### SimpleTool-VLM vs Jev
+
+[`simpletool-vlm-vs-jev.svg`](assets/simpletool-vlm-vs-jev.svg) compares the interfaces. Jev is a fast structured decision layer over compact state; SimpleTool-VLM grounds executable tools in image pixels. The comparison is complementary and makes no unmeasured speed claim.
+
+### Adaptive CoT
+
+Adaptive short-content reasoning remains an active experiment. The current release does not claim a stable gain over Direct on distribution-shifted evaluations. A stronger calibrated reasoning model is **coming soon**; the released SimpleTool-VLM protocol and Direct path are the reproducible baseline.
