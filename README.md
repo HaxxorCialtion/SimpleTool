@@ -19,7 +19,7 @@
   <a href="https://arxiv.org/abs/2603.00030"><img src="https://img.shields.io/badge/arXiv-2603.00030-red"></a>
   <a href="https://icml.cc/virtual/2026/poster/62617"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
-  <img src="https://img.shields.io/badge/VLM%20Backbone-Coming%20Soon-FF6B35?style=for-the-badge">
+  <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><img src="https://img.shields.io/badge/SimpleTool--VLM-Release-2E8B57?style=for-the-badge"></a>
   <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
@@ -35,7 +35,7 @@
 <p align="center">
   <b>News:</b> Accepted to <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 2026</b></a> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
   <br>
-  <b>Coming soon:</b> open-source <b>VLM backbone</b> and native inference backends for <b>Windows, Mac, and iPhone</b>.
+  <b>Multimodal extension:</b> see the separate <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><b>SimpleTool-VLM</b></a> repository. Native inference backends for <b>Windows, Mac, and iPhone</b> remain on the roadmap.
 </p>
 
 ---
@@ -271,7 +271,7 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 
 - [ ] **World Simulation** — Large-scale (1,000+ NPCs) real-time AI world simulation with < 200ms action latency per agent
 - [ ] **Speculative & Multi-Token Decoding** — Speculative decoding and multi-token prediction for further latency reduction
-- [ ] **VLM Backbone Release** — Open-source vision-language backbone for real-time visual grounding and tool use
+- [x] **VLM Backbone Release** — Maintained in the separate [SimpleTool-VLM repository](https://github.com/HaxxorCialtion/SimpleTool-VLM)
 - [ ] **Native Inference Backends** — Windows, Mac, and iPhone runtimes for local deployment without server round-trips
 - [ ] **v3 Architecture** — Fast thinking (real-time SimpleTool) + slow thinking (async meta-cognition) fusion
 - [ ] **Embodied Intelligence** — Virtual 3D digital humans, large-scale game engine integration demos
@@ -311,24 +311,10 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 
 Apache 2.0
 
-## SimpleTool-VLM (Qwen3-VL structured image tool calls)
+## Multimodal extension
 
-The VLM release is in [`vlm_release/`](vlm_release/). It provides Direct and Adaptive image-to-tool inference, dynamic argument-head activation, raw branch outputs, and an invoice protocol example. Reference and quantized checkpoints are published under the [`Cialtion`](https://huggingface.co/Cialtion) Hugging Face account when each upload is complete. See [`vlm_release/MODEL_CARD.md`](vlm_release/MODEL_CARD.md) for scope and limitations.
-
-## Recent updates
-
-### SimpleTool-VLM
-
-The repository now includes a Qwen3-VL structured image-to-tool release under [`vlm_release/`](vlm_release/), with Direct/Adaptive modes, schema-sized argument heads, raw branch outputs, and reproducible examples. Reference and quantized checkpoints are available from the [`Cialtion`](https://huggingface.co/Cialtion) Hugging Face account.
-
-### VLA grasp case study
-
-[`simpletool-vla-prompt-assisted-grasp.mp4`](assets/simpletool-vla-prompt-assisted-grasp.mp4) shows a successful MuJoCo Panda red-cube grasp loop. This is an auditable prompt-assisted case: the prompt supplied geometry, grasp order, height, gripper settings, and the calibrated RGB-D localization tool. It demonstrates tool-mediated execution, not autonomous trajectory discovery. See [`docs/vla_case_study.md`](docs/vla_case_study.md) for the exact claim boundary.
-
-### SimpleTool-VLM vs Jev
-
-[`simpletool-vlm-vs-jev.svg`](assets/simpletool-vlm-vs-jev.svg) compares the interfaces. Jev is a fast structured decision layer over compact state; SimpleTool-VLM grounds executable tools in image pixels. The comparison is complementary and makes no unmeasured speed claim.
-
-### Adaptive CoT
-
-Adaptive short-content reasoning remains an active experiment. The current release does not claim a stable gain over Direct on distribution-shifted evaluations. A stronger calibrated reasoning model is **coming soon**; the released SimpleTool-VLM protocol and Direct path are the reproducible baseline.
+The ICML repository remains focused on the text-only SimpleTool/RealtimeTool
+method, benchmarks, and demos. The Qwen3-VL image-to-tool release, invoice
+case, Adaptive CoT research track, Jev-style comparison, and prompt-assisted
+embodied preview are maintained separately at
+[HaxxorCialtion/SimpleTool-VLM](https://github.com/HaxxorCialtion/SimpleTool-VLM).
