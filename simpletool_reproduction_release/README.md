@@ -1,4 +1,6 @@
-# SimpleTool 4B accuracy reproduction
+# SimpleTool accuracy and latency reproduction
+
+**Start here:** [Detailed reproduction and artifact guide](REPRODUCIBILITY_GUIDE.md). Branch: `reproduction/bfcl-v3-4090`. The branch includes code, original benchmark fixtures, and all published raw accuracy and latency measurements.
 
 Recovered author-local benchmarks, prompts, conversion, scorers, and complete raw outputs for **RT-Qwen3-4B (v1, non-quantized)**. Model: `Cialtion/SimpleTool`, revision `aca7673dd2d90a919159613261ea374332e9d32f`. This is not an evaluation of RT-Qwen3-4B-v2.
 
