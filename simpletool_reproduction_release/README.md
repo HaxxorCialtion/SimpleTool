@@ -52,3 +52,9 @@ The legacy evaluator also emits historical five-group and three-group aggregates
 - `reports/legacy_parity.json`: regression against 5,647 original local predictions; this checks scorer parity, separately from the new GPU run.
 
 The initial compiled vLLM attempt failed with CUDA illegal memory access; the reported run is the successful full eager rerun. RTX 4090 W4A16-v2 latency has now been measured separately: see [speed protocol](SPEED_BENCHMARK.md) and [results](reports/speed-4090/summary.md). Full v2 accuracy, a matched speedup baseline, and official BFCL checker evaluation remain unmeasured here. See [AUDIT_FINDINGS.md](AUDIT_FINDINGS.md) for scoring limitations and [ISSUE_RESPONSE_DRAFT.md](ISSUE_RESPONSE_DRAFT.md) for a suggested response.
+
+## BFCL-v3 serial latency
+
+The author clarifies that the paper’s 16 Hz came from BFCL-v3. The three demo scenarios above are supplementary. See [BFCL_SPEED_PROTOCOL.md](BFCL_SPEED_PROTOCOL.md) for the new direct BFCL-v3 single-turn runner: one question in flight, with that question’s heads decoded together. It retains incorrect/capped calls in latency aggregates and separately reports ordinary traversal, cache-reset and repeated-input conditions.
+
+Completed BFCL-v3 v1 W4A16 results: **13.40 Hz sequential**, **10.03 Hz with per-question cache reset**, **15.25 Hz after priming each identical question**. See [full report](reports/bfcl-speed-4090/v1/summary.md). The warm-identical rate excludes priming and is not a first-request throughput claim. The ordinary traversal did not exactly reproduce the paper’s 16 Hz.

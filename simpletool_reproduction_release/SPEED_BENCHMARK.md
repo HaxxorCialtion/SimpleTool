@@ -1,5 +1,7 @@
 # RTX 4090 latency benchmark
 
+The author clarifies that the paper’s 16 Hz was measured directly on BFCL-v3. The three demo scenarios below are supplementary tests, not the source of that number. See [BFCL single-turn protocol](BFCL_SPEED_PROTOCOL.md) for the separate question-concurrency-one experiment.
+
 Completed results: [4090 report](reports/speed-4090/summary.md).
 
 Download the pinned variant from the repository root:
@@ -58,4 +60,6 @@ Then benchmark the compatibility directory. Only those two null fields are remov
 
 Run with `USE_TF=0 USE_FLAX=0 VLLM_WORKER_MULTIPROC_METHOD=spawn OMP_NUM_THREADS=8` to match the measured process environment. The original environment is not modified.
 
-The repeat runner uses vLLM 0.11's synchronous engine utility for cache reset because the public V1 wrapper discards its Boolean success return. This internal API is version-specific; use the pinned environment when reproducing it. The recorded GPU log must show successful cache resets (90 for three scenarios × 30 trials).
+The repeat runner uses vLLM 0.11's synchronous engine utility for cache reset although both the public V1 wrapper and EngineCore discard the scheduler’s Boolean success return; success is verified from the engine log. This internal API is version-specific; use the pinned environment when reproducing it. The recorded GPU log must show successful cache resets (90 for three scenarios × 30 trials).
+
+The later [BFCL-specific runner](BFCL_SPEED_PROTOCOL.md) explicitly uses null plus every defined closing tag with `skip_special_tokens=False` and records stop reasons. The demo measurements above retain the original script’s special-token-skipping default; they are historical supplementary measurements, not a replacement for that verified BFCL stop protocol.

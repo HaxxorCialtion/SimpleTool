@@ -1,0 +1,61 @@
+{
+  "question_count": 1880,
+  "modes": [
+    "sequential",
+    "cache_reset",
+    "warm_identical"
+  ],
+  "id_and_head_coverage_verified": true,
+  "finite_positive_timings": true,
+  "scores_replayed": true,
+  "summaries_recomputed": true,
+  "source_hashes_verified": true,
+  "model_hashes_match_hf_verification": true,
+  "successful_cache_resets": 1883,
+  "stop_reason_counts": {
+    "sequential": {
+      "</function>": 1880,
+      "</arg1>": 1787,
+      "</arg2>": 1352,
+      "</arg3>": 821,
+      "<|null|>": 2222,
+      "</arg4>": 293,
+      "</arg5>": 87,
+      "</arg6>": 31,
+      "None": 1
+    },
+    "cache_reset": {
+      "</function>": 1879,
+      "</arg1>": 1788,
+      "</arg2>": 1349,
+      "</arg3>": 820,
+      "<|null|>": 2228,
+      "</arg4>": 292,
+      "</arg5>": 87,
+      "</arg6>": 30,
+      "None": 1
+    },
+    "warm_identical": {
+      "</function>": 1880,
+      "</arg1>": 1787,
+      "</arg2>": 1353,
+      "</arg3>": 822,
+      "<|null|>": 2221,
+      "</arg4>": 294,
+      "</arg5>": 86,
+      "</arg6>": 30,
+      "None": 1
+    }
+  },
+  "length_capped_ids": {
+    "sequential": [
+      "exec_simple_15"
+    ],
+    "cache_reset": [
+      "exec_simple_15"
+    ],
+    "warm_identical": [
+      "exec_simple_15"
+    ]
+  }
+}

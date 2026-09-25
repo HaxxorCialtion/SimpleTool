@@ -1,0 +1,10 @@
+Create plan: simpletool-bfcl-serial-0925c
+Project: 多模态大模型新架构评测探索与scaling-law
+Workspace: 可上网GPU资源
+Compute: 4090-2-cuda12.8
+Resource: 1,10,100
+Priority: 6
+Max runtime: 0.75 h
+Shared memory: 8 GiB
+Image: ngc-pytorch:25.02-cuda12.8.0-py3
+Command: bash -c 'bash /inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/scripts/gpu_bfcl_speed_job.sh'

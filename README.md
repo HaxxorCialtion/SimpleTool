@@ -123,6 +123,8 @@ modelscope download --model cialtion/SimpleTool \
 
 > Latency measured on RTX 4090 with vLLM prefix caching. v2 models use an improved and clearer prompt format; v1 models use a former multi-head instruction header. You can also download fp16 models in huggingface or modelscope.
 
+> Protocol clarification: the paper’s **16 Hz** was measured on **BFCL-v3**, not on the three demo scenarios below. The [single-turn BFCL latency protocol](simpletool_reproduction_release/BFCL_SPEED_PROTOCOL.md) processes one question at a time, with only that question’s output heads decoded in parallel. The [demo timings](simpletool_reproduction_release/reports/speed-4090/summary.md) are separate supplementary measurements.
+
 </details>
 
 ### 3. Run Benchmark (No Server Needed)

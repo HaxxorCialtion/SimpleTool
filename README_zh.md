@@ -310,3 +310,7 @@ SimpleTool/
 ## 许可证
 
 Apache 2.0
+
+### BFCL-v3 速度口径补充
+
+论文中的 **16 Hz 是在 BFCL-v3 上直接测试的**，不是三个演示场景的测量值。新增[单轮 BFCL 速度协议](simpletool_reproduction_release/BFCL_SPEED_PROTOCOL.md)确保任意时刻只处理一个问题，同题内部多头并行；[演示场景速度结果](simpletool_reproduction_release/reports/speed-4090/summary.md)单独作为补充实测报告。
