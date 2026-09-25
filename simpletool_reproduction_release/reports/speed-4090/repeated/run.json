@@ -1,0 +1,40 @@
+{
+  "args": {
+    "model": "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011",
+    "repo": "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool",
+    "output": "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/reports/speed-4090/repeated",
+    "version": "v2",
+    "repeats": 30,
+    "warmup": 5,
+    "enforce_eager": false
+  },
+  "torch": "2.8.0+cu128",
+  "vllm": "0.11.0",
+  "versions": {
+    "compressed-tensors": "0.11.0",
+    "transformers": "4.57.6",
+    "pydantic": "2.13.4"
+  },
+  "environment": {
+    "USE_TF": "0",
+    "USE_FLAX": "0",
+    "OMP_NUM_THREADS": "8",
+    "VLLM_WORKER_MULTIPROC_METHOD": "spawn"
+  },
+  "gpu": "name, memory.total [MiB], driver_version, power.limit [W], clocks.max.sm [MHz], clocks.max.memory [MHz]\nNVIDIA GeForce RTX 4090, 49140 MiB, 570.195.03, 450.00 W, 3105 MHz, 10501 MHz\n",
+  "sha256": {
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/simpletool_reproduction_release/scripts/benchmark_latency.py": "03e64a21220d05e943025cccaea421de9b9efeee8cb4469719a0a5b89bbf212f",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/01_benchmark.py": "efc8932befc0444a0a2049b2f883816b8eb76aef200973a1c0924bd7549c9821",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/prompts/scenarios.json": "89c6aafae9877666afbd82a29f7e68405edb2c059f855ea4875cf3924b1cf4cc",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/prompts/tools_arm.jsonl": "e35fe1fc5218b28aeea1de24b290fd3ceec35eddf990ab7413cff44660caa36b",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/prompts/tools_avatar.jsonl": "d969102d51e616f99efd4ca0f560e30b6fba267d3016e62ed200ef499568f9b5",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/prompts/tools_game.jsonl": "890cbc9c4db8292b32f0ed637b09d9e51c349e8f79a429a0b701606098f92550",
+    "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/github-SimpleTool/prompts/v1_system.txt": "fce19bcc9e7c59d4daecc7a2aee2bf1b85427d5d2f0a094641b759ecd32a9ea0",
+    "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011/config.json": "886c04a2fefa8f49246e7c7259b46041dbe0085c21f1060f904042ff0c5dc145",
+    "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011/download_provenance.json": "08d347fea81f1f8b2613d1795ede17e656ed4896bcfac28ef4ca58fc0c3d62ad",
+    "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011/compatibility.json": "dd90bd10cd3134da04f8ac858c41bbf549f16f931723ebd2a9cc93edcd756d76"
+  },
+  "status": "complete",
+  "engine_init_seconds": 203.17718502506614,
+  "gpu_after": "name, temperature.gpu, power.draw [W], power.limit [W], clocks.current.sm [MHz], clocks.current.memory [MHz], memory.used [MiB]\nNVIDIA GeForce RTX 4090, 43, 214.56 W, 450.00 W, 2775 MHz, 10501 MHz, 38984 MiB\n"
+}

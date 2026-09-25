@@ -1,0 +1,11 @@
+{
+  "measured_calls": 273,
+  "unique_scenario_mode_repeat_keys": 273,
+  "successful_cache_resets_in_log": 90,
+  "source_and_prompt_hashes_match": true,
+  "medians_recomputed_from_samples": true,
+  "all_latencies_positive": true,
+  "all_heads_finished_with_stop": true,
+  "function_name_matches": 273,
+  "argument_accuracy_evaluated": false
+}

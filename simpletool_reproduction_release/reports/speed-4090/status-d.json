@@ -1,0 +1,1 @@
+{"success":true,"data":{"name":"simpletool-4090-speed-0925d","status":"job_succeeded","project":"多模态大模型新架构评测探索与scaling-law","compute_group":"4090-2-cuda12.8","resource":{"cpu":10,"memory_gib":100,"gpu":1,"nodes":1,"shared_memory_gib":8,"gpu_type":"NVIDIA 4090 (48GB)"},"priority":31,"priority_level":"HIGH","created_at":"1790350548000","finished_at":"1790350843000"}}

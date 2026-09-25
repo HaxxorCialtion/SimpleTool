@@ -1,0 +1,289 @@
+Fri Sep 25 15:36:28 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 570.195.03             Driver Version: 570.195.03     CUDA Version: 12.8     |
+|-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4090        On  |   00000000:D8:00.0  On |                  Off |
+| 61%   28C    P8             31W /  450W |       9MiB /  49140MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+                                                                                         
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+lrwxrwxrwx 1 root root   19 Dec  7  2025 /inspire/hdd/global_user/shixiaoxin-253107030017/sxx/vllm_env/bin/python -> /usr/bin/python3.12
+drwxr-xr-x 2 root root 4096 Sep 25 15:25 /inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011
+INFO 09-25 15:36:43 [__init__.py:216] Automatically detected platform cuda.
+INFO 09-25 15:36:53 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011] to model_path [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011]
+INFO 09-25 15:36:53 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011] to model_path [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011]
+INFO 09-25 15:36:53 [utils.py:233] non-default args: {'trust_remote_code': True, 'max_model_len': 4096, 'enable_prefix_caching': True, 'gpu_memory_utilization': 0.8, 'max_num_seqs': 8, 'disable_log_stats': True, 'model': '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+INFO 09-25 15:37:06 [model.py:547] Resolved architecture: Qwen3ForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 09-25 15:37:06 [model.py:1510] Using max model len 4096
+INFO 09-25 15:37:07 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=8192.
+The tokenizer you are loading from '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+INFO 09-25 15:37:14 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:17 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:17 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011', speculative_config=None, tokenizer='/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=compressed-tensors, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:20 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:20 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:20 [gpu_model_runner.py:2602] Starting to load model /inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011...
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:21 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:21 [compressed_tensors_wNa16.py:95] Using MarlinLinearKernel for CompressedTensorsWNA16
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:21 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=497)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=497)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:06<00:00,  6.44s/it]
+[1;36m(EngineCore_DP0 pid=497)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:06<00:00,  6.44s/it]
+[1;36m(EngineCore_DP0 pid=497)[0;0m 
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:28 [default_loader.py:267] Loading weights took 6.58 seconds
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:29 [gpu_model_runner.py:2653] Model loading took 2.5422 GiB and 7.905644 seconds
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:39 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/427b31a840/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:39 [backends.py:559] Dynamo bytecode transform time: 9.64 s
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:37:45 [backends.py:197] Cache the graph for dynamic shape for later use
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:38:12 [backends.py:218] Compiling a graph for dynamic shape takes 31.99 s
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:38:34 [monitor.py:34] torch.compile takes 41.62 s in total
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:13 [gpu_worker.py:298] Available KV cache memory: 34.63 GiB
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:14 [kv_cache_utils.py:1087] GPU KV cache size: 252,144 tokens
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:14 [kv_cache_utils.py:1091] Maximum concurrency for 4,096 tokens per request: 61.56x
+[1;36m(EngineCore_DP0 pid=497)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  60%|██████    | 3/5 [00:00<00:00, 28.14it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 28.55it/s]
+[1;36m(EngineCore_DP0 pid=497)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  75%|███████▌  | 3/4 [00:00<00:00, 26.82it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 26.91it/s]
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:15 [gpu_model_runner.py:3480] Graph capturing finished in 1 secs, took 0.09 GiB
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:15 [core.py:210] init engine (profile, create kv cache, warmup model) took 166.12 seconds
+[1;36m(EngineCore_DP0 pid=497)[0;0m The tokenizer you are loading from '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+INFO 09-25 15:40:16 [llm.py:306] Supported_tasks: ['generate']
+Game — Tower Defense warm_identical complete
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:18 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:19 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:20 [block_pool.py:378] Successfully reset prefix cache
+Game — Tower Defense cache_reset complete
+Game — Tower Defense shared_prefix_new_query complete
+Robotic Arm — Assembly warm_identical complete
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:23 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:24 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:25 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:26 [block_pool.py:378] Successfully reset prefix cache
+Robotic Arm — Assembly cache_reset complete
+Robotic Arm — Assembly shared_prefix_new_query complete
+Digital Human — Streamer warm_identical complete
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:30 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:31 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+[1;36m(EngineCore_DP0 pid=497)[0;0m INFO 09-25 15:40:32 [block_pool.py:378] Successfully reset prefix cache
+Digital Human — Streamer cache_reset complete
+Digital Human — Streamer shared_prefix_new_query complete
+[
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 98.64777326583862,
+    "p50_ms": 98.64777326583862,
+    "p95_ms": 98.64777326583862,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 31.699320425589878,
+    "p50_ms": 31.21989034116268,
+    "p95_ms": 33.064160495996475,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 77.6970377812783,
+    "p50_ms": 77.35512219369411,
+    "p95_ms": 78.91648635268211,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 42.1931155025959,
+    "p50_ms": 41.44559055566788,
+    "p95_ms": 46.64217308163643,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 95.84314376115799,
+    "p50_ms": 95.84314376115799,
+    "p95_ms": 95.84314376115799,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 58.25164703031381,
+    "p50_ms": 58.265723288059235,
+    "p95_ms": 64.66180458664894,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 93.66917622586091,
+    "p50_ms": 92.99060516059399,
+    "p95_ms": 98.16690534353256,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 58.99891269703706,
+    "p50_ms": 58.50943550467491,
+    "p95_ms": 64.87405300140381,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 91.93747490644455,
+    "p50_ms": 91.93747490644455,
+    "p95_ms": 91.93747490644455,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 41.5302769591411,
+    "p50_ms": 41.43986292183399,
+    "p95_ms": 42.87096858024597,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 89.02667102714379,
+    "p50_ms": 88.90500850975513,
+    "p95_ms": 90.51123261451721,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 53.466409320632614,
+    "p50_ms": 53.01675386726856,
+    "p95_ms": 56.99072405695915,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  }
+]
+[rank0]:[W925 15:40:34.959708862 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())

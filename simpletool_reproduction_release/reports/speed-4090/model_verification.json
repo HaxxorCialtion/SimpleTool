@@ -1,0 +1,84 @@
+{
+  "repo_id": "Cialtion/SimpleTool",
+  "revision": "aca7673dd2d90a919159613261ea374332e9d32f",
+  "variant": "RT-Qwen3-4B-AWQ-v2",
+  "files": {
+    "added_tokens.json": {
+      "size": 1071,
+      "sha256": "b671befc1feae2c95168a20c4c71d60e25abbb5c1bb432f53f90a20a70409325",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "c5b91f389cbfb4a78bd5bc75cff882fa0774d21c",
+      "verified": true
+    },
+    "chat_template.jinja": {
+      "size": 2630,
+      "sha256": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "70adff8a08fb31e0636f618564838d4bf3c05286",
+      "verified": true
+    },
+    "config.json": {
+      "size": 2467,
+      "sha256": "58107863f53d3be7856a288f4fb94d683a925a30e8bfdecf8066fb8cf9c7ea69",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "4bb248bc0fd372ce66b920956000a36f103aad12",
+      "verified": true
+    },
+    "generation_config.json": {
+      "size": 213,
+      "sha256": "a12101ea177dca07e73e58c38379eac5f023e4524253df22ccfd097f6b4b6a2d",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "3dd2c545b96b4d51586680d7bb27fdca5c90dfe9",
+      "verified": true
+    },
+    "merges.txt": {
+      "size": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "verified": true
+    },
+    "model.safetensors": {
+      "size": 3427191984,
+      "sha256": "e00cef750d0332c56eea1ad8c98fb1f88c83cc8db4dcfc7325894113f121f134",
+      "remote_hash_kind": "sha256",
+      "remote_hash": "e00cef750d0332c56eea1ad8c98fb1f88c83cc8db4dcfc7325894113f121f134",
+      "verified": true
+    },
+    "recipe.yaml": {
+      "size": 554,
+      "sha256": "6a93d2fdc8ff40f72045eac92c29220cfe9eee56427d3f4f6288b672008a0025",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "f60f2fb4a40eebfa239552585547d326bf539920",
+      "verified": true
+    },
+    "special_tokens_map.json": {
+      "size": 875,
+      "sha256": "464539189e9be84600cb4488888ea6e8209f35d1dfade2937d57dcc96acb3ca7",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "af6add6aff113ec25e318c6663bf588687e3e2ab",
+      "verified": true
+    },
+    "tokenizer.json": {
+      "size": 11426069,
+      "sha256": "5550205f8e6efa37bd9c530005877bc93dc4f628c15310ca11333bea972b96a4",
+      "remote_hash_kind": "sha256",
+      "remote_hash": "5550205f8e6efa37bd9c530005877bc93dc4f628c15310ca11333bea972b96a4",
+      "verified": true
+    },
+    "tokenizer_config.json": {
+      "size": 8632,
+      "sha256": "5ba6880aa6c19ef8f5f95add4ff41e7333a9f9433bfdac286f6056e63f8e09c0",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "0a458fc39efea3cec40c80d815dd7c9eea87a000",
+      "verified": true
+    },
+    "vocab.json": {
+      "size": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "remote_hash_kind": "git_blob_sha1",
+      "remote_hash": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "verified": true
+    }
+  }
+}

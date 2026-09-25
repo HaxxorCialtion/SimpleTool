@@ -1,0 +1,10 @@
+{
+  "source": "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2",
+  "removed_null_fields": [
+    "quantization_config.config_groups.group_0.weights.scale_dtype",
+    "quantization_config.config_groups.group_0.weights.zp_dtype"
+  ],
+  "weights_modified": false,
+  "source_config_sha256": "58107863f53d3be7856a288f4fb94d683a925a30e8bfdecf8066fb8cf9c7ea69",
+  "compat_config_sha256": "886c04a2fefa8f49246e7c7259b46041dbe0085c21f1060f904042ff0c5dc145"
+}

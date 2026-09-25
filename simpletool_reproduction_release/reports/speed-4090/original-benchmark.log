@@ -1,0 +1,192 @@
+INFO 09-25 15:27:00 [__init__.py:216] Automatically detected platform cuda.
+
+============================================================
+  v2 | /inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011
+============================================================
+INFO 09-25 15:27:16 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011] to model_path [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011]
+INFO 09-25 15:27:16 [arg_utils.py:504] HF_HUB_OFFLINE is True, replace model_id [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011] to model_path [/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011]
+INFO 09-25 15:27:16 [utils.py:233] non-default args: {'trust_remote_code': True, 'max_model_len': 4096, 'enable_prefix_caching': True, 'gpu_memory_utilization': 0.8, 'max_num_seqs': 8, 'disable_log_stats': True, 'model': '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011'}
+The argument `trust_remote_code` is to be used with Auto classes. It has no effect here and is ignored.
+INFO 09-25 15:27:31 [model.py:547] Resolved architecture: Qwen3ForCausalLM
+`torch_dtype` is deprecated! Use `dtype` instead!
+INFO 09-25 15:27:31 [model.py:1510] Using max model len 4096
+INFO 09-25 15:27:33 [scheduler.py:205] Chunked prefill is enabled with max_num_batched_tokens=8192.
+The tokenizer you are loading from '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+INFO 09-25 15:27:40 [__init__.py:216] Automatically detected platform cuda.
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:43 [core.py:644] Waiting for init message from front-end.
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:43 [core.py:77] Initializing a V1 LLM engine (v0.11.0) with config: model='/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011', speculative_config=None, tokenizer='/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.bfloat16, max_seq_len=4096, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, disable_custom_all_reduce=False, quantization=compressed-tensors, enforce_eager=False, kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_fallback=False, disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser=''), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None), seed=0, served_model_name=/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011, enable_prefix_caching=True, chunked_prefill_enabled=True, pooler_config=None, compilation_config={"level":3,"debug_dump_path":"","cache_dir":"","backend":"","custom_ops":[],"splitting_ops":["vllm.unified_attention","vllm.unified_attention_with_output","vllm.mamba_mixer2","vllm.mamba_mixer","vllm.short_conv","vllm.linear_attention","vllm.plamo2_mamba_mixer","vllm.gdn_attention","vllm.sparse_attn_indexer"],"use_inductor":true,"compile_sizes":[],"inductor_compile_config":{"enable_auto_functionalized_v2":false},"inductor_passes":{},"cudagraph_mode":[2,1],"use_cudagraph":true,"cudagraph_num_of_warmups":1,"cudagraph_capture_sizes":[16,8,4,2,1],"cudagraph_copy_inputs":false,"full_cuda_graph":false,"use_inductor_graph_partition":false,"pass_config":{},"max_capture_size":16,"local_cache_dir":null}
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[Gloo] Rank 0 is connected to 0 peer ranks. Expected number of connected peer ranks is : 0
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:57 [parallel_state.py:1208] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, TP rank 0, EP rank 0
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:58 [topk_topp_sampler.py:55] Using FlashInfer for top-p & top-k sampling.
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:58 [gpu_model_runner.py:2602] Starting to load model /inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011...
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:58 [gpu_model_runner.py:2634] Loading model from scratch...
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:58 [compressed_tensors_wNa16.py:95] Using MarlinLinearKernel for CompressedTensorsWNA16
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:27:59 [cuda.py:366] Using Flash Attention backend on V1 engine.
+[1;36m(EngineCore_DP0 pid=860)[0;0m Loading safetensors checkpoint shards:   0% Completed | 0/1 [00:00<?, ?it/s]
+[1;36m(EngineCore_DP0 pid=860)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:10<00:00, 10.20s/it]
+[1;36m(EngineCore_DP0 pid=860)[0;0m Loading safetensors checkpoint shards: 100% Completed | 1/1 [00:10<00:00, 10.20s/it]
+[1;36m(EngineCore_DP0 pid=860)[0;0m 
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:28:17 [default_loader.py:267] Loading weights took 10.26 seconds
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:28:18 [gpu_model_runner.py:2653] Model loading took 2.5422 GiB and 18.993405 seconds
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:28:50 [backends.py:548] Using cache directory: /root/.cache/vllm/torch_compile_cache/427b31a840/rank_0_0/backbone for vLLM's torch.compile
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:28:50 [backends.py:559] Dynamo bytecode transform time: 31.79 s
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:28:56 [backends.py:197] Cache the graph for dynamic shape for later use
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:29:23 [backends.py:218] Compiling a graph for dynamic shape takes 32.32 s
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:29:45 [monitor.py:34] torch.compile takes 64.11 s in total
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:31:26 [gpu_worker.py:298] Available KV cache memory: 34.63 GiB
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:31:27 [kv_cache_utils.py:1087] GPU KV cache size: 252,144 tokens
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:31:27 [kv_cache_utils.py:1091] Maximum concurrency for 4,096 tokens per request: 61.56x
+[1;36m(EngineCore_DP0 pid=860)[0;0m Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):   0%|          | 0/5 [00:00<?, ?it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE):  40%|████      | 2/5 [00:00<00:00, 17.11it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 23.78it/s]Capturing CUDA graphs (mixed prefill-decode, PIECEWISE): 100%|██████████| 5/5 [00:00<00:00, 22.69it/s]
+[1;36m(EngineCore_DP0 pid=860)[0;0m Capturing CUDA graphs (decode, FULL):   0%|          | 0/4 [00:00<?, ?it/s]Capturing CUDA graphs (decode, FULL):  25%|██▌       | 1/4 [00:00<00:00,  3.74it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 12.47it/s]Capturing CUDA graphs (decode, FULL): 100%|██████████| 4/4 [00:00<00:00, 10.60it/s]
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:31:29 [gpu_model_runner.py:3480] Graph capturing finished in 2 secs, took 0.09 GiB
+[1;36m(EngineCore_DP0 pid=860)[0;0m INFO 09-25 15:31:29 [core.py:210] init engine (profile, create kv cache, warmup model) took 190.62 seconds
+[1;36m(EngineCore_DP0 pid=860)[0;0m The tokenizer you are loading from '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models-v2/RT-Qwen3-4B-AWQ-v2-ct011' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+INFO 09-25 15:31:30 [llm.py:306] Supported_tasks: ['generate']
+  Game — Tower Defense                heads=3
+  Robotic Arm — Assembly              heads=5
+  Digital Human — Streamer            heads=3
+
+============================================================
+  COLD START
+============================================================
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 97.56it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:  33%|███▎      | 1/3 [00:00<00:00,  2.67it/s, est. speed input: 2444.12 toks/s, output: 10.66 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00,  2.67it/s, est. speed input: 7209.38 toks/s, output: 31.45 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00,  7.86it/s, est. speed input: 7209.38 toks/s, output: 31.45 toks/s]
+  Game — Tower Defense                  414.1ms
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s]Adding requests: 100%|██████████| 5/5 [00:00<00:00, 321.52it/s]
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 57.73it/s, est. speed input: 53128.86 toks/s, output: 242.52 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 57.62it/s, est. speed input: 53128.86 toks/s, output: 242.52 toks/s]
+  Robotic Arm — Assembly                102.9ms
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 328.74it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 34.46it/s, est. speed input: 33268.06 toks/s, output: 172.35 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 34.40it/s, est. speed input: 33268.06 toks/s, output: 172.35 toks/s]
+  Digital Human — Streamer               96.8ms
+
+============================================================
+  HOT WARMUP (3 rounds)
+============================================================
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 369.26it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 121.44it/s, est. speed input: 111442.47 toks/s, output: 485.98 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 120.92it/s, est. speed input: 111442.47 toks/s, output: 485.98 toks/s]
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s]Adding requests: 100%|██████████| 5/5 [00:00<00:00, 404.97it/s]
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 106.36it/s, est. speed input: 97901.29 toks/s, output: 446.86 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 106.04it/s, est. speed input: 97901.29 toks/s, output: 446.86 toks/s]
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 336.79it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 88.98it/s, est. speed input: 85926.35 toks/s, output: 445.10 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 88.65it/s, est. speed input: 85926.35 toks/s, output: 445.10 toks/s]
+  Round 1:   33.4ms    60.5ms    43.3ms
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 394.13it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 127.14it/s, est. speed input: 116692.26 toks/s, output: 508.86 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 126.44it/s, est. speed input: 116692.26 toks/s, output: 508.86 toks/s]
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s]Adding requests: 100%|██████████| 5/5 [00:00<00:00, 423.04it/s]
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 100.68it/s, est. speed input: 92661.08 toks/s, output: 422.96 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 100.39it/s, est. speed input: 92661.08 toks/s, output: 422.96 toks/s]
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 386.25it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 88.36it/s, est. speed input: 85358.55 toks/s, output: 442.08 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 87.93it/s, est. speed input: 85358.55 toks/s, output: 442.08 toks/s]
+  Round 2:   31.8ms    62.1ms    42.3ms
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 386.35it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 127.50it/s, est. speed input: 117036.69 toks/s, output: 510.35 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 126.74it/s, est. speed input: 117036.69 toks/s, output: 510.35 toks/s]
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s]Adding requests: 100%|██████████| 5/5 [00:00<00:00, 421.18it/s]
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 125.66it/s, est. speed input: 115664.71 toks/s, output: 527.94 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 125.23it/s, est. speed input: 115664.71 toks/s, output: 527.94 toks/s]
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 385.42it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 89.48it/s, est. speed input: 86429.71 toks/s, output: 447.66 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 88.33it/s, est. speed input: 86429.71 toks/s, output: 447.66 toks/s]
+  Round 3:   31.9ms    52.2ms    42.2ms
+
+============================================================
+  PARALLEL TEST (v2)
+============================================================
+
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 394.72it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 121.89it/s, est. speed input: 111872.51 toks/s, output: 487.85 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 121.26it/s, est. speed input: 111872.51 toks/s, output: 487.85 toks/s]
+─── Game — Tower Defense ───
+PASS  use_skill(Amiya)
+  function   use_skill                                     4    OK
+  arg1       Amiya                                         4    FILL
+  arg2       s1                                            4    FILL
+  e2e=32.8ms  max_tok=4
+
+Adding requests:   0%|          | 0/5 [00:00<?, ?it/s]Adding requests: 100%|██████████| 5/5 [00:00<00:00, 390.91it/s]
+Processed prompts:   0%|          | 0/5 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 101.71it/s, est. speed input: 93609.68 toks/s, output: 427.29 toks/s]Processed prompts: 100%|██████████| 5/5 [00:00<00:00, 101.42it/s, est. speed input: 93609.68 toks/s, output: 427.29 toks/s]
+─── Robotic Arm — Assembly ───
+PASS  move_to(300,150,50,slow)
+  function   move_to                                       4    OK
+  arg1       300                                           5    FILL
+  arg2       150                                           5    FILL
+  arg3       50                                            4    FILL
+  arg4       slow                                          3    FILL
+  e2e=62.5ms  max_tok=5
+
+Adding requests:   0%|          | 0/3 [00:00<?, ?it/s]Adding requests: 100%|██████████| 3/3 [00:00<00:00, 337.16it/s]
+Processed prompts:   0%|          | 0/3 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 89.87it/s, est. speed input: 86809.72 toks/s, output: 449.59 toks/s]Processed prompts: 100%|██████████| 3/3 [00:00<00:00, 89.52it/s, est. speed input: 86809.72 toks/s, output: 449.59 toks/s]
+─── Digital Human — Streamer ───
+PASS  speak(welcome,cheerful)
+  function   speak                                         4    OK
+  arg1       Hello, welcome!                               6    FILL
+  arg2       cheerful                                      5    FILL
+  e2e=42.9ms  max_tok=6
+
+============================================================
+  SUMMARY (v2)
+============================================================
+  Accuracy       : 3/3
+  Cold start avg : 204.6ms
+  Hot prefill avg: 44.4ms
+  E2E avg (hot)  : 46.1ms
+  Max head tokens: 5.0 avg
+  E2E / max_tok  : 9.2ms/tok (decode bottleneck)
+
+  Scenario                               Cold     Hot     E2E  MaxTk  ms/tk
+  ──────────────────────────────────────────────────────────────────────
+  Game — Tower Defense                 414.1    32.4    32.8      4    8.2
+  Robotic Arm — Assembly               102.9    58.3    62.5      5   12.5
+  Digital Human — Streamer              96.8    42.6    42.9      6    7.1
+
+============================================================
+  EXAMPLE (v2): Game — Tower Defense
+============================================================
+
+┌─ Shared Prefix (4287 chars) ────────────────────
+│ <|im_start|>system
+│ You are the voice command interpreter for a real-time tower defense game. The player issues orders by voice. You convert ASR-transcribed commands into function calls.
+│ 
+│ Rules:
+│ - One function call per command
+│ - Fuzzy match operator names
+│ - Positions: north, south, east, west, center
+│ - If all tasks in history are done, call pass
+│ 
+│ ## Available Tools:
+│ 
+│ {"type":"function","function":{"name":"move","description":"Move a deployed operator to a new position on the battlefield. Use when the player wants to reposition a unit to a different lane or strategic point to respond to enemy movements or reinforce a weak position.","parameters":{"type":"object","properties":{"unit_id":{"type":"string","description":"The name of the operator to move. Must match a currently deployed operator. Supports fuzzy matching for ASR input, e.g. 'blaze', 'Blaze', 'BLAZE' all refer to the same operator."},"target":{"type":"string","description":"The destination position on the battlefield grid. Must be one of: 'north' (top lane), 'south' (bottom lane), 'east' (right/enemy side), 'west' (left/base side), 'center' (middle area)."}},"required":["unit_id","target"]}}}
+│ {"type":"function","function":{"name":"use_skill","description":"Activate the special skill of a deployed operator. Each operator has a unique skill that can be triggered when the skill gauge is ready. The skill effect depends on the operator type (e.g. AoE damage, healing, buff).","parameters":{"type":"object","properties":{"unit_id":{"type":"string","description":"The name of the operator whose skill should be activated. The operator must be currently deployed and have their skill ready (skill gauge full). Supports fuzzy name matching for ASR input."},"skill_id":{"type":"string","description":"Optional skill identifier when an operator has multiple skills. If the operator only has one skill or the player did not specify, this can be omitted. Format: 's1', 's2', 's3' for skill slot 1/2/3."}},"required":["unit_id"]}}}
+│ {"type":"function","function":{"name":"retreat","description":"Withdraw a single operator from the battlefield back to the reserve bench. The operator's redeployment timer starts after retreat. Use when the player wants to pull back a unit to save them or free up a deployment slot.","parameters":{"type":"object","properties":{"unit_id":{"type":"string","description":"The name of the operator to retreat. Must be currently deployed on the battlefield. After retreat, this operator enters cooldown before redeployment. Supports fuzzy name matching for ASR input."}},"required":["unit_id"]}}}
+│ {"type":"function","function":{"name":"set_stance","description":"Change the combat behavior mode of a deployed operator. This affects how the operator selects targets and whether they prioritize attacking or surviving.","parameters":{"type":"object","properties":{"unit_id":{"type":"string","description":"The name of the operator whose stance should be changed. Must be currently deployed on the battlefield. Supports fuzzy name matching for ASR input."},"stance":{"type":"string","description":"The behavior mode to set. 'aggressive': prioritize attacking nearest enemy, maximize DPS. 'defensive': prioritize blocking and damage reduction, focus on survival. 'hold': stay in position and only attack enemies in range, do not chase."}},"required":["unit_id","stance"]}}}
+│ {"type":"function","function":{"name":"retreat_all","description":"Emergency retreat of all currently deployed operators from the battlefield at once. Use only when the player explicitly requests a full withdrawal, typically in dire situations. All operators enter redeployment cooldown simultaneously.","parameters":{"type":"object","properties":{}}}}
+│ {"type":"function","function":{"name":"pass","description":"Take no action this turn. Use when the player's command has already been fulfilled in history, when the player explicitly says to wait or skip, or when the voice input is too ambiguous to extract a clear command.","parameters":{"type":"object","properties":{}}}}<|im_end|>
+│ <|im_start|>user
+│ history: []
+│ 
+│ Wave 5, BOSS appeared, 8 enemies remaining
+│ Operators: Blaze(north,HP50%,skill ready) Amiya(center,HP90%,skill ready)
+│ Enemy direction: concentrated north
+│ 
+│ Amiya use skill now<|im_end|>
+│ <|im_start|>assistant
+│ 
+└──────────────────────────────────────────────────
+
+┌─ Per-Head Trigger Tokens ─────────────────────────
+│  function   → <function>
+│  arg1       → <arg1>
+│  arg2       → <arg2>
+└──────────────────────────────────────────────────
+
+┌─ Decode Output (all tokens, incl. stop) ──────────
+│  function   [ 4 tok]  <function>use_skill
+│  arg1       [ 4 tok]  <arg1>Amiya
+│  arg2       [ 4 tok]  <arg2>s1
+└──────────────────────────────────────────────────
+
+  Reconstructed multi-head response:
+    <function>use_skill</function>
+    <arg1>Amiya</arg1>
+    <arg2>s1</arg2>
+
+[rank0]:[W925 15:31:31.857739711 ProcessGroupNCCL.cpp:1538] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())

@@ -1,0 +1,122 @@
+[
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 98.64777326583862,
+    "p50_ms": 98.64777326583862,
+    "p95_ms": 98.64777326583862,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 31.699320425589878,
+    "p50_ms": 31.21989034116268,
+    "p95_ms": 33.064160495996475,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 77.6970377812783,
+    "p50_ms": 77.35512219369411,
+    "p95_ms": 78.91648635268211,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Game \u2014 Tower Defense",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 42.1931155025959,
+    "p50_ms": 41.44559055566788,
+    "p95_ms": 46.64217308163643,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 95.84314376115799,
+    "p50_ms": 95.84314376115799,
+    "p95_ms": 95.84314376115799,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 58.25164703031381,
+    "p50_ms": 58.265723288059235,
+    "p95_ms": 64.66180458664894,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 93.66917622586091,
+    "p50_ms": 92.99060516059399,
+    "p95_ms": 98.16690534353256,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Robotic Arm \u2014 Assembly",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 58.99891269703706,
+    "p50_ms": 58.50943550467491,
+    "p95_ms": 64.87405300140381,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "first_seen",
+    "n": 1,
+    "mean_ms": 91.93747490644455,
+    "p50_ms": 91.93747490644455,
+    "p95_ms": 91.93747490644455,
+    "function_correct": 1,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "warm_identical",
+    "n": 30,
+    "mean_ms": 41.5302769591411,
+    "p50_ms": 41.43986292183399,
+    "p95_ms": 42.87096858024597,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "cache_reset",
+    "n": 30,
+    "mean_ms": 89.02667102714379,
+    "p50_ms": 88.90500850975513,
+    "p95_ms": 90.51123261451721,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  },
+  {
+    "scenario": "Digital Human \u2014 Streamer",
+    "mode": "shared_prefix_new_query",
+    "n": 30,
+    "mean_ms": 53.466409320632614,
+    "p50_ms": 53.01675386726856,
+    "p95_ms": 56.99072405695915,
+    "function_correct": 30,
+    "length_capped_heads": 0
+  }
+]
