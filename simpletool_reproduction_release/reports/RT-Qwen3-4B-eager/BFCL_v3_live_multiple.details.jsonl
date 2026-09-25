@@ -1,0 +1,1053 @@
+{"id": "live_multiple_0-0-0", "result": [{"name": "ChaDri.change_drink", "arguments": {"drink_id": "latte", "new_preferences": {"size": "large", "temperature": "hot", "sweetness_level": "extra", "milk_type": "coconut", "special_instructions": "boiling hot"}}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1-0-1", "result": [{"name": "ChaDri.change_drink", "arguments": {"drink_id": 1234, "new_preferences": {"sweetness_level": "none", "temperature": "hot", "milk_type": "regular", "special_instructions": "no sugar"}}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_2-1-0", "result": [{"name": "uber.ride", "arguments": {"loc": "2150 Shattuck Ave, Berkeley, CA", "type": "plus", "time": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_3-2-0", "result": [{"name": "api.weather", "arguments": {"loc": "Ha Noi, Vietnam"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_4-2-1", "result": [{"name": "uber.ride", "arguments": {"loc": "123 Hanoi Street, Hanoi, Vietnam", "type": "plus", "time": 10}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_5-3-0", "result": [{"name": "get_current_weather", "arguments": {"location": "Shanghai, China", "unit": "metric"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_6-3-1", "result": [{"name": "create_workspace", "arguments": {"name": "DevelopmentEnv", "base_branch": "feature-branch"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_7-3-2", "result": [{"name": "create_workspace", "arguments": {"name": "DevelopersHub", "base_branch": "master"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_8-4-0", "result": [{"name": "cookbook.search_recipe", "arguments": {"keyword": "steak", "cuisine": "Indian"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_9-4-1", "result": [{"name": "HNA_WQA.search", "arguments": {"keyword": "Imjin war"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_10-4-2", "result": [{"name": "ControlAppliance.execute", "arguments": {"command": "다용도실, 통돌이, 중지"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_11-4-3", "result": [{"name": "HNA_WQA.search", "arguments": {"keyword": "ji sung park"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_12-4-4", "result": [{"name": "HNA_WQA.search", "arguments": {"keyword": "park ji sung"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_13-4-5", "result": [{"name": "OpenWeatherMap.get_current_weather", "arguments": {"location": "Santa Cruz, California", "units": "imperial", "api_key": "YOUR_API_KEY_HERE"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_14-4-6", "result": [{"name": "ControlAppliance.execute", "arguments": {"command": "다용도실, 통돌이, 중지"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_15-4-7", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "Son's latest goal", "category": "Sports"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_16-4-8", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "박지성"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_17-4-9", "result": [{"name": "cookbook.search_recipe", "arguments": {"keyword": "sikhae"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_18-4-10", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "airtificial intelligence", "date_range": "2023-10-01 to 2023-10-07"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_19-4-11", "result": [{"name": "ControlAppliance.execute", "arguments": {"command": "거실, 에어컨, 실행"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_20-4-12", "result": [{"name": "ControlAppliance.execute", "arguments": {"command": "다용도실, 통돌이, 중지"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_21-4-13", "result": [{"name": "cookbook.search_recipe", "arguments": {"keyword": "스테이크"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_22-4-14", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "임진왜란", "sort_by": 10}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_23-5-0", "result": [{"name": "search_products", "arguments": {"color": "red", "size": 8, "category": "shoes"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_24-5-1", "result": [{"name": "get_product_details", "arguments": {"item_id": "shimmer", "size": "clothing"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_25-6-0", "result": [{"name": "recall_memory_search", "arguments": {"query": "when is shishir's birthday"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_26-6-1", "result": [{"name": "send_message", "arguments": {"message": "Shishir Patil's birthday is on 12th of April.", "recipient": "shishir.patil@example.com"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_27-7-0", "result": [{"name": "subtract", "arguments": {"arg1": 100, "arg2": 40}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_28-8-0", "result": [{"name": "my_core_function", "arguments": {"name": "Balkrushn"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_29-9-0", "result": [{"name": "multiply", "arguments": {"a": 3, "b": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_30-10-0", "result": [{"name": "duck_duck_go.search", "arguments": {"query": "LangFuse and its application in generative AI projects"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_31-10-1", "result": [{"name": "duck_duck_go.search", "arguments": {"query": "trending items"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_32-10-2", "result": [{"name": "sub", "arguments": {"a": 100, "b": 40}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_33-10-3", "result": [{"name": "add", "arguments": {"a": 10, "b": 10}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_34-11-0", "result": [{"name": "get_news_report", "arguments": {"location": "Letterkenny, County of Donegal"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_35-11-1", "result": [{"name": "get_tesco_locations", "arguments": {"location": "Letterkenny, Ireland", "radius": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_36-12-0", "result": [{"name": "todo_add", "arguments": {"content": "go for shopping at 9 pm"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_37-13-0", "result": [{"name": "todo_delete", "arguments": {"content": "go for shopping at 9 pm"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_38-14-0", "result": [{"name": "get_interviewer_list", "arguments": {"skill": "Python"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_39-14-1", "result": [{"name": "review_of_interviewer", "arguments": {"interviewer_name": "Charlie Brown", "include_comments": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_40-15-0", "result": [{"name": "oven_preheat", "arguments": {"duration": 36, "temperature": 201}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_41-16-0", "result": [{"name": "get_services", "arguments": {"namespace": "default"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_42-16-1", "result": [{"name": "get_pods", "arguments": {"namespace": "cascade-sandbox"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_43-16-2", "result": [{"name": "get_services", "arguments": {"namespace": "cascade-sandbox"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_44-17-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_45-18-0", "result": [{"name": "product_search", "arguments": {"category": "clothing", "color": "red", "size": "medium"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_46-18-1", "result": [{"name": "inventory_management", "arguments": {"product_id": "12345-67890"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_47-18-2", "result": [{"name": "order_status_check", "arguments": {"order_id": 123456789, "product": "Smart LED TV"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_48-18-3", "result": [{"name": "inventory_management", "arguments": {"product_id": 123123, "quantity": 30}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_49-19-0", "result": [{"name": "interviewer_review.get", "arguments": {"name": "Charlie Ji"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_50-20-0", "result": [{"name": "get_movies", "arguments": {"city": "Noida"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_51-21-0", "result": [{"name": "order_status_check", "arguments": {"order_id": "#123", "product": "pair of sneakers"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_52-21-1", "result": [{"name": "inventory_management", "arguments": {"product_id": "SK123", "color": "Red"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_53-22-0", "result": [{"name": "inventory_management", "arguments": {"product_id": "V-neck sweate", "sizes": ["M", "L"]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_54-22-1", "result": [{"name": "inventory_management", "arguments": {"product_id": "12345XYZ", "sizes": ["M"], "color": "red"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_55-22-2", "result": [{"name": "product_search", "arguments": {"category": "iPhone 12"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_56-22-3", "result": [{"name": "inventory_management", "arguments": {"product_id": 111, "sizes": ["L"]}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_57-22-4", "result": [{"name": "order_status_check", "arguments": {"order_id": 282828}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_58-22-5", "result": [{"name": "inventory_management", "arguments": {"product_id": "XY123", "sizes": ["S", "M", "L"]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_59-22-6", "result": [{"name": "inventory_management", "arguments": {"product_id": "Wonderland maxi dress"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_60-22-7", "result": [{"name": "inventory_management", "arguments": {"product_id": "ABC123", "sizes": ["L"]}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_61-23-0", "result": [{"name": "get_movies", "arguments": {"city": "Noida"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_62-24-0", "result": [{"name": "todoIdx", "arguments": {"type": "delete", "index": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_63-25-0", "result": [{"name": "uber.eat.order", "arguments": {"restaurant_id": "McDonald's", "items": [{"item": "burgers", "quantity": 5}, {"item": "chicken wings", "quantity": 6}]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_64-26-0", "result": [{"name": "uber.eat.order", "arguments": {"restaurant_id": "McDonald's", "items": [{"item_id": "burger123", "quantity": 5}, {"item_id": "wing456", "quantity": 6}]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_65-26-1", "result": [{"name": "get_current_weather", "arguments": {"location": "Boston, MA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_66-27-0", "result": [{"name": "add_postgres_server", "arguments": {"host": "http://plgah.ca", "database": "finance_db", "username": "pascal", "password": 123123}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_67-28-0", "result": [{"name": "add_postgres_server", "arguments": {"host": "http://plgah.ca", "database": "maindb", "username": "pascal", "password": "securepassword123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_68-29-0", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "ProjectDB", "host": "http://foo.com", "port": 5432, "database": "project_data", "username": "user1", "password": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_69-30-0", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PrimaryDB", "host": "db.example.com", "port": 5432, "database": "inventory", "username": "admin", "password": 1234567890}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_70-30-1", "result": [{"name": "dartfx_help", "arguments": {"topic": "troubleshooting"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_71-31-0", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "EnterpriseDB", "host": "db.company.com", "database": "sales_data", "username": "dbadmin", "password": "secure*pwd123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_72-32-0", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PrimaryDB", "host": "192.168.0.10", "port": 5432, "database": "main", "username": "admin_user", "password": "secure*pass123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_73-33-0", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PrimaryDB", "host": "192.168.0.12", "port": 5432, "database": "main_db", "username": "admin", "password": "securePass123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_74-34-0", "result": [{"name": "dartfx_help", "arguments": {"topic": "trading", "include_examples": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_75-34-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PrimaryDB", "host": "plgah.ca", "port": 5432, "database": "maindb", "username": "admin", "password": 12341234}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_76-35-0", "result": [{"name": "dartfx_help", "arguments": {"topic": "charts", "language": "Spanish"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_77-35-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "X", "host": "http://plga.ca", "port": 5432, "database": "postgres", "username": "admin"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_78-35-2", "result": [{"name": "dartfx_help", "arguments": {"topic": "charts", "language": "Spanish"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_79-36-0", "result": [{"name": "dartfx_help", "arguments": {"topic": "installation"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_80-36-1", "result": [{"name": "add_mtnards_server", "arguments": {"host": "http://plga.ca", "api_key": 12344}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_81-36-2", "result": [{"name": "add_mtnards_server", "arguments": {"host": "http://plga.ca", "api_key": 1234324}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_82-37-0", "result": [{"name": "add_postgres_server", "arguments": {"host": "192.168.0.5", "port": 5432, "database": "postgres", "username": "postgres"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_83-38-0", "result": [{"name": "list_servers", "arguments": {"type": "postgres"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_84-38-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PG1", "host": "pg.example.org", "port": 5432, "database": "main_db", "username": "admin"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_85-38-2", "result": [{"name": "add_mtnards_server", "arguments": {"nickname": "primary_db_server", "host": "192.168.0.5", "api_key": 1234123}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_86-38-3", "result": [{"name": "add_mtnards_server", "arguments": {"nickname": "RSD1", "host": "http://rds.com", "api_key": 1234123}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_87-38-4", "result": [{"name": "list_servers", "arguments": {"type": "openapi"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_88-38-5", "result": [{"name": "list_servers", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_89-39-0", "result": [{"name": "render_ui_date_picker_widget", "arguments": {"default_date": "20-09-2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_90-40-0", "result": [{"name": "add_mtnards_server", "arguments": {"nickname": "FastDataServer", "host": "data.example.com", "api_key": "12345-ABCDE"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_91-40-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "primary_db", "host": "example.org", "port": 5432, "database": "main", "username": "admin", "password": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_92-40-2", "result": [{"name": "list_servers", "arguments": {"server_type": "postgres"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_93-41-0", "result": [{"name": "add_postgres_server", "arguments": {"host": "example.org", "port": 5432, "database": "inventory", "username": "admin", "password": "secret"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_94-41-1", "result": [{"name": "list_servers", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_95-41-2", "result": [{"name": "close_project", "arguments": {"project_id": "DA-12345", "archive": true, "notify_users": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_96-42-0", "result": [{"name": "list_files", "arguments": {"file_type": "data", "include_hidden": true, "recursive": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_97-42-1", "result": [{"name": "connect_to_server", "arguments": {"nickname": "xyz"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_98-42-2", "result": [{"name": "open_project", "arguments": {"path": "/Foo/Bar"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_99-42-3", "result": [{"name": "connect_to_server", "arguments": {"nickname": "pg1"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_100-42-4", "result": [{"name": "connect_to_server", "arguments": {"nickname": "text01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_101-42-5", "result": [{"name": "connect_to_server", "arguments": {"nickname": "SQL01", "timeout": 60, "retry_attempts": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_102-43-0", "result": [{"name": "list_files", "arguments": {"type": "json"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_103-43-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "PG1", "host": "localhost", "port": 5432, "database": "main_db", "username": "admin", "password": "secure_pass123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_104-43-2", "result": [{"name": "open_project", "arguments": {"path": "/foo/bar"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_105-43-3", "result": [{"name": "dartfx_help", "arguments": {"topic": "list_files"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_106-43-4", "result": [{"name": "add_mtnards_server", "arguments": {"nickname": "FastQuery", "host": "rds.example.org", "api_key": 1231231}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_107-43-5", "result": [{"name": "list_files", "arguments": {"type": "sav", "include_hidden": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_108-43-6", "result": [{"name": "list_servers", "arguments": {"type": "postgres"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_109-43-7", "result": [{"name": "list_servers", "arguments": {"type": "mtna"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_110-43-8", "result": [{"name": "list_files", "arguments": {"type": "txt", "include_hidden": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_111-43-9", "result": [{"name": "dartfx_help", "arguments": {"topic": "database optimization", "language": "Spanish", "format": "video"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_112-43-10", "result": [{"name": "list_servers", "arguments": {"type": "postgres"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_113-44-0", "result": [{"name": "list_servers", "arguments": {"server_type": "mtna"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_114-44-1", "result": [{"name": "add_postgres_server", "arguments": {"nickname": "MainDB", "host": "pg.example.org", "port": 5432, "database": "sales_db", "username": "admin", "password": "password"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_115-45-0", "result": [{"name": "analysis_api.AnalysisApi.retrieve_analysis", "arguments": {"project": "SUPERFANCY", "component": "AB1010CD", "vulnerability": "ef903ac-893-f00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_116-45-1", "result": [{"name": "acl_api.add_mapping", "arguments": {"principal_id": "user-123", "resource_id": "resource-456", "permissions": "read"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_117-45-2", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_118-45-3", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_119-45-4", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_120-45-5", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_121-46-0", "result": [{"name": "get_headway", "arguments": {"ego_info": {"position": {"lateral": 10.5, "longitudinal": 50}, "orientation": 30}, "lane_info": {"lane_id": "L123", "lane_type": "regular"}, "bounding_boxes": [{"x": 60.2, "y": 12.3, "z": 0.0, "width": 2.0, "height": 1.5, "depth": 1.8}]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_122-46-1", "result": [{"name": "get_time_to_collision", "arguments": {"ego_velocity": 50, "ego_acceleration": -2, "leading_object_velocity": 30, "leading_object_acceleration": -1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_123-46-2", "result": [{"name": "get_time_to_collision", "arguments": {"ego_velocity": 20, "ego_acceleration": 2, "leading_object_velocity": 15, "leading_object_acceleration": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_124-47-0", "result": [{"name": "duck_duck_go", "arguments": {"query": "What is LangFuse and how can I use it in my genAI project?"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_125-47-1", "result": [{"name": "multiply", "arguments": {"a": 3, "b": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_126-48-0", "result": [{"name": "analysis_api.AnalysisApi.retrieve_analysis", "arguments": {"project": "SUPERFANCY", "component": "AB1010CD", "vulnerability": "ef903ac-893-f00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_127-49-0", "result": [{"name": "search_engine.query", "arguments": {"prompt": "the history of kites and how they're made"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_128-50-0", "result": [{"name": "generate_image", "arguments": {"prompt": "a man wearing a red dress"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_129-50-1", "result": [{"name": "search_engine.query", "arguments": {"prompt": "the current prime minister of India", "include_after_year": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_130-50-2", "result": [{"name": "english_llm", "arguments": {"q": "I'd like to read a poem about kites. Could you generate one with a creative touch?"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_131-50-3", "result": [{"name": "english_llm", "arguments": {"q": "चाय कैसे बनाएं?"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_132-50-4", "result": [{"name": "search_engine.query", "arguments": {"prompt": "who is the current pm of india", "include_after_year": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_133-50-5", "result": [{"name": "multilingual_llm", "arguments": {"q": "chai kaise bnaye"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_134-51-0", "result": [{"name": "stock_price.get", "arguments": {"ticker": "AAPL", "exchange": "NYSE"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_135-51-1", "result": [{"name": "weather.get", "arguments": {"city": "London", "country": "GB"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_136-52-0", "result": [{"name": "weather.get_weather", "arguments": {"city": "London", "country": "United Kingdom"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_137-52-1", "result": [{"name": "stock_price.get", "arguments": {"ticker": "AAPL", "exchange": "NASDAQ"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_138-53-0", "result": [{"name": "weather.get", "arguments": {"city": "London", "country": "United Kingdom"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_139-53-1", "result": [{"name": "stock_price.get", "arguments": {"ticker": "AAPL", "exchange": "NASDAQ"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_140-54-0", "result": [{"name": "weather.get", "arguments": {"city": "London", "country": "GB", "include_forecast": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_141-54-1", "result": [{"name": "stock_price.get", "arguments": {"ticker": "AAPL", "exchange": "NASDAQ"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_142-55-0", "result": [{"name": "weather.get_weather_data", "arguments": {"city": "London", "country": "GB", "language": "en"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_143-55-1", "result": [{"name": "stock_price.get", "arguments": {"ticker": "AAPL", "exchange": "NASDAQ"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_144-56-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_145-57-0", "result": [{"name": "get_shopping", "arguments": {"item_name": "winter jacket", "location": "Berkeley, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_146-58-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_147-58-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_148-58-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_149-58-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_150-58-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_151-58-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_152-58-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_153-58-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_154-58-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_155-58-9", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_156-59-0", "result": [{"name": "analysis_api.AnalysisApi.retrieve_analysis", "arguments": {"project": "SUPERFANCY", "component": "AB1010CD", "vulnerability": "ef903ac-893-f00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_157-60-0", "result": [{"name": "get_adriel_projects", "arguments": {"start_date": "2021-01-01", "end_date": "2021-12-31"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_158-61-0", "result": [{"name": "get_adriel_projects", "arguments": {"user_id": 7623, "include_completed": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_159-62-0", "result": [{"name": "get_detail_adriel_projects", "arguments": {"project_name": "e-commerce platform overhaul"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_160-62-1", "result": [{"name": "get_adriel_projects", "arguments": {"user_id": "Adriel", "include_completed": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_161-63-0", "result": [{"name": "get_detail_adriel_project", "arguments": {"project_name": "portfolio-web"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_162-63-1", "result": [{"name": "get_detail_adriel_project", "arguments": {"project_name": "e-commerce-web"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_163-64-0", "result": [{"name": "get_detail_adriel_project", "arguments": {"project_name": "portfolio-web", "include_tasks": true, "include_financials": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_164-65-0", "result": [{"name": "get_detail_adriel_project", "arguments": {"project_name": "portfolio-web", "include_financials": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_165-65-1", "result": [{"name": "get_adriel_list_projects", "arguments": {"user_id": 123, "include_inactive": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_166-66-0", "result": [{"name": "get_adriel_profile", "arguments": {"user_id": 12445, "include_contacts": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_167-67-0", "result": [{"name": "get_adriel_profile", "arguments": {"user_id": 12345, "include_preferences": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_168-68-0", "result": [{"name": "get_adriel_profile", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_169-69-0", "result": [{"name": "get_adriel_detail_experience_and_education", "arguments": {"experience_or_education_type": "internship at Sebelas Maret University"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_170-70-0", "result": [{"name": "get_adriel_detail_experience_and_education", "arguments": {"experience_or_education_type": "education", "experience_or_education_name": "Sebelas Maret University"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_171-71-0", "result": [{"name": "get_adriel_detail_experience_and_education", "arguments": {"experience_or_education_type": "Internship", "experience_or_education_name": "Not specified"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_172-71-1", "result": [{"name": "get_adriel_list_projects", "arguments": {"user_id": 123}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_173-71-2", "result": [{"name": "get_adriel_tech_stack", "arguments": {"employee_id": 123}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_174-72-0", "result": [{"name": "get_adriel_detail_experience_and_education", "arguments": {"experience_or_education_type": "Internship at Sebelas Maret University (UNS)"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_175-72-1", "result": [{"name": "get_adriel_list_projects", "arguments": {"user_id": 12345, "status": "active"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_176-73-0", "result": [{"name": "recall_memory_search", "arguments": {"query": "Shishir's birthday"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_177-74-0", "result": [{"name": "get_trip", "arguments": {"location": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_178-75-0", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "Ji Sung Park", "limit": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_179-75-1", "result": [{"name": "HNA_NEWS.search", "arguments": {"keyword": "artificial intelligence", "category": "Technology", "language": "en"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_180-76-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_181-76-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_182-77-0", "result": [{"name": "math_gcd", "arguments": {"a": 100, "b": 120}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_183-78-0", "result": [{"name": "finish", "arguments": {"input_text": "The quick brown fox jumps over the lazy dog.", "tgt_lang": "da", "src_lang": "en"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_184-79-0", "result": [{"name": "search_advice", "arguments": {"query": "career growth"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_185-80-0", "result": [{"name": "get_activity_by_participants", "arguments": {"participant_count": 5, "activity_type": "education"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_186-81-0", "result": [{"name": "weather_forecast.get", "arguments": {"location": "北京", "date": "the day after tomorrow"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_187-82-0", "result": [{"name": "quarterly_earnings", "arguments": {"company_name": "Berkshire Hathaway", "cik": "0001067983"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_188-82-1", "result": [{"name": "holdings.get_13F_HR", "arguments": {"company_name": "Berkshire Hathaway", "cik": "0001067983"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_189-83-0", "result": [{"name": "sendHttpRequest", "arguments": {"method": "POST", "url": "https://httpbin.org/post", "headers": {"Content-Type": "application/json"}, "data": {"name": "John Doe", "email": "john.doe@example.com"}}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_190-84-0", "result": [{"name": "game_rewards.get", "arguments": {"game": "Fortnite", "platform": "PlayStation", "mission": "All Missions"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_191-85-0", "result": [{"name": "sort_list", "arguments": {"elements": ["Sam", "Alice", "Jack"], "order": "asc"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_192-86-0", "result": [{"name": "analyze_image_with_question.pipeline", "arguments": {"image_path": "image.png", "question": "generate with technically complex attention to detail a description of what you see"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_193-87-0", "result": [{"name": "CalcProduct", "arguments": {"a": 394, "b": 213}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_194-87-1", "result": [{"name": "CalcProduct", "arguments": {"a": 443, "b": 349}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_195-87-2", "result": [{"name": "getCurrentTime", "arguments": {"timezone": "America/Los_Angeles"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_196-88-0", "result": [{"name": "get_tickets", "arguments": {"customer": "Adidas"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_197-89-0", "result": [{"name": "get_tickets", "arguments": {"customer": "adidas"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_198-90-0", "result": [{"name": "adriel_contact", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_199-90-1", "result": [{"name": "adriel_tech_stack", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_200-90-2", "result": [{"name": "adriel_list_projects", "arguments": {"user_id": 3}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_201-90-3", "result": [{"name": "adriel_contact", "arguments": {"format": "xml"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_202-90-4", "result": [{"name": "adriel_list_projects", "arguments": {"user_id": 1234}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_203-90-5", "result": [{"name": "detail_adriel_project", "arguments": {"project_name": "e-commerce-website"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_204-90-6", "result": [{"name": "adriel_experiences_and_education", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_205-90-7", "result": [{"name": "adriel_experiences_and_education", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_206-91-0", "result": [{"name": "contact", "arguments": {"person_name": "Adriel"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_207-91-1", "result": [{"name": "get_tech_stack", "arguments": {"employee_id": "Adriel"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_208-91-2", "result": [{"name": "list_projects", "arguments": {"user_id": 1234, "include_completed": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_209-91-3", "result": [{"name": "detail_project", "arguments": {"project_name": "turing-machine", "include_status": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_210-91-4", "result": [{"name": "detail_experience_and_education", "arguments": {"experience_or_education_type": "Freelance at Pingfest", "experience_or_education_name": "Freelance at Pingfest"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_211-91-5", "result": [{"name": "get_tech_stack", "arguments": {"employee_id": 1234, "include_tools": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_212-91-6", "result": [{"name": "detail_project", "arguments": {"project_name": "car-rental", "include_status": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_213-91-7", "result": [{"name": "detail_experience_and_education", "arguments": {"experience_or_education_type": "Internship at Universitas Sebelas Maret (UNS)", "experience_or_education_name": "Internship at Universitas Sebelas Maret (UNS)"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_214-91-8", "result": [{"name": "experiences_and_education", "arguments": {"person_id": 1234}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_215-91-9", "result": [{"name": "experiences_and_education", "arguments": {"person_id": 1234}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_216-92-0", "result": [{"name": "find_flights", "arguments": {"origin": "BER", "destination": "JFK", "date": "2021-10-10", "passengers": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_217-93-0", "result": [{"name": "Subdomain", "arguments": {"domain": "google.com"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_218-94-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_219-94-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_220-94-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_221-95-0", "result": [{"name": "segment", "arguments": {"img_path": "./yoha.jpg"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_222-96-0", "result": [{"name": "uber.ride", "arguments": {"loc": "456 Elm St, Springville, IL", "type": "comfort", "time": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_223-97-0", "result": [{"name": "list_directory_contents", "arguments": {"dir_path": "/out/programs", "include_hidden": true, "sort_order": "desc"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_224-98-0", "result": [{"name": "reschedule", "arguments": {"identifier": "dentist", "dateortime": "2024-11-01T16:00:00", "timezone": "America/New_York"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_225-99-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_226-100-0", "result": [{"name": "AclApi.add_mapping", "arguments": {"resource_id": "123-resource", "user_id": "user-456", "permissions": ["read", "write"]}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_227-101-0", "result": [{"name": "project_api.ProjectApi.get_children_projects_by_tag", "arguments": {"tag": "environment", "uuid": "123e4567-e89b-12d3-a456-426614174000"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_228-102-0", "result": [{"name": "analysis_api.AnalysisApi.retrieve_analysis", "arguments": {"project": "SUPERFANCY", "component": "AB1010CD", "vulnerability": "ef903ac-893-f00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_229-103-0", "result": [{"name": "get_contact_information", "arguments": {"id_no": "A1234567B"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_230-103-1", "result": [{"name": "get_contact_information", "arguments": {"name": "Liam Neeson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_231-104-0", "result": [{"name": "get_contact_information", "arguments": {"id_no": 123}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_232-104-1", "result": [{"name": "get_contact_information", "arguments": {"name": "Liam Neeson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_233-105-0", "result": [{"name": "get_contact_information", "arguments": {"name": "Rayson Goh"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_234-106-0", "result": [{"name": "set_integer", "arguments": {"name": "columnCount", "value": 8}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_235-106-1", "result": [{"name": "set_integer", "arguments": {"name": "columnCount", "value": 12}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_236-106-2", "result": [{"name": "set_point", "arguments": {"x": 2, "y": 3, "z": 4, "point_name": "pointA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_237-106-3", "result": [{"name": "set_point", "arguments": {"x": 2, "y": 3, "z": 4, "point_name": "pointA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_238-106-4", "result": [{"name": "set_float", "arguments": {"number_name": "roomHeight", "number_value": 4.2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_239-107-0", "result": [{"name": "search_web_tool", "arguments": {"query": "apple"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_240-107-1", "result": [{"name": "search_web_tool", "arguments": {"query": "weather in India"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_241-107-2", "result": [{"name": "search_web_tool", "arguments": {"query": "flight prices from NYC to New Delhi"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_242-107-3", "result": [{"name": "tts_tool", "arguments": {"content": "If you could have dinner with any historical figure, who would you choose and why?"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_243-107-4", "result": [{"name": "search_web_tool", "arguments": {"query": "corona virus", "source": "news"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_244-108-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_245-109-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_246-110-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_247-111-0", "result": [{"name": "analysis_api.AnalysisApi.retrieve_analysis", "arguments": {"project": "SUPERFANCY", "component": "AB1010CD", "vulnerability": "ef903ac-893-f00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_248-112-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_249-113-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_250-114-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_251-115-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_252-116-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_253-117-0", "result": [{"name": "badge_api.BadgeApi.get_project_vulnerabilities_badge", "arguments": {"name": "bandana"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_254-118-0", "result": [{"name": "BadgeApi.get_project_policy_violations_badge1", "arguments": {"project_name": "bandana", "project_version": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_255-119-0", "result": [{"name": "badge_api.BadgeApi.get_project_policy_violations_badge", "arguments": {"uuid": "badae"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_256-120-0", "result": [{"name": "vex_api.VexApi.export_project_as_cyclone_dx1", "arguments": {"uuid": "123e4567-e89b-12d3-a456-426614174000"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_257-121-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_258-122-0", "result": [{"name": "project_api.ProjectApi.get_project_by_name_and_version", "arguments": {"name": "Orion", "version": "2.1.3"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_259-123-0", "result": [{"name": "project_api.ProjectApi.get_project_by_name_and_version", "arguments": {"name": "my_version_proj", "version": "1.2.3"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_260-124-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_261-125-0", "result": [{"name": "rotateImageAction", "arguments": {"degrees": 30}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_262-125-1", "result": [{"name": "rotateImageAction", "arguments": {"degrees": 20}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_263-126-0", "result": [{"name": "EventQuery", "arguments": {"search_string": "gym"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_264-126-1", "result": [{"name": "EventQuery", "arguments": {"search_string": "trip", "start_date": "2023-04-01", "end_date": "2023-04-30", "include_recurring": false}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_265-127-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_266-127-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_267-127-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_268-127-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_269-127-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_270-127-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_271-127-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_272-127-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_273-127-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_274-127-9", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_275-127-10", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_276-127-11", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_277-128-0", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"location": "New York, NY", "price_range": "moderate", "has_seating_outdoors": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_278-128-1", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Italian", "location": "Oakland, CA", "price_range": "moderate"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_279-128-2", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Asian Fusion", "location": "Santa Clara, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_280-128-3", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Coffeehouse", "location": "New York, NY", "price_range": "moderate"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_281-128-4", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Vegetarian", "location": "Berkeley, CA", "price_range": "cheap", "has_vegetarian_options": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_282-128-5", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "American", "location": "Mountain View, CA", "has_seating_outdoors": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_283-128-6", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Izakaya", "location": "San Francisco, CA", "price_range": "moderate"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_284-128-7", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Pizza and Pasta", "location": "San Francisco, CA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_285-129-0", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Pittsburgh, PA", "type": "Psychiatrist", "insurance_accepted": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_286-129-1", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "San Jose, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_287-129-2", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Los Gatos, CA", "type": "Family Counselor", "insurance_accepted": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_288-129-3", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Berkeley, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_289-129-4", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Novato, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_290-129-5", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Walnut Creek, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_291-130-0", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Austin, TX"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_292-130-1", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Long Beach, CA", "number_of_adults": 1, "rating": 4.2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_293-130-2", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "New York, NY", "has_laundry_service": "True", "rating": 3.7}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_294-130-3", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Kuala Lumpur, Malaysia", "number_of_adults": 1, "rating": 3.8}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_295-130-4", "result": [{"name": "Hotels_2_BookHouse", "arguments": {"where_to": "Los Angeles, CA", "number_of_adults": 1}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_296-130-5", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Austin, TX", "has_laundry_service": "True", "number_of_adults": 4, "rating": 4.0}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_297-130-6", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Long Beach, CA", "has_laundry_service": "True", "number_of_adults": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_298-130-7", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Chicago, IL", "has_laundry_service": "True", "rating": 3.9}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_299-130-8", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Sydney, Australia", "has_laundry_service": "True", "number_of_adults": 3}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_300-130-9", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Rio de Janeiro, RJ", "number_of_adults": 2, "rating": 4.2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_301-131-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_302-131-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_303-131-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_304-131-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_305-131-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_306-131-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_307-131-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_308-131-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_309-131-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_310-132-0", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Herbert Ross", "genre": "Family", "cast": "Betsy Widhalm"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_311-132-1", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Wes Anderson", "genre": "Comedy", "cast": "Bill Murray"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_312-132-2", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Jordan Peele", "genre": "Horror", "cast": "Lupita Nyong'o"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_313-132-3", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Martin Kove"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_314-132-4", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Jim Henson", "cast": "Jennifer Connelly"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_315-132-5", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Herbert Ross", "cast": "James Shapkoff III"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_316-132-6", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Offbeat", "cast": "Camila Sosa"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_317-132-7", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Guillermo del Toro", "genre": "Fantasy", "cast": "Emma Watson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_318-132-8", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Daniel Camp"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_319-132-9", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Gavin Hood", "genre": "Mystery", "cast": "Hattie Morahan"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_320-132-10", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Thurop Van Orman", "genre": "Animation", "cast": "Pete Davidson"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_321-132-11", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Quentin Tarantino", "genre": "Bizarre", "cast": "Maya Hawke"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_322-132-12", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Peter Jackson", "genre": "Fantasy", "cast": "Dominic Monaghan"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_323-132-13", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Steven Spielberg", "cast": "Josef Sommer"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_324-132-14", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Zoe Margaret Colletti"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_325-132-15", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Riley Stearns"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_326-132-16", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Gurinder Chadha", "cast": "Vincent Andriano"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_327-132-17", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Steven Spielberg", "genre": "Sci-fi", "cast": "James Keane"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_328-132-18", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Peter Strickland", "genre": "Horror", "cast": "Gavin Brocker"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_329-132-19", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Quentin Tarantino", "cast": "Eric Stoltz"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_330-132-20", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Joel Zwick", "cast": "Joey Fatone"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_331-132-21", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Josephine Decker", "genre": "Thriller", "cast": "Sunita Mani"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_332-132-22", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Mystery", "cast": "Kathy Griffin"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_333-132-23", "result": [{"name": "Movies_3_FindMovies", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_334-132-24", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Suspense", "cast": "Lisa Tharps"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_335-132-25", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Taika Waititi", "genre": "Comedy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_336-133-0", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Shape of You", "artist": "Ed Sheeran", "device": "Kitchen"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_337-133-1", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Remind Me", "artist": "Carrie Underwood"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_338-133-2", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Rock"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_339-133-3", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Speak Now"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_340-133-4", "result": [{"name": "Music_3_LookupMusic", "arguments": {"year": 2022}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_341-133-5", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "19 on the Ores Aixmis", "genre": "Pop", "year": 19}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_342-133-6", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Eric Church", "album": "Chief"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_343-133-7", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "The Martin Garrix Experience", "album": "The Martin Garrix Experience"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_344-133-8", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Prequelle"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_345-133-9", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Kesha", "album": "Rainbow", "genre": "Pop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_346-133-10", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Justin Bieber", "genre": "Pop", "year": 2013}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_347-133-11", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Electropop", "year": 2018}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_348-133-12", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Meghan Trainor", "genre": "Pop", "year": 2018}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_349-133-13", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Vybz Kartel", "genre": "Reggae", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_350-133-14", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Jinjer", "genre": "Metal"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_351-133-15", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Imagine Dragons", "album": "Night Visions", "year": "Night Visions"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_352-133-16", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Pitbull"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_353-133-17", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Halcyon", "genre": "Pop", "year": 2023}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_354-133-18", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Enrique Iglesias", "album": "Euphoria"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_355-134-0", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Herbert Ross", "genre": "Family", "cast": "Ronald Young"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_356-134-1", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Quentin Tarantino", "cast": "Lawrence Bender"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_357-134-2", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "dontcare", "cast": "Ving Rhames"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_358-134-3", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Steven Spielberg", "genre": "Future", "cast": "J. Patrick McNamara"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_359-134-4", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Josh Cooley", "genre": "Cartoon", "cast": "Bill Hader"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_360-134-5", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Paul Downs Colaizzo", "genre": "Play"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_361-134-6", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "David Leitch", "genre": "Action", "cast": "Ryan Reynolds"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_362-134-7", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Sujeeth Reddy", "genre": "Action", "cast": "Supreet Reddy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_363-134-8", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "dontcare", "cast": "Zach Woods"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_364-134-9", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Wes Anderson", "genre": "Comedy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_365-134-10", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Gene Stupnitsky", "genre": "Comedy-drama", "cast": "Josh Barclay Caras"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_366-134-11", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Herbert Ross"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_367-134-12", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "dontcare", "genre": "Action"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_368-134-13", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Peter Strickland", "genre": "Horror", "cast": "Gwendoline Christie"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_369-134-14", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Peter Jackson", "genre": "Fantasy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_370-134-15", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Jim Henson", "genre": "Fantasy", "cast": "Danny John-Jules"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_371-134-16", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Gregory La Cava", "genre": "Drama", "cast": "Franklin Pangborn"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_372-134-17", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Joel Zwick", "genre": "Comedy", "cast": "Fiona Reid"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_373-134-18", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Jagan Shakti", "genre": "Action", "cast": "Sanjay Kapoor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_374-134-19", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Riley Stearns", "cast": "C.J. Rush"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_375-134-20", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Sameh Zoabi"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_376-135-0", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Santa Rosa, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_377-135-1", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Berkeley, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_378-135-2", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Mountain View, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_379-136-0", "result": [{"name": "Alarm_1_GetAlarms", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_380-136-1", "result": [{"name": "Alarm_1_GetAlarms", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_381-136-2", "result": [{"name": "Alarm_1_GetAlarms", "arguments": {"user_id": "U123456"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_382-137-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Fremont, CA", "is_unisex": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_383-137-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "New York, NY", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_384-137-2", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Jose, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_385-137-3", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Campbell, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_386-137-4", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_387-137-5", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "New York, NY", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_388-137-6", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Alameda, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_389-137-7", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Corte Madera", "is_unisex": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_390-137-8", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Pleasanton", "is_unisex": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_391-137-9", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Lorenzo, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_392-138-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Austin, TX"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_393-138-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Pinole, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_394-138-2", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Berkeley, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_395-138-3", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Rohnert Park, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_396-139-0", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_397-139-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Palo Alto, CA", "date": "2023-03-13"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_398-139-2", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "San Diego, CA", "date": "2023-05-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_399-139-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL", "date": "2023-05-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_400-139-4", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL", "date": "2023-10-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_401-139-5", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Toronto, ON", "date": "2023-10-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_402-139-6", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "London, UK", "date": "2023-10-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_403-139-7", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "London, UK", "date": "2024-04-05"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_404-140-0", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "123 Beijing Street, San Francisco", "number_of_seats": 1, "ride_type": "Regular"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_405-140-1", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "123 Main St, Anytown", "number_of_seats": 2, "ride_type": "Luxury"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_406-140-2", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "2508 University Avenue, Palo Alto, CA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_407-140-3", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "540 El Camino Real, Berkeley", "ride_type": "Regular"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_408-140-4", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "123 Park Branham Apartments, San Jose", "number_of_seats": 2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_409-140-5", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "123 White Street, San Jose", "number_of_seats": 1, "ride_type": "Pool"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_410-140-6", "result": [{"name": "RideSharing_2_GetRide", "arguments": {"destination": "3236 Grand Avenue, Oakland", "ride_type": "Luxury"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_411-141-0", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Cartoon"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_412-141-1", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "The Grand Adventure", "number_of_tickets": 2, "show_date": "2023-11-15", "location": "Santa Rosa, CA", "show_time": "17:30"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_413-141-2", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "After The Wedding", "number_of_tickets": 2, "show_date": "2023-04-22", "location": "Berkeley, CA", "show_time": "19:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_414-141-3", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Newark, NJ"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_415-141-4", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Space Adventure", "number_of_tickets": 2, "show_date": "2023-10-02", "location": "San Jose, CA", "show_time": "23:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_416-141-5", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "3D", "location": "Raven Film Center", "theater_name": "Raven Film Center"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_417-141-6", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Jose, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_418-141-7", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Space Adventure", "number_of_tickets": 2, "show_date": "2023-04-15", "location": "New York, NY", "show_time": "19:30"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_419-141-8", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Drama", "location": "Regal Crow Canyon"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_420-141-9", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Avengers", "number_of_tickets": 3, "show_date": "2023-10-06", "location": "Los Angeles, CA", "show_time": "19:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_421-141-10", "result": [{"name": "Movies_1_FindMovies", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_422-141-11", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Santa Rosa, CA", "genre": "Animation"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_423-141-12", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "The Last Adventure", "number_of_tickets": 2, "location": "San Francisco, CA", "show_time": "20:30"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_424-141-13", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Bruno, CA", "theater_name": "Century at Tanforan", "genre": "Sci-fi"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_425-141-14", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Ad Astra", "location": 1, "show_type": "21:00"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_426-141-15", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Sci-fi", "genre": "2023-04-15"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_427-141-16", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Jose, CA", "theater_name": "Century 20 Oakridge", "genre": "Drama"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_428-141-17", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Berkeley, CA", "genre": "Sci-fi", "show_type": "imax"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_429-141-18", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Toy Story 4", "number_of_tickets": 4, "show_date": "2023-06-15", "location": "Los Angeles, CA", "show_time": "14:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_430-141-19", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Eternal Warriors", "number_of_tickets": 3, "show_date": "2023-04-15", "location": "Los Angeles, CA", "show_time": "19:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_431-141-20", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"location": "Century Blackhawk Plaza, CA", "show_type": "imax"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_432-141-21", "result": [{"name": "Movies_1_BuyMovieTickets", "arguments": {"movie_name": "Once Upon a Time In Hollywood", "number_of_tickets": 2, "show_date": "2023-04-15", "location": "Los Angeles, CA", "show_time": "19:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_433-141-22", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Napa, CA", "theater_name": "Century Napa Valley", "show_type": "XD"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_434-142-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_435-142-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_436-142-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_437-142-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_438-142-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_439-143-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_440-144-0", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Berkeley, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_441-144-1", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Los Altos, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_442-144-2", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Campbell, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_443-144-3", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Pittsburg, PA", "type": "Psychiatrist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_444-144-4", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Los Gatos, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_445-144-5", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Santa Rosa, CA", "type": "Psychiatrist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_446-144-6", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Vacaville, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_447-144-7", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Novato, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_448-144-8", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "St. Helena, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_449-145-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_450-145-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_451-145-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_452-145-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_453-145-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_454-145-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_455-145-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_456-145-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_457-145-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_458-145-9", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_459-145-10", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_460-145-11", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_461-145-12", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_462-145-13", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_463-145-14", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_464-145-15", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_465-145-16", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_466-145-17", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_467-145-18", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_468-145-19", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_469-145-20", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_470-145-21", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_471-145-22", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_472-145-23", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_473-145-24", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_474-145-25", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_475-146-0", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Electropop", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_476-146-1", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Electropop", "year": 2014}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_477-146-2", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "We Are Not Your Kind", "genre": "Rock-and-roll", "year": 19}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_478-146-3", "result": [{"name": "Music_3_LookupMusic", "arguments": {"year": 2021}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_479-146-4", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Electropop", "year": 2014}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_480-146-5", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Summer Vibes", "artist": "DJ Sunny", "device": "Kitchen", "album": "Summer Vibes"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_481-146-6", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "High Expectations", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_482-146-7", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Reggae"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_483-146-8", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Sia", "album": "This Is Acting", "genre": "Pop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_484-146-9", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "The New Classic", "year": 2017}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_485-147-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_486-147-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_487-147-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_488-147-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_489-147-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_490-148-0", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL", "date": "2023-04-29"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_491-148-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Berkeley, CA", "date": "2023-05-12"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_492-148-2", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Berkeley, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_493-148-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "New York, NY", "date": "2023-04-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_494-148-4", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-04-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_495-148-5", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_496-148-6", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-25"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_497-148-7", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Oakland, CA", "date": "2023-04-11"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_498-148-8", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_499-148-9", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-09"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_500-148-10", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_501-148-11", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "San Francisco, CA", "date": "2023-10-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_502-148-12", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "New York, NY", "date": "2023-03-12"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_503-149-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_504-149-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_505-149-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_506-149-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_507-149-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_508-149-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_509-149-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_510-149-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_511-149-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_512-150-0", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Los Angeles, CA", "show_type": "3d"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_513-150-1", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "New York, NY", "genre": "Action"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_514-150-2", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Jose, CA", "theater_name": "Century 20"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_515-150-3", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Jose, CA", "theater_name": "West Wind Capitol Drive-In", "genre": "Horror"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_516-150-4", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Regal, San Ramon, CA", "location": "Regal, CA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_517-150-5", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Los Angeles, CA", "genre": "Supernatural", "show_type": "regular"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_518-150-6", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Sonoma, CA", "genre": "Action"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_519-150-7", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Los Angeles, CA", "genre": "Documentary"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_520-150-8", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Saratoga, CA", "theater_name": "AMC Saratoga"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_521-150-9", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Sonoma, CA", "genre": "Family", "show_type": "3d"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_522-150-10", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Larkspur, CA", "genre": "Action"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_523-150-11", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Jose, CA", "theater_name": "3 Below Theaters and Lounge", "genre": "War"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_524-151-0", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_525-151-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Toronto, Canada", "date": "04/26/2023"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_526-151-2", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "San Diego, CA", "date": "05/05/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_527-151-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Seattle, WA", "date": "05/15/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_528-151-4", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_529-151-5", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Los Angeles, CA", "date": "04/07/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_530-151-6", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "09/09/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_531-151-7", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Philadelphia, PA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_532-151-8", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Portland, OR"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_533-151-9", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "London, UK"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_534-151-10", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Livermore, CA", "date": "03/06/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_535-151-11", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Belvedere, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_536-151-12", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Portland, OR", "date": "03/09/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_537-151-13", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Chicago, IL"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_538-152-0", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Sunnyvale, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_539-152-1", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 2, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_540-152-2", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Fremont, CA", "intent": "rent", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_541-152-3", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Austin, TX", "intent": "rent", "number_of_beds": 3, "number_of_baths": 2, "has_garage": false, "in_unit_laundry": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_542-152-4", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Austin, TX", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_543-152-5", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": false, "in_unit_laundry": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_544-152-6", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Mountain View, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_545-152-7", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Petaluma, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_546-152-8", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2, "has_garage": false, "in_unit_laundry": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_547-152-9", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 3, "has_garage": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_548-152-10", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "rent", "number_of_beds": 4, "number_of_baths": 3, "has_garage": false, "in_unit_laundry": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_549-152-11", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Jose, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_550-152-12", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Denver, CO", "intent": "rent", "number_of_beds": 2, "number_of_baths": 2, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_551-153-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Berkeley, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_552-153-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Walnut Creek, CA", "is_unisex": "True"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_553-153-2", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_554-154-0", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "London, UK", "start_date": "03/10/2023", "pickup_time": "10:00", "end_date": "2024-03-17"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_555-154-1", "result": [{"name": "RentalCars_3_ReserveCar", "arguments": {"pickup_location": "Los Angeles, CA", "start_date": "2023-04-14", "end_date": "2023-04-18", "car_type": "Sedan"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_556-154-2", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Long Beach, CA", "start_date": "2023-04-12", "pickup_time": "14:00", "end_date": "2023-04-12", "car_type": "Sedan"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_557-154-3", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Los Angeles, CA", "start_date": "2023-04-18", "pickup_time": "10:00", "end_date": "2023-04-24"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_558-154-4", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Los Angeles, CA", "start_date": "2023-05-15", "pickup_time": "10:00 AM", "end_date": "2023-05-20"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_559-154-5", "result": [{"name": "RentalCars_3_ReserveCar", "arguments": {"pickup_location": "Los Angeles, CA", "start_date": "2023-04-08", "pickup_time": "10:00 AM", "end_date": "2023-04-10"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_560-155-0", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_561-155-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_562-155-2", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Seattle, WA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_563-155-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Philadelphia, PA", "date": "2023-03-07"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_564-155-4", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Seattle, WA", "date": "2023-03-07"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_565-155-5", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-12"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_566-155-6", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Sacramento, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_567-155-7", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Los Angeles, CA", "date": "2023-03-04"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_568-155-8", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "New York, NY", "date": "2023-09-09"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_569-155-9", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Las Vegas, NV", "date": "2023-03-06"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_570-155-10", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_571-155-11", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "San Francisco, CA", "date": "2023-03-09"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_572-155-12", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Fresno, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_573-155-13", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Seattle, WA", "date": "2023-03-11"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_574-156-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Berkeley, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_575-156-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Santa Rosa, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_576-156-2", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Berkeley, CA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_577-156-3", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Jose, CA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_578-156-4", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Berkeley, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_579-157-0", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Jim Carrey"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_580-157-1", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Vanessa Przada"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_581-157-2", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Sci-fi"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_582-157-3", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Jim Carrey"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_583-157-4", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Fantasy", "starring": "Bret McKenzie"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_584-157-5", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Sci-fi", "starring": "Chris Hemsworth, Zoe Saldana"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_585-157-6", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Action", "starring": "Bruce Willis"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_586-157-7", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Fantasy", "starring": "Timothy Bateson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_587-157-8", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Horror", "starring": "Christopher Lee"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_588-157-9", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Horror", "starring": "Arthur Lowe"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_589-157-10", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Sci-fi", "starring": "Bobby Nish"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_590-157-11", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Animation", "starring": "Christina-Ann Zalamea"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_591-157-12", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Drama", "starring": "Dan Bittner"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_592-157-13", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Offbeat", "starring": "Inbal Amirav"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_593-157-14", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Ellise Chappell"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_594-158-0", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "London, UK", "star_rating": "dontcare", "smoking_allowed": false, "number_of_rooms": "dontcare"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_595-158-1", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "New York, NY", "star_rating": 3, "smoking_allowed": true, "number_of_rooms": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_596-158-2", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "San Francisco, CA", "number_of_rooms": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_597-158-3", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Toronto, Canada", "star_rating": 4, "number_of_rooms": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_598-158-4", "result": [{"name": "Hotels_4_ReserveHotel", "arguments": {"check_in_date": "2023-04-21", "stay_length": 3, "location": "Washington, DC"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_599-158-5", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Delhi, India"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_600-158-6", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "London, UK", "smoking_allowed": true, "number_of_rooms": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_601-158-7", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Kuala Lumpur, MY", "star_rating": "dontcare", "number_of_rooms": "dontcare"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_602-158-8", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Nairobi, Kenya", "star_rating": 4}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_603-158-9", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "New York, NY", "star_rating": 3}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_604-158-10", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Sacramento, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_605-158-11", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Paris, FR", "star_rating": 3, "number_of_rooms": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_606-158-12", "result": [{"name": "Hotels_4_SearchHotel", "arguments": {"location": "Sydney, Australia", "star_rating": 4, "smoking_allowed": true, "number_of_rooms": 2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_607-159-0", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-14"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_608-159-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Chicago, IL", "date": "2023-03-13"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_609-159-2", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Philadelphia, PA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_610-159-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Portland, OR", "date": "2023-03-14"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_611-159-4", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Philadelphia, PA", "date": "2023-09-30"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_612-159-5", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Los Angeles, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_613-159-6", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "London, UK", "date": "2024-03-10"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_614-159-7", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Portland, OR", "date": "2023-09-24"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_615-159-8", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "San Diego, CA", "date": "2023-04-08"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_616-159-9", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Los Angeles, CA", "date": "2024-03-11"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_617-159-10", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "Los Angeles, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_618-159-11", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "London, UK", "date": "2023-06-12"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_619-159-12", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Theater", "city": "Long Beach, CA", "date": "2023-03-12"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_620-160-0", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "Mary", "amount": 20000, "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_621-160-1", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 154, "receiver": true, "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_622-160-2", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "credit card", "amount": 29, "receiver": "Thomas"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_623-160-3", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "Wilson", "amount": 4200, "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_624-160-4", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "JohnDoe@example.com", "amount": 15025, "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_625-160-5", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 200, "receiver": "amelia@example.com", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_626-160-6", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "johndoe@example.com", "amount": 8300, "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_627-160-7", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "app balance", "amount": 20000, "receiver": "Diego", "private_visibility": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_628-160-8", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "Diego", "amount": 10800}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_629-160-9", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 250, "receiver": "Rachel", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_630-160-10", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "Amelia", "amount": 15500, "private_visibility": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_631-160-11", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "customer@example.com", "amount": 4500}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_632-161-0", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Welcome To The Fishbowl", "year": 2015}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_633-161-1", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Rock", "year": 2015}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_634-161-2", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "any", "genre": "Country"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_635-161-3", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Electropop", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_636-161-4", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Tove Lo", "genre": "Electropop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_637-161-5", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Thousand Foot Krutch", "artist": "Thousand Foot Krutch", "device": "Kitchen"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_638-161-6", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Sia", "album": "Everyday Is Christmas", "genre": "Holiday"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_639-161-7", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "High Expectations", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_640-161-8", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Cody Johnson", "album": "Gotta Be Me", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_641-161-9", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Jess Glynne", "year": 2018}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_642-161-10", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Tyler Shaw", "genre": "Pop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_643-161-11", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Radwimps", "genre": "Rock", "year": 2016}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_644-161-12", "result": [{"name": "Music_3_PlayMedia", "arguments": {}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_645-161-13", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Madonna", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_646-161-14", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Starboy", "year": 2020}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_647-161-15", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Ariana Grande", "year": 2018}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_648-161-16", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Little Mix", "album": "Get Weird"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_649-161-17", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Narrated For You", "year": 2022}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_650-161-18", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Raees"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_651-161-19", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Red Hot Chili Peppers", "artist": "The Getaway", "device": "Rock"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_652-161-20", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Outsider", "artist": "Outsider", "device": "Living room"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_653-161-21", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Halcyon", "year": 2012}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_654-161-22", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Pop", "year": 2018}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_655-161-23", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Warrior", "genre": "Pop", "year": 2012}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_656-161-24", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Harris J", "album": "Salam", "genre": "Pop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_657-161-25", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Shape of You", "artist": "Ed Sheeran", "device": "Living room"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_658-162-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_659-162-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_660-162-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_661-162-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_662-162-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_663-162-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_664-162-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_665-162-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_666-162-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_667-162-9", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_668-162-10", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_669-162-11", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_670-162-12", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_671-162-13", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_672-162-14", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_673-162-15", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_674-162-16", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_675-163-0", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Ciudad de Mexico", "date": "2023-05-05"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_676-163-1", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "New York, NY", "date": "2023-10-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_677-163-2", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Philadelphia, PA", "date": "2024-04-13"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_678-163-3", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Washington, DC", "date": "2002-04-02"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_679-163-4", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Sydney, Australia", "date": "2023-03-02"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_680-163-5", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Chicago, IL", "date": "2023-03-08"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_681-163-6", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Vancouver, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_682-163-7", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Seattle, WA", "date": "2023-03-04"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_683-163-8", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Miami, FL", "date": "2024-03-03"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_684-164-0", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Riley Stearns", "genre": "Thriller", "cast": "Steve Terada"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_685-164-1", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Wes Anderson", "genre": "Offbeat"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_686-164-2", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Thriller", "cast": "Leland Orser"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_687-164-3", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Guillermo del Toro", "genre": "Fantasy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_688-164-4", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Family", "cast": "Carol Sutton"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_689-164-5", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Gavin Hood", "genre": "Mystery", "cast": "Rhys Ifans"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_690-164-6", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Jack Carson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_691-164-7", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Herbert Ross", "genre": "Family", "cast": "Nancy Parsons"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_692-164-8", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Peter Strickland", "genre": "Ghost"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_693-164-9", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Drama", "cast": "Utkarsh Ambudkar"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_694-164-10", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Javier Bardem"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_695-164-11", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Satoshi Kon", "genre": "Anime", "cast": "Akiko Kawase"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_696-164-12", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Mystery", "cast": "Noah Gaynor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_697-164-13", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Quentin Tarantino", "genre": "Offbeat"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_698-164-14", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Offbeat"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_699-164-15", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Family", "cast": "Tzi Ma"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_700-164-16", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Hari Sama"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_701-164-17", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Comedy", "cast": "Vanessa Przada"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_702-164-18", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Katsunosuke Hori"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_703-164-19", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Alex Kendrick", "genre": "Drama", "cast": "Aryn Wright-Thompson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_704-164-20", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Comedy", "cast": "Claudia Doumit"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_705-164-21", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Nikita Mehta"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_706-164-22", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Fantasy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_707-164-23", "result": [{"name": "Movies_3_FindMovies", "arguments": {"cast": "Pete Davidson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_708-164-24", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Steven Spielberg", "genre": "Sci-fi"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_709-164-25", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Kirill Mikhanovsky", "genre": "Comedy-drama"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_710-164-26", "result": [{"name": "Movies_3_FindMovies", "arguments": {"genre": "Comedy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_711-164-27", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "Jim Henson", "genre": "Fantasy", "cast": "Steve Whitmire"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_712-164-28", "result": [{"name": "Movies_3_FindMovies", "arguments": {"directed_by": "David Leitch", "genre": "Action"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_713-165-0", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "London, England", "has_laundry_service": "True", "number_of_adults": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_714-165-1", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Phoenix, AZ", "rating": 4.1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_715-165-2", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Austin, TX", "has_laundry_service": "True", "number_of_adults": 2, "rating": 4.4}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_716-165-3", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Austin, TX"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_717-165-4", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Kuala Lumpur, Malaysia", "has_laundry_service": "True", "number_of_adults": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_718-165-5", "result": [{"name": "Hotels_2_BookHouse", "arguments": {"where_to": "Austin, TX", "number_of_adults": 4, "check_in_date": "05/12/2023", "check_out_date": "05/18/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_719-165-6", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Anaheim, CA", "has_laundry_service": 1, "number_of_adults": "01/15/2023"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_720-165-7", "result": [{"name": "Hotels_2_BookHouse", "arguments": {"where_to": "New York, NY", "number_of_adults": 4, "check_in_date": "05/10/2023", "check_out_date": "05/15/2023"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_721-165-8", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Philadelphia, PA", "has_laundry_service": "True", "number_of_adults": 1, "rating": 4.1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_722-165-9", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Los Angeles, CA", "has_laundry_service": 4, "number_of_adults": "04/23/2023", "rating": "04/27/2023"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_723-165-10", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Paris, FR", "has_laundry_service": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_724-165-11", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Los Angeles, CA", "has_laundry_service": "True", "rating": 3.7}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_725-166-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Lafayette, LA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_726-166-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "New York, NY", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_727-166-2", "result": [{"name": "Services_1_BookAppointment", "arguments": {"stylist_name": "John's Barber Shop", "appointment_time": "14:00", "appointment_date": "2023-03-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_728-166-3", "result": [{"name": "Services_1_BookAppointment", "arguments": {"stylist_name": "Walnut Creek, CA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_729-167-0", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Denver, CO", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_730-167-1", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Leandro, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2, "has_garage": false, "in_unit_laundry": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_731-167-2", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "rent", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true, "in_unit_laundry": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_732-167-3", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Seattle, WA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_733-167-4", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": false, "in_unit_laundry": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_734-167-5", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Los Angeles, CA", "intent": "buy", "number_of_beds": 2, "number_of_baths": 2, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_735-167-6", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Castro Valley, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": true, "in_unit_laundry": "True"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_736-167-7", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Benicia, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_737-167-8", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "San Francisco, CA", "intent": "buy", "number_of_beds": 2, "number_of_baths": 3, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_738-168-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_739-168-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_740-168-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_741-168-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_742-168-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_743-168-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_744-168-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_745-169-0", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "World", "starring": "Ula Tabari"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_746-169-1", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Fantasy", "starring": "Emma Watson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_747-169-2", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Fantasy", "starring": "David Shaughnessy"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_748-169-3", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Fight", "starring": "Ani Sava"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_749-169-4", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Offbeat"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_750-169-5", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Any", "starring": "Madge Brindley"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_751-169-6", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Jim Carrey"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_752-169-7", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Mystery", "starring": "Monica Dolan"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_753-169-8", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Animation", "starring": "Anri Katsu"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_754-169-9", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Comedy", "starring": "Ana de Armas"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_755-169-10", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Any", "starring": "Peter Jackson"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_756-169-11", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Horror", "starring": "Betsy Widhalm"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_757-169-12", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Family", "starring": "Debbie McCann"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_758-169-13", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Thriller", "starring": "Roberts Blossom"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_759-169-14", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Animation"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_760-169-15", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Thriller", "starring": "Michelle Caspar"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_761-169-16", "result": [{"name": "Media_3_FindMovies", "arguments": {"genre": "Horror", "starring": "Dean Norris"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_762-170-0", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Portland, OR", "to_city": "Vancouver, BC", "departure_date": "2023-03-07", "num_passengers": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_763-170-1", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "LA, CA", "to_city": "San Diego, CA", "departure_date": "2023-10-01"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_764-170-2", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "San Francisco, CA", "to_city": "Los Angeles, CA", "departure_date": "2023-04-22"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_765-170-3", "result": [{"name": "Buses_3_BuyBusTicket", "arguments": {"from_city": "Philadelphia, PA", "to_city": "New York, NY", "departure_date": "2023-04-23", "num_passengers": 4}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_766-170-4", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Austin, TX", "to_city": "Dallas, TX", "departure_date": "2023-03-13", "num_passengers": 3}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_767-171-0", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "New York, NY", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_768-171-1", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Emeryville, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_769-171-2", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Mill Valley, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_770-171-3", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Burlingame, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_771-171-4", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "New York, NY", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_772-171-5", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Fremont, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_773-171-6", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "San Ramon, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_774-171-7", "result": [{"name": "Services_1_FindProvider", "arguments": {"city": "Morgan Hill, CA", "is_unisex": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_775-172-0", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Las Vegas, NV", "start_date": "2023-10-1", "end_date": "2023-10-12", "pickup_time": "10:00", "car_type": "SUV"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_776-172-1", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Los Angeles, CA", "start_date": "2023-03-01", "end_date": "2024-03-07", "pickup_time": "10:00", "car_type": "SUV"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_777-172-2", "result": [{"name": "RentalCars_3_GetCarsAvailable", "arguments": {"city": "Los Angeles, CA", "start_date": "2023-04-15", "end_date": "2023-04-20", "pickup_time": "10:00"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_778-173-0", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Gilroy, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_779-173-1", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "San Jose, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_780-173-2", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "New York, NY", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_781-173-3", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "San Francisco, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_782-173-4", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Sausalito, CA", "type": "Psychologist"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_783-173-5", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Berkley, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_784-173-6", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Berkeley, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_785-173-7", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Sunnyvale, CA", "type": "Family Counselor"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_786-174-0", "result": [{"name": "Homes_2_ScheduleVisit", "arguments": {"property_name": "Riverdale Apartments", "visit_date": "2023-04-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_787-174-1", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Berkeley, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 2, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_788-174-2", "result": [{"name": "Homes_2_ScheduleVisit", "arguments": {"property_name": "Beach Park Apartments", "visit_date": "2023-10-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_789-174-3", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Berkeley, CA", "intent": "rent", "number_of_beds": 2, "number_of_baths": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_790-174-4", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Berkeley, CA", "intent": "rent", "number_of_beds": 3, "number_of_baths": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_791-174-5", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Walnut Creek, CA", "intent": "buy", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_792-174-6", "result": [{"name": "Homes_2_FindHomeByArea", "arguments": {"area": "Berkeley, CA", "intent": "rent", "number_of_beds": 3, "number_of_baths": 2, "has_garage": true, "in_unit_laundry": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_793-174-7", "result": [{"name": "Homes_2_ScheduleVisit", "arguments": {"property_name": "Northridge Apartments", "visit_date": "2023-03-14"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_794-175-0", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Pinole, CA", "date": "2023-03-21"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_795-175-1", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Tomales, CA", "date": "2023-03-11"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_796-175-2", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Sunol, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_797-175-3", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Phoenix, AZ", "date": "2023-03-11"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_798-175-4", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Long Beach, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_799-175-5", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Lagunitas, CA", "date": "2023-04-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_800-175-6", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "San Pablo, CA", "date": "2023-04-11"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_801-175-7", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "New Delhi, India"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_802-175-8", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Santa Rosa, CA", "date": "2023-04-09"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_803-175-9", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "San Francisco, CA", "date": "2023-03-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_804-175-10", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Petaluma, CA", "date": "2023-10-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_805-175-11", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Vancouver, BC", "date": "2023-03-02"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_806-175-12", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Nairobi, Kenya", "date": "2023-04-20"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_807-175-13", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Larkspur, CA", "date": "2023-03-10"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_808-175-14", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Antioch, CA", "date": "2023-10-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_809-176-0", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "17:00", "new_alarm_name": "Grocery run"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_810-176-1", "result": [{"name": "Alarm_1_GetAlarms", "arguments": {"user_id": 789}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_811-176-2", "result": [{"name": "Alarm_1_GetAlarms", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_812-176-3", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "17:00", "new_alarm_name": "Music practice"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_813-176-4", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "16:30", "new_alarm_name": "Leave for home"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_814-176-5", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "17:15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_815-176-6", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "07:30", "new_alarm_name": "Morning workout"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_816-176-7", "result": [{"name": "Alarm_1_AddAlarm", "arguments": {"new_alarm_time": "15:30", "new_alarm_name": "Cleaning"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_817-177-0", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Anthony Green concert", "number_of_tickets": 2, "date": "2023-03-10", "city": "Seattle, WA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_818-177-1", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_819-177-2", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Music", "number_of_tickets": "Los Angeles, CA", "date": "2023-07-20", "city": "Los Angeles, CA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_820-177-3", "result": [{"name": "Events_3_FindEvents", "arguments": {"event_type": "Music", "city": "New York, NY", "date": "2023-03-04"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_821-177-4", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Mimosas Cabaret", "number_of_tickets": "Seattle, WA", "city": "Seattle, WA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_822-177-5", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Music", "number_of_tickets": "Seattle, WA", "date": "2023-03-12"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_823-177-6", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Brockhampton concert", "number_of_tickets": 4, "date": "2024-03-13", "city": "Berkeley, CA"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_824-177-7", "result": [{"name": "Events_3_BuyEventTickets", "arguments": {"event_name": "Read The Tempest", "number_of_tickets": 3, "date": "2024-03-02", "city": "Princeton, NJ"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_825-178-0", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Isolation", "genre": "Funk"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_826-178-1", "result": [{"name": "Music_3_LookupMusic", "arguments": {"year": 2015}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_827-178-2", "result": [{"name": "Music_3_LookupMusic", "arguments": {"year": 2021}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_828-178-3", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Get Scared", "genre": "Rock"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_829-178-4", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Bohemian Rhapsody", "artist": "any", "device": "Kitchen"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_830-178-5", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Sabaton", "genre": "Metal", "year": 2019}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_831-178-6", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Taylor Swift", "genre": "Pop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_832-178-7", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Pop", "year": 2021}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_833-178-8", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "Spice", "album": "Captured", "year": 2018}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_834-178-9", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Borbena", "artist": "Teodora", "device": "Kitchen", "album": "Borbena"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_835-178-10", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "any", "album": "Reincarnation", "genre": "Reggaeton", "year": 19}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_836-178-11", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Love", "device": "Kitchen", "album": "Sucker Punch"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_837-178-12", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Phan Dinh Tung - Hat Nhan", "artist": "Phan Dinh Tung", "device": "Kitchen", "album": "Hat Nhan"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_838-178-13", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Narrated For You"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_839-178-14", "result": [{"name": "Music_3_LookupMusic", "arguments": {"genre": "Country"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_840-178-15", "result": [{"name": "Music_3_LookupMusic", "arguments": {"artist": "any", "album": "Gotta Be Me", "genre": "Hillbilly", "year": 2019}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_841-178-16", "result": [{"name": "Music_3_LookupMusic", "arguments": {"album": "Run", "genre": "Electropop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_842-178-17", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Konshens", "device": "Reggae"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_843-178-18", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Sabaton - The Great War", "artist": "The Great War", "album": "The Great War"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_844-178-19", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Cry Pretty", "device": "Living room", "album": "Cry Pretty"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_845-178-20", "result": [{"name": "Music_3_PlayMedia", "arguments": {"track": "Sara Evans - Stronger", "artist": "Sara Evans", "device": "Living room", "album": "Stronger"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_846-179-0", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Italian", "location": "San Francisco, CA", "price_range": "moderate"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_847-179-1", "result": [{"name": "Restaurants_2_ReserveRestaurant", "arguments": {"restaurant_name": "Balthazar", "location": "New York, NY", "time": "20:00", "number_of_seats": 4, "date": "2023-05-19"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_848-179-2", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Italian", "location": "New York, NY", "has_vegetarian_options": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_849-179-3", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Indian", "location": "Sunnyvale, CA", "price_range": "cheap"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_850-179-4", "result": [{"name": "Restaurants_2_ReserveRestaurant", "arguments": {"restaurant_name": "The French Laundry", "location": "Yountville, CA", "time": "13:30", "number_of_seats": 4, "date": "2023-03-14"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_851-179-5", "result": [{"name": "Restaurants_2_FindRestaurants", "arguments": {"category": "Japanese", "location": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_852-180-0", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "San Francisco, CA", "to_city": "Los Angeles, CA", "departure_date": "04/25/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_853-180-1", "result": [{"name": "Buses_3_BuyBusTicket", "arguments": {"from_city": "San Francisco, CA", "to_city": "Los Angeles, CA", "departure_date": "2023-03-07", "departure_time": "14:00", "num_passengers": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_854-180-2", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Philadelphia, PA", "to_city": "New York City, NY", "departure_date": "03/14/2023"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_855-180-3", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Fresno, CA", "to_city": "Los Angeles, CA", "departure_date": "03/10/2023", "num_passengers": 1}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_856-180-4", "result": [{"name": "Buses_3_BuyBusTicket", "arguments": {"from_city": "Berkeley, CA", "to_city": "Portland, OR", "departure_date": "2023-05-15", "departure_time": "09:00", "num_passengers": 2, "additional_luggage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_857-180-5", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "San Francisco, CA", "to_city": "Los Angeles, CA", "departure_date": "03/07/2023", "category": "one-stop"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_858-180-6", "result": [{"name": "Buses_3_BuyBusTicket", "arguments": {"from_city": "San Francisco, CA", "to_city": "Los Angeles, CA", "departure_date": "2023-05-15", "departure_time": "14:00", "num_passengers": 4, "additional_luggage": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_859-181-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_860-181-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_861-181-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_862-181-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_863-182-0", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Orinda, CA", "theater_name": "Orinda Theatre", "show_type": "regular"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_864-182-1", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "LA, CA", "show_date": "2023-10-01"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_865-182-2", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Mystery", "location": "Berkeley, CA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_866-182-3", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Dramatic Story", "location": "Vine Cinema, Livermore, CA"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_867-182-4", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Berkeley, CA", "genre": "Supernatural"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_868-182-5", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Vallejo, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_869-182-6", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Imax", "location": "San Rafael, CA", "show_date": "2023-10-1"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_870-182-7", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Fremont, CA", "theater_name": "Century at Pacific Commons", "genre": "Sci-fi, Action"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_871-182-8", "result": [{"name": "Movies_1_GetTimesForMovie", "arguments": {"movie_name": "Play", "location": "Berkeley, CA", "show_date": "2023-10-15", "theater_name": "Shattuck Cinemas"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_872-182-9", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Healdsburg, CA", "genre": "Drama", "show_type": "regular"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_873-182-10", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_874-182-11", "result": [{"name": "Movies_1_FindMovies", "arguments": {"location": "Sebastopol, CA", "genre": "Supernatural"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_875-183-0", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "San Francisco, CA"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_876-183-1", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "Paris, FR", "free_entry": "True", "category": "Historical Landmark", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_877-183-2", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "Paris, FR", "free_entry": "True", "category": "Museum", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_878-183-3", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "San Francisco, CA", "free_entry": "True", "category": "Nature Preserve", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_879-183-4", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "San Francisco, CA", "free_entry": "True", "category": "Museum", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_880-183-5", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "Paris, FR", "free_entry": "True", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_881-183-6", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "San Francisco, CA", "free_entry": "True", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_882-183-7", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "San Francisco, CA", "free_entry": "True", "category": "Museum"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_883-184-0", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "New York, NY", "to_city": "Boston, MA", "departure_date": "2023-04-20"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_884-184-1", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Anaheim, CA", "to_city": "Las Vegas, NV", "departure_date": "2023-06-16"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_885-184-2", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "New York, NY", "to_city": "Boston, MA", "departure_date": "2023-05-15"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_886-184-3", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "My Location, CA", "to_city": "Fresno, CA", "departure_date": "2023-03-04", "num_passengers": 2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_887-184-4", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "San Diego, CA", "to_city": "Los Angeles, CA", "departure_date": "2023-06-15", "num_passengers": 4}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_888-184-5", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Los Angeles, CA", "to_city": "San Diego, CA", "departure_date": "2023-10-01"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_889-184-6", "result": [{"name": "Buses_3_FindBus", "arguments": {"from_city": "Miami, FL", "to_city": "Atlanta, GA", "departure_date": "2023-04-22", "num_passengers": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_890-185-0", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "Mahmoud", "amount": 43, "private_visibility": false}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_891-185-1", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "John Doe", "amount": 250, "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_892-185-2", "result": [{"name": "Payment_1_RequestPayment", "arguments": {"receiver": "app balance", "amount": 100, "private_visibility": "Mary"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_893-185-3", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 90, "receiver": "Alice"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_894-185-4", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 150, "receiver": "Alice", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_895-185-5", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "Jerry", "amount": 50, "receiver": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_896-185-6", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 50, "receiver": "Margaret", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_897-185-7", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 122, "receiver": "John"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_898-185-8", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 50, "receiver": "Jamie", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_899-185-9", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "Emma", "amount": 50, "receiver": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_900-185-10", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 200, "receiver": "Alice", "private_visibility": true}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_901-185-11", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "Svetlana", "amount": 31}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_902-185-12", "result": [{"name": "Payment_1_MakePayment", "arguments": {"payment_method": "debit card", "amount": 25, "receiver": "Alex"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_903-186-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_904-186-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_905-186-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_906-186-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_907-186-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_908-187-0", "result": [{"name": "Travel_1_FindAttractions", "arguments": {"location": "New York, NY", "free_entry": "True", "good_for_kids": "True"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_909-188-0", "result": [{"name": "youtube.check_videos", "arguments": {"title": "The Secrets of the Taj Mahal", "publisher": "TravelHistory", "tags": ["Taj Mahal", "India", "architecture"]}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_910-189-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_911-190-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_912-191-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_913-191-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_914-191-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_915-191-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_916-191-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_917-191-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_918-191-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_919-191-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_920-191-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_921-191-9", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_922-191-10", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_923-191-11", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_924-191-12", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_925-191-13", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_926-191-14", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_927-191-15", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_928-191-16", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_929-191-17", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_930-191-18", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_931-191-19", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_932-191-20", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_933-191-21", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_934-191-22", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_935-192-0", "result": [{"name": "set_countdown", "arguments": {"duration": "00:01:00", "purpose": "Meeting reminder"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_936-192-1", "result": [{"name": "set_alarm", "arguments": {"alarm_time": "2023-04-02 07:30:00", "purpose": "Meeting wake-up"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_937-193-0", "result": [{"name": "acl_api.AclApi.retrieve_projects", "arguments": {"uuid": "123e4567-e89b-12d3-a456-426614174000"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_938-194-0", "result": [{"name": "play_spotify_song", "arguments": {"query": "track:Shape of You artist:Ed Sheeran", "autoplay": true, "volume": 70}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_939-194-1", "result": [{"name": "set_alarm", "arguments": {"alarm_time": "11:00 PM", "purpose": "brush teeth"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_940-194-2", "result": [{"name": "play_spotify_song", "arguments": {"query": "track:Baby Shark artist:Pinkfong"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_941-195-0", "result": [{"name": "play_song", "arguments": {"query": "track:Baby Shark"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_942-196-0", "result": [{"name": "play_song", "arguments": {"query": "baby Shark"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_943-196-1", "result": [{"name": "play_song", "arguments": {"query": "With You", "volume": 70}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_944-196-2", "result": [{"name": "set_volume", "arguments": {"volume": 70}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_945-196-3", "result": [{"name": "play_song", "arguments": {"query": "Wo noor"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_946-196-4", "result": [{"name": "play_song", "arguments": {"query": "Thriller Michael Jackson", "volume": 100, "shuffle": false}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_947-197-0", "result": [{"name": "set_countdown", "arguments": {"duration": "5 minutes", "purpose": "remind me to text Rajh"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_948-198-0", "result": [{"name": "set_alarm", "arguments": {"alarm_time": "11:00 PM", "purpose": "text Raj"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_949-199-0", "result": [{"name": "play_song", "arguments": {"query": "David Guetta"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_950-199-1", "result": [{"name": "set_alarm", "arguments": {"alarm_time": "11 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_951-200-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_952-201-0", "result": [{"name": "uber.eat.order", "arguments": {"restaurant": "McDonalds", "items": ["fries"], "quantities": [5]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_953-201-1", "result": [{"name": "flight.status.check", "arguments": {"flight_identifier": "IND5463", "passenger_name": "karan", "ticket_number": "IND5463"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_954-202-0", "result": [{"name": "flight.status.check", "arguments": {"airlines": "Delta", "person_name": "Karan Sharma", "ticket_number": "IND4567"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_955-202-1", "result": [{"name": "uber.eat.order", "arguments": {"restaurant": "McDonalds", "items": ["fries"], "quantities": [5]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_956-203-0", "result": [{"name": "partner.mandates", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_957-203-1", "result": [{"name": "user.mandates", "arguments": {"name": "John Doe", "status": "active"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_958-204-0", "result": [{"name": "partner.sips", "arguments": {"status": "active"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_959-204-1", "result": [{"name": "partner.sips", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_960-205-0", "result": [{"name": "get_current_weather", "arguments": {"location": "New York, NY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_961-205-1", "result": [{"name": "web_search", "arguments": {"query": "where is beijing"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_962-205-2", "result": [{"name": "web_search", "arguments": {"query": "Columbia University"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_963-206-0", "result": [{"name": "GET_PARCEL_STATE", "arguments": {"parcelTrackingId": "TX1234567890"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_964-207-0", "result": [{"name": "get_parcel_state", "arguments": {}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_965-207-1", "result": [{"name": "transfer_to_human_agent", "arguments": {"statement": "I've submitted a complaint and would like to discuss its status with a human agent."}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_966-208-0", "result": [{"name": "handover_to_agent", "arguments": {"statement": "I've submitted a complaint earlier, and I would like to check its current status"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_967-209-0", "result": [{"name": "transfer_to_human_agent", "arguments": {"statement": "I'd like to speak with a human agent about the status of my complaint", "urgency": "high"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_968-210-0", "result": [{"name": "uber.ride", "arguments": {"loc": "2020 Addison Street, Berkeley, CA", "type": "plus", "time": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_969-210-1", "result": [{"name": "uber.eat.order", "arguments": {"restaurant": "McDonald's, 123 Fastfood Lane, Chicago, IL", "items": ["Burgers", "Chicken Wings"], "quantities": [5, 6]}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_970-211-0", "result": [{"name": "fmp.income_statement", "arguments": {"symbol": "APPL", "period": "annual", "datatype": "json", "limit": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_971-212-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_972-212-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_973-213-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_974-214-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_975-214-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_976-215-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_977-215-1", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_978-215-2", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_979-215-3", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_980-215-4", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_981-215-5", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_982-215-6", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_983-215-7", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_984-215-8", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_985-216-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_986-217-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_987-218-0", "result": [{"name": "version_api.VersionApi.get_version", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_988-219-0", "result": [{"name": "EventSettingsApi.get_custom_event_specification", "arguments": {"eventSpecificationId": "efJG9"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_989-220-0", "result": [{"name": "get_websites", "arguments": {"status_filter": "active"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_990-221-0", "result": [{"name": "releases_api.ReleasesApi.delete_release", "arguments": {"releaseId": "RL50"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_991-222-0", "result": [{"name": "website_configuration_api.WebsiteConfigurationApi.rename_website", "arguments": {"websiteId": 1234, "name": "Bob"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_992-223-0", "result": [{"name": "delete_apdex_configuration", "arguments": {"id": "d0404"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_993-224-0", "result": [{"name": "get_apdex_report", "arguments": {"apdexId": "ns9934", "_from": 1617176400000, "to": 1617262800000}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_994-225-0", "result": [{"name": "EventSettingsApi.restore_mobile_app_alert_config", "arguments": {"id": "sl8", "created": "2023-03-05T16:45:00Z"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_995-226-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_996-227-0", "result": [{"name": "add_service_config", "arguments": {"service_name": "fdsa", "configurations": {"timeout": 30, "retry_count": 5, "endpoint": "https://api.fdsa-service.com", "auth_required": true}}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_997-228-0", "result": [{"name": "usage_api.UsageApi.get_hosts_per_day", "arguments": {"day": 15, "month": 2, "year": 2022}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_998-229-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_999-230-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1000-231-0", "result": [{"name": "MaintenanceConfigurationApi.get_maintenance_config", "arguments": {"id": "sandcastle"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1001-232-0", "result": [{"name": "api_token_api.APITokenApi.get_api_tokens", "arguments": {"user_id": "098-293"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1002-232-1", "result": [{"name": "api_token_api.APITokenApi.get_api_tokens", "arguments": {"user_id": "user123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1003-232-2", "result": [{"name": "api_token_api.APITokenApi.get_api_tokens", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1004-233-0", "result": [{"name": "audit_log_api.AuditLogApi.get_access_logs", "arguments": {"offset": 434, "query": "llama", "pageSize": 9}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1005-234-0", "result": [{"name": "host_agent_api.HostAgentApi.get_agent_snapshot", "arguments": {"id": "zzzzeem"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1006-235-0", "result": [{"name": "get_monitoring_state", "arguments": {"api_key": "gorilla-123"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1007-236-0", "result": [{"name": "software_versions", "arguments": {"version": 5.5}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1008-237-0", "result": [{"name": "ApplicationAnalyzeApi.get_trace_download", "arguments": {"id": "grgr", "retrievalSize": 1024}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1009-238-0", "result": [{"name": "get_website_geo_mapping_rules", "arguments": {"websiteId": "123e4567-e89b-12d3-a456-426614174000"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1010-239-0", "result": [{"name": "CustomDashboardsApi.get_custom_dashboard", "arguments": {"customDashboardId": "dashing"}}], "func_correct": false, "overall_correct": false}
+{"id": "live_multiple_1011-240-0", "result": [{"name": "get_synthetic_credential_names", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1012-241-0", "result": [{"name": "get_synthetic_locations", "arguments": {"sort": "created_at", "offset": 0, "limit": 50, "filter": "status:active,name:alpha,beta,gamma"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1013-242-0", "result": [{"name": "get_synthetic_locations", "arguments": {"sort": "asc", "filter": "alpha,beta,gamma"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1014-243-0", "result": [{"name": "get_identity_provider_patch", "arguments": {"tenant_id": "12345-tenant-id"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1015-244-0", "result": [{"name": "audit_log_api.AuditLogApi.get_access_logs", "arguments": {"offset": 0, "pageSize": 50}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1016-245-0", "result": [{"name": "create_global_application_alert_config", "arguments": {"name": "UrgentAlert77f7", "alert_type": "error_rate", "threshold": 0.05, "recipients": ["admin@example.com", "support@example.com"], "enabled": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1017-246-0", "result": [{"name": "events_api.EventsApi.get_event", "arguments": {"eventId": "efJG9"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1018-247-0", "result": [{"name": "website_configuration_api.get_websites", "arguments": {"api_key": "YOUR_API_KEY"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1019-248-0", "result": [{"name": "releases_api.ReleasesApi.delete_release", "arguments": {"releaseId": "RL50"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1020-249-0", "result": [{"name": "delete_apdex_configuration", "arguments": {"id": "d0404"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1021-250-0", "result": [{"name": "restore_mobile_app_alert_config", "arguments": {"id": "sl8", "created": "2023-04-01T10:00:00Z"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1022-251-0", "result": [{"name": "get_hosts_per_month", "arguments": {"month": 2, "year": 2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1023-252-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1024-253-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1025-254-0", "result": [{"name": "MaintenanceConfigurationApi.get_maintenance_config", "arguments": {"id": "sandcastle"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1026-255-0", "result": [{"name": "CustomDashboardsApi.get_shareable_api_tokens", "arguments": {"user_id": 123456789}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1027-255-1", "result": [{"name": "CustomDashboardsApi.get_shareable_api_tokens", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1028-256-0", "result": [{"name": "host_agent_api.get_agent_snapshot", "arguments": {"id": "zzzee", "windowSize": 60}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1029-257-0", "result": [{"name": "InfrastructureResourcesApi.software_versions", "arguments": {"time": "2023-04-01 12:00:00", "version": 5.5}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1030-258-0", "result": [{"name": "get_website_geo_mapping_rules", "arguments": {"websiteId": "larry_rotter"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1031-259-0", "result": [{"name": "get_custom_dashboard", "arguments": {"customDashboardId": "dashing"}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1032-260-0", "result": [{"name": "get_synthetic_locations", "arguments": {"limit": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1033-261-0", "result": [{"name": "SyntheticSettingsApi.get_synthetic_locations", "arguments": {"limit": 20, "filter": "name:alpha,name:beta,name:gamma"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1034-262-0", "result": [{"name": "audit_log_api.AuditLogApi.get_access_logs", "arguments": {"offset": 0, "pageSize": 50}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1035-263-0", "result": [{"name": "api_token_api.APITokenApi.get_api_tokens", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1036-263-1", "result": [{"name": "api_token_api.APITokenApi.get_api_tokens", "arguments": {"user_id": 12345}}], "func_correct": true, "overall_correct": true}
+{"id": "live_multiple_1037-264-0", "result": [{"name": "calendar_event_create", "arguments": {"start_date": "2024-12-01", "start_time": "19:00", "duration": 120}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1038-265-0", "result": [{"name": "detail_project", "arguments": {"project_name": "invoice-website", "include_status": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1039-266-0", "result": [{"name": "detail_experience_and_education", "arguments": {"experience_or_education_type": "Education at Universitas Sebelas Maret (UNS)"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1040-267-0", "result": [{"name": "detail_experience_and_education", "arguments": {"experience_or_education_type": "Education at Universitas Sebelas Maret (UNS)"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1041-268-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1042-269-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1043-270-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1044-271-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1045-272-0", "result": [{"name": "Services_4_FindProvider", "arguments": {"city": "Lafayette, CA", "type": "Family Counselor", "insurance_accepted": true}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1046-273-0", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Delhi, India", "number_of_adults": 2, "rating": 4.6}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1047-274-0", "result": [{"name": "Hotels_2_BookHouse", "arguments": {"where_to": "Cape Town, South Africa", "number_of_adults": 2, "check_in_date": "05/15/2023", "check_out_date": "05/22/2023"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1048-275-0", "result": [{"name": "Hotels_2_SearchHouse", "arguments": {"where_to": "Paris, France", "has_laundry_service": 2}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1049-276-0", "excluded": "tool_exceeds_six_parameters"}
+{"id": "live_multiple_1050-277-0", "result": [{"name": "Weather_1_GetWeather", "arguments": {"city": "Atlanta, GA", "date": "2023-03-07"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1051-278-0", "result": [{"name": "set_alarm", "arguments": {"alarm_time": "2023-12-01 07:00 AM", "purpose": "wake up"}}], "func_correct": true, "overall_correct": false}
+{"id": "live_multiple_1052-79-0", "excluded": "missing_ground_truth"}

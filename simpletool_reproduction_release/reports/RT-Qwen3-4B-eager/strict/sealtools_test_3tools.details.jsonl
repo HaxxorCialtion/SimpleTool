@@ -1,0 +1,293 @@
+{"id": "sealtools_in_domain_3tools_0", "prediction": [{"name": "getPostmodernTheory", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_1", "prediction": [{"name": "calculateNetIncome", "arguments": {"revenue": 0.2907590418481535, "expenses": 40.7}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_2", "prediction": [{"name": "getPowerOutput", "arguments": {"activity": "cycling", "duration": 85}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_3", "prediction": [{"name": "getFilmMarketing", "arguments": {"film_title": "Avengers: Endgame", "platform": "Facebook"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_4", "prediction": [{"name": "getRoboticSwimmingPattern", "arguments": {"fish_type": "manta ray"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_5", "prediction": [{"name": "getVehicleBatteryLevel", "arguments": {"vehicle_id": "hXQ7qFFt"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_6", "prediction": [{"name": "analyzeDrugDistribution", "arguments": {"area": "city", "year": 1986}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_7", "prediction": [{"name": "getShipmentStatus", "arguments": {"shipment_id": "i7ANvDGYfP", "carrier": "192.168.102.217"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_8", "prediction": [{"name": "getSocialEnterpriseInfo", "arguments": {"enterprise_name": "CommunityGrowth"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_9", "prediction": [{"name": "generateCopy", "arguments": {"product_name": "GlowSkin"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_10", "prediction": [{"name": "analyseBacklinks", "arguments": {"website_url": "https://www.example.com"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_11", "excluded": "tool_exceeds_six_parameters"}
+{"id": "sealtools_in_domain_3tools_12", "prediction": [{"name": "getLightingInfo", "arguments": {"film_title": "Inception"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_13", "prediction": [{"name": "generateVLSICircuitLayout", "arguments": {"circuit_file": "192.168.42.92", "output_file": "layout.txt"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_14", "prediction": [{"name": "getDigitalArt", "arguments": {"artist": "Emma Johnson", "style": "surreal"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_15", "prediction": [{"name": "startPhoneSupport", "arguments": {"customer_id": "LkqUSBNCOu", "phone_number": "800-555-1234"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_16", "prediction": [{"name": "getChildDevelopment", "arguments": {"age": "8 years"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_17", "prediction": [{"name": "checkLogicExpression", "arguments": {"expression": "(p AND q) OR r"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_18", "prediction": [{"name": "getHealthPolicy", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_19", "prediction": [{"name": "getFashionBlogDetails", "arguments": {"blog_id": 70}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_20", "prediction": [{"name": "getGeneticAncestry", "arguments": {"dna_sample": "CGATCGAT"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_21", "prediction": [{"name": "calculateCriticality", "arguments": {"reactor_type": "boiling water reactor", "fuel_type": "plutonium-239", "neutron_flux": 28.9}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_22", "prediction": [{"name": "getDigitalMediaInfo", "arguments": {"media_id": "20mlHuoe"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_23", "prediction": [{"name": "getImmersiveVRInfo", "arguments": {"category": "gaming", "price_range": "affordable", "location": "London"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_24", "prediction": [{"name": "calculateRailwayTrackCapacity", "arguments": {"track_length": 25.7, "train_length": 23.5, "headway_time": 28.9}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_25", "prediction": [{"name": "getDigitalPreservationStrategies", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_26", "prediction": [{"name": "getFashionPRContacts", "arguments": {"brand": "Designer Daze"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_27", "prediction": [{"name": "createInternetGateway", "arguments": {"vpc_id": "gVP2RVQGzZ2"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_28", "prediction": [{"name": "requestArticle", "arguments": {"article_title": "The Impact of Technology on Mental Health", "library_card_number": 789123456}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_29", "prediction": [{"name": "getUserInfo", "arguments": {"user_id": 5}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_30", "prediction": [{"name": "getSocialImpact", "arguments": {"organization_name": "Empowerment Alliance"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_31", "prediction": [{"name": "controlExoskeletonMovements", "arguments": {"robot_id": "p6qfRfo8", "movement_type": "run", "distance": 6.3}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_32", "prediction": [{"name": "updatePainManagementPlan", "arguments": {"patient_id": 8, "plan_description": "dated January 30, 2015"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_33", "prediction": [{"name": "getCuratorialStudies", "arguments": {"degree_type": "Ph.D.", "program_location": "New York", "study_duration": "2 years, 52 weeks", "application_deadline": "September 30th"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_34", "prediction": [{"name": "getPerformanceAnalysis", "arguments": {"athlete_name": "Lionel Messi", "sport": "football"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_35", "prediction": [{"name": "searchLawsByName", "arguments": {"law_name": "Immigration Act"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_36", "prediction": [{"name": "getGlacierSize", "arguments": {"glacier_name": "Vatnajokull"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_37", "prediction": [{"name": "deletePlayer", "arguments": {"player_id": "UpRGsq3EDlo"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_38", "prediction": [{"name": "getCarbonFootprint", "arguments": {"activity": "eating beef", "duration": 0.93, "amount": 78}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_39", "prediction": [{"name": "getPublicDebt", "arguments": {"country": "Japan"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_40", "prediction": [{"name": "getLibraryLayout", "arguments": {"library_name": "Central Library", "floor": 51}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_41", "prediction": [{"name": "getFirePreventionTips", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_42", "prediction": [{"name": "determineCauseOfDeath", "arguments": {"skeletal_remains": "D218BF4Wh3F"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_43", "prediction": [{"name": "getNeurologicalTestResults", "arguments": {"patient_id": "p1hvt8XYYK"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_44", "prediction": [{"name": "createIn-AppMessage", "arguments": {"app_id": "Vrv5RKqzF", "title": "Get 10% off your next purchase", "message": "New levels unlocked!"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_45", "prediction": [{"name": "getRheumatologyInfo", "arguments": {"symptoms": "joint pain", "age": 49}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_46", "prediction": [{"name": "endGame", "arguments": {"game_id": 37}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_47", "prediction": [{"name": "getCarbonEmissions", "arguments": {"location": "Beijing"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_48", "prediction": [{"name": "getCopyEdits", "arguments": {"document": "The second sentence in the document requires copy editing."}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_49", "prediction": [{"name": "getImmunizationStatus", "arguments": {"animal_id": "HgOW9NFR2UTU", "vaccine_type": "distemper", "vaccine_year": 2013}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_50", "prediction": [{"name": "plotScatter", "arguments": {"data": "customer satisfaction", "x": "Height", "y": 5}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_51", "prediction": [{"name": "assessRisk", "arguments": {"operation_name": "Sunset Yoga Studio", "location": "city", "revenue": 0.6863965658665878}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_52", "prediction": [{"name": "troubleshootPlantIssue", "arguments": {"issue_description": "192.168.225.11"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_53", "prediction": [{"name": "getAnxietyDisorders", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_54", "prediction": [{"name": "getRandomWord", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_55", "prediction": [{"name": "getJournalismEthicsStandards", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_56", "prediction": [{"name": "checkElectricalSafety", "arguments": {"device_name": "wnpwrt8qUCOK", "voltage_rating": 40, "current_rating": 2.6}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_57", "prediction": [{"name": "getPublicServices", "arguments": {"country": "USA"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_58", "prediction": [{"name": "predictProteinFunction", "arguments": {"protein_sequence": "UMtFXOn5dwg"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_59", "prediction": [{"name": "getClaimAmount", "arguments": {"policy_number": "POL003"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_60", "prediction": [{"name": "deleteDatabaseInstance", "arguments": {"instance_id": "r7RvsvSwwo"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_61", "prediction": [{"name": "getResearchPaper", "arguments": {"topic": "sustainability"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_62", "prediction": [{"name": "deleteIndex", "arguments": {"index_name": "index1"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_63", "prediction": [{"name": "getPublicityData", "arguments": {"campaign_id": 17, "start_date": "2005-10-23", "end_date": "2021-09-03", "platform": "Facebook"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_64", "prediction": [{"name": "createChildrenswearDesign", "arguments": {"design_name": "Adventure Time", "age_group": "5-8 years", "fabric_type": "velvet", "color_scheme": "monochrome", "design_elements": "animal motifs"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_65", "prediction": [{"name": "searchHiddenObjects", "arguments": {"scene": "v3CfJ16RIP"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_66", "prediction": [{"name": "getGreenChemistryPrinciples", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_67", "prediction": [{"name": "getNearestPharmacy", "arguments": {"location": "city"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_68", "prediction": [{"name": "getCyclingCaloriesBurned", "arguments": {"activity_type": "road cycling", "time": "evening", "location": "trail", "weight": 44.5}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_69", "prediction": [{"name": "calculateRiskAppetite", "arguments": {"age": 35, "income": 85000, "investment_experience": "intermediate"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_70", "prediction": [{"name": "reportAnimalEthicsViolation", "arguments": {"location": "farm", "description": "An animal was found in a confined space without proper ventilation"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_71", "prediction": [{"name": "calculatePsychologicalIndex", "arguments": {"personality_traits": [], "environmental_factors": []}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_72", "prediction": [{"name": "checkMemoryCompatibility", "arguments": {"hardware_model": "HP ProLiant DL380", "memory_capacity": 2, "memory_type": "DDR3", "memory_speed": "3200 MHz"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_73", "prediction": [{"name": "runEmulator", "arguments": {"avd_name": "VjntCTjUhCPl"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_74", "prediction": [{"name": "addMemberToTeam", "arguments": {"name": "David", "email": "F3FaSTqm@yahoo.com", "role": "developer"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_75", "prediction": [{"name": "updateCommunityDetails", "arguments": {"community_id": 43}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_76", "prediction": [{"name": "getFurnitureDetails", "arguments": {"furniture_name": "Table"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_77", "prediction": [{"name": "getBookInfo", "arguments": {"title": "The Curious Case of the Talking Animals"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_78", "prediction": [{"name": "getMasculinityIndex", "arguments": {"name": "zPHxe5FzN"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_79", "prediction": [{"name": "getFireInsuranceStatus", "arguments": {"property_id": "vyBYVVYshoSp"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_80", "prediction": [{"name": "getAnalysisApproach", "arguments": {"study_id": "K3jb1isrTN2"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_81", "prediction": [{"name": "getInfectiousDiseaseInfo", "arguments": {"disease_name": "Avian Influenza", "species": "Cats"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_82", "prediction": [{"name": "analyzeDataEthics", "arguments": {"dataset": "rainfall"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_83", "prediction": [{"name": "getCatalogingInfo", "arguments": {"isbn": 9780340898447}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_84", "prediction": [{"name": "getFootballScore", "arguments": {"match_id": "2M2lVqeR"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_85", "prediction": [{"name": "getSnowboardingConditions", "arguments": {"location": "Aspen"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_86", "prediction": [{"name": "getBiblicalText", "arguments": {"book": "Exodus", "chapter": 88, "verse": 67}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_87", "prediction": [{"name": "requestDocumentDelivery", "arguments": {"document_title": "The Catcher in the Rye", "author": "John Smith", "delivery_method": "electronic copy"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_88", "prediction": [{"name": "getMilkProduction", "arguments": {"farm_id": "w9nd66YplJ", "date": "2020-05-19", "unit": "liters", "fat_content": 13.1, "protein_content": 19.1}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_89", "prediction": [{"name": "getGeoarchaeologicalSite", "arguments": {"site_name": "Machu Picchu"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_90", "prediction": [{"name": "translateAmharic", "arguments": {"text": "Today is a beautiful day"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_91", "prediction": [{"name": "predictFraudRisk", "arguments": {"transaction_data": {"amount": 1500, "location": "New York", "customer_id": "CUST123"}, "model": "Logistic Regression"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_92", "prediction": [{"name": "getCulturalGeography", "arguments": {"area": "Asia", "language": "French", "traditions": "music"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_93", "prediction": [{"name": "testMobileApp", "arguments": {"app_id": "Gb5B114WTf", "test_type": "performance"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_94", "prediction": [{"name": "generateTaxReport", "arguments": {"income": 38.0}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_95", "prediction": [{"name": "getVersion", "arguments": {"library": "Angular"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_96", "prediction": [{"name": "updateWarehouseLocation", "arguments": {"warehouse_id": 45, "new_location": "Madrid"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_97", "prediction": [{"name": "getPalliativeCareNursingInfo", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_98", "prediction": [{"name": "getShipLocation", "arguments": {"ship_id": "mXG99OxV0j"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_99", "prediction": [{"name": "createLeadershipProgram", "arguments": {"name": "Tokyo Youth Leadership Program", "start_date": "2000-01-16", "end_date": "2008-09-22", "location": "Tokyo", "participants_limit": 15}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_100", "prediction": [{"name": "calculateLineLength", "arguments": {"line_coordinates": 2.3522, "unit": "kilometers"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_101", "prediction": [{"name": "getSocialSupport", "arguments": {"location": "your state"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_102", "prediction": [{"name": "getAcupuncturePoints", "arguments": {"animal_type": "horse", "condition": "gastrointestinal disorders"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_103", "prediction": [{"name": "analyzeStepResponse", "arguments": {"plant_model": "state-space model"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_104", "prediction": [{"name": "organizeVolunteerEvent", "arguments": {"name": "Animal Shelter Fundraiser", "date": "2007-10-23", "location": "Community center, Chicago", "description": "raise funds for the animal shelter"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_105", "prediction": [{"name": "lockVehicle", "arguments": {"vin": "SAWIiF6d"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_106", "prediction": [{"name": "analyzeCompostingProcess", "arguments": {"compost_type": "aerated static pile", "waste_type": "GWvmNJmUobdo"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_107", "prediction": [{"name": "getNationalSecurityLevel", "arguments": {"country": "United States"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_108", "prediction": [{"name": "addCollection", "arguments": {"library_id": 47, "collection_name": "The Rhythm of Dreams", "collection_type": "Counter"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_109", "prediction": [{"name": "translateToSwedish", "arguments": {"text": "Where is the nearest restaurant?"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_110", "prediction": [{"name": "checkLoyaltyStatus", "arguments": {"customer_id": "jXEhzl93cW2"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_111", "prediction": [{"name": "getRestaurantInteriorDesign", "arguments": {"restaurant_name": "Harmony Lounge", "color_scheme": "cool tones"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_112", "prediction": [{"name": "generatePersonalEssay", "arguments": {"topic": "personal achievements", "tone": "humorous", "audience": "general readers"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_113", "prediction": [{"name": "translateToCzech", "arguments": {"text": "Ahoj"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_114", "prediction": [{"name": "getSkeletalSystem", "arguments": {"organism": "dog"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_115", "prediction": [{"name": "getImmunizationSchedule", "arguments": {"species": "dog", "age": 276}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_116", "prediction": [{"name": "compressModel", "arguments": {"model_path": "model2.h5", "compression_method": "quantization", "compression_level": "low"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_117", "prediction": [{"name": "calculateBandGap", "arguments": {"material": "u6ECfyrLwhwj"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_118", "prediction": [{"name": "getFacadeEngineeringInfo", "arguments": {"building_name": "Burj Khalifa", "city": "New York"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_119", "prediction": [{"name": "getAnalyticPhilosophyOverview", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_120", "prediction": [{"name": "getECGSample", "arguments": {"patient_id": "fINfRtJpnA"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_121", "prediction": [{"name": "getKinshipRelations", "arguments": {"individual": "XKyEDL07Q"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_122", "prediction": [{"name": "getPhilosophy", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_123", "prediction": [{"name": "getPhysicalActivityMentalHealth", "arguments": {"activity_type": "running", "duration": 75, "intensity": "low", "age_group": "elderly", "mental_health_condition": "stress"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_124", "prediction": [{"name": "pronounceGreek", "arguments": {"word": "Kosmos"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_125", "prediction": [{"name": "addEquineVaccination", "arguments": {"animal_id": "kF6yRGnB7", "vaccine_name": "EquiHep", "vaccination_date": "2023-04-17"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_126", "prediction": [{"name": "findWaterSource", "arguments": {"location": "village"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_127", "prediction": [{"name": "getEvolutionaryPsychologyDefinition", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_128", "prediction": [{"name": "getRestaurantDetails", "arguments": {"restaurant_id": "U1fThurnB0"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_129", "prediction": [{"name": "getCountryArea", "arguments": {"country": "Canada"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_130", "prediction": [{"name": "getCrossCulturalPsychologyData", "arguments": {"country": "Japan", "variable": "uzBHrEu1"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_131", "prediction": [{"name": "getHVACData", "arguments": {"building_id": "zFwf0tfdV"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_132", "prediction": [{"name": "getCybercrimeReport", "arguments": {"region": "Europe", "severity_level": "low"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_133", "prediction": [{"name": "createBlockchain", "arguments": {"name": "BitTech Blockchain", "version": 2.3, "consensus": "Proof of Work"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_134", "prediction": [{"name": "getAnimalDentalHealth", "arguments": {"animal_species": "horse", "age": 30, "cleaning_needed": true, "problems": "tooth decay"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_135", "prediction": [{"name": "getLeadershipEffectiveness", "arguments": {"department": "192.168.113.243", "leadership_level": "192.168.193.208", "time_period": "23:52"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_136", "prediction": [{"name": "assignSupportTicket", "arguments": {"ticket_id": "rqO5k4BwAvRL", "agent_id": "Dt9VvOqz"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_137", "prediction": [{"name": "makeDecision", "arguments": {"data": "sales figures", "criteria": "MYbnn7BOU", "weightage": 16.5}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_138", "excluded": "tool_exceeds_six_parameters"}
+{"id": "sealtools_in_domain_3tools_139", "prediction": [{"name": "getSpeciesDistribution", "arguments": {"species": "Penguins"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_140", "prediction": [{"name": "getHistoricalAnthropologyData", "arguments": {"period": "14:42", "region": "Americas"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_141", "prediction": [{"name": "getDrugPrice", "arguments": {"drug_name": "Lisinopril"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_142", "prediction": [{"name": "getHadoopJobStatus", "arguments": {"job_id": "fMtwQzYR3o"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_143", "prediction": [{"name": "configureNetwork", "arguments": {"network_interface": "wlan0", "ip_address": "192.168.19.137"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_144", "prediction": [{"name": "getTitle", "arguments": {"study_id": 69}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_145", "prediction": [{"name": "startGame", "arguments": {"game_mode": "hard", "map_size": "large"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_146", "prediction": [{"name": "getTapDanceSteps", "arguments": {"difficulty": "beginner", "rhythm": "shuffle"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_147", "prediction": [{"name": "getEthicsAndAccountability", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_148", "prediction": [{"name": "runSEM", "arguments": {"keywords": "desired content", "budget": 10.6}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_149", "prediction": [{"name": "getVesselInfo", "arguments": {"vessel_name": "MSC Seaview"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_150", "prediction": [{"name": "generateFPGADesign", "arguments": {"application": "deep learning", "resource_constraints": "number of logic elements"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_151", "prediction": [{"name": "getPredictedPowerConsumption", "arguments": {"location": "city", "start_time": "2022-01-01 04:48:00", "end_time": "21:05:00"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_152", "prediction": [{"name": "getBuildingInfo", "arguments": {"building_id": "KsuxdqnB"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_153", "prediction": [{"name": "getCollectionOverview", "arguments": {"library_name": "matplotlib"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_154", "prediction": [{"name": "placeObject", "arguments": {"object_model": "model1.obj", "position": "longitude", "scale": 32.5}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_155", "prediction": [{"name": "updateEbookPrice", "arguments": {"title": "The Great Gatsby", "price": 48.7}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_156", "prediction": [{"name": "createMarketingCampaign", "arguments": {"campaign_name": "Easter Eggstravaganza Sale", "start_date": "2002-02-11", "end_date": "2011-08-17", "target_audience": "families"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_157", "prediction": [{"name": "updateVolunteerRole", "arguments": {"organization": "TechGurus", "volunteer_id": "jh8Iby80VZc2", "new_role": "librarian"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_158", "prediction": [{"name": "removeStopwords", "arguments": {"text": "to"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_159", "prediction": [{"name": "analyzeLoadBalancing", "arguments": {"workload_distribution": "uniform", "processor_utilization": 40.2}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_160", "prediction": [{"name": "getPolicyList", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_161", "prediction": [{"name": "getOdometer", "arguments": {"vehicle_id": "X4z3t7xBzOIA"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_162", "prediction": [{"name": "getTerrorismStatistics", "arguments": {"country": "France"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_163", "prediction": [{"name": "getEnvironmentalEthicsPrinciples", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_164", "prediction": [{"name": "getDiagnosis", "arguments": {"patient_id": "RkohOObe9P"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_165", "prediction": [{"name": "createIoTDevice", "arguments": {"device_name": "Door sensor", "device_type": "JzQ9yXs7VMD"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_166", "prediction": [{"name": "getEnginePower", "arguments": {"vehicle_id": "ZiHuFk2ga5Pv"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_167", "prediction": [{"name": "getGenderAndHistory", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_168", "prediction": [{"name": "createTask", "arguments": {"task_name": "Buy groceries", "deadline": "May 10, 2022"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_169", "prediction": [{"name": "getMBaaSInfo", "arguments": {"instance_id": "VTNWy9Fx"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_170", "prediction": [{"name": "downloadSoftwareUpdate", "arguments": {"vehicle_id": "wf60XxqYrc", "update_version": "2011-08-05"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_171", "prediction": [{"name": "getFoodSecurityData", "arguments": {"country": "Brazil", "year": 2021}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_172", "prediction": [{"name": "getHTMLContent", "arguments": {"url": "https://www.google.com"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_173", "prediction": [{"name": "recordPatientActivity", "arguments": {"patient_id": "WbPm1nMW", "steps": 10}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_174", "prediction": [{"name": "getTelescopeImage", "arguments": {"telescope_name": "James Webb", "image_type": "ultraviolet", "coordinates": "RA: 10h 30m 15s"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_175", "prediction": [{"name": "getLikes", "arguments": {"platform": "Facebook", "post_id": "3d0dxNYQb"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_176", "prediction": [{"name": "getCharitableOrganization", "arguments": {"organization_name": "Hopeful Beginnings"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_177", "prediction": [{"name": "getEmotionalResponse", "arguments": {"environment": "workplace", "stimuli": "temperature"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_178", "prediction": [{"name": "getGameArt", "arguments": {"game": "FIFA 21"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_179", "prediction": [{"name": "predictClass", "arguments": {"input_data": "education"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_180", "excluded": "tool_exceeds_six_parameters"}
+{"id": "sealtools_in_domain_3tools_181", "prediction": [{"name": "getGeriatricAssessment", "arguments": {"age": 74}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_182", "prediction": [{"name": "getAerodynamicDrag", "arguments": {"vehicle_speed": 4.4, "frontal_area": 7.6, "coefficient_of_drag": 10.1}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_183", "prediction": [{"name": "getAgriculturalPolicy", "arguments": {"country": "France"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_184", "prediction": [{"name": "registerPlayer", "arguments": {"name": "Emily Brown", "age": 71, "sport": "sport"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_185", "prediction": [{"name": "pickObject", "arguments": {"object": "BdDSip5BUbaX"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_186", "prediction": [{"name": "getLanguageTranslation", "arguments": {"text": "Where is the nearest park?", "source_language": "English", "target_language": "English"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_187", "prediction": [{"name": "getExecutivePolicies", "arguments": {"country": "France"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_188", "prediction": [{"name": "getCateringMenu", "arguments": {"establishment": "XYZ Restaurant", "event_type": "corporate event"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_189", "prediction": [{"name": "getCriticalIllnessInsuranceCoverage", "arguments": {"policy_holder_age": 13, "gender": "Male"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_190", "prediction": [{"name": "getFoodNutrition", "arguments": {"food_item": "chicken"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_191", "prediction": [{"name": "getEnzymeActivity", "arguments": {"enzyme_name": "ATPase", "substrate": "glucose", "temperature": 59}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_192", "prediction": [{"name": "createResearchProposal", "arguments": {"title": "The Impact of Climate Change on Crop Yields", "abstract": "The impact of social media on body image perception and self-esteem among teenagers", "objectives": "Examine the correlation between education level and income", "methods": "content analysis"}}], "strict_correct": false}
+{"id": "sealtools_in_domain_3tools_193", "prediction": [{"name": "getMuseumDesign", "arguments": {"museum_name": "Hermitage Museum"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_194", "prediction": [{"name": "calibrateAircraftSensors", "arguments": {"flight_number": "AA1234", "altitude": 77, "speed": 26}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_195", "prediction": [{"name": "getBrowserSize", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_196", "prediction": [{"name": "completeSpeechTherapyExercise", "arguments": {"exercise_id": "GCqYtt9vi", "patient_id": "CEyWZrPWtF"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_197", "prediction": [{"name": "getImmunoglobulinLevel", "arguments": {"person_id": 96, "type": "IgM"}}], "strict_correct": true}
+{"id": "sealtools_in_domain_3tools_198", "prediction": [{"name": "getTechnique", "arguments": {"technique_name": "kick"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_199", "prediction": [{"name": "getFilmDetails", "arguments": {"title": "Pulp Fiction"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_200", "prediction": [{"name": "getFilmInfo", "arguments": {"film_name": "Inception"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_201", "prediction": [{"name": "getSongs", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_202", "prediction": [{"name": "playSong", "arguments": {"song_name": "Midnight City"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_203", "prediction": [{"name": "createPlaylist", "arguments": {"playlist_name": "Road Trip Vibes"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_204", "prediction": [{"name": "addSongToPlaylist", "arguments": {"playlist_name": "Relaxing Vibes", "song_name": "Bohemian Rhapsody"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_205", "prediction": [{"name": "getTVShowInfo", "arguments": {"tv_show": "Game of Thrones"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_206", "prediction": [{"name": "getShowDetails", "arguments": {"show_name": "Stranger Things"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_207", "prediction": [{"name": "getArtwork", "arguments": {"artwork_id": "5FRcFgPufhr"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_208", "prediction": [{"name": "getAnimationInfo", "arguments": {"animation_name": "Toy Story", "release_year": 2000}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_209", "prediction": [{"name": "getAnimationDetails", "arguments": {"animation_title": "Frozen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_210", "prediction": [{"name": "getGameScore", "arguments": {"game_name": "Call of Duty", "player_name": "Emily"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_211", "prediction": [{"name": "getVirtualRealityGame", "arguments": {"genre": "action"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_212", "prediction": [{"name": "getVRGame", "arguments": {"genre": "action", "platform": "PC"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_213", "prediction": [{"name": "getVRMovie", "arguments": {"genre": "thriller"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_214", "prediction": [{"name": "getVRConcert", "arguments": {"artist": "Coldplay", "genre": "pop", "location": "Los Angeles"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_215", "prediction": [{"name": "getRecipe", "arguments": {"cuisine_type": "192.168.233.147"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_216", "prediction": [{"name": "getSocialMediaInfluence", "arguments": {"platform": "Twitter", "username": "emilywilson987"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_217", "prediction": [{"name": "verifyHash", "arguments": {"data": "25 years old", "hash_algorithm": "MD5", "hash_value": "ijkl9012"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_218", "prediction": [{"name": "generateKeyPair", "arguments": {"key_algorithm": "RSA", "key_length": 18}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_219", "prediction": [{"name": "checkSecurityStatus", "arguments": {"cloud_provider": "Vq9Q8VOq4b", "account_id": "2U7obHp7T4P"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_220", "prediction": [{"name": "checkAuthentication", "arguments": {"username": "sarah99", "password": 1234567890}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_221", "prediction": [{"name": "scanApplication", "arguments": {"application_id": "NnXPTpfesSRj", "scan_level": "high"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_222", "prediction": [{"name": "scanEndpoint", "arguments": {"endpoint": "192.168.247.218"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_223", "prediction": [{"name": "checkWirelessNetwork", "arguments": {"network_name": "Public Free Wi-Fi", "password": "MySecretNetwork"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_224", "prediction": [{"name": "scanNetwork", "arguments": {"network_name": "MyWiFi", "scan_interval": 22, "detection_mode": "active"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_225", "prediction": [{"name": "checkDatabaseAccess", "arguments": {"database_name": "employees", "user_name": "admin", "password": 12345}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_226", "prediction": [{"name": "auditLogs", "arguments": {"database_name": "SecurityLogsDB"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_227", "prediction": [{"name": "grantAccess", "arguments": {"database_name": "sales", "username": "emma_garcia"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_228", "prediction": [{"name": "checkDatabaseStatus", "arguments": {"database_name": "MySQL"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_229", "prediction": [{"name": "changeDatabasePassword", "arguments": {"database_name": "MySQL", "username": "charlie", "new_password": "Password123!"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_230", "prediction": [{"name": "checkSSL", "arguments": {"website_url": "google.com"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_231", "excluded": "tool_exceeds_six_parameters"}
+{"id": "sealtools_out_domain_3tools_232", "prediction": [{"name": "getThreatIntelligence", "arguments": {"threat_level": "low", "industry": "finance"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_233", "prediction": [{"name": "performSecurityAudit", "arguments": {"system": "website", "scan_type": "vulnerability scan", "target": "192.168.81.254"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_234", "prediction": [{"name": "resetPassword", "arguments": {"username": "john_smith", "new_password": "SecureUser87", "email": "GbRLvM2PweU@outlook.com"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_235", "prediction": [{"name": "getLoggedInUsers", "arguments": {"time_period": "last hour", "location": "Asia"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_236", "prediction": [{"name": "detectMaliciousActivity", "arguments": {"data": "network_traffic.pcap", "algorithm": "machine learning"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_237", "prediction": [{"name": "checkDeviceStatus", "arguments": {"device_id": "mss2qhz2"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_238", "prediction": [{"name": "secureCommunication", "arguments": {"device_id": "lYXdhPYTRe"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_239", "prediction": [{"name": "blockDevice", "arguments": {"device_id": "ATIEe33nFedP"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_240", "prediction": [{"name": "secureDevice", "arguments": {"device_id": "CxmjwID6F8Vs"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_241", "prediction": [{"name": "executeEthicalHack", "arguments": {"target": "social_media_platform"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_242", "prediction": [{"name": "executeSQLInjection", "arguments": {"target_url": "https://samplewebsite.com", "payload": "' OR '1'='1"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_243", "prediction": [{"name": "bruteForceAttack", "arguments": {"target_ip": "192.168.131.183", "username_list": ["user"], "password_list": ["qwerty"]}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_244", "prediction": [{"name": "sniffNetworkTraffic", "arguments": {"interface": "eth0"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_245", "prediction": [{"name": "exploitVulnerability", "arguments": {"target_ip": "192.168.244.220"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_246", "prediction": [{"name": "generateSecurityGuidelines", "arguments": {"language": "yJh7XlARlZmg"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_247", "prediction": [{"name": "getVideoSurveillanceFeed", "arguments": {"location": "gO1KoCXZeX", "camera_id": "YgSC7KRZI"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_248", "prediction": [{"name": "getTemperatureSensorData", "arguments": {"device_id": "NTioRsYcsqUE"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_249", "prediction": [{"name": "updateDeviceFirmware", "arguments": {"device_id": "HBwhU5DrJw", "firmware_version": "5.1.2"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_250", "prediction": [{"name": "getBlock", "arguments": {"block_number": 57}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_251", "prediction": [{"name": "createEdgeDevice", "arguments": {"network_id": "HVplqii8qDSE", "device_name": "EdgeHub"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_252", "prediction": [{"name": "getSteps", "arguments": {"user_id": "NIjaryO4"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_253", "prediction": [{"name": "getSleepQuality", "arguments": {"sensor_id": 21}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_254", "prediction": [{"name": "getCalorieBurn", "arguments": {"sensor_id": 99}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_255", "prediction": [{"name": "getTrafficConditions", "arguments": {"location": "Miami, FL"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_256", "prediction": [{"name": "controlLight", "arguments": {"light_id": "UeIXhLUrt", "action": "toggle"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_257", "prediction": [{"name": "setSmartLockState", "arguments": {"lock_id": "ATqMk1RGq3", "state": "locked"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_258", "prediction": [{"name": "togglePowerOutlet", "arguments": {"outlet_id": "oae1494F"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_259", "prediction": [{"name": "toggleLight", "arguments": {"room": "living room", "light_id": 63}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_260", "prediction": [{"name": "adjustThermostat", "arguments": {"room": "living room", "temperature": 29.0}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_261", "prediction": [{"name": "playMusic", "arguments": {"speaker": "kitchen speaker", "song": "Bohemian Rhapsody"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_262", "prediction": [{"name": "turnOnLight", "arguments": {"room": "kitchen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_263", "prediction": [{"name": "controlAppliance", "arguments": {"room": "bedroom", "appliance": "coffee machine", "action": "increase volume"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_264", "prediction": [{"name": "openCurtains", "arguments": {"room": "kitchen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_265", "prediction": [{"name": "getBuildingTemperature", "arguments": {"building_id": "TamgDh8N9YH"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_266", "prediction": [{"name": "getBuildingHumidity", "arguments": {"building_id": "XROUeTElTDS4"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_267", "prediction": [{"name": "setTemperatureThreshold", "arguments": {"building_id": "VBDd99qpVWf", "threshold": 29.8}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_268", "prediction": [{"name": "getAssetStatus", "arguments": {"asset_id": "43WlNugQb"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_269", "prediction": [{"name": "getPoetryByTitle", "arguments": {"title": "Whispers of the Night"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_270", "prediction": [{"name": "getRandomPoetry", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_271", "prediction": [{"name": "getPoemText", "arguments": {"title": "Footprints in the Sand", "author": "Emily Johnson", "language": "French"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_272", "prediction": [{"name": "getShortStory", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_273", "excluded": "tool_exceeds_six_parameters"}
+{"id": "sealtools_out_domain_3tools_274", "prediction": [{"name": "getRomanceNovelDetails", "arguments": {"novel_id": "nuRjbnMHkE7e"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_275", "prediction": [{"name": "getBookRecommendation", "arguments": {"age": 55}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_276", "prediction": [{"name": "getRaceEthnicityInLiterature", "arguments": {"author": "William Shakespeare", "time_period": "04:02"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_277", "prediction": [{"name": "getLiteraryHistory", "arguments": {"time_period": "15:45", "country": "France"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_278", "prediction": [{"name": "getExperimentalLiterature", "arguments": {"keywords": "chemistry"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_279", "prediction": [{"name": "getFanFiction", "arguments": {"genre": "sci-fi"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_280", "prediction": [{"name": "getChickLitBookDetails", "arguments": {"book_title": "Bridget Jones's Diary"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_281", "prediction": [{"name": "getMedievalLiteratureInfo", "arguments": {"title": "Sir Gawain and the Green Knight"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_282", "prediction": [{"name": "searchMiddleEasternBooks", "arguments": {"genre": "history"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_3tools_283", "prediction": [{"name": "getKoreanLiteratureInfo", "arguments": {"author": "Shin Kyung-sook", "title": "Please Look After Mom", "genre": "poetry", "language": "translated versions in English"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_284", "prediction": [{"name": "getFrenchLiteratureWorks", "arguments": {"title": "The Count of Monte Cristo"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_285", "prediction": [{"name": "getAuthor", "arguments": {"author_name": "Johann Wolfgang von Goethe"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_286", "prediction": [{"name": "getPortugueseAuthors", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_287", "prediction": [{"name": "getPortugueseBooks", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_288", "prediction": [{"name": "getRomanLiterature", "arguments": {"author": "jjRcWr2vl", "genre": "epic"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_289", "prediction": [{"name": "getNordicBooks", "arguments": {"title": "Before the Frost"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_290", "prediction": [{"name": "getScandinavianLiterature", "arguments": {"author": "Y5gywqXBV", "genre": "novel", "language": "Norwegian"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_291", "prediction": [{"name": "getAfricanDiasporaLiterature", "arguments": {"author": "Jane Austen", "title": "Brave New World"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_3tools_292", "prediction": [{"name": "getLatinAmericanLiterature", "arguments": {"author": "Isabel Allende", "title": "The House of the Spirits", "genre": "historical fiction"}}], "strict_correct": true}

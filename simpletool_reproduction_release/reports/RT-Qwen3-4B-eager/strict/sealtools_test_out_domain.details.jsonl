@@ -1,0 +1,94 @@
+{"id": "sealtools_out_domain_6tools_0", "prediction": [{"name": "getFilmDetails", "arguments": {"title": "Pulp Fiction"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_1", "prediction": [{"name": "getFilmInfo", "arguments": {"film_name": "Inception"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_2", "prediction": [{"name": "getSongs", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_3", "prediction": [{"name": "playSong", "arguments": {"song_name": "Midnight City"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_4", "prediction": [{"name": "createPlaylist", "arguments": {"playlist_name": "Road Trip Vibes"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_5", "prediction": [{"name": "addSongToPlaylist", "arguments": {"playlist_name": "Relaxing Vibes", "song_name": "Bohemian Rhapsody"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_6", "prediction": [{"name": "getTVShowInfo", "arguments": {"tv_show": "Game of Thrones"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_7", "prediction": [{"name": "getShowDetails", "arguments": {"show_name": "Stranger Things"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_8", "prediction": [{"name": "getArtwork", "arguments": {"artwork_id": "5FRcFgPufhr"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_9", "prediction": [{"name": "getAnimationInfo", "arguments": {"animation_name": "Toy Story", "release_year": 2000}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_10", "prediction": [{"name": "getAnimationDetails", "arguments": {"animation_title": "Frozen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_11", "prediction": [{"name": "getGameScore", "arguments": {"game_name": "Call of Duty", "player_name": "Emily"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_12", "prediction": [{"name": "getVirtualRealityGame", "arguments": {"genre": "action"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_13", "prediction": [{"name": "getVRGame", "arguments": {"genre": "action", "platform": "PC"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_14", "prediction": [{"name": "getVRMovie", "arguments": {"genre": "thriller"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_15", "prediction": [{"name": "getVRConcert", "arguments": {"artist": "Coldplay", "genre": "pop", "location": "Los Angeles"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_16", "prediction": [{"name": "getRecipe", "arguments": {"cuisine_type": "192.168.233.147"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_17", "prediction": [{"name": "getSocialMediaInfluence", "arguments": {"platform": "Twitter", "username": "emilywilson987"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_18", "prediction": [{"name": "verifyHash", "arguments": {"data": "25 years old", "hash_algorithm": "MD5", "hash_value": "ijkl9012"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_19", "prediction": [{"name": "generateKeyPair", "arguments": {"key_algorithm": "RSA", "key_length": 18}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_20", "prediction": [{"name": "checkSecurityStatus", "arguments": {"cloud_provider": "Vq9Q8VOq4b", "account_id": "2U7obHp7T4P"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_21", "prediction": [{"name": "checkAuthentication", "arguments": {"username": "sarah99", "password": 1234567890}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_22", "prediction": [{"name": "scanApplication", "arguments": {"application_id": "NnXPTpfesSRj", "scan_level": "high"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_23", "prediction": [{"name": "scanEndpoint", "arguments": {"endpoint": "192.168.247.218"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_24", "prediction": [{"name": "checkWirelessNetwork", "arguments": {"network_name": "Public Free Wi-Fi", "password": "MySecretNetwork"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_25", "prediction": [{"name": "scanNetwork", "arguments": {"network_name": "MyWiFi", "scan_interval": 22, "detection_mode": "active"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_26", "prediction": [{"name": "checkDatabaseAccess", "arguments": {"database_name": "employees", "user_name": "admin", "password": 12345}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_27", "prediction": [{"name": "auditLogs", "arguments": {"database_name": "SecurityLogsDB"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_28", "prediction": [{"name": "grantAccess", "arguments": {"database_name": "sales", "username": "emma_garcia"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_29", "prediction": [{"name": "checkDatabaseStatus", "arguments": {"database_name": "MySQL"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_30", "prediction": [{"name": "changeDatabasePassword", "arguments": {"database_name": "MySQL", "username": "charlie", "new_password": "Password123!"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_31", "prediction": [{"name": "checkSSL", "arguments": {"website_url": "google.com"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_32", "prediction": [{"name": "decryptMessage", "arguments": {"encrypted_message": "rtr", "algorithm": "RSA", "key": "XY92OL3"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_33", "prediction": [{"name": "getThreatIntelligence", "arguments": {"threat_level": "low", "industry": "finance"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_34", "prediction": [{"name": "performSecurityAudit", "arguments": {"system": "website", "scan_type": "vulnerability scan", "target": "192.168.81.254"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_35", "prediction": [{"name": "resetPassword", "arguments": {"username": "john_smith", "new_password": "SecureUser87", "email": "GbRLvM2PweU@outlook.com"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_36", "prediction": [{"name": "getLoggedInUsers", "arguments": {"time_period": "last hour", "location": "Asia"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_37", "prediction": [{"name": "detectMaliciousActivity", "arguments": {"data": "network_traffic.pcap", "algorithm": "machine learning"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_38", "prediction": [{"name": "checkDeviceStatus", "arguments": {"device_id": "mss2qhz2"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_39", "prediction": [{"name": "secureCommunication", "arguments": {"device_id": "lYXdhPYTRe"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_40", "prediction": [{"name": "blockDevice", "arguments": {"device_id": "ATIEe33nFedP"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_41", "prediction": [{"name": "secureDevice", "arguments": {"device_id": "CxmjwID6F8Vs"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_42", "prediction": [{"name": "executeEthicalHack", "arguments": {"target": "social_media_platform"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_43", "prediction": [{"name": "executeSQLInjection", "arguments": {"target_url": "https://samplewebsite.com", "payload": "' OR '1'='1"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_44", "prediction": [{"name": "bruteForceAttack", "arguments": {"target_ip": "192.168.131.183", "username_list": ["user"], "password_list": ["qwerty"]}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_45", "prediction": [{"name": "sniffNetworkTraffic", "arguments": {"interface": "eth0"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_46", "prediction": [{"name": "exploitVulnerability", "arguments": {"target_ip": "192.168.244.220"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_47", "prediction": [{"name": "generateSecurityGuidelines", "arguments": {"language": "yJh7XlARlZmg"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_48", "prediction": [{"name": "getVideoSurveillanceFeed", "arguments": {"location": "gO1KoCXZeX", "camera_id": "YgSC7KRZI"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_49", "prediction": [{"name": "getTemperatureSensorData", "arguments": {"device_id": "NTioRsYcsqUE"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_50", "prediction": [{"name": "updateDeviceFirmware", "arguments": {"device_id": "HBwhU5DrJw", "firmware_version": "5.1.2"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_51", "prediction": [{"name": "getBlock", "arguments": {"block_number": 57}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_52", "prediction": [{"name": "createEdgeDevice", "arguments": {"network_id": "HVplqii8qDSE", "device_name": "EdgeHub"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_53", "prediction": [{"name": "getSteps", "arguments": {"user_id": "NIjaryO4"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_54", "prediction": [{"name": "getSleepQuality", "arguments": {"sensor_id": 21}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_55", "prediction": [{"name": "getCalorieBurn", "arguments": {"sensor_id": 99}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_56", "prediction": [{"name": "getTrafficConditions", "arguments": {"location": "Miami, FL"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_57", "prediction": [{"name": "controlLight", "arguments": {"light_id": "UeIXhLUrt", "action": "toggle"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_58", "prediction": [{"name": "setSmartLockState", "arguments": {"lock_id": "ATqMk1RGq3", "state": "locked"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_59", "prediction": [{"name": "togglePowerOutlet", "arguments": {"outlet_id": "oae1494F"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_60", "prediction": [{"name": "toggleLight", "arguments": {"room": "living room", "light_id": 63}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_61", "prediction": [{"name": "adjustThermostat", "arguments": {"room": "living room", "temperature": 29.0}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_62", "prediction": [{"name": "playMusic", "arguments": {"speaker": "kitchen speaker", "song": "Bohemian Rhapsody"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_63", "prediction": [{"name": "turnOnLight", "arguments": {"room": "kitchen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_64", "prediction": [{"name": "controlAppliance", "arguments": {"room": "bedroom", "appliance": "coffee machine", "action": "increase volume"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_65", "prediction": [{"name": "openCurtains", "arguments": {"room": "kitchen"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_66", "prediction": [{"name": "getBuildingTemperature", "arguments": {"building_id": "TamgDh8N9YH"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_67", "prediction": [{"name": "getBuildingHumidity", "arguments": {"building_id": "XROUeTElTDS4"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_68", "prediction": [{"name": "setTemperatureThreshold", "arguments": {"building_id": "VBDd99qpVWf", "threshold": 29.8}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_69", "prediction": [{"name": "getAssetStatus", "arguments": {"asset_id": "43WlNugQb"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_70", "prediction": [{"name": "getPoetryByTitle", "arguments": {"title": "Whispers of the Night"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_71", "prediction": [{"name": "getRandomPoetry", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_72", "prediction": [{"name": "getPoemText", "arguments": {"title": "Footprints in the Sand", "author": "Emily Johnson", "language": "French"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_73", "prediction": [{"name": "getShortStory", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_74", "prediction": [{"name": "getAutobiography", "arguments": {"person_name": "Michelle Obama"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_75", "prediction": [{"name": "getRomanceNovelDetails", "arguments": {"novel_id": "nuRjbnMHkE7e"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_76", "prediction": [{"name": "getBookRecommendation", "arguments": {"age": 55}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_77", "prediction": [{"name": "getRaceEthnicityInLiterature", "arguments": {"author": "William Shakespeare", "time_period": "04:02"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_78", "prediction": [{"name": "getLiteraryHistory", "arguments": {"time_period": "15:45", "country": "France"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_79", "prediction": [{"name": "getExperimentalLiterature", "arguments": {"keywords": "chemistry"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_80", "prediction": [{"name": "getFanFiction", "arguments": {"genre": "sci-fi"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_81", "prediction": [{"name": "getChickLitBookDetails", "arguments": {"book_title": "Bridget Jones's Diary"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_82", "prediction": [{"name": "getMedievalLiteratureInfo", "arguments": {"title": "Sir Gawain and the Green Knight"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_83", "prediction": [{"name": "searchMiddleEasternBooks", "arguments": {"genre": "history"}}], "strict_correct": false}
+{"id": "sealtools_out_domain_6tools_84", "prediction": [{"name": "getKoreanLiteratureInfo", "arguments": {"author": "Shin Kyung-sook", "title": "Please Look After Mom", "genre": "poetry", "language": "translated versions in English"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_85", "prediction": [{"name": "getFrenchLiteratureWorks", "arguments": {"title": "The Count of Monte Cristo"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_86", "prediction": [{"name": "getAuthor", "arguments": {"author_name": "Johann Wolfgang von Goethe"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_87", "prediction": [{"name": "getPortugueseAuthors", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_88", "prediction": [{"name": "getPortugueseBooks", "arguments": {}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_89", "prediction": [{"name": "getRomanLiterature", "arguments": {"author": "jjRcWr2vl", "genre": "epic"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_90", "prediction": [{"name": "getNordicBooks", "arguments": {"title": "Before the Frost"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_91", "prediction": [{"name": "getScandinavianLiterature", "arguments": {"author": "Y5gywqXBV", "genre": "novel", "language": "Norwegian"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_92", "prediction": [{"name": "getAfricanDiasporaLiterature", "arguments": {"author": "Jane Austen", "title": "Brave New World"}}], "strict_correct": true}
+{"id": "sealtools_out_domain_6tools_93", "prediction": [{"name": "getLatinAmericanLiterature", "arguments": {"author": "Isabel Allende", "title": "The House of the Spirits", "genre": "historical fiction"}}], "strict_correct": true}

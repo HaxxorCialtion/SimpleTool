@@ -1,0 +1,1 @@
+{"success":true,"data":{"resource":"job","name":"simpletool-4b-accuracy-0925a","metrics":["gpu_usage_rate","gpu_memory_usage_rate","cpu_usage_rate","memory_usage_rate"],"time_range":{"start":1790338789,"end":1790342389,"interval":"1m"},"series":[]}}

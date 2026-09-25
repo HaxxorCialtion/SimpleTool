@@ -1,0 +1,92 @@
+{"id": "toolalpaca_real_0_0", "prediction": [{"name": "PublicHolidayIsTodayPublicHoliday", "arguments": {"countryCode": "CN"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_1", "prediction": [{"name": "CountryCountryInfo", "arguments": {"countryCode": "CN"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_2", "prediction": [{"name": "CountryAvailableCountries", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_3", "prediction": [{"name": "VersionGetVersion", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_4", "prediction": [{"name": "LongWeekendLongWeekend", "arguments": {"year": 2024, "countryCode": "US"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_5", "prediction": [{"name": "PublicHolidayNextPublicHolidays", "arguments": {"countryCode": "GB"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_6", "prediction": [{"name": "PublicHolidayPublicHolidaysV3", "arguments": {"year": 2023, "countryCode": "AU"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_7", "prediction": [{"name": "PublicHolidayNextPublicHolidaysWorldwide", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_8", "prediction": [{"name": "LongWeekendLongWeekend", "arguments": {"year": 2023, "countryCode": "JP"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_9", "prediction": [{"name": "PublicHolidayNextPublicHolidaysWorldwide", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_10", "prediction": [{"name": "CountryCountryInfo", "arguments": {"countryCode": "FR"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_11", "prediction": [{"name": "PublicHolidayNextPublicHolidays", "arguments": {"countryCode": "DE"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_12", "prediction": [{"name": "PublicHolidayPublicHolidaysV3", "arguments": {"year": 2023, "countryCode": "US"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_13", "prediction": [{"name": "CountryCountryInfo", "arguments": {"countryCode": "IT"}}], "strict_correct": true}
+{"id": "toolalpaca_real_0_16", "prediction": [{"name": "LongWeekendLongWeekend", "arguments": {"year": 2023, "countryCode": "DE"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_0", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDF"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_1", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDM"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_2", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDF"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_3", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDB"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_4", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDM"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_6", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDF"}}], "strict_correct": true}
+{"id": "toolalpaca_real_1_7", "prediction": [{"name": "AirportApi_getAirport", "arguments": {"icao_code": "EDDM"}}], "strict_correct": true}
+{"id": "toolalpaca_real_2_0", "prediction": [{"name": "airports_get", "arguments": {"apt": "AVL"}}], "strict_correct": true}
+{"id": "toolalpaca_real_2_1", "prediction": [{"name": "charts_get", "arguments": {"apt": "AVL", "group": 1}}], "strict_correct": true}
+{"id": "toolalpaca_real_2_2", "prediction": [{"name": "charts_changes_get", "arguments": {"apt": "AVL", "chart_name": "Arrivals"}}], "strict_correct": false}
+{"id": "toolalpaca_real_2_3", "prediction": [{"name": "charts_afd_get", "arguments": {"apt": "AVL"}}], "strict_correct": true}
+{"id": "toolalpaca_real_2_4", "prediction": [{"name": "preferred-routes_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_2_5", "prediction": [{"name": "preferred-routes_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_2_6", "prediction": [{"name": "charts_get", "arguments": {"apt": "KATL"}}], "strict_correct": false}
+{"id": "toolalpaca_real_2_7", "prediction": [{"name": "airports_get", "arguments": {"apt": "CHI"}}], "strict_correct": false}
+{"id": "toolalpaca_real_2_8", "prediction": [{"name": "airports_get", "arguments": {"apt": "KAVL"}}], "strict_correct": false}
+{"id": "toolalpaca_real_2_9", "prediction": [{"name": "airports_get", "arguments": {"apt": "KAVL"}}], "strict_correct": false}
+{"id": "toolalpaca_real_3_0", "prediction": [{"name": "jokes_random_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_3_1", "prediction": [{"name": "jokes_random_category_get", "arguments": {"category": "music"}}], "strict_correct": true}
+{"id": "toolalpaca_real_3_2", "prediction": [{"name": "jokes_random_category_get", "arguments": {"category": "movie"}}], "strict_correct": true}
+{"id": "toolalpaca_real_3_3", "prediction": [{"name": "jokes_search_get", "arguments": {"query": "Texas"}}], "strict_correct": true}
+{"id": "toolalpaca_real_3_4", "prediction": [{"name": "jokes_search_get", "arguments": {"query": "sports"}}], "strict_correct": true}
+{"id": "toolalpaca_real_4_0", "prediction": [{"name": "api_v2_facts_random_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_4_1", "prediction": [{"name": "api_v2_facts_random_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_4_2", "prediction": [{"name": "api_v2_facts_random_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_4_3", "prediction": [{"name": "api_v2_facts_today_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_4_4", "prediction": [{"name": "api_v2_facts_today_get", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_5_0", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "Paris", "units": "f"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_2", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "San Francisco"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_3", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "London"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_5", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "Denver", "units": "s"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_6", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "Toronto", "units": "f"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_7", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "Los Angeles"}}], "strict_correct": false}
+{"id": "toolalpaca_real_5_9", "prediction": [{"name": "current_get", "arguments": {"access_key": "your_access_key", "query": "Miami"}}], "strict_correct": false}
+{"id": "toolalpaca_real_6_0", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "quixotic"}}], "strict_correct": true}
+{"id": "toolalpaca_real_6_1", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "serendipity"}}], "strict_correct": true}
+{"id": "toolalpaca_real_6_2", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "beautiful"}}], "strict_correct": true}
+{"id": "toolalpaca_real_6_3", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "ephemeral"}}], "strict_correct": true}
+{"id": "toolalpaca_real_6_5", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "serendipity"}}], "strict_correct": true}
+{"id": "toolalpaca_real_6_6", "prediction": [{"name": "api_v2_entries_en_word_get", "arguments": {"word": "ephemeral"}}], "strict_correct": true}
+{"id": "toolalpaca_real_7_0", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_1", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_2", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_3", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_4", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_5", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_6", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_7", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_8", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_7_9", "prediction": [{"name": "result_get", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_8_0", "prediction": [{"name": "getFruitByName", "arguments": {"name": "mango"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_1", "prediction": [{"name": "getAllFruits", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_2", "prediction": [{"name": "getFruitByFamily", "arguments": {"family": "Rosaceae"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_3", "prediction": [{"name": "getFruitsByGenus", "arguments": {"genus": "Citrus"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_4", "prediction": [{"name": "getFruitsByOrder", "arguments": {"order": "Sapindales"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_5", "prediction": [{"name": "getFruitsByOrder", "arguments": {"order": "Rosales"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_6", "prediction": [{"name": "getFruitsByGenus", "arguments": {"genus": "Citrus"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_7", "prediction": [{"name": "getFruitByFamily", "arguments": {"family": "Solanaceae"}}], "strict_correct": true}
+{"id": "toolalpaca_real_8_8", "prediction": [{"name": "getFruitByName", "arguments": {"name": "apple"}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_0", "prediction": [{"name": "getRandomCat", "arguments": {"width": 500, "height": 300, "json": true}}], "strict_correct": false}
+{"id": "toolalpaca_real_9_1", "prediction": [{"name": "findCatByTag", "arguments": {"tag": "cute", "width": 800, "height": 600}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_2", "prediction": [{"name": "findCatWithText", "arguments": {"text": "Happy Birthday!"}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_3", "prediction": [{"name": "tags", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_4", "prediction": [{"name": "count", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_6", "prediction": [{"name": "getRandomCat", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_real_9_7", "prediction": [{"name": "getRandomCat", "arguments": {"type": "tabby", "width": 500, "height": 300}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_8", "prediction": [{"name": "findCatWithText", "arguments": {"text": "Happy Birthday"}}], "strict_correct": false}
+{"id": "toolalpaca_real_9_9", "prediction": [{"name": "findCatWithText", "arguments": {"text": "You're invited to a purr-fect party!"}}], "strict_correct": false}
+{"id": "toolalpaca_real_9_10", "prediction": [{"name": "findCatWithText", "arguments": {"text": "Welcome to my cat-tastic journey!"}}], "strict_correct": true}
+{"id": "toolalpaca_real_9_11", "prediction": [{"name": "findCatWithText", "arguments": {"text": "Happy Birthday!"}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_0", "prediction": [{"name": "convert_get", "arguments": {"api_key": "your_api_key", "from": "USD", "amount": 100}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_1", "prediction": [{"name": "historical_get", "arguments": {"api_key": "your_api_key", "base": "GBP", "date": "2022-01-01"}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_2", "prediction": [{"name": "timeseries_get", "arguments": {"api_key": "your_api_key", "base": "USD", "start_date": "2021-10-01", "end_date": "2021-11-30"}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_3", "prediction": [{"name": "convert_get", "arguments": {"api_key": "your_api_key", "from": "EUR", "to": "USD", "amount": 500}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_5", "prediction": [{"name": "timeseries_get", "arguments": {"api_key": "your_api_key", "base": "THB", "start_date": "2023-01-01", "end_date": "2023-12-31"}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_6", "prediction": [{"name": "convert_get", "arguments": {"api_key": "your_api_key", "from": "USD", "to": "JPY", "amount": 1000}}], "strict_correct": false}
+{"id": "toolalpaca_real_10_7", "prediction": [{"name": "convert_get", "arguments": {"api_key": "your_api_key", "from": "USD", "to": "EUR", "amount": 200}}], "strict_correct": false}

@@ -1,0 +1,1 @@
+{"success":true,"data":{"name":"simpletool-4b-accuracy-0925a","status":"job_running","project":"公共科研项目","compute_group":"开发区-H100-cuda13.2版本-183核","resource":{"cpu":20,"memory_gib":200,"gpu":1,"nodes":1,"shared_memory_gib":16,"gpu_type":"NVIDIA H100 (80GB)"},"nodes":["qb-prod-gpu072"],"priority":20,"priority_level":"NORMAL","created_at":"1790342292000"}}

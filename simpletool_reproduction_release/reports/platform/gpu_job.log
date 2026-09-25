@@ -1,0 +1,23 @@
+Fri Sep 25 13:21:05 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 595.58.03              Driver Version: 595.58.03      CUDA Version: 13.2     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA H100 80GB HBM3          On  |   00000000:18:00.0 Off |                    0 |
+| N/A   25C    P0             71W /  700W |       0MiB /  81559MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+ls: cannot access '/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models/RT-Qwen3-4B': No such file or directory
+drwxr-xr-x 4 root root 4096 Sep 25 13:03 data
+lrwxrwxrwx 1 root root   19 Dec  7  2025 /inspire/hdd/global_user/shixiaoxin-253107030017/sxx/vllm_env/bin/python -> /usr/bin/python3.12

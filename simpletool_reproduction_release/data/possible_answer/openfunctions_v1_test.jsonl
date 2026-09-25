@@ -1,0 +1,109 @@
+{"id": "openfunctions_v1_0", "ground_truth": [{"coffee_shop.find_nearby": {"location": ["San Francisco"], "amenities": ["Wi-Fi"]}}]}
+{"id": "openfunctions_v1_1", "ground_truth": [{"flight.book": {"origin": ["Los Angeles"], "destination": ["New York"], "passengers": [2], "date": ["June 15th"]}}]}
+{"id": "openfunctions_v1_2", "ground_truth": [{"restaurant.book_table": {"restaurant": ["Italiano's"], "location": ["Manhattan, New York"], "party_size": [2], "reservation_time": ["2023-10-23 19:00"]}}]}
+{"id": "openfunctions_v1_3", "ground_truth": [{"weather.forecast": {"location": ["Paris, France"], "days": [5]}}]}
+{"id": "openfunctions_v1_4", "ground_truth": [{"pharmacy.find_nearby": {"location": ["San Diego, California"], "feature": ["Drive-thru"]}}]}
+{"id": "openfunctions_v1_6", "ground_truth": [{"classes.find": {"school": ["Berkeley"], "discipline": ["computer science"], "level": ["undergraduate"], "status": ["open"]}}]}
+{"id": "openfunctions_v1_7", "ground_truth": [{"gas_station.find_nearby": {"location": ["current"]}}]}
+{"id": "openfunctions_v1_8", "ground_truth": [{"restaurant.find_top_rated": {"location": ["San Francisco"], "amenities": [["Outdoor Seating"]]}}]}
+{"id": "openfunctions_v1_9", "ground_truth": [{"timezone.get_current_time": {"timezone": ["America/New_York"]}}]}
+{"id": "openfunctions_v1_10", "ground_truth": [{"lyrics.find": {"song": ["Shape of You"], "artist": ["Ed Sheeran"]}}]}
+{"id": "openfunctions_v1_11", "ground_truth": [{"news.get_headlines": {"source": ["CNN"]}}]}
+{"id": "openfunctions_v1_12", "ground_truth": [{"dictionary.get_definition": {"word": ["serendipity"]}}]}
+{"id": "openfunctions_v1_13", "ground_truth": [{"unit_conversion.convert": {"value": [10], "from_unit": ["miles"], "to_unit": ["kilometers"]}}]}
+{"id": "openfunctions_v1_14", "ground_truth": [{"currency_conversion.get_exchange_rate": {"base_currency": ["USD"], "target_currency": ["EUR"]}}]}
+{"id": "openfunctions_v1_15", "ground_truth": [{"movie.search": {"title": ["The Shawshank Redemption"]}}]}
+{"id": "openfunctions_v1_16", "ground_truth": [{"stock.get_price": {"company": ["Apple Inc."]}}]}
+{"id": "openfunctions_v1_17", "ground_truth": [{"park.find_nearby": {"location": ["Chicago, Illinois"], "features": [["Playground", "Picnic Area"]]}}]}
+{"id": "openfunctions_v1_18", "ground_truth": [{"translation.translate": {"text": ["Hello, world!"], "target_language": ["Spanish"]}}]}
+{"id": "openfunctions_v1_19", "ground_truth": [{"trail.find_nearby": {"location": ["Los Angeles, California"], "features": [["Dog-Friendly"]]}}]}
+{"id": "openfunctions_v1_22", "ground_truth": [{"timer.set": {"duration": [20], "message": ["Check the oven"]}}]}
+{"id": "openfunctions_v1_23", "ground_truth": [{"parking.find_nearby": {"location": ["Golden Gate Bridge, San Francisco"]}}]}
+{"id": "openfunctions_v1_24", "ground_truth": [{"book.recommend": {"interest": ["Science Fiction"]}}]}
+{"id": "openfunctions_v1_25", "ground_truth": [{"exchange_rate.get": {"base_currency": ["USD"], "target_currency": ["EUR"]}}]}
+{"id": "openfunctions_v1_26", "ground_truth": [{"car_rental.search": {"location": ["Los Angeles"], "start_date": ["2023-09-01"], "end_date": ["2023-09-10"]}}]}
+{"id": "openfunctions_v1_27", "ground_truth": [{"timezone.convert": {"location": ["Tokyo, Japan"], "timezone": ["Asia/Tokyo"]}}]}
+{"id": "openfunctions_v1_28", "ground_truth": [{"news.search": {"topic": ["technology"]}}]}
+{"id": "openfunctions_v1_29", "ground_truth": [{"atm.find_nearby": {"location": ["current_location"], "feature": ["Cash Deposits"]}}]}
+{"id": "openfunctions_v1_30", "ground_truth": [{"hiking_trail.search": {"location": ["San Francisco"]}}]}
+{"id": "openfunctions_v1_31", "ground_truth": [{"exchange_rate.get": {"base_currency": ["USD"], "target_currency": ["EUR"]}}]}
+{"id": "openfunctions_v1_32", "ground_truth": [{"hotel.search": {"location": ["Miami, Florida"], "amenities": [["Pool", "Gym"]]}}]}
+{"id": "openfunctions_v1_33", "ground_truth": [{"timezone.convert": {"location": ["Tokyo, Japan"], "target_timezone": ["Asia/Tokyo"]}}]}
+{"id": "openfunctions_v1_34", "ground_truth": [{"news.get_headlines": {"news_source": ["CNN"]}}]}
+{"id": "openfunctions_v1_35", "ground_truth": [{"recipe.search": {"keywords": ["spaghetti carbonara"], "dietary_restrictions": [["Vegetarian"]]}}]}
+{"id": "openfunctions_v1_36", "ground_truth": [{"movie_theater.search": {"location": ["Los Angeles"], "movie_title": ["Avengers: Endgame"]}}]}
+{"id": "openfunctions_v1_37", "ground_truth": [{"finance.calculate_compound_interest": {"principal": [5000], "interest_rate": [0.05], "time_period": [3]}}]}
+{"id": "openfunctions_v1_38", "ground_truth": [{"finance.calculate_mortgage_payment": {"loan_amount": [200000], "interest_rate": [0.04], "loan_term": [30]}}]}
+{"id": "openfunctions_v1_39", "ground_truth": [{"finance.calculate_roi": {"investment_amount": [10000], "profit": [2500]}}]}
+{"id": "openfunctions_v1_40", "ground_truth": [{"finance.calculate_present_value": {"future_cash_flow": [5000], "discount_rate": [0.08], "time_period": [5]}}]}
+{"id": "openfunctions_v1_41", "ground_truth": [{"finance.calculate_car_loan_payment": {"loan_amount": [20000], "interest_rate": [0.06], "loan_term": [5]}}]}
+{"id": "openfunctions_v1_42", "ground_truth": [{"finance.calculate_future_value": {"investment_amount": [5000], "interest_rate": [0.03], "time_period": [10]}}]}
+{"id": "openfunctions_v1_43", "ground_truth": [{"finance.calculate_minimum_payment": {"balance": [5000], "interest_rate": [0.18]}}]}
+{"id": "openfunctions_v1_44", "ground_truth": [{"finance.calculate_roe": {"net_income": [1000000], "shareholders_equity": [10000000]}}]}
+{"id": "openfunctions_v1_45", "ground_truth": [{"finance.calculate_personal_loan_payment": {"loan_amount": [10000], "interest_rate": [0.08], "loan_term": [2]}}]}
+{"id": "openfunctions_v1_46", "ground_truth": [{"stock.average_price": {"symbol": ["AAPL"], "start_date": ["2022-01-01"], "end_date": ["2022-01-31"]}}]}
+{"id": "openfunctions_v1_47", "ground_truth": [{"stock.simulate_walk": {"symbol": ["AAPL"], "days": [10]}}]}
+{"id": "openfunctions_v1_48", "ground_truth": [{"stock.correlation": {"symbol1": ["AAPL"], "symbol2": ["MSFT"], "start_date": ["2021-01-01"], "end_date": ["2021-12-31"]}}]}
+{"id": "openfunctions_v1_49", "ground_truth": [{"trading.average_volume": {"symbol": ["AAPL"], "start_date": ["2022-01-01"], "end_date": ["2022-01-31"]}}]}
+{"id": "openfunctions_v1_50", "ground_truth": [{"stock.moving_average": {"symbol": ["AAPL"], "days": [30]}}]}
+{"id": "openfunctions_v1_51", "ground_truth": [{"stock.standard_deviation": {"symbol": ["AAPL"], "days": [90]}}]}
+{"id": "openfunctions_v1_52", "ground_truth": [{"stock.exponential_moving_average": {"symbol": ["AAPL"], "days": [50]}}]}
+{"id": "openfunctions_v1_53", "ground_truth": [{"stock.relative_strength_index": {"symbol": ["AAPL"], "days": [14]}}]}
+{"id": "openfunctions_v1_54", "ground_truth": [{"trading.average_volume": {"symbol": ["AAPL"], "start_date": ["2021-07-01"], "end_date": ["2021-12-31"]}}]}
+{"id": "openfunctions_v1_55", "ground_truth": [{"math.sqrt": {"number": [16]}}]}
+{"id": "openfunctions_v1_56", "ground_truth": [{"temperature.celsius_to_fahrenheit": {"celsius": [25]}}]}
+{"id": "openfunctions_v1_57", "ground_truth": [{"math.factorial": {"number": [5]}}]}
+{"id": "openfunctions_v1_58", "ground_truth": [{"random.randint": {"min": [1], "max": [10]}}]}
+{"id": "openfunctions_v1_59", "ground_truth": [{"math.exp": {"number": [2]}}]}
+{"id": "openfunctions_v1_60", "ground_truth": [{"math.sin": {"angle": [0.5]}}]}
+{"id": "openfunctions_v1_61", "ground_truth": [{"math.add": {"num1": [5], "num2": [3]}}]}
+{"id": "openfunctions_v1_62", "ground_truth": [{"math.log": {"number": [10], "base": [2]}}]}
+{"id": "openfunctions_v1_63", "ground_truth": [{"statistics.mean": {"numbers": [[2, 4, 6, 8, 10]]}}]}
+{"id": "openfunctions_v1_64", "ground_truth": [{"game.get_leaderboard": {"game_id": [123], "sort_by": ["score"], "limit": [1]}}]}
+{"id": "openfunctions_v1_65", "ground_truth": [{"game.get_weapons": {"game_id": [456], "type": ["sword"], "rarity": ["legendary"]}}]}
+{"id": "openfunctions_v1_66", "ground_truth": [{"game.get_maps": {"game_id": [789], "game_mode": ["team_deathmatch"], "player_count": [10]}}]}
+{"id": "openfunctions_v1_67", "ground_truth": [{"game.get_quests": {"game_id": [987], "difficulty": ["medium"], "reward_type": ["gold"]}}]}
+{"id": "openfunctions_v1_68", "ground_truth": [{"game.get_characters": {"game_id": [654], "combat_style": ["melee"], "tier": ["A"]}}]}
+{"id": "openfunctions_v1_69", "ground_truth": [{"meeting.schedule": {"participants": [["John", "Jane"]], "date": ["2023-10-24"], "time": ["2:00 PM"]}}]}
+{"id": "openfunctions_v1_70", "ground_truth": [{"meeting.reschedule": {"meeting_id": ["12345"], "new_date": ["2023-10-25"], "new_time": ["10:00 AM"]}}]}
+{"id": "openfunctions_v1_71", "ground_truth": [{"meeting_room.find_available": {"date": ["2023-10-24"], "start_time": ["1:00 PM"], "end_time": ["3:00 PM"]}}]}
+{"id": "openfunctions_v1_72", "ground_truth": [{"meeting.invite": {"participants": [["John", "Jane", "Mike", "Sarah"]], "date": ["2023-10-30"], "time": ["9:00 AM"]}}]}
+{"id": "openfunctions_v1_73", "ground_truth": [{"conference_room.check_availability": {"meeting_type": ["Board Meeting"], "date": ["2023-10-27"], "time": ["2:00 PM"]}}]}
+{"id": "openfunctions_v1_74", "ground_truth": [{"video_conference.schedule": {"participants": [["John", "Jane", "Mike", "Sarah"]], "date": ["2023-10-26"], "time": ["11:00 AM"]}}]}
+{"id": "openfunctions_v1_75", "ground_truth": [{"client_meeting.reschedule": {"meeting_id": ["67890"], "new_date": ["2023-11-05"], "new_time": ["3:00 PM"]}}]}
+{"id": "openfunctions_v1_76", "ground_truth": [{"meeting_slot.find_available": {"project": ["Project X"], "date": ["2023-10-31"]}}]}
+{"id": "openfunctions_v1_77", "ground_truth": [{"lunch_meeting.schedule": {"team_members": [["John", "Jane", "Mike", "Sarah"]], "date": ["2023-10-27"], "time": ["12:30 PM"]}}]}
+{"id": "openfunctions_v1_78", "ground_truth": [{"tour.book": {"destination": ["Rome, Italy"], "group_size": [10]}}]}
+{"id": "openfunctions_v1_79", "ground_truth": [{"hiking_trail.find_nearby": {"location": ["Vancouver, Canada"], "criteria": [["Scenic Views"]]}}]}
+{"id": "openfunctions_v1_80", "ground_truth": [{"museum.find_nearby": {"location": ["Paris, France"], "criteria": [["Guided Tours", "English Language"]]}}]}
+{"id": "openfunctions_v1_81", "ground_truth": [{"resort.find_nearby": {"location": ["Cancun, Mexico"], "amenities": [["All-Inclusive"]]}}]}
+{"id": "openfunctions_v1_82", "ground_truth": [{"book.get_summary": {"isbn": ["978-3-16-148410-0"]}}]}
+{"id": "openfunctions_v1_83", "ground_truth": [{"novels.get_classics": {"author": ["Jane Austen"]}}]}
+{"id": "openfunctions_v1_84", "ground_truth": [{"poems.search": {"era": ["Romantic"]}}]}
+{"id": "openfunctions_v1_85", "ground_truth": [{"novels.get_pulitzer_winners": {"start_year": [2011], "end_year": [2021]}}]}
+{"id": "openfunctions_v1_86", "ground_truth": [{"poem.get_author": {"title": ["The Raven"]}}]}
+{"id": "openfunctions_v1_87", "ground_truth": [{"plays.search": {"playwright": ["William Shakespeare"]}}]}
+{"id": "openfunctions_v1_88", "ground_truth": [{"books.get_best_sellers": {"genre": ["Non-Fiction"]}}]}
+{"id": "openfunctions_v1_89", "ground_truth": [{"novel.get_publication_year": {"title": ["To Kill a Mockingbird"]}}]}
+{"id": "openfunctions_v1_90", "ground_truth": [{"magazines.search": {"genre": ["Poetry"]}}]}
+{"id": "openfunctions_v1_91", "ground_truth": [{"authors.get_nobel_winners": {}}]}
+{"id": "openfunctions_v1_92", "ground_truth": [{"population.find": {"location": ["Tokyo, Japan"]}}]}
+{"id": "openfunctions_v1_93", "ground_truth": [{"distance.calculate": {"origin": ["London, UK"], "destination": ["Paris, France"]}}]}
+{"id": "openfunctions_v1_94", "ground_truth": [{"mountain.find_highest": {}}]}
+{"id": "openfunctions_v1_95", "ground_truth": [{"capital.find": {"country": ["Australia"]}}]}
+{"id": "openfunctions_v1_96", "ground_truth": [{"timezone.find": {"location": ["New York City"]}}]}
+{"id": "openfunctions_v1_97", "ground_truth": [{"area.calculate": {"location": ["Great Barrier Reef"]}}]}
+{"id": "openfunctions_v1_98", "ground_truth": [{"temperature.find_average": {"location": ["Antarctica"]}}]}
+{"id": "openfunctions_v1_99", "ground_truth": [{"currency.find": {"country": ["Brazil"]}}]}
+{"id": "openfunctions_v1_100", "ground_truth": [{"waterfall.find_highest": {}}]}
+{"id": "openfunctions_v1_101", "ground_truth": [{"language.find_official": {"country": ["China"]}}]}
+{"id": "openfunctions_v1_102", "ground_truth": [{"plant.get_scientific_name": {"common_name": ["rose"]}}]}
+{"id": "openfunctions_v1_103", "ground_truth": [{"bmi.calculate": {"weight": [70], "height": [1.75]}}]}
+{"id": "openfunctions_v1_104", "ground_truth": [{"population.analyze_eye_color": {"population": [["Blue", "Brown", "Brown", "Green", "Green", "Hazel", "Hazel", "Hazel"]]}}]}
+{"id": "openfunctions_v1_105", "ground_truth": [{"gene.get_sequence": {"gene_id": ["ABC123"]}}]}
+{"id": "openfunctions_v1_106", "ground_truth": [{"genetics.calculate_inheritance_probability": {"parent1_genotype": ["AA"], "parent2_genotype": ["Aa"], "trait": ["Tall"]}}]}
+{"id": "openfunctions_v1_107", "ground_truth": [{"bird.identify_species": {"characteristics": [["Red head", "Long beak"]], "behaviors": [["Nesting in trees", "Migratory"]]}}]}
+{"id": "openfunctions_v1_108", "ground_truth": [{"chemistry.calculate_bond_energy": {"bond_type": ["Covalent"], "atoms": [["H", "O"]]}}]}
+{"id": "openfunctions_v1_109", "ground_truth": [{"protein.get_sequence": {"protein_id": ["P12345"]}}]}
+{"id": "openfunctions_v1_110", "ground_truth": [{"population.calculate_growth_rate": {"initial_population": [1000], "final_population": [1500], "time_period": ["10 years"]}}]}
+{"id": "openfunctions_v1_111", "ground_truth": [{"taxonomy.identify_classification": {"organism_name": ["Homo sapiens"]}}]}

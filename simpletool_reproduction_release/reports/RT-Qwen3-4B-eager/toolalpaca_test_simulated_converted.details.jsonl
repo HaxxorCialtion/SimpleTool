@@ -1,0 +1,51 @@
+{"id": "toolalpaca_simulated_0_0", "result": [{"name": "getRandomAxolotlImage", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_0_1", "result": [{"name": "searchAxolotlImages", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_0_2", "result": [{"name": "getAxolotlFacts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_0_3", "result": [{"name": "getAxolotlFacts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_0_4", "result": [{"name": "searchAxolotlImages", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_0_5", "result": [{"name": "getAxolotlFacts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_0_8", "result": [{"name": "getAxolotlFacts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_1_1", "result": [{"name": "searchAnime", "arguments": {"query": "mystery action", "filters": {"genre": ["mystery", "action"], "releaseYear": 2020, "rating": 4}}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_1_6", "result": [{"name": "getAnimeDetails", "arguments": {"animeId": 123456}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_2_1", "result": [{"name": "reportAbusiveIP", "arguments": {"ip": "192.168.1.100", "categories": ["brute-force", "DDoS"], "comment": "Multiple failed login attempts and DDoS attacks"}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_2_2", "result": [{"name": "checkIPReputation", "arguments": {"ip": "123.45.67.89"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_2_6", "result": [{"name": "getPublishedDataFeeds", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_2_8", "result": [{"name": "reportAbusiveIP", "arguments": {"ip": "200.0.0.25", "categories": ["spam", "phishing"], "comment": "Sending multiple spam emails and phishing attempts."}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_2_9", "result": [{"name": "checkIPReputation", "arguments": {"ip": "168.0.99.1", "maxAgeInDays": 45}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_1", "result": [{"name": "generateAvatar", "arguments": {"userId": 123456789, "style": "grunge", "format": "png"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_4", "result": [{"name": "generateServerIcon", "arguments": {"serverId": 987654321, "style": "minimal", "format": "jpg"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_5", "result": [{"name": "listServerMembers", "arguments": {"serverId": 135792468, "limit": 50, "offset": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_6", "result": [{"name": "searchUser", "arguments": {"query": "MisterArcade"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_7", "result": [{"name": "generateRandomImage", "arguments": {"userId": 246813579, "category": "nature", "format": "png"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_8", "result": [{"name": "generateAvatar", "arguments": {"userId": 321654987, "style": "minimal", "format": "jpg"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_3_9", "result": [{"name": "searchUser", "arguments": {"query": "SolarWinds42"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_4_0", "result": [{"name": "authenticateUser", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_4_1", "result": [{"name": "getUserProfile", "arguments": {"userId": "g-user123", "accessToken": "abcd1234"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_4_2", "result": [{"name": "updateUserProfile", "arguments": {"userId": "g-user123", "accessToken": "abcd1234", "profileData": {"profilePicture": "https://example.com/new_image.jpg"}}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_4_3", "result": [{"name": "assignUserRole", "arguments": {"userId": "user321", "accessToken": "abcd1234", "roleId": "role123"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_4_4", "result": [{"name": "listRoles", "arguments": {"accessToken": "abcd1234"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_4_5", "result": [{"name": "createRole", "arguments": {"accessToken": "abcd1234", "roleName": "Content Moderator", "permissions": [{"permissionid": "content_edit", "permissionName": "edit content"}, {"permissionid": "content_delete", "permissionName": "delete content"}]}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_4_6", "result": [{"name": "deleteRole", "arguments": {"accessToken": "abcd1234", "roleId": "role456"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_4_7", "result": [{"name": "initiatePasswordlessAuthentication", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_4_8", "result": [{"name": "verifyPasswordlessAuthentication", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_4_9", "result": [{"name": "verifyPasswordlessAuthentication", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_5_0", "result": [{"name": "getHolidaysByCountry", "arguments": {"country": "Japan", "year": 2023, "language": "en"}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_5_3", "result": [{"name": "listCountries", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_5_4", "result": [{"name": "listLanguages", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_5_5", "result": [{"name": "searchHolidays", "arguments": {"keywords": "Diwali"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_5_7", "result": [{"name": "getHolidayDetails", "arguments": {"holidayId": "Chinese New Year"}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_5_8", "result": [{"name": "listCountries", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_5_9", "result": [{"name": "listLanguages", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_7_0", "result": [{"name": "getBibleVersionList", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_7_1", "result": [{"name": "getAllVersesFromChapter", "arguments": {"book": "Job", "chapter": 3, "version": "New International Version"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_7_2", "result": [{"name": "getSpecificVerse", "arguments": {"book": "Proverbs", "chapter": 18, "verse": 24}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_7_4", "result": [{"name": "getSpecificVerse", "arguments": {"book": "Revelation", "chapter": 22, "verse": 17, "version": "New Living Translation"}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_7_7", "result": [{"name": "searchVerses", "arguments": {"text": "Love is patient, love is kind", "version": "NIV", "language": "en"}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_7_8", "result": [{"name": "getBibleLanguages", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_8_0", "result": [{"name": "updateDataSource", "arguments": {"sourceId": 85, "sourceName": "Updated Sales Data", "connectionString": "postgres://user:password@newhost/dbname"}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_8_1", "result": [{"name": "deleteDataSource", "arguments": {"sourceId": 93}}], "func_correct": true, "overall_correct": true}
+{"id": "toolalpaca_simulated_8_3", "result": [{"name": "configureAlerts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_8_4", "result": [{"name": "updateDataSource", "arguments": {"sourceName": "MySQL_DS_ProjectA", "connectionString": "mysql://user:pass@localhost/db"}}], "func_correct": false, "overall_correct": false}
+{"id": "toolalpaca_simulated_8_9", "result": [{"name": "configureAlerts", "arguments": {}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_9_0", "result": [{"name": "verifyUSAddress", "arguments": {"addressLine1": "123 Main St, Apt 4B", "addressLine2": "Apt 4B", "city": "New York", "state": "NY", "zipCode": 10001}}], "func_correct": true, "overall_correct": false}
+{"id": "toolalpaca_simulated_9_1", "result": [{"name": "standardizeUSAddress", "arguments": {"addressLine1": "456 Elm Street", "addressLine2": "Suite 789", "city": "Los Angeles", "state": "CA", "zipCode": 90012}}], "func_correct": true, "overall_correct": true}

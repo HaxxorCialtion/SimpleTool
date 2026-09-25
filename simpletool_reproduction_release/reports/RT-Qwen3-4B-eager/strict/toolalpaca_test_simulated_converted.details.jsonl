@@ -1,0 +1,51 @@
+{"id": "toolalpaca_simulated_0_0", "prediction": [{"name": "getRandomAxolotlImage", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_0_1", "prediction": [{"name": "searchAxolotlImages", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_0_2", "prediction": [{"name": "getAxolotlFacts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_0_3", "prediction": [{"name": "getAxolotlFacts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_0_4", "prediction": [{"name": "searchAxolotlImages", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_0_5", "prediction": [{"name": "getAxolotlFacts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_0_8", "prediction": [{"name": "getAxolotlFacts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_1_1", "prediction": [{"name": "searchAnime", "arguments": {"query": "mystery action", "filters": {"genre": ["mystery", "action"], "releaseYear": 2020, "rating": 4}}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_1_6", "prediction": [{"name": "getAnimeDetails", "arguments": {"animeId": 123456}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_2_1", "prediction": [{"name": "reportAbusiveIP", "arguments": {"ip": "192.168.1.100", "categories": ["brute-force", "DDoS"], "comment": "Multiple failed login attempts and DDoS attacks"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_2_2", "prediction": [{"name": "checkIPReputation", "arguments": {"ip": "123.45.67.89"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_2_6", "prediction": [{"name": "getPublishedDataFeeds", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_2_8", "prediction": [{"name": "reportAbusiveIP", "arguments": {"ip": "200.0.0.25", "categories": ["spam", "phishing"], "comment": "Sending multiple spam emails and phishing attempts."}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_2_9", "prediction": [{"name": "checkIPReputation", "arguments": {"ip": "168.0.99.1", "maxAgeInDays": 45}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_1", "prediction": [{"name": "generateAvatar", "arguments": {"userId": 123456789, "style": "grunge", "format": "png"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_4", "prediction": [{"name": "generateServerIcon", "arguments": {"serverId": 987654321, "style": "minimal", "format": "jpg"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_5", "prediction": [{"name": "listServerMembers", "arguments": {"serverId": 135792468, "limit": 50, "offset": 10}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_6", "prediction": [{"name": "searchUser", "arguments": {"query": "MisterArcade"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_7", "prediction": [{"name": "generateRandomImage", "arguments": {"userId": 246813579, "category": "nature", "format": "png"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_8", "prediction": [{"name": "generateAvatar", "arguments": {"userId": 321654987, "style": "minimal", "format": "jpg"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_3_9", "prediction": [{"name": "searchUser", "arguments": {"query": "SolarWinds42"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_4_0", "prediction": [{"name": "authenticateUser", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_4_1", "prediction": [{"name": "getUserProfile", "arguments": {"userId": "g-user123", "accessToken": "abcd1234"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_4_2", "prediction": [{"name": "updateUserProfile", "arguments": {"userId": "g-user123", "accessToken": "abcd1234", "profileData": {"profilePicture": "https://example.com/new_image.jpg"}}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_4_3", "prediction": [{"name": "assignUserRole", "arguments": {"userId": "user321", "accessToken": "abcd1234", "roleId": "role123"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_4_4", "prediction": [{"name": "listRoles", "arguments": {"accessToken": "abcd1234"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_4_5", "prediction": [{"name": "createRole", "arguments": {"accessToken": "abcd1234", "roleName": "Content Moderator", "permissions": [{"permissionid": "content_edit", "permissionName": "edit content"}, {"permissionid": "content_delete", "permissionName": "delete content"}]}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_4_6", "prediction": [{"name": "deleteRole", "arguments": {"accessToken": "abcd1234", "roleId": "role456"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_4_7", "prediction": [{"name": "initiatePasswordlessAuthentication", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_4_8", "prediction": [{"name": "verifyPasswordlessAuthentication", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_4_9", "prediction": [{"name": "verifyPasswordlessAuthentication", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_5_0", "prediction": [{"name": "getHolidaysByCountry", "arguments": {"country": "Japan", "year": 2023, "language": "en"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_5_3", "prediction": [{"name": "listCountries", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_5_4", "prediction": [{"name": "listLanguages", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_5_5", "prediction": [{"name": "searchHolidays", "arguments": {"keywords": "Diwali"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_5_7", "prediction": [{"name": "getHolidayDetails", "arguments": {"holidayId": "Chinese New Year"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_5_8", "prediction": [{"name": "listCountries", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_5_9", "prediction": [{"name": "listLanguages", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_7_0", "prediction": [{"name": "getBibleVersionList", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_7_1", "prediction": [{"name": "getAllVersesFromChapter", "arguments": {"book": "Job", "chapter": 3, "version": "New International Version"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_7_2", "prediction": [{"name": "getSpecificVerse", "arguments": {"book": "Proverbs", "chapter": 18, "verse": 24}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_7_4", "prediction": [{"name": "getSpecificVerse", "arguments": {"book": "Revelation", "chapter": 22, "verse": 17, "version": "New Living Translation"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_7_7", "prediction": [{"name": "searchVerses", "arguments": {"text": "Love is patient, love is kind", "version": "NIV", "language": "en"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_7_8", "prediction": [{"name": "getBibleLanguages", "arguments": {}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_8_0", "prediction": [{"name": "updateDataSource", "arguments": {"sourceId": 85, "sourceName": "Updated Sales Data", "connectionString": "postgres://user:password@newhost/dbname"}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_8_1", "prediction": [{"name": "deleteDataSource", "arguments": {"sourceId": 93}}], "strict_correct": true}
+{"id": "toolalpaca_simulated_8_3", "prediction": [{"name": "configureAlerts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_8_4", "prediction": [{"name": "updateDataSource", "arguments": {"sourceName": "MySQL_DS_ProjectA", "connectionString": "mysql://user:pass@localhost/db"}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_8_9", "prediction": [{"name": "configureAlerts", "arguments": {}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_9_0", "prediction": [{"name": "verifyUSAddress", "arguments": {"addressLine1": "123 Main St, Apt 4B", "addressLine2": "Apt 4B", "city": "New York", "state": "NY", "zipCode": 10001}}], "strict_correct": false}
+{"id": "toolalpaca_simulated_9_1", "prediction": [{"name": "standardizeUSAddress", "arguments": {"addressLine1": "456 Elm Street", "addressLine2": "Suite 789", "city": "Los Angeles", "state": "CA", "zipCode": 90012}}], "strict_correct": true}

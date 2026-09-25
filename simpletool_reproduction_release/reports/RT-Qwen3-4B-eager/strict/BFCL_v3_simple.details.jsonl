@@ -1,0 +1,400 @@
+{"id": "simple_0", "prediction": [{"name": "calculate_triangle_area", "arguments": {"base": 10, "height": 5}}], "strict_correct": true}
+{"id": "simple_1", "prediction": [{"name": "math.factorial", "arguments": {"number": 5}}], "strict_correct": true}
+{"id": "simple_2", "prediction": [{"name": "math.hypot", "arguments": {"x": 4, "y": 5}}], "strict_correct": true}
+{"id": "simple_3", "prediction": [{"name": "algebra.quadratic_roots", "arguments": {"a": 1, "b": -3, "c": 2}}], "strict_correct": true}
+{"id": "simple_4", "prediction": [{"name": "solve_quadratic_equation", "arguments": {"a": 2, "b": 6, "c": 5}}], "strict_correct": true}
+{"id": "simple_5", "prediction": [{"name": "solve_quadratic", "arguments": {"a": 3, "b": -11, "c": -4, "root_type": "all"}}], "strict_correct": true}
+{"id": "simple_6", "prediction": [{"name": "solve_quadratic", "arguments": {"a": 2, "b": 5, "c": 3}}], "strict_correct": true}
+{"id": "simple_7", "prediction": [{"name": "calculate_circumference", "arguments": {"radius": 4, "unit": "in"}}], "strict_correct": true}
+{"id": "simple_8", "prediction": [{"name": "geometry.area_circle", "arguments": {"radius": 10}}], "strict_correct": true}
+{"id": "simple_9", "prediction": [{"name": "geometry.calculate_area_circle", "arguments": {"radius": 5, "unit": "units"}}], "strict_correct": true}
+{"id": "simple_10", "prediction": [{"name": "calculate_area", "arguments": {"base": 6, "height": 10, "unit": "cm"}}], "strict_correct": true}
+{"id": "simple_11", "prediction": [{"name": "calculate_triangle_area", "arguments": {"base": 10, "height": 5}}], "strict_correct": true}
+{"id": "simple_12", "prediction": [{"name": "geometry.circumference", "arguments": {"radius": 3}}], "strict_correct": true}
+{"id": "simple_13", "prediction": [{"name": "calculate_area_under_curve", "arguments": {"function": "lambda x: x ** 2", "interval": [1, 3]}}], "strict_correct": false}
+{"id": "simple_14", "prediction": [{"name": "calculate_derivative", "arguments": {"function": "3*x**2 + 2*x - 1"}}], "strict_correct": false}
+{"id": "simple_15", "prediction": [{"name": "integrate", "arguments": {"function": "x^3", "start_x": -2, "end_x": 3, "method": "simpson"}}], "strict_correct": false}
+{"id": "simple_16", "prediction": [{"name": "calculus.derivative", "arguments": {"function": "2*x**2", "value": 1, "function_variable": "x"}}], "strict_correct": false}
+{"id": "simple_17", "prediction": [{"name": "get_prime_factors", "arguments": {"number": 450, "formatted": true}}], "strict_correct": true}
+{"id": "simple_18", "prediction": [{"name": "number_analysis.prime_factors", "arguments": {"number": 123456}}], "strict_correct": true}
+{"id": "simple_19", "prediction": [{"name": "math.gcd", "arguments": {"num1": 40, "num2": 50}}], "strict_correct": true}
+{"id": "simple_20", "prediction": [{"name": "math.hcf", "arguments": {"number1": 36, "number2": 24}}], "strict_correct": true}
+{"id": "simple_21", "prediction": [{"name": "number_theory.gcd", "arguments": {"number1": 36, "number2": 48}}], "strict_correct": true}
+{"id": "simple_22", "prediction": [{"name": "math.gcd", "arguments": {"num1": 12, "num2": 15}}], "strict_correct": true}
+{"id": "simple_23", "prediction": [{"name": "prime_factorize", "arguments": {"number": 60, "return_type": "dictionary"}}], "strict_correct": true}
+{"id": "simple_24", "prediction": [{"name": "math.gcd", "arguments": {"num1": 12, "num2": 18}}], "strict_correct": true}
+{"id": "simple_25", "prediction": [{"name": "calculate_final_velocity", "arguments": {"height": 150, "initial_velocity": 0, "gravity": 9.81}}], "strict_correct": true}
+{"id": "simple_26", "prediction": [{"name": "calculate_velocity", "arguments": {"distance": 50, "duration": 2}}], "strict_correct": true}
+{"id": "simple_27", "prediction": [{"name": "final_velocity", "arguments": {"initial_velocity": 10, "acceleration": 2, "time": 5}}], "strict_correct": true}
+{"id": "simple_28", "prediction": [{"name": "calculate_displacement", "arguments": {"initial_velocity": 10, "time": 5, "acceleration": 9.8}}], "strict_correct": true}
+{"id": "simple_29", "prediction": [{"name": "calculate_final_speed", "arguments": {"initial_speed": 0, "time": 5, "gravity": -9.81}}], "strict_correct": true}
+{"id": "simple_30", "prediction": [{"name": "kinematics.final_velocity_from_distance", "arguments": {"acceleration": 4, "distance": 300, "initial_velocity": 0.0}}], "strict_correct": true}
+{"id": "simple_31", "prediction": [{"name": "calculate_final_velocity", "arguments": {"initial_velocity": 0, "acceleration": 9.8, "time": 5}}], "strict_correct": true}
+{"id": "simple_32", "prediction": [{"name": "calculate_final_speed", "arguments": {"initial_velocity": 0, "height": 100, "gravity": 9.8}}], "strict_correct": true}
+{"id": "simple_33", "prediction": [{"name": "get_directions", "arguments": {"start_location": "Sydney", "end_location": "Melbourne", "route_type": "fastest"}}], "strict_correct": true}
+{"id": "simple_34", "prediction": [{"name": "travel_itinerary_generator", "arguments": {"destination": "Tokyo", "days": 7, "daily_budget": 100, "exploration_type": "nature"}}], "strict_correct": true}
+{"id": "simple_35", "prediction": [{"name": "vegan_restaurant.find_nearby", "arguments": {"location": "New York, NY", "operating_hours": 23}}], "strict_correct": true}
+{"id": "simple_36", "prediction": [{"name": "get_shortest_driving_distance", "arguments": {"origin": "New York City", "destination": "Washington D.C."}}], "strict_correct": true}
+{"id": "simple_37", "prediction": [{"name": "route.estimate_time", "arguments": {"start_location": "San Francisco", "end_location": "Los Angeles", "stops": ["Santa Barbara", "Monterey"]}}], "strict_correct": true}
+{"id": "simple_38", "prediction": [{"name": "calculate_electrostatic_potential", "arguments": {"charge1": 1e-09, "charge2": 2e-09, "distance": 0.05, "constant": 8990000000.0}}], "strict_correct": true}
+{"id": "simple_39", "prediction": [{"name": "calculate_electric_field", "arguments": {"charge": 2, "distance": 3, "permitivity": 8.854e-12}}], "strict_correct": true}
+{"id": "simple_40", "prediction": [{"name": "calculate_magnetic_field", "arguments": {"current": 5, "radius": 4}}], "strict_correct": true}
+{"id": "simple_41", "prediction": [{"name": "electromagnetic_force", "arguments": {"charge1": 5, "charge2": 7, "distance": 3}}], "strict_correct": true}
+{"id": "simple_42", "prediction": [{"name": "calculate_resonant_frequency", "arguments": {"inductance": 0.05, "capacitance": 1e-05, "round_off": 2}}], "strict_correct": false}
+{"id": "simple_43", "prediction": [{"name": "calculate_magnetic_field_strength", "arguments": {"current": 20, "distance": 10}}], "strict_correct": true}
+{"id": "simple_44", "prediction": [{"name": "calculate_electric_field_strength", "arguments": {"charge": 0.01, "distance": 4}}], "strict_correct": true}
+{"id": "simple_45", "prediction": [{"name": "thermo.calculate_energy", "arguments": {"mass": 100, "phase_transition": "vaporization", "substance": "water"}}], "strict_correct": true}
+{"id": "simple_46", "prediction": [{"name": "calculate_final_temperature", "arguments": {"mass1": 20, "temperature1": 30, "mass2": 15, "temperature2": 60, "specific_heat_capacity": 4.2}}], "strict_correct": true}
+{"id": "simple_47", "prediction": [{"name": "get_boiling_melting_points", "arguments": {"substance": "water", "sea_level": 5000}}], "strict_correct": true}
+{"id": "simple_48", "prediction": [{"name": "calculate_density", "arguments": {"mass": 45, "volume": 15}}], "strict_correct": true}
+{"id": "simple_49", "prediction": [{"name": "calc_absolute_pressure", "arguments": {"atm_pressure": 1, "gauge_pressure": 2}}], "strict_correct": true}
+{"id": "simple_50", "prediction": [{"name": "entropy_change.calculate", "arguments": {"substance": "ice", "mass": 1, "initial_temperature": 0, "final_temperature": 100, "pressure": 1}}], "strict_correct": true}
+{"id": "simple_51", "prediction": [{"name": "calculate_entropy_change", "arguments": {"initial_temp": 300, "final_temp": 400, "heat_capacity": 5, "isothermal": true}}], "strict_correct": true}
+{"id": "simple_52", "prediction": [{"name": "calc_heat_capacity", "arguments": {"temp": 298, "volume": 10, "gas": "air"}}], "strict_correct": true}
+{"id": "simple_53", "prediction": [{"name": "fetch_DNA_sequence", "arguments": {"DNA_id": "DNA123"}}], "strict_correct": true}
+{"id": "simple_54", "prediction": [{"name": "get_protein_sequence", "arguments": {"gene": "BRCA1", "species": "Homo sapiens"}}], "strict_correct": true}
+{"id": "simple_55", "prediction": [{"name": "biology.get_cell_info", "arguments": {"cell_type": "human cell", "detailed": true}}], "strict_correct": false}
+{"id": "simple_56", "prediction": [{"name": "cellbio.get_proteins", "arguments": {"cell_compartment": "plasma membrane", "include_description": false}}], "strict_correct": true}
+{"id": "simple_57", "prediction": [{"name": "calculate_cell_density", "arguments": {"optical_density": 0.6, "dilution": 5}}], "strict_correct": true}
+{"id": "simple_58", "prediction": [{"name": "cell_biology.function_lookup", "arguments": {"molecule": "ATP synthase", "organelle": "mitochondria", "specific_function": true}}], "strict_correct": true}
+{"id": "simple_59", "prediction": [{"name": "calculate_molecular_weight", "arguments": {"compound": "C6H12O6", "to_unit": "g/mol"}}], "strict_correct": true}
+{"id": "simple_60", "prediction": [{"name": "mutation_type.find", "arguments": {"snp_id": "rs6034464"}}], "strict_correct": true}
+{"id": "simple_61", "prediction": [{"name": "diabetes_prediction", "arguments": {"weight": 150, "height": 70, "activity_level": "lightly active"}}], "strict_correct": true}
+{"id": "simple_62", "prediction": [{"name": "analyze_dna_sequence", "arguments": {"sequence": "AGTCGATCGAACGTACGTACG", "reference_sequence": "AGTCCATCGAACGTACGTACG", "mutation_type": "substitution"}}], "strict_correct": true}
+{"id": "simple_63", "prediction": [{"name": "genetics.calculate_similarity", "arguments": {"species1": "human", "species2": "chimp", "format": "percentage"}}], "strict_correct": true}
+{"id": "simple_64", "prediction": [{"name": "calculate_genotype_frequency", "arguments": {"allele_frequency": 0.3, "genotype": "AA"}}], "strict_correct": true}
+{"id": "simple_65", "prediction": [{"name": "calculate_density", "arguments": {"country": "Brazil", "year": 2022, "population": 213000000, "land_area": 8500000}}], "strict_correct": true}
+{"id": "simple_66", "prediction": [{"name": "ecology_data.precipitation_stats", "arguments": {"location": "Amazon rainforest", "time_frame": "six_months"}}], "strict_correct": true}
+{"id": "simple_67", "prediction": [{"name": "identify_bird", "arguments": {"color": "green", "habitat": "forest", "size": "small"}}], "strict_correct": true}
+{"id": "simple_68", "prediction": [{"name": "forest_growth_forecast", "arguments": {"location": "Yellowstone National Park", "years": 5, "include_human_impact": true}}], "strict_correct": true}
+{"id": "simple_69", "prediction": [{"name": "ecology.get_turtle_population", "arguments": {"location": "Mississippi river", "year": 2020, "species": true}}], "strict_correct": true}
+{"id": "simple_70", "prediction": [{"name": "calculate_vehicle_emission", "arguments": {"vehicle_type": "gas", "miles_driven": 1500}}], "strict_correct": true}
+{"id": "simple_71", "prediction": [{"name": "generate_DNA_sequence", "arguments": {"length": 100, "preferences": ["G", "C"]}}], "strict_correct": true}
+{"id": "simple_72", "prediction": [{"name": "calculate_fitness", "arguments": {"trait_values": [0.8, 0.7], "trait_contributions": [0.4, 0.6]}}], "strict_correct": true}
+{"id": "simple_73", "prediction": [{"name": "population_projections", "arguments": {"country": "United States", "years": 20}}], "strict_correct": true}
+{"id": "simple_74", "prediction": [{"name": "calculate_bacteria_evolution_rate", "arguments": {"start_population": 5000, "duplication_frequency": 1, "duration": 6}}], "strict_correct": true}
+{"id": "simple_75", "prediction": [{"name": "elephant_population_estimate", "arguments": {"current_population": 35000, "growth_rate": 0.015, "years": 5}}], "strict_correct": true}
+{"id": "simple_76", "prediction": [{"name": "prediction.evolution", "arguments": {"species": "Homo Sapiens", "years": 50, "model": "Darwin"}}], "strict_correct": true}
+{"id": "simple_77", "prediction": [{"name": "restaurant.find_nearby", "arguments": {"location": "Los Angeles, CA", "dietary_preference": ["Vegan"]}}], "strict_correct": true}
+{"id": "simple_78", "prediction": [{"name": "average_temperature", "arguments": {"location": "Austin", "days": 3, "temp_unit": "Celsius"}}], "strict_correct": true}
+{"id": "simple_79", "prediction": [{"name": "create_histogram", "arguments": {"data": [85, 90, 88, 92, 86, 89, 91], "bins": 5}}], "strict_correct": true}
+{"id": "simple_80", "prediction": [{"name": "find_restaurants", "arguments": {"location": "Manhattan, New York", "food_type": "Thai", "number": 5, "dietary_requirements": ["vegan"]}}], "strict_correct": true}
+{"id": "simple_81", "prediction": [{"name": "map_routing.fastest_route", "arguments": {"start_location": "San Francisco", "end_location": "Los Angeles", "avoid_tolls": true}}], "strict_correct": true}
+{"id": "simple_82", "prediction": [{"name": "calculate_average", "arguments": {"numbers": [12, 15, 18, 20, 21, 26, 30]}}], "strict_correct": true}
+{"id": "simple_83", "prediction": [{"name": "calculate_distance", "arguments": {"coord1": "(33.4484, -112.0740)", "coord2": "(34.0522, -118.2437)", "unit": "miles"}}], "strict_correct": false}
+{"id": "simple_84", "prediction": [{"name": "calculate_bmi", "arguments": {"weight": 85, "height": 180}}], "strict_correct": true}
+{"id": "simple_85", "prediction": [{"name": "geo_distance.calculate", "arguments": {"start_location": "Boston, MA", "end_location": "Washington, D.C.", "units": "miles"}}], "strict_correct": true}
+{"id": "simple_86", "prediction": [{"name": "city_distance.find_shortest", "arguments": {"start_city": "New York", "end_city": "Los Angeles", "transportation": "train", "allow_transfer": true}}], "strict_correct": true}
+{"id": "simple_87", "prediction": [{"name": "array_sort", "arguments": {"list": [5, 3, 4, 1, 2], "order": "ascending"}}], "strict_correct": true}
+{"id": "simple_88", "prediction": [{"name": "calculate_BMI", "arguments": {"weight_kg": 70, "height_m": 1.75}}], "strict_correct": true}
+{"id": "simple_89", "prediction": [{"name": "db_fetch_records", "arguments": {"database_name": "StudentDB", "table_name": "students", "conditions": {"department": "Science", "school": "Bluebird High School"}}}], "strict_correct": false}
+{"id": "simple_90", "prediction": [{"name": "employee.fetch_data", "arguments": {"company_name": "ABC Ltd.", "employee_id": 345, "data_field": ["Personal Info", "Job History"]}}], "strict_correct": true}
+{"id": "simple_91", "prediction": [{"name": "get_restaurant", "arguments": {"cuisine": "sushi", "location": "Boston", "condition": "operates on Sundays"}}], "strict_correct": false}
+{"id": "simple_92", "prediction": [{"name": "imdb.find_movies_by_actor", "arguments": {"actor_name": "Leonardo DiCaprio", "year": 2010}}], "strict_correct": true}
+{"id": "simple_93", "prediction": [{"name": "get_theater_movie_releases", "arguments": {"location": "LA", "timeframe": 7, "format": "IMAX"}}], "strict_correct": true}
+{"id": "simple_94", "prediction": [{"name": "update_user_info", "arguments": {"user_id": 43523, "update_info": {"name": "John Doe", "email": "johndoe@email.com"}, "database": "CustomerInfo"}}], "strict_correct": false}
+{"id": "simple_95", "prediction": [{"name": "calc_area_triangle", "arguments": {"base": 5, "height": 3}}], "strict_correct": true}
+{"id": "simple_96", "prediction": [{"name": "database.query", "arguments": {"table": "user", "conditions": [{"field": "age", "operation": ">", "value": "25"}, {"field": "job", "operation": "=", "value": "engineer"}]}}], "strict_correct": false}
+{"id": "simple_97", "prediction": [{"name": "math.factorial", "arguments": {"number": 5}}], "strict_correct": true}
+{"id": "simple_98", "prediction": [{"name": "calculate_clock_angle", "arguments": {"hours": 6, "minutes": 30, "round_to": 2}}], "strict_correct": true}
+{"id": "simple_99", "prediction": [{"name": "plot_sine_wave", "arguments": {"start_range": 0, "end_range": 2.0, "frequency": 5}}], "strict_correct": false}
+{"id": "simple_100", "prediction": [{"name": "light_travel_time", "arguments": {"distance_in_light_years": 4}}], "strict_correct": true}
+{"id": "simple_101", "prediction": [{"name": "calculate_speed", "arguments": {"distance": 450, "time": 20, "to_unit": "km/h"}}], "strict_correct": true}
+{"id": "simple_102", "prediction": [{"name": "calculate_distance", "arguments": {"body1": "Earth", "body2": "Moon", "unit": "mi"}}], "strict_correct": true}
+{"id": "simple_103", "prediction": [{"name": "mathematics.calculate_area_under_curve", "arguments": {"polynomial": [3, 2, -4], "limits": [-1, 2]}}], "strict_correct": true}
+{"id": "simple_104", "prediction": [{"name": "geometry.area_triangle", "arguments": {"base": 6, "height": 10}}], "strict_correct": true}
+{"id": "simple_105", "prediction": [{"name": "math.power", "arguments": {"base": 3, "exponent": 4}}], "strict_correct": true}
+{"id": "simple_106", "prediction": [{"name": "train_random_forest_classifier", "arguments": {"dataset": "your_dataset_name", "max_depth": 5, "n_estimators": 100}}], "strict_correct": true}
+{"id": "simple_107", "prediction": [{"name": "calculate_bmi", "arguments": {"weight": 70, "height": 175}}], "strict_correct": true}
+{"id": "simple_108", "prediction": [{"name": "run_linear_regression", "arguments": {"predictors": ["Age", "Income", "Education"], "target": "Purchase_Amount", "standardize": true}}], "strict_correct": true}
+{"id": "simple_109", "prediction": [{"name": "random_forest.train", "arguments": {"n_estimators": 100, "max_depth": 5, "data": "my_data"}}], "strict_correct": true}
+{"id": "simple_110", "prediction": [{"name": "predict_house_price", "arguments": {"bedrooms": 3, "bathrooms": 2, "area": 1800, "location": "San Francisco"}}], "strict_correct": true}
+{"id": "simple_111", "prediction": [{"name": "random.normalvariate", "arguments": {"mu": 0, "sigma": 1}}], "strict_correct": true}
+{"id": "simple_112", "prediction": [{"name": "calculate_probability", "arguments": {"total_outcomes": 52, "favorable_outcomes": 4, "round_to": 2}}], "strict_correct": true}
+{"id": "simple_113", "prediction": [{"name": "probability.dice_roll", "arguments": {"desired_number": 6, "number_of_rolls": 2, "die_sides": 6}}], "strict_correct": true}
+{"id": "simple_114", "prediction": [{"name": "prob_dist.binomial", "arguments": {"trials": 10, "successes": 5, "p": 0.5}}], "strict_correct": true}
+{"id": "simple_115", "prediction": [{"name": "calculate_binomial_probability", "arguments": {"number_of_trials": 8, "number_of_successes": 5, "probability_of_success": 0.5}}], "strict_correct": true}
+{"id": "simple_116", "prediction": [{"name": "probabilities.calculate_single", "arguments": {"total_outcomes": 52, "event_outcomes": 4, "round": 2}}], "strict_correct": true}
+{"id": "simple_117", "prediction": [{"name": "probability_of_event", "arguments": {"success_outcomes": 13, "total_outcomes": 52, "format_as_ratio": true}}], "strict_correct": true}
+{"id": "simple_118", "prediction": [{"name": "stats.t_test", "arguments": {"array_1": [10, 15, 12, 14, 11], "array_2": [18, 16, 17, 20, 22], "alpha": 0.05}}], "strict_correct": true}
+{"id": "simple_119", "prediction": [{"name": "hypothesis_testing.ttest_ind", "arguments": {"sample1": [22, 33, 42, 12, 34], "sample2": [23, 45, 44, 14, 38], "significance_level": 0.05}}], "strict_correct": true}
+{"id": "simple_120", "prediction": [{"name": "run_two_sample_ttest", "arguments": {"group1": [3, 4, 5, 6, 4], "group2": [7, 8, 9, 8, 7], "equal_variance": true}}], "strict_correct": true}
+{"id": "simple_121", "prediction": [{"name": "calc_binomial_prob", "arguments": {"num_trials": 100, "num_success": 60, "prob_success": 0.5}}], "strict_correct": true}
+{"id": "simple_122", "prediction": [{"name": "chi_squared_test", "arguments": {"table": [[10, 20], [30, 40]]}}], "strict_correct": true}
+{"id": "simple_123", "prediction": [{"name": "hypothesis_testing.two_sample_t_test", "arguments": {"group1": [12.4, 15.6, 11.2, 18.9], "group2": [10.5, 9.8, 15.2, 13.8], "alpha": 0.05}}], "strict_correct": true}
+{"id": "simple_124", "prediction": [{"name": "t_test", "arguments": {"dataset_A": [12, 24, 36], "dataset_B": [15, 30, 45]}}], "strict_correct": true}
+{"id": "simple_125", "prediction": [{"name": "predict_house_price", "arguments": {"area": 2500, "rooms": 5, "year": 1990, "location": "San Francisco"}}], "strict_correct": true}
+{"id": "simple_126", "prediction": [{"name": "linear_regression.get_r_squared", "arguments": {"dataset_path": "C:/data/cars.csv", "independent_variables": ["engine_size", "fuel_economy"], "dependent_variable": "car_price"}}], "strict_correct": true}
+{"id": "simple_127", "prediction": [{"name": "calculate_NPV", "arguments": {"cash_flows": [200, 300, 400, 500], "discount_rate": 0.1, "initial_investment": 2000}}], "strict_correct": true}
+{"id": "simple_128", "prediction": [{"name": "finance.calculate_quarterly_dividend_per_share", "arguments": {"total_payout": 50000000, "outstanding_shares": 100000000}}], "strict_correct": true}
+{"id": "simple_129", "prediction": [{"name": "calculate_discounted_cash_flow", "arguments": {"coupon_payment": 100, "period": 5, "discount_rate": 0.04, "face_value": 1000}}], "strict_correct": true}
+{"id": "simple_130", "prediction": [{"name": "finance_calculator.npv", "arguments": {"cash_flows": [-50000, 10000, 15000, 20000, 25000, 30000], "discount_rate": 0.08, "years": [0, 1, 2, 3, 4, 5]}}], "strict_correct": false}
+{"id": "simple_131", "prediction": [{"name": "calculate_compound_interest", "arguments": {"principal": 10000, "rate": 0.05, "time": 10, "n": 4}}], "strict_correct": true}
+{"id": "simple_132", "prediction": [{"name": "calculate_return_on_equity", "arguments": {"net_income": 2000000, "shareholder_equity": 10000000, "dividends_paid": 200000}}], "strict_correct": true}
+{"id": "simple_133", "prediction": [{"name": "finance.predict_future_value", "arguments": {"present_value": 5000, "annual_interest_rate": 0.05, "compounding_periods_per_year": 12, "time_years": 3}}], "strict_correct": true}
+{"id": "simple_134", "prediction": [{"name": "investment.predictProfit", "arguments": {"investment_amount": 5000, "annual_return": 0.07, "years": 5}}], "strict_correct": true}
+{"id": "simple_135", "prediction": [{"name": "calculate_return_on_investment", "arguments": {"purchase_price": 20, "sale_price": 25, "dividend": 2}}], "strict_correct": true}
+{"id": "simple_136", "prediction": [{"name": "compound_interest", "arguments": {"principal": 10000, "annual_rate": 5, "compounding_freq": "monthly", "time_in_years": 5}}], "strict_correct": true}
+{"id": "simple_137", "prediction": [{"name": "calculate_stock_return", "arguments": {"investment_amount": 5000, "annual_growth_rate": 0.06, "holding_period": 5, "dividends": false}}], "strict_correct": true}
+{"id": "simple_138", "prediction": [{"name": "portfolio_future_value", "arguments": {"stock": "X", "invested_amount": 5000, "expected_annual_return": 0.05, "years": 7}}], "strict_correct": true}
+{"id": "simple_139", "prediction": [{"name": "estimate_mutual_fund_return", "arguments": {"yearly_yield": 5, "investment_amount": 2000, "years": 3}}], "strict_correct": true}
+{"id": "simple_140", "prediction": [{"name": "calculate_cagr", "arguments": {"initial_value": 2000, "final_value": 3000, "period_in_years": 4}}], "strict_correct": true}
+{"id": "simple_141", "prediction": [{"name": "get_metal_price", "arguments": {"metal": "gold", "measure": "ounce"}}], "strict_correct": true}
+{"id": "simple_142", "prediction": [{"name": "get_stock_price", "arguments": {"company_name": "Amazon", "date": "2022-03-11"}}], "strict_correct": true}
+{"id": "simple_143", "prediction": [{"name": "get_stock_price", "arguments": {"company": "AAPL", "days": 5, "exchange": "NASDAQ"}}], "strict_correct": true}
+{"id": "simple_144", "prediction": [{"name": "market_performance.get_data", "arguments": {"indexes": ["S&P 500", "Dow Jones"], "days": 5}}], "strict_correct": true}
+{"id": "simple_145", "prediction": [{"name": "calculate_compounded_interest", "arguments": {"principal": 5000, "interest_rate": 0.05, "period": 10, "compounding_frequency": "Annually"}}], "strict_correct": true}
+{"id": "simple_146", "prediction": [{"name": "stock_price", "arguments": {"company": "Amazon", "days": 3}}], "strict_correct": true}
+{"id": "simple_147", "prediction": [{"name": "get_stock_prices", "arguments": {"companies": ["Microsoft", "Google"], "duration": "2 weeks"}}], "strict_correct": true}
+{"id": "simple_148", "prediction": [{"name": "finance.calculate_future_value", "arguments": {"initial_investment": 20000, "rate_of_return": 0.08, "years": 5}}], "strict_correct": true}
+{"id": "simple_149", "prediction": [{"name": "get_stock_price", "arguments": {"company_names": ["AAPL", "MSFT"]}}], "strict_correct": true}
+{"id": "simple_150", "prediction": [{"name": "calculate_roi", "arguments": {"deposit": 1000, "annual_interest_rate": 0.03, "years": 1}}], "strict_correct": true}
+{"id": "simple_151", "prediction": [{"name": "highest_grossing_banks", "arguments": {"country": "U.S", "year": 2020, "top_n": 1}}], "strict_correct": true}
+{"id": "simple_152", "prediction": [{"name": "calculate_mutual_fund_balance", "arguments": {"investment_amount": 50000, "annual_yield": 0.05, "years": 3}}], "strict_correct": true}
+{"id": "simple_153", "prediction": [{"name": "calculate_compounded_interest", "arguments": {"principal": 5000, "rate": 0.03, "time": 5, "n": 4}}], "strict_correct": true}
+{"id": "simple_154", "prediction": [{"name": "calculate_future_value", "arguments": {"present_value": 5000, "annual_interest_rate": 0.05, "years": 10, "compounds_per_year": 1}}], "strict_correct": true}
+{"id": "simple_155", "prediction": [{"name": "calculate_future_value", "arguments": {"initial_investment": 1000, "interest_rate": 0.05, "duration": 2, "compounded": 1}}], "strict_correct": true}
+{"id": "simple_156", "prediction": [{"name": "crime_record.get_record", "arguments": {"case_number": "CA123456", "county": "San Diego", "details": true}}], "strict_correct": true}
+{"id": "simple_157", "prediction": [{"name": "criminal_history.check_felonies", "arguments": {"full_name": "John Doe", "birth_date": "01-01-1980", "state": "California"}}], "strict_correct": true}
+{"id": "simple_158", "prediction": [{"name": "get_criminal_records", "arguments": {"name": "Mr. X", "location": "New York, NY", "from_year": 2012, "to_year": 2015}}], "strict_correct": true}
+{"id": "simple_159", "prediction": [{"name": "get_act_details", "arguments": {"act_name": "Criminal Law Amendment Act", "amendment_year": 2013}}], "strict_correct": true}
+{"id": "simple_160", "prediction": [{"name": "get_case_info", "arguments": {"docket": "2022/AL2562", "court": "California", "info_type": "victim"}}], "strict_correct": true}
+{"id": "simple_161", "prediction": [{"name": "crime_statute_lookup", "arguments": {"jurisdiction": "California", "crime": "theft", "detail_level": "detailed"}}], "strict_correct": true}
+{"id": "simple_162", "prediction": [{"name": "generate_law_contract", "arguments": {"parties": ["John", "Alice"], "contract_type": "rental agreement", "location": "California"}}], "strict_correct": true}
+{"id": "simple_163", "prediction": [{"name": "property_records.get", "arguments": {"address": "123 main street", "parcel_number": 1234567890, "county": "Santa Clara", "include_owner": true}}], "strict_correct": true}
+{"id": "simple_164", "prediction": [{"name": "get_crime_rate", "arguments": {"city": "San Francisco", "state": "California", "type": "violent", "year": 2020}}], "strict_correct": true}
+{"id": "simple_165", "prediction": [{"name": "civil_cases.retrieve", "arguments": {"year": 2020, "crime_type": "theft", "location": "Los Angeles, California"}}], "strict_correct": true}
+{"id": "simple_166", "prediction": [{"name": "lawyer.find_nearby", "arguments": {"city": "Chicago, IL", "specialty": ["Divorce"], "fee": 399}}], "strict_correct": false}
+{"id": "simple_167", "prediction": [{"name": "law.civil.get_case_details", "arguments": {"case_title": "Roe v. Wade", "include_dissent": true}}], "strict_correct": true}
+{"id": "simple_168", "prediction": [{"name": "lawsuit_search", "arguments": {"company": "Google", "start_date": "01-01-2021", "location": "California", "status": "ongoing"}}], "strict_correct": true}
+{"id": "simple_169", "prediction": [{"name": "court_case.search", "arguments": {"docket_number": 123456, "location": "Texas", "full_text": false}}], "strict_correct": true}
+{"id": "simple_170", "prediction": [{"name": "law_case_search.find_historical", "arguments": {"subject": "fraud", "from_year": 2010, "to_year": 2015}}], "strict_correct": true}
+{"id": "simple_171", "prediction": [{"name": "fetch_law_case_details", "arguments": {"case_number": 43403, "court": "New York", "year": 2018}}], "strict_correct": true}
+{"id": "simple_172", "prediction": [{"name": "legal_case.fetch", "arguments": {"case_id": "R vs Adams", "details": true}}], "strict_correct": true}
+{"id": "simple_173", "prediction": [{"name": "law_case_search", "arguments": {"topic": "land disputes", "year_range": [2015, 2021], "location": "New York", "judicial_system": "state"}}], "strict_correct": true}
+{"id": "simple_174", "prediction": [{"name": "get_top_cases", "arguments": {"field_of_law": "constitutional law", "top_number": 10, "country": "China"}}], "strict_correct": true}
+{"id": "simple_175", "prediction": [{"name": "lawyer.get_experience", "arguments": {"name": "John Doe", "law_type": "Bankruptcy"}}], "strict_correct": true}
+{"id": "simple_176", "prediction": [{"name": "lawsuit_details.find", "arguments": {"company_name": "Apple Inc.", "year": 2010, "case_type": "Patent"}}], "strict_correct": true}
+{"id": "simple_177", "prediction": [{"name": "get_lawsuit_cases", "arguments": {"company_name": "Facebook", "year": 2018}}], "strict_correct": true}
+{"id": "simple_178", "prediction": [{"name": "get_lawsuit_details", "arguments": {"case_number": "LAX2019080202", "court_location": "Los Angeles"}}], "strict_correct": true}
+{"id": "simple_179", "prediction": [{"name": "find_latest_court_case", "arguments": {"company1": "Apple", "company2": "Samsung", "country": "USA"}}], "strict_correct": true}
+{"id": "simple_180", "prediction": [{"name": "lawsuits_search", "arguments": {"company_name": "Google", "location": "California", "year": 2020}}], "strict_correct": true}
+{"id": "simple_181", "prediction": [{"name": "get_lawsuit_details", "arguments": {"case_number": "123456-ABC", "court_location": "Los Angeles", "with_verdict": true}}], "strict_correct": true}
+{"id": "simple_182", "prediction": [{"name": "lawsuit_info", "arguments": {"case_number": "XYZ123"}}], "strict_correct": true}
+{"id": "simple_183", "prediction": [{"name": "lawsuit_search", "arguments": {"entity": "Apple", "county": "Santa Clara County"}}], "strict_correct": true}
+{"id": "simple_184", "prediction": [{"name": "lawsuit.check_case", "arguments": {"case_id": 1234, "closed_status": true}}], "strict_correct": true}
+{"id": "simple_185", "prediction": [{"name": "detailed_weather_forecast", "arguments": {"location": "New York", "duration": 72, "include_precipitation": true}}], "strict_correct": true}
+{"id": "simple_186", "prediction": [{"name": "current_weather_condition", "arguments": {"city": "Tokyo", "country": "JP", "measurement": "c"}}], "strict_correct": false}
+{"id": "simple_187", "prediction": [{"name": "get_current_weather", "arguments": {"location": "Seattle, Washington", "include_temperature": true, "include_humidity": true}}], "strict_correct": true}
+{"id": "simple_188", "prediction": [{"name": "weather.humidity_forecast", "arguments": {"location": "Miami, Florida", "days": 7}}], "strict_correct": true}
+{"id": "simple_189", "prediction": [{"name": "weather_forecast_detailed", "arguments": {"location": "New York, USA", "days": 3, "details": true}}], "strict_correct": true}
+{"id": "simple_190", "prediction": [{"name": "park_information", "arguments": {"park_name": "Yellowstone National Park", "information": ["Elevation", "Area"]}}], "strict_correct": true}
+{"id": "simple_191", "prediction": [{"name": "locate_tallest_mountains", "arguments": {"location": "Denver, Colorado", "radius": 50, "amount": 5}}], "strict_correct": true}
+{"id": "simple_192", "prediction": [{"name": "calculate_slope_gradient", "arguments": {"point1": [40.7128, -74.006], "point2": [34.0522, -118.2437], "unit": "degree"}}], "strict_correct": true}
+{"id": "simple_193", "prediction": [{"name": "local_nursery.find", "arguments": {"location": "Toronto", "plant_types": ["Annual"]}}], "strict_correct": true}
+{"id": "simple_194", "prediction": [{"name": "get_plants_for_slope", "arguments": {"slope_type": "hill", "num_results": 3}}], "strict_correct": true}
+{"id": "simple_195", "prediction": [{"name": "calculate_carbon_footprint", "arguments": {"daily_miles": 20, "meat_meals_per_week": 3, "annual_trash_weight": 500, "flights_per_year": 0}}], "strict_correct": true}
+{"id": "simple_196", "prediction": [{"name": "air_quality", "arguments": {"location": "London", "date": "08-16-2022"}}], "strict_correct": true}
+{"id": "simple_197", "prediction": [{"name": "get_air_quality_index", "arguments": {"location": "San Diego", "time": "12:00"}}], "strict_correct": true}
+{"id": "simple_198", "prediction": [{"name": "calculate_daily_water_intake", "arguments": {"weight": 70}}], "strict_correct": true}
+{"id": "simple_199", "prediction": [{"name": "environmental_data.air_quality_index", "arguments": {"location": "San Jose", "days": 3}}], "strict_correct": true}
+{"id": "simple_200", "prediction": [{"name": "calculate_emissions", "arguments": {"distance": 12000, "fuel_type": "gas", "fuel_efficiency": 25}}], "strict_correct": true}
+{"id": "simple_201", "prediction": [{"name": "estimate_population", "arguments": {"species": "panda", "country": "China"}}], "strict_correct": true}
+{"id": "simple_202", "prediction": [{"name": "calculate_emission_savings", "arguments": {"energy_type": "solar", "usage_duration": 3, "region": "California"}}], "strict_correct": false}
+{"id": "simple_203", "prediction": [{"name": "get_air_quality", "arguments": {"location": "Chicago", "detail": true}}], "strict_correct": true}
+{"id": "simple_204", "prediction": [{"name": "restaurant.find_nearby", "arguments": {"location": "Seattle, WA", "cuisine": "Chinese", "max_distance": 10}}], "strict_correct": true}
+{"id": "simple_205", "prediction": [{"name": "get_traffic_info", "arguments": {"start_location": "Boston", "end_location": "New York", "mode": "driving"}}], "strict_correct": true}
+{"id": "simple_206", "prediction": [{"name": "parks.find_nearby", "arguments": {"location": "London, UK", "amenities": ["Tennis Court"]}}], "strict_correct": true}
+{"id": "simple_207", "prediction": [{"name": "calculate_shortest_distance", "arguments": {"start_location": "New York, USA", "end_location": "Miami, USA", "route_preference": "Shortest"}}], "strict_correct": true}
+{"id": "simple_208", "prediction": [{"name": "map_service.get_directions", "arguments": {"start": "New York", "end": "Los Angeles", "avoid": ["highways", "tolls"]}}], "strict_correct": true}
+{"id": "simple_209", "prediction": [{"name": "public_library.find_nearby", "arguments": {"location": "Boston, MA", "facilities": ["Wi-Fi", "Fiction"]}}], "strict_correct": true}
+{"id": "simple_210", "prediction": [{"name": "get_news", "arguments": {"topic": "Bitcoin", "quantity": 5, "region": "US"}}], "strict_correct": true}
+{"id": "simple_211", "prediction": [{"name": "send_email", "arguments": {"to": "john.doe@example.com", "subject": "Meeting", "body": "Let's meet at 10 AM tomorrow"}}], "strict_correct": true}
+{"id": "simple_212", "prediction": [{"name": "get_stock_info", "arguments": {"company_name": "Apple Inc.", "detail_level": "detailed"}}], "strict_correct": true}
+{"id": "simple_213", "prediction": [{"name": "flight.book", "arguments": {"departure_location": "San Francisco", "destination_location": "London", "date": "2022-04-27", "time": "afternoon", "direct_flight": true}}], "strict_correct": true}
+{"id": "simple_214", "prediction": [{"name": "event_finder.find_upcoming", "arguments": {"location": "New York, NY", "genre": "rock", "days_ahead": 30}}], "strict_correct": true}
+{"id": "simple_215", "prediction": [{"name": "movie_details.brief", "arguments": {"title": "Interstellar", "extra_info": false}}], "strict_correct": true}
+{"id": "simple_216", "prediction": [{"name": "sentiment_analysis", "arguments": {"text": "I love the food here! It's always fresh and delicious.", "language": "en"}}], "strict_correct": true}
+{"id": "simple_217", "prediction": [{"name": "fMRI.analyze", "arguments": {"data_source": "~/data/myfMRI.nii", "sequence_type": "multi-band", "smooth": 6, "voxel_size": 2}}], "strict_correct": true}
+{"id": "simple_218", "prediction": [{"name": "patient.get_mri_report", "arguments": {"patient_id": 546382, "mri_type": "brain", "status": "concluded"}}], "strict_correct": true}
+{"id": "simple_219", "prediction": [{"name": "get_neuron_coordinates", "arguments": {"neuron_type": "GABA", "brain_region": "All"}}], "strict_correct": true}
+{"id": "simple_220", "prediction": [{"name": "calculate_neuronal_activity", "arguments": {"input_synaptic_rate": 200, "weight": 0.5, "decay_rate": 0.1}}], "strict_correct": true}
+{"id": "simple_221", "prediction": [{"name": "population_growth_estimate", "arguments": {"location": "London", "years": 5}}], "strict_correct": true}
+{"id": "simple_222", "prediction": [{"name": "calculate_bmi", "arguments": {"weight": 70, "height": 180}}], "strict_correct": true}
+{"id": "simple_223", "prediction": [{"name": "group_dynamics.pattern", "arguments": {"total": 50, "extroverts": 15, "introverts": 35}}], "strict_correct": true}
+{"id": "simple_224", "prediction": [{"name": "social_media_analytics.most_followed", "arguments": {"topic": "psychology", "sub_topics": ["behaviour", "group dynamics"]}}], "strict_correct": true}
+{"id": "simple_225", "prediction": [{"name": "psych_research.get_preference", "arguments": {"category": "reading", "option_one": "digital reading", "option_two": "physical books"}}], "strict_correct": true}
+{"id": "simple_226", "prediction": [{"name": "get_zodiac_compatibility", "arguments": {"sign1": "Aries", "sign2": "Gemini", "scale": "percentage"}}], "strict_correct": true}
+{"id": "simple_227", "prediction": [{"name": "get_personality_traits", "arguments": {"type": "ENFJ", "traits": ["strengths", "weaknesses"]}}], "strict_correct": true}
+{"id": "simple_228", "prediction": [{"name": "get_personality_traits", "arguments": {"hobby": "jogging", "trait_count": 3}}], "strict_correct": true}
+{"id": "simple_229", "prediction": [{"name": "get_bigfive_scores", "arguments": {"characteristics": ["efficient", "organized", "easy going", "compassionate"]}}], "strict_correct": true}
+{"id": "simple_230", "prediction": [{"name": "historic_leader_search", "arguments": {"location": "France", "date": 1510, "title": "King"}}], "strict_correct": true}
+{"id": "simple_231", "prediction": [{"name": "history.get_key_events", "arguments": {"country": "Germany", "start_year": 1871, "end_year": 1945, "event_type": ["War"]}}], "strict_correct": true}
+{"id": "simple_232", "prediction": [{"name": "monarch.getMonarchOfYear", "arguments": {"location": "England", "year": 1800, "fullName": true}}], "strict_correct": true}
+{"id": "simple_233", "prediction": [{"name": "european_history.get_event_date", "arguments": {"event_name": "Treaty of Tordesillas", "format": "YYYY"}}], "strict_correct": true}
+{"id": "simple_234", "prediction": [{"name": "history_eu.fetch_events", "arguments": {"century": 19, "region": "Western", "category": "Wars"}}], "strict_correct": true}
+{"id": "simple_235", "prediction": [{"name": "get_event_date", "arguments": {"event": "Treaty of Lisbon"}}], "strict_correct": true}
+{"id": "simple_236", "prediction": [{"name": "us_history.get_event_info", "arguments": {"event_name": "American Civil War", "specific_info": "Start Date"}}], "strict_correct": true}
+{"id": "simple_237", "prediction": [{"name": "get_historical_GDP", "arguments": {"country": "United States", "start_year": 1960, "end_year": 2000}}], "strict_correct": true}
+{"id": "simple_238", "prediction": [{"name": "us_history.get_president", "arguments": {"event": "American Civil War", "year": 1865}}], "strict_correct": true}
+{"id": "simple_239", "prediction": [{"name": "US_president.in_year", "arguments": {"year": 1861, "full_name": true}}], "strict_correct": true}
+{"id": "simple_240", "prediction": [{"name": "history_api.get_president_by_year", "arguments": {"year": 1940}}], "strict_correct": true}
+{"id": "simple_241", "prediction": [{"name": "US_President_During_Event", "arguments": {"event": "Civil War"}}], "strict_correct": true}
+{"id": "simple_242", "prediction": [{"name": "get_scientist_for_discovery", "arguments": {"discovery": "theory of evolution"}}], "strict_correct": true}
+{"id": "simple_243", "prediction": [{"name": "get_discoverer", "arguments": {"discovery": "neutron", "detail": true}}], "strict_correct": true}
+{"id": "simple_244", "prediction": [{"name": "publication_year.find", "arguments": {"author": "Isaac Newton", "work_title": "Law of Universal Gravitation"}}], "strict_correct": true}
+{"id": "simple_245", "prediction": [{"name": "discoverer.get", "arguments": {"element_name": "radium"}}], "strict_correct": true}
+{"id": "simple_246", "prediction": [{"name": "science_history.get_discovery_details", "arguments": {"discovery": "Gravity"}}], "strict_correct": true}
+{"id": "simple_247", "prediction": [{"name": "historical_contrib.get_contrib", "arguments": {"scientist": "Albert Einstein", "date": "1915-03-17"}}], "strict_correct": true}
+{"id": "simple_248", "prediction": [{"name": "science_history.get_invention", "arguments": {"invention_name": "theory of relativity", "want_year": true}}], "strict_correct": true}
+{"id": "simple_249", "prediction": [{"name": "religion.history_info", "arguments": {"religion": "Christianity", "till_century": 14}}], "strict_correct": true}
+{"id": "simple_250", "prediction": [{"name": "get_time_difference", "arguments": {"place1": "San Francisco", "place2": "Sydney"}}], "strict_correct": true}
+{"id": "simple_251", "prediction": [{"name": "get_earliest_reference", "arguments": {"name": "Jesus Christ", "source": "historical records"}}], "strict_correct": true}
+{"id": "simple_252", "prediction": [{"name": "get_religion_history", "arguments": {"religion": "Christianity", "century": 16, "sort_by": "importance", "count": 10}}], "strict_correct": true}
+{"id": "simple_253", "prediction": [{"name": "retrieve_religion_info", "arguments": {"religion_name": "Buddhism", "detail_level": "full"}}], "strict_correct": true}
+{"id": "simple_254", "prediction": [{"name": "get_religion_history", "arguments": {"religion": "Christianity", "start_year": 300, "end_year": 400}}], "strict_correct": true}
+{"id": "simple_255", "prediction": [{"name": "religious_history.get_papal_biography", "arguments": {"papal_name": "Innocent III", "include_contributions": true}}], "strict_correct": true}
+{"id": "simple_256", "prediction": [{"name": "generate_circle_image", "arguments": {"radius": 50, "color": "Red"}}], "strict_correct": true}
+{"id": "simple_257", "prediction": [{"name": "identify_color_rgb", "arguments": {"color_name": "Sea Green"}}], "strict_correct": true}
+{"id": "simple_258", "prediction": [{"name": "mix_paint_color", "arguments": {"color1": "yellow", "color2": "blue", "lightness": 60}}], "strict_correct": true}
+{"id": "simple_259", "prediction": [{"name": "calculate_paint_needed", "arguments": {"coverage_rate": 400, "length": 30, "height": 12}}], "strict_correct": true}
+{"id": "simple_260", "prediction": [{"name": "paint_requirement.calculate", "arguments": {"area": {"width": 20, "height": 12}, "paint_coverage": 350, "exclusion": {"type": "window", "area": 15}}}], "strict_correct": false}
+{"id": "simple_261", "prediction": [{"name": "draw_rectangle", "arguments": {"width": 20, "height": 10, "color": "red"}}], "strict_correct": true}
+{"id": "simple_262", "prediction": [{"name": "modify_painting", "arguments": {"size": "12x18", "medium": "oil", "dominant_color": "red"}}], "strict_correct": true}
+{"id": "simple_263", "prediction": [{"name": "get_sculpture_info", "arguments": {"artist_name": "James Plensa", "detail": true}}], "strict_correct": true}
+{"id": "simple_264", "prediction": [{"name": "sculpture.get_details", "arguments": {"artist": "Michelangelo", "title": "David", "detail": "size"}}], "strict_correct": true}
+{"id": "simple_265", "prediction": [{"name": "sculpture_search", "arguments": {"location": "Chicago", "time_frame": "19th century"}}], "strict_correct": true}
+{"id": "simple_266", "prediction": [{"name": "get_sculpture_value", "arguments": {"sculpture": "The Thinker", "artist": "Rodin"}}], "strict_correct": true}
+{"id": "simple_267", "prediction": [{"name": "find_exhibition", "arguments": {"location": "New York, NY", "art_form": "sculpture", "user_ratings": "high"}}], "strict_correct": false}
+{"id": "simple_268", "prediction": [{"name": "sculpture_locator.find_by_artist", "arguments": {"artist": "Michelangelo", "material": "Marble", "location": "Rome, Italy"}}], "strict_correct": true}
+{"id": "simple_269", "prediction": [{"name": "calculate_compound_interest", "arguments": {"principle": 10000, "interest_rate": 0.05, "time": 10, "compounds_per_year": 1}}], "strict_correct": true}
+{"id": "simple_270", "prediction": [{"name": "building.get_dimensions", "arguments": {"building_name": "Empire State Building", "unit": "feet"}}], "strict_correct": true}
+{"id": "simple_271", "prediction": [{"name": "analyze_structure", "arguments": {"building_id": "B1004", "floors": [2, 3, 4], "mode": "dynamic"}}], "strict_correct": true}
+{"id": "simple_272", "prediction": [{"name": "calculate_circle_dimensions", "arguments": {"radius": 5}}], "strict_correct": true}
+{"id": "simple_273", "prediction": [{"name": "museum.get_hours", "arguments": {"name": "Louvre Museum", "location": "Paris"}}], "strict_correct": true}
+{"id": "simple_274", "prediction": [{"name": "museum_info", "arguments": {"museum_name": "Metropolitan Museum of Art", "info_type": "opening_hours"}}], "strict_correct": true}
+{"id": "simple_275", "prediction": [{"name": "metropolitan_museum.get_top_artworks", "arguments": {"number": 5, "sort_by": "popularity"}}], "strict_correct": true}
+{"id": "simple_276", "prediction": [{"name": "museum_working_hours.get", "arguments": {"museum": "Louvre Museum", "location": "Paris"}}], "strict_correct": true}
+{"id": "simple_277", "prediction": [{"name": "museum_info", "arguments": {"museum": "The British Museum", "date": "2023-06-20", "information": ["opening_hours", "ticket_price"]}}], "strict_correct": true}
+{"id": "simple_278", "prediction": [{"name": "get_instrument_details", "arguments": {"instrument": "piano", "manufacturer": "Yamaha", "features": ["price", "rating"]}}], "strict_correct": true}
+{"id": "simple_279", "prediction": [{"name": "instrument_price.get", "arguments": {"brand": "Fender", "model": "American Professional II Stratocaster", "finish": "Rosewood"}}], "strict_correct": true}
+{"id": "simple_280", "prediction": [{"name": "find_instrument", "arguments": {"budget": 1000, "type": "acoustic"}}], "strict_correct": true}
+{"id": "simple_281", "prediction": [{"name": "get_instrument_info", "arguments": {"name": "Violin", "maker": "Stradivarius", "year": 1721}}], "strict_correct": true}
+{"id": "simple_282", "prediction": [{"name": "find_flute", "arguments": {"brand": "Yamaha", "specs": ["open hole", "C foot", "silver headjoint"]}}], "strict_correct": true}
+{"id": "simple_283", "prediction": [{"name": "guitar_price.find", "arguments": {"model": "Gibson Les Paul", "condition": "Excellent", "location": "Chicago"}}], "strict_correct": true}
+{"id": "simple_284", "prediction": [{"name": "concert_info.get", "arguments": {"location": "New York", "date": "next month", "genre": "Pop"}}], "strict_correct": true}
+{"id": "simple_285", "prediction": [{"name": "find_concert", "arguments": {"location": "Chicago, IL", "price": 100, "genre": "Rock"}}], "strict_correct": true}
+{"id": "simple_286", "prediction": [{"name": "concert.get_details", "arguments": {"artist": "Beyonce", "location": "San Diego", "date": "04-2022"}}], "strict_correct": true}
+{"id": "simple_287", "prediction": [{"name": "concert.search", "arguments": {"genre": "classical", "location": "Los Angeles", "date": "this weekend", "price_range": "cheap"}}], "strict_correct": true}
+{"id": "simple_288", "prediction": [{"name": "concert_booking.book_ticket", "arguments": {"artist": "Eminem", "city": "New York City", "num_tickets": 2}}], "strict_correct": true}
+{"id": "simple_289", "prediction": [{"name": "concert.find_nearby", "arguments": {"location": "Seattle, WA", "genre": "jazz"}}], "strict_correct": true}
+{"id": "simple_290", "prediction": [{"name": "concert.find_details", "arguments": {"artist": "The Weeknd", "month": "December"}}], "strict_correct": true}
+{"id": "simple_291", "prediction": [{"name": "music_generator.generate_melody", "arguments": {"key": "C", "start_note": "C4", "length": 16, "tempo": 120}}], "strict_correct": true}
+{"id": "simple_292", "prediction": [{"name": "compose_melody", "arguments": {"progression": ["C", "F", "G"], "measures": 4, "instrument": "Piano"}}], "strict_correct": true}
+{"id": "simple_293", "prediction": [{"name": "music_composer.create_mix", "arguments": {"scale": "C Major", "note_duration": "quarter", "track_length": 180}}], "strict_correct": true}
+{"id": "simple_294", "prediction": [{"name": "music_generation.create_chord_progression", "arguments": {"key": "C", "chords": 4, "progression_type": "major"}}], "strict_correct": true}
+{"id": "simple_295", "prediction": [{"name": "get_song_lyrics", "arguments": {"song_title": "Bohemian Rhapsody", "artist_name": "Queen"}}], "strict_correct": true}
+{"id": "simple_296", "prediction": [{"name": "music_generator.generate_scale_progression", "arguments": {"key": "C", "tempo": 80, "duration": 4, "scale_type": "major"}}], "strict_correct": true}
+{"id": "simple_297", "prediction": [{"name": "music.theory.chordProgression", "arguments": {"progression": ["I", "V", "vi", "IV"]}}], "strict_correct": true}
+{"id": "simple_298", "prediction": [{"name": "music_theory.key_signature", "arguments": {"key": "C#", "scale_type": "major"}}], "strict_correct": true}
+{"id": "simple_299", "prediction": [{"name": "musical_scale", "arguments": {"key": "C#", "scale_type": "major"}}], "strict_correct": true}
+{"id": "simple_300", "prediction": [{"name": "music.calculate_note_duration", "arguments": {"first_note_frequency": 440, "second_note_frequency": 880}}], "strict_correct": true}
+{"id": "simple_301", "prediction": [{"name": "get_third_chord", "arguments": {"key": "C"}}], "strict_correct": true}
+{"id": "simple_302", "prediction": [{"name": "calculate_batting_average", "arguments": {"hits": 180, "at_bats": 600, "decimal_places": 3}}], "strict_correct": true}
+{"id": "simple_303", "prediction": [{"name": "soccer_stat.get_player_stats", "arguments": {"player_name": "Cristiano Ronaldo", "season": "2019-2020"}}], "strict_correct": true}
+{"id": "simple_304", "prediction": [{"name": "player_stats.getLastGame", "arguments": {"player_name": "LeBron James", "team": "Los Angeles Lakers", "metrics": ["Points", "Rebounds"]}}], "strict_correct": true}
+{"id": "simple_305", "prediction": [{"name": "sports_stats.get_performance", "arguments": {"player_name": "Messi", "tournament": "La Liga", "season": "2020-2021", "performance_indicator": ["Goals Scored", "Assists Made"]}}], "strict_correct": true}
+{"id": "simple_306", "prediction": [{"name": "average_batting_score", "arguments": {"player_name": "Virat Kohli", "matches": 10}}], "strict_correct": true}
+{"id": "simple_307", "prediction": [{"name": "game_result.get_winner", "arguments": {"teams": ["Lakers", "Clippers"], "date": "2021-01-28"}}], "strict_correct": true}
+{"id": "simple_308", "prediction": [{"name": "sports.match_schedule", "arguments": {"team_name": "Manchester United", "num_matches": 5, "league": "English Premier League"}}], "strict_correct": true}
+{"id": "simple_309", "prediction": [{"name": "nfl_data.player_record", "arguments": {"player_name": "Tom Brady", "season_year": 2020}}], "strict_correct": true}
+{"id": "simple_310", "prediction": [{"name": "get_career_stats", "arguments": {"player_name": "LeBron James"}}], "strict_correct": true}
+{"id": "simple_311", "prediction": [{"name": "sports_db.find_athlete", "arguments": {"name": "Lebron James", "sport": "Basketball"}}], "strict_correct": true}
+{"id": "simple_312", "prediction": [{"name": "player_statistic", "arguments": {"player_name": "Cristiano Ronaldo", "year": 2021}}], "strict_correct": true}
+{"id": "simple_313", "prediction": [{"name": "celebrity_net_worth.get", "arguments": {"name": "Lionel Messi", "currency": "EUR"}}], "strict_correct": true}
+{"id": "simple_314", "prediction": [{"name": "sports_celebrity.get_major_achievements", "arguments": {"celebrity_name": "Lionel Messi", "sports": "Football"}}], "strict_correct": true}
+{"id": "simple_315", "prediction": [{"name": "get_defense_ranking", "arguments": {"season": 2021, "top": 1}}], "strict_correct": true}
+{"id": "simple_316", "prediction": [{"name": "get_sport_ranking", "arguments": {"sport": "tennis", "player_name": "Serena Williams"}}], "strict_correct": true}
+{"id": "simple_317", "prediction": [{"name": "get_team_rank", "arguments": {"team_name": "LA Lakers", "league": "NBA", "season": 2021, "type": "regular"}}], "strict_correct": true}
+{"id": "simple_318", "prediction": [{"name": "get_team_ranking", "arguments": {"team_name": "Germany", "year": 2021, "gender": "men"}}], "strict_correct": true}
+{"id": "simple_319", "prediction": [{"name": "sports_ranking", "arguments": {"team": "Manchester United", "league": "Premier League"}}], "strict_correct": true}
+{"id": "simple_320", "prediction": [{"name": "sports_ranking.get_team_position", "arguments": {"team": "Golden State Warriors", "season": "2022-2023", "detailed": true}}], "strict_correct": true}
+{"id": "simple_321", "prediction": [{"name": "sports_ranking", "arguments": {"team": "Barcelona", "league": "La Liga", "season": 2021}}], "strict_correct": true}
+{"id": "simple_322", "prediction": [{"name": "sports_ranking.get_current", "arguments": {"team": "Liverpool FC", "league": "Premier League"}}], "strict_correct": false}
+{"id": "simple_323", "prediction": [{"name": "sports_ranking.get_top_player", "arguments": {"sport": "tennis", "gender": "women"}}], "strict_correct": true}
+{"id": "simple_324", "prediction": [{"name": "team_score.get_latest", "arguments": {"team": "Los Angeles Lakers", "include_opponent": true}}], "strict_correct": true}
+{"id": "simple_325", "prediction": [{"name": "sports.match_results", "arguments": {"team1": "Chicago Bulls", "team2": "Los Angeles Lakers"}}], "strict_correct": true}
+{"id": "simple_326", "prediction": [{"name": "get_team_score", "arguments": {"team_name": "Los Angeles Lakers", "league": "NBA", "include_player_stats": true}}], "strict_correct": true}
+{"id": "simple_327", "prediction": [{"name": "sports_team.get_schedule", "arguments": {"team_name": "Manchester United", "num_of_games": 6, "league": "Premier League"}}], "strict_correct": true}
+{"id": "simple_328", "prediction": [{"name": "boardgame.get_info", "arguments": {"name": "Ticket to Ride", "parameters": ["player count", "rating"]}}], "strict_correct": true}
+{"id": "simple_329", "prediction": [{"name": "monopoly_odds_calculator", "arguments": {"number": 7, "dice_number": 2, "dice_faces": 6}}], "strict_correct": true}
+{"id": "simple_330", "prediction": [{"name": "board_game_info", "arguments": {"game_name": "Catan", "info_required": ["average_review_rating", "age_range"]}}], "strict_correct": true}
+{"id": "simple_331", "prediction": [{"name": "board_game.chess.get_top_players", "arguments": {"location": "New York", "minimum_rating": 2300}}], "strict_correct": true}
+{"id": "simple_332", "prediction": [{"name": "chess.rating", "arguments": {"player_name": "Magnus Carlsen", "variant": "classical"}}], "strict_correct": true}
+{"id": "simple_333", "prediction": [{"name": "detailed_weather_forecast", "arguments": {"location": "London, United Kingdom", "days": 3, "details": ["high_low_temperature", "humidity", "precipitation"]}}], "strict_correct": true}
+{"id": "simple_334", "prediction": [{"name": "blackjack.check_winner", "arguments": {"player_cards": ["A", "10"], "dealer_cards": ["10", "9"], "ace_value": 1}}], "strict_correct": true}
+{"id": "simple_335", "prediction": [{"name": "find_card_in_deck", "arguments": {"rank": "Queen", "suit": "Hearts"}}], "strict_correct": true}
+{"id": "simple_336", "prediction": [{"name": "cards.shuffle_and_draw", "arguments": {"num_cards": 3}}], "strict_correct": true}
+{"id": "simple_337", "prediction": [{"name": "poker_game_winner", "arguments": {"players": ["Alex", "Sam", "Robert", "Steve"], "cards": {"Alex": ["A of spades", "K of spades"], "Sam": ["2 of diamonds", "3 of clubs"], "Robert": ["Q of hearts", "10 of hearts"], "Steve": ["4 of spades", "5 of spades"]}, "type": "Texas Holdem"}}], "strict_correct": false}
+{"id": "simple_338", "prediction": [{"name": "card_game_probability.calculate", "arguments": {"total_cards": 52, "desired_cards": 13, "cards_drawn": 1}}], "strict_correct": true}
+{"id": "simple_339", "prediction": [{"name": "poker_probability.full_house", "arguments": {"deck_size": 52, "hand_size": 5}}], "strict_correct": true}
+{"id": "simple_340", "prediction": [{"name": "card_games.poker_determine_winner", "arguments": {"player1": "John", "hand1": ["8♥", "10♥", "J♥", "Q♥", "K♥"], "player2": "Mike", "hand2": ["9♠", "J♠", "10♠", "Q♠", "K♠"]}}], "strict_correct": true}
+{"id": "simple_341", "prediction": [{"name": "deck_of_cards.odds", "arguments": {"suit": "hearts", "deck_type": "without_joker"}}], "strict_correct": true}
+{"id": "simple_342", "prediction": [{"name": "game_list.get_games", "arguments": {"release_year": 2019, "multiplayer": true, "ESRB_rating": "Everyone"}}], "strict_correct": true}
+{"id": "simple_343", "prediction": [{"name": "game_stats.fetch_player_statistics", "arguments": {"game": "Zelda", "username": "Sam", "platform": "Switch"}}], "strict_correct": true}
+{"id": "simple_344", "prediction": [{"name": "get_game_item_stats", "arguments": {"game": "Legend of Zelda: Breath of the Wild", "item": "Guardian Sword+", "stat": "power"}}], "strict_correct": true}
+{"id": "simple_345", "prediction": [{"name": "game_valuation", "arguments": {"game_name": "Super Mario Bros.", "release_year": 1985, "condition": "Like New"}}], "strict_correct": true}
+{"id": "simple_346", "prediction": [{"name": "get_collectables_in_season", "arguments": {"game_name": "Animal Crossing: New Horizons", "season": "Spring"}}], "strict_correct": true}
+{"id": "simple_347", "prediction": [{"name": "soccer.get_last_match", "arguments": {"team_name": "Liverpool F.C.", "include_stats": true}}], "strict_correct": true}
+{"id": "simple_348", "prediction": [{"name": "create_player_profile", "arguments": {"player_name": "StarPlayer", "_class": "Mage", "starting_level": 5}}], "strict_correct": true}
+{"id": "simple_349", "prediction": [{"name": "game_score.highest", "arguments": {"game": "Overwatch", "platform": "PC"}}], "strict_correct": true}
+{"id": "simple_350", "prediction": [{"name": "get_highest_scoring_player", "arguments": {"game": "Valorant", "season": 2022}}], "strict_correct": true}
+{"id": "simple_351", "prediction": [{"name": "multiplayer_game_finder", "arguments": {"platform": "Windows 10", "rating": 4.5}}], "strict_correct": true}
+{"id": "simple_352", "prediction": [{"name": "gamespot.getAverageUserScore", "arguments": {"game_name": "The Legend of Zelda: Breath of the Wild"}}], "strict_correct": false}
+{"id": "simple_353", "prediction": [{"name": "find_recipes", "arguments": {"diet": "gluten-free", "meal_type": "dinner"}}], "strict_correct": true}
+{"id": "simple_354", "prediction": [{"name": "get_vegan_recipe", "arguments": {"dish_type": "soup", "cooking_time": 30}}], "strict_correct": true}
+{"id": "simple_355", "prediction": [{"name": "recipe_info.get_calories", "arguments": {"website": "Foodnetwork.com", "recipe": "Beef Lasagna"}}], "strict_correct": true}
+{"id": "simple_356", "prediction": [{"name": "recipe_finder.find", "arguments": {"servings": 2, "diet": "vegan", "prep_time": 30}}], "strict_correct": true}
+{"id": "simple_357", "prediction": [{"name": "get_recipe", "arguments": {"dish_name": "vegan chocolate cake", "diet_preference": "vegan"}}], "strict_correct": true}
+{"id": "simple_358", "prediction": [{"name": "recipe_search", "arguments": {"diet": ["Gluten Free"], "time_limit": 30, "dish": "cookie"}}], "strict_correct": true}
+{"id": "simple_359", "prediction": [{"name": "recipe_search", "arguments": {"dietary_restriction": "Vegetarian", "ingredients": ["pasta", "cheese"], "servings": 2}}], "strict_correct": true}
+{"id": "simple_360", "prediction": [{"name": "find_recipe", "arguments": {"recipeName": "pasta carbonara", "maxCalories": 500}}], "strict_correct": true}
+{"id": "simple_361", "prediction": [{"name": "restaurant_finder", "arguments": {"city": "New York", "cuisine": "Italian", "diet": "Gluten-free"}}], "strict_correct": true}
+{"id": "simple_362", "prediction": [{"name": "get_best_sushi_places", "arguments": {"city": "Tokyo", "top": 5, "review_rate": 4.0}}], "strict_correct": true}
+{"id": "simple_363", "prediction": [{"name": "restaurant_search.find_closest", "arguments": {"location": "Boston, MA", "cuisine": "Sushi", "amenities": ["Patio"]}}], "strict_correct": false}
+{"id": "simple_364", "prediction": [{"name": "find_restaurant", "arguments": {"location": "Brooklyn", "type": "Italian", "diet_option": "Gluten-free"}}], "strict_correct": true}
+{"id": "simple_365", "prediction": [{"name": "cooking_conversion.convert", "arguments": {"quantity": 2, "from_unit": "pound", "to_unit": "ounce", "item": "butter"}}], "strict_correct": true}
+{"id": "simple_366", "prediction": [{"name": "recipe.unit_conversion", "arguments": {"value": 2, "from_unit": "tablespoon", "to_unit": "teaspoon"}}], "strict_correct": true}
+{"id": "simple_367", "prediction": [{"name": "find_recipe", "arguments": {"dietary_restrictions": "vegan", "recipe_type": "dessert", "time": 30}}], "strict_correct": true}
+{"id": "simple_368", "prediction": [{"name": "calculate_cooking_time", "arguments": {"weight_kg": 1.5}}], "strict_correct": true}
+{"id": "simple_369", "prediction": [{"name": "grocery_store.find_nearby", "arguments": {"location": "Houston, TX", "categories": ["Organic", "Fruits", "Vegetables"]}}], "strict_correct": true}
+{"id": "simple_370", "prediction": [{"name": "safeway.order", "arguments": {"location": "Palo Alto, CA", "items": ["olive oil", "rice"], "quantity": [3, 1]}}], "strict_correct": true}
+{"id": "simple_371", "prediction": [{"name": "whole_foods.check_price", "arguments": {"location": "Los Angeles", "items": ["tomatoes", "lettuce"]}}], "strict_correct": true}
+{"id": "simple_372", "prediction": [{"name": "whole_foods.find_top_brands", "arguments": {"product": "bananas", "number": 5, "organic": true}}], "strict_correct": true}
+{"id": "simple_373", "prediction": [{"name": "walmart.purchase", "arguments": {"loc": "San Jose", "product_list": ["apples", "rice", "12 pack bottled water"], "pack_size": [12]}}], "strict_correct": false}
+{"id": "simple_374", "prediction": [{"name": "grocery_info.nutritional_info", "arguments": {"store": "Walmart", "food": "avocado", "information": ["Protein", "Calories", "Carbohydrates"]}}], "strict_correct": true}
+{"id": "simple_375", "prediction": [{"name": "walmart.check_price", "arguments": {"items": ["pumpkin", "eggs"], "quantities": [3, 24]}}], "strict_correct": false}
+{"id": "simple_376", "prediction": [{"name": "time_zone_converter", "arguments": {"city": "London", "country": "UK", "display_format": "24h"}}], "strict_correct": true}
+{"id": "simple_377", "prediction": [{"name": "get_current_time", "arguments": {"city": "Sydney", "country": "Australia"}}], "strict_correct": true}
+{"id": "simple_378", "prediction": [{"name": "timezone.convert", "arguments": {"time": "3pm", "from_timezone": "America/New_York", "to_timezone": "Europe/London"}}], "strict_correct": true}
+{"id": "simple_379", "prediction": [{"name": "get_current_time", "arguments": {"location": "Sydney", "country": "Australia"}}], "strict_correct": true}
+{"id": "simple_380", "prediction": [{"name": "hotel_booking", "arguments": {"location": "New York, Manhattan", "room_type": "single", "duration": 3, "start_date": "2023-03-10", "preferences": ["pet_friendly"]}}], "strict_correct": false}
+{"id": "simple_381", "prediction": [{"name": "hilton_hotel.check_availability", "arguments": {"location": "Paris", "check_in_date": "2023-04-04", "check_out_date": "2023-04-08", "no_of_adults": 2, "hotel_chain": "Hilton"}}], "strict_correct": true}
+{"id": "simple_382", "prediction": [{"name": "book_hotel", "arguments": {"hotel_name": "Hilton Hotel", "location": "Chicago", "room_type": "single", "start_date": "2022-12-10", "nights": 2}}], "strict_correct": true}
+{"id": "simple_383", "prediction": [{"name": "book_room", "arguments": {"hotel_name": "The Plaza", "room_type": "single", "num_nights": 2}}], "strict_correct": true}
+{"id": "simple_384", "prediction": [{"name": "hotel_booking.book", "arguments": {"city": "Paris, France", "from_date": "07-10-2022", "to_date": "07-20-2022", "adults": 2, "children": 1}}], "strict_correct": true}
+{"id": "simple_385", "prediction": [{"name": "hotel_bookings.book_room", "arguments": {"location": "Los Angeles, CA", "room_type": "king size", "check_in_date": "15-10-2023", "no_of_nights": 2, "no_of_rooms": 1}}], "strict_correct": true}
+{"id": "simple_386", "prediction": [{"name": "book_hotel", "arguments": {"hotel_name": "Hotel Paradise", "location": "Las Vegas", "room_type": "luxury", "start_date": "05-12-2022", "stay_duration": 3, "view": "city view"}}], "strict_correct": true}
+{"id": "simple_387", "prediction": [{"name": "hotel_booking", "arguments": {"hotel_name": "Plaza Hotel", "location": "New York, NY", "start_date": "2022-06-01", "end_date": "2022-06-03", "rooms": 1}}], "strict_correct": false}
+{"id": "simple_388", "prediction": [{"name": "currency_exchange.convert", "arguments": {"base_currency": "USD", "target_currency": "CAD", "amount": 500}}], "strict_correct": true}
+{"id": "simple_389", "prediction": [{"name": "currency_converter", "arguments": {"base_currency": "USD", "target_currency": "GBP", "amount": 200}}], "strict_correct": true}
+{"id": "simple_390", "prediction": [{"name": "currency_conversion.convert", "arguments": {"amount": 150, "from_currency": "EUR", "to_currency": "CAD"}}], "strict_correct": true}
+{"id": "simple_391", "prediction": [{"name": "get_exchange_rate_with_fee", "arguments": {"base_currency": "GBP", "target_currency": "JPY", "fee": 0.02}}], "strict_correct": true}
+{"id": "simple_392", "prediction": [{"name": "latest_exchange_rate", "arguments": {"source_currency": "GBP", "target_currency": "JPY"}}], "strict_correct": true}
+{"id": "simple_393", "prediction": [{"name": "convert_currency", "arguments": {"base_currency": "JPY", "target_currency": "USD", "amount": 20000}}], "strict_correct": true}
+{"id": "simple_394", "prediction": [{"name": "maps.get_distance_duration", "arguments": {"start_location": "Eiffel Tower", "end_location": "Louvre Museum"}}], "strict_correct": true}
+{"id": "simple_395", "prediction": [{"name": "parking_lot.find_nearest", "arguments": {"location": "Central Park, NY", "radius": 2}}], "strict_correct": true}
+{"id": "simple_396", "prediction": [{"name": "hospital.locate", "arguments": {"location": "Denver, CO", "radius": 5, "department": "Pediatrics"}}], "strict_correct": true}
+{"id": "simple_397", "prediction": [{"name": "distance_calculator.calculate", "arguments": {"origin": "New York", "destination": "Boston", "consider_terrain": true}}], "strict_correct": true}
+{"id": "simple_398", "prediction": [{"name": "get_museum_hours", "arguments": {"museum_name": "Metropolitan Museum of Art", "day": "Saturday"}}], "strict_correct": true}
+{"id": "simple_399", "prediction": [{"name": "restaurant_search", "arguments": {"location": "New York City, NY", "cuisine": "Italian", "rating": 4, "accepts_credit_cards": true}}], "strict_correct": true}

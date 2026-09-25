@@ -1,0 +1,109 @@
+{"id": "openfunctions_v1_0", "result": [{"name": "coffee_shop.find_nearby", "arguments": {"location": "San Francisco, CA", "amenities": ["Wi-Fi"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_1", "result": [{"name": "flight.book", "arguments": {"origin": "Los Angeles", "destination": "New York", "passengers": 2, "date": "2023-06-15"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_2", "result": [{"name": "restaurant.book_table", "arguments": {"restaurant": "Italian Restaurant", "location": "Manhattan, New York", "party_size": 2, "reservation_time": "2023-10-27T19:00:00"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_3", "result": [{"name": "weather.forecast", "arguments": {"location": "Paris, France", "days": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_4", "result": [{"name": "pharmacy.find_nearby", "arguments": {"location": "San Diego, California", "feature": "Drive-thru"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_6", "result": [{"name": "classes.find", "arguments": {"school": "Berkeley", "discipline": "Computer Science", "level": "lower division", "status": "open"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_7", "result": [{"name": "gas_station.find_nearby", "arguments": {"location": "my current location"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_8", "result": [{"name": "restaurant.find_top_rated", "arguments": {"location": "San Francisco", "amenities": ["Outdoor Seating"]}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_9", "result": [{"name": "timezone.get_current_time", "arguments": {"timezone": "America/New_York"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_10", "result": [{"name": "lyrics.find", "arguments": {"song": "Shape of You", "artist": "Ed Sheeran"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_11", "result": [{"name": "news.get_headlines", "arguments": {"source": "CNN"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_12", "result": [{"name": "dictionary.get_definition", "arguments": {"word": "serendipity"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_13", "result": [{"name": "unit_conversion.convert", "arguments": {"value": 10, "from_unit": "mile", "to_unit": "kilometer"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_14", "result": [{"name": "currency_conversion.get_exchange_rate", "arguments": {"base_currency": "USD", "target_currency": "EUR"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_15", "result": [{"name": "movie.search", "arguments": {"title": "The Shawshank Redemption"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_16", "result": [{"name": "stock.get_price", "arguments": {"company": "Apple Inc."}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_17", "result": [{"name": "park.find_nearby", "arguments": {"location": "Chicago, IL", "features": ["Playground", "Picnic Area"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_18", "result": [{"name": "translation.translate", "arguments": {"text": "Hello, world!", "target_language": "es"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_19", "result": [{"name": "trail.find_nearby", "arguments": {"location": "Los Angeles, CA", "features": ["Dog-Friendly"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_22", "result": [{"name": "timer.set", "arguments": {"duration": 20, "message": "Check the oven"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_23", "result": [{"name": "parking.find_nearby", "arguments": {"location": "Golden Gate Bridge, San Francisco"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_24", "result": [{"name": "book.recommend", "arguments": {"interest": "Science Fiction"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_25", "result": [{"name": "exchange_rate.get", "arguments": {"base_currency": "USD", "target_currency": "EUR"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_26", "result": [{"name": "car_rental.search", "arguments": {"location": "Los Angeles", "start_date": "2023-04-01", "end_date": "2023-09-15"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_27", "result": [{"name": "timezone.convert", "arguments": {"location": "Tokyo, Japan", "timezone": "UTC+9"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_28", "result": [{"name": "news.search", "arguments": {"topic": "technology"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_29", "result": [{"name": "atm.find_nearby", "arguments": {"location": "my current location", "feature": "Cash Deposits"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_30", "result": [{"name": "hiking_trail.search", "arguments": {"location": "San Francisco"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_31", "result": [{"name": "exchange_rate.get", "arguments": {"base_currency": "USD", "target_currency": "EUR"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_32", "result": [{"name": "hotel.search", "arguments": {"location": "Miami, FL", "amenities": ["Pool", "Gym"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_33", "result": [{"name": "timezone.convert", "arguments": {"location": "Tokyo, Japan"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_34", "result": [{"name": "news.get_headlines", "arguments": {"news_source": "CNN"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_35", "result": [{"name": "recipe.search", "arguments": {"keywords": "spaghetti carbonara"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_36", "result": [{"name": "movie_theater.search", "arguments": {"location": "Los Angeles", "movie_title": "latest blockbuster movie"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_37", "result": [{"name": "finance.calculate_compound_interest", "arguments": {"principal": 5000, "interest_rate": 0.05, "time_period": 3}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_38", "result": [{"name": "finance.calculate_mortgage_payment", "arguments": {"loan_amount": 200000, "interest_rate": 0.04, "loan_term": 30}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_39", "result": [{"name": "finance.calculate_roi", "arguments": {"investment_amount": 10000, "profit": 2500}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_40", "result": [{"name": "finance.calculate_present_value", "arguments": {"future_cash_flow": 5000, "discount_rate": 0.08, "time_period": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_41", "result": [{"name": "finance.calculate_car_loan_payment", "arguments": {"loan_amount": 20000, "interest_rate": 0.06, "loan_term": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_42", "result": [{"name": "finance.calculate_future_value", "arguments": {"investment_amount": 5000, "interest_rate": 0.03, "time_period": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_43", "result": [{"name": "finance.calculate_minimum_payment", "arguments": {"balance": 5000, "interest_rate": 0.18}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_44", "result": [{"name": "finance.calculate_roe", "arguments": {"net_income": 1000000, "shareholders_equity": 10000000}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_45", "result": [{"name": "finance.calculate_personal_loan_payment", "arguments": {"loan_amount": 10000, "interest_rate": 0.08, "loan_term": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_46", "result": [{"name": "stock.average_price", "arguments": {"symbol": "AAPL", "start_date": "2023-04-01", "end_date": "2023-04-01"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_47", "result": [{"name": "stock.simulate_walk", "arguments": {"symbol": "AAPL", "days": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_48", "result": [{"name": "stock.correlation", "arguments": {"symbol1": "AAPL", "symbol2": "MSFT", "start_date": "2023-01-01", "end_date": "2023-01-01"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_49", "result": [{"name": "trading.average_volume", "arguments": {"symbol": "AAPL", "start_date": "2023-04-01", "end_date": "2023-04-01"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_50", "result": [{"name": "stock.moving_average", "arguments": {"symbol": "AAPL", "days": 30}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_51", "result": [{"name": "stock.standard_deviation", "arguments": {"symbol": "AAPL", "days": 90}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_52", "result": [{"name": "stock.exponential_moving_average", "arguments": {"symbol": "AAPL", "days": 50}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_53", "result": [{"name": "stock.relative_strength_index", "arguments": {"symbol": "AAPL", "days": 14}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_54", "result": [{"name": "trading.average_volume", "arguments": {"symbol": "AAPL", "start_date": "2023-07-01", "end_date": "2023-07-01"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_55", "result": [{"name": "math.sqrt", "arguments": {"number": 16}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_56", "result": [{"name": "temperature.celsius_to_fahrenheit", "arguments": {"celsius": 25}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_57", "result": [{"name": "math.factorial", "arguments": {"number": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_58", "result": [{"name": "random.randint", "arguments": {"min": 1, "max": 100}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_59", "result": [{"name": "math.exp", "arguments": {"number": 2}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_60", "result": [{"name": "math.sin", "arguments": {"angle": 1.57}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_61", "result": [{"name": "math.add", "arguments": {"num1": 1, "num2": 10}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_62", "result": [{"name": "math.log", "arguments": {"number": 10}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_63", "result": [{"name": "statistics.mean", "arguments": {"numbers": [1, 2, 3, 4, 5]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_64", "result": [{"name": "game.get_leaderboard", "arguments": {"game_id": 1, "sort_by": "score", "limit": 1}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_65", "result": [{"name": "game.get_weapons", "arguments": {"game_id": 1, "type": "sword"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_66", "result": [{"name": "game.get_maps", "arguments": {"game_id": 1, "game_mode": "capture_the_flag"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_67", "result": [{"name": "game.get_quests", "arguments": {"game_id": 1, "difficulty": "medium", "reward_type": "experience"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_68", "result": [{"name": "game.get_characters", "arguments": {"game_id": 1, "combat_style": "melee"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_69", "result": [{"name": "meeting.schedule", "arguments": {"participants": ["John", "Jane"], "date": "2023-10-05", "time": "2:00 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_70", "result": [{"name": "meeting.reschedule", "arguments": {"meeting_id": "team_meeting_2023", "new_date": "2024-04-10", "new_time": "10:00 AM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_71", "result": [{"name": "meeting_room.find_available", "arguments": {"date": "2023-04-10", "start_time": "1:00 PM", "end_time": "3:00 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_72", "result": [{"name": "meeting.invite", "arguments": {"participants": ["Alice", "Bob", "Charlie", "Diana", "Eve"], "date": "2023-09-11", "time": "09:00 AM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_73", "result": [{"name": "conference_room.check_availability", "arguments": {"meeting_type": "board meeting", "date": "2023-05-19", "time": "2:00 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_74", "result": [{"name": "video_conference.schedule", "arguments": {"participants": ["remote_team_member1", "remote_team_member2"], "date": "2023-04-13", "time": "11:00 AM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_75", "result": [{"name": "client_meeting.reschedule", "arguments": {"meeting_id": "meeting_123", "new_date": "2024-04-05", "new_time": "3:00 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_76", "result": [{"name": "meeting_slot.find_available", "arguments": {"project": "next week"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_77", "result": [{"name": "lunch_meeting.schedule", "arguments": {"team_members": ["Alice", "Bob", "Charlie"], "date": "2023-05-19", "time": "12:30 PM"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_78", "result": [{"name": "tour.book", "arguments": {"destination": "Rome, Italy", "group_size": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_79", "result": [{"name": "hiking_trail.find_nearby", "arguments": {"location": "Vancouver, Canada", "criteria": ["Scenic Views"]}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_80", "result": [{"name": "museum.find_nearby", "arguments": {"location": "Paris, France", "criteria": ["Guided Tours", "English Language"]}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_81", "result": [{"name": "resort.find_nearby", "arguments": {"location": "Cancun, Mexico", "amenities": ["All-Inclusive"]}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_82", "result": [{"name": "book.get_summary", "arguments": {"isbn": 9780123456789}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_83", "result": [{"name": "novels.get_classics", "arguments": {"author": "Jane Austen"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_84", "result": [{"name": "poems.search", "arguments": {"era": "Romantic"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_85", "result": [{"name": "novels.get_pulitzer_winners", "arguments": {"start_year": 2014, "end_year": 2014}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_86", "result": [{"name": "poem.get_author", "arguments": {"title": "The Road Not Taken"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_87", "result": [{"name": "plays.search", "arguments": {"playwright": "William Shakespeare"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_88", "result": [{"name": "books.get_best_sellers", "arguments": {"genre": "non-fiction"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_89", "result": [{"name": "novel.get_publication_year", "arguments": {"title": "The Great Gatsby"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_90", "result": [{"name": "magazines.search", "arguments": {"genre": "poetry"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_91", "result": [{"name": "authors.get_nobel_winners", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_92", "result": [{"name": "population.find", "arguments": {"location": "Tokyo, Japan"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_93", "result": [{"name": "distance.calculate", "arguments": {"origin": "London, UK", "destination": "Paris, France"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_94", "result": [{"name": "mountain.find_highest", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_95", "result": [{"name": "capital.find", "arguments": {"country": "Australia"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_96", "result": [{"name": "timezone.find", "arguments": {"location": "New York City"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_97", "result": [{"name": "area.calculate", "arguments": {"location": "Great Barrier Reef"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_98", "result": [{"name": "temperature.find_average", "arguments": {"location": "Antarctica"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_99", "result": [{"name": "currency.find", "arguments": {"country": "Brazil"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_100", "result": [{"name": "waterfall.find_highest", "arguments": {}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_101", "result": [{"name": "language.find_official", "arguments": {"country": "China"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_102", "result": [{"name": "plant.get_scientific_name", "arguments": {"common_name": "rose"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_103", "result": [{"name": "bmi.calculate", "arguments": {"weight": 70, "height": 1.75}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_104", "result": [{"name": "population.analyze_eye_color", "arguments": {"population": ["Blue", "Brown", "Green", "Hazel", "Brown", "Blue", "Brown", "Green", "Blue", "Brown"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_105", "result": [{"name": "gene.get_sequence", "arguments": {"gene_id": "gene_id"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_106", "result": [{"name": "genetics.calculate_inheritance_probability", "arguments": {"parent1_genotype": "Aa", "trait": "trait_name"}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_107", "result": [{"name": "bird.identify_species", "arguments": {"characteristics": ["feathers", "beak", "wings"], "behaviors": ["flying", "migrating"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_108", "result": [{"name": "chemistry.calculate_bond_energy", "arguments": {"bond_type": "Covalent", "atoms": ["C", "H"]}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_109", "result": [{"name": "protein.get_sequence", "arguments": {"protein_id": "P12345"}}], "func_correct": true, "overall_correct": true}
+{"id": "openfunctions_v1_110", "result": [{"name": "population.calculate_growth_rate", "arguments": {"initial_population": 1000, "final_population": 10000, "time_period": 10}}], "func_correct": true, "overall_correct": false}
+{"id": "openfunctions_v1_111", "result": [{"name": "taxonomy.identify_classification", "arguments": {"organism_name": "Homo sapiens"}}], "func_correct": true, "overall_correct": true}

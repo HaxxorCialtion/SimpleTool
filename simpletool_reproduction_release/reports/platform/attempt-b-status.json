@@ -1,0 +1,1 @@
+{"success":true,"data":{"name":"simpletool-4b-accuracy-0925b","status":"job_failed","project":"多模态大模型新架构评测探索与scaling-law","compute_group":"开发区-H100-cuda13.2版本-183核","resource":{"cpu":20,"memory_gib":200,"gpu":1,"nodes":1,"shared_memory_gib":16,"gpu_type":"NVIDIA H100 (80GB)"},"priority":20,"priority_level":"NORMAL","created_at":"1790342578000","finished_at":"1790343344000"}}

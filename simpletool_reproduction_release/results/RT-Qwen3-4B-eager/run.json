@@ -1,0 +1,55 @@
+{
+  "status": "complete",
+  "created_at": "2026-09-25T13:37:52.461643+00:00",
+  "config": {
+    "model": "/inspire/hdd/project/high-dimensionaldata/shixiaoxin-253107030017/simpletool-reproduction/models/RT-Qwen3-4B",
+    "data": "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/data",
+    "output": "/inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/results/RT-Qwen3-4B-eager",
+    "datasets": null,
+    "limit": null,
+    "batch_size": 64,
+    "max_tokens": 128,
+    "max_model_len": 32768,
+    "max_num_seqs": 128,
+    "gpu_memory_utilization": 0.9,
+    "tensor_parallel_size": 1,
+    "seed": 0,
+    "enforce_eager": true,
+    "disable_cascade_attn": true,
+    "data_manifest_sha256": "058bfdb7698b12e82af3ee15f7097b8b27dd303ce29b73064b686ab7a4291a2e",
+    "model_files_sha256": {
+      "added_tokens.json": "b671befc1feae2c95168a20c4c71d60e25abbb5c1bb432f53f90a20a70409325",
+      "chat_template.jinja": "64f85b198065d0fba2a81f37e10ed68161ce2c19a754c7100e67e0ca2ee9c326",
+      "config.json": "6150102d96cf96b57d1c2bbc5cd13db2c66f818ad105b10c4cd688050c5b6162",
+      "download_provenance.json": "d82c07500fd081d78544247126a39c37f9996cdf6dc988afe898fcbda9b0f46c",
+      "generation_config.json": "a12101ea177dca07e73e58c38379eac5f023e4524253df22ccfd097f6b4b6a2d",
+      "merge_meta.json": "a78be4e3751b55f98ded31a95b5a46f2455281ab7b6675758e39141bd2e65f20",
+      "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+      "model-00001-of-00002.safetensors": "629514f36eed75fa9cacba4ef7ff682a815ebacb51b777165d51d0c161869055",
+      "model-00002-of-00002.safetensors": "11e4bb990651ea0c8ca83d8665538f39e8273a88e7a9b39c075521aefa4dae53",
+      "model.safetensors.index.json": "03341feaa7d4ec452a8304946bc2ecf1e229428bd2810a8170aa32e0ac7339f2",
+      "special_tokens_map.json": "464539189e9be84600cb4488888ea6e8209f35d1dfade2937d57dcc96acb3ca7",
+      "tokenizer.json": "812bb5226adfabc37cc09ddaf3198c917ba26b279e7e4b01285c65ba77ae4374",
+      "tokenizer_config.json": "5ba6880aa6c19ef8f5f95add4ff41e7333a9f9433bfdac286f6056e63f8e09c0",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    },
+    "code_sha256": {
+      "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "conversion.py": "e210c0c926cdf63fdefc5ad683d4bdd6aadad2f16a916878883d294edbd8169b",
+      "data.py": "0025fa2deab4d308977a43ff51caaebb5fc0c47fde4b4c65f6a1093bc61c8b5c",
+      "evaluate.py": "1edaa6ec104f3737e714b002ad0a8e437ca00c4e33fabf32331d040817ef3656",
+      "protocol.py": "6096eb88208705b3e5a0399c39c7cf956dd6dd1fe0b22a57c0fd2490fc6fb9a5",
+      "rules.py": "6317e502d86ac539dccd18957beae84f819a1567d5bf081c01bc8a4e040e74c1",
+      "rules_three_groups.py": "5132190aa89eea40b996fb1e8e82829b3b3cd57533859bfb29922afd76a65bb4",
+      "run.py": "30ecc1e253ef5fc1a385bf654b5ce373632b78cdd4073171402601f8996a21ec"
+    },
+    "versions": {
+      "vllm": "0.11.0",
+      "torch": "2.8.0",
+      "transformers": "4.57.6",
+      "huggingface-hub": "0.36.2"
+    },
+    "gpu": "NVIDIA H100 80GB HBM3, GPU-5e0b3e3c-3bf3-f4a4-6ff8-0b26863c5812, 595.58.03, 81559 MiB"
+  },
+  "completed_at": "2026-09-25T13:43:16.605613+00:00"
+}

@@ -1,0 +1,92 @@
+{
+  "BFCL_v3_live_simple.json": {
+    "min_prompt_tokens": 294,
+    "max_prompt_tokens": 966,
+    "samples": 258
+  },
+  "BFCL_v3_simple.json": {
+    "min_prompt_tokens": 304,
+    "max_prompt_tokens": 541,
+    "samples": 400
+  },
+  "BFCL_v3_live_multiple.json": {
+    "min_prompt_tokens": 401,
+    "max_prompt_tokens": 5673,
+    "samples": 1053
+  },
+  "BFCL_v3_multiple.json": {
+    "min_prompt_tokens": 410,
+    "max_prompt_tokens": 1015,
+    "samples": 200
+  },
+  "BFCL_v3_exec_multiple_dataset.json": {
+    "min_prompt_tokens": 424,
+    "max_prompt_tokens": 888,
+    "samples": 50
+  },
+  "BFCL_v3_exec_simple_dataset.json": {
+    "min_prompt_tokens": 332,
+    "max_prompt_tokens": 584,
+    "samples": 100
+  },
+  "openfunctions_v1_test.jsonl": {
+    "min_prompt_tokens": 285,
+    "max_prompt_tokens": 420,
+    "samples": 109
+  },
+  "sealtools_test_1tools.jsonl": {
+    "min_prompt_tokens": 278,
+    "max_prompt_tokens": 546,
+    "samples": 293
+  },
+  "sealtools_test_2tools.jsonl": {
+    "min_prompt_tokens": 349,
+    "max_prompt_tokens": 734,
+    "samples": 293
+  },
+  "sealtools_test_3tools.jsonl": {
+    "min_prompt_tokens": 431,
+    "max_prompt_tokens": 918,
+    "samples": 293
+  },
+  "sealtools_test_4tools.jsonl": {
+    "min_prompt_tokens": 449,
+    "max_prompt_tokens": 1039,
+    "samples": 293
+  },
+  "sealtools_test_5tools.jsonl": {
+    "min_prompt_tokens": 516,
+    "max_prompt_tokens": 1235,
+    "samples": 293
+  },
+  "sealtools_test_6tools.jsonl": {
+    "min_prompt_tokens": 655,
+    "max_prompt_tokens": 1349,
+    "samples": 293
+  },
+  "sealtools_test_in_domain.jsonl": {
+    "min_prompt_tokens": 686,
+    "max_prompt_tokens": 1476,
+    "samples": 199
+  },
+  "sealtools_test_out_domain.jsonl": {
+    "min_prompt_tokens": 749,
+    "max_prompt_tokens": 1242,
+    "samples": 94
+  },
+  "toolalpaca_test_real_converted.jsonl": {
+    "min_prompt_tokens": 288,
+    "max_prompt_tokens": 1194,
+    "samples": 92
+  },
+  "toolalpaca_test_simulated_converted.jsonl": {
+    "min_prompt_tokens": 427,
+    "max_prompt_tokens": 1122,
+    "samples": 51
+  },
+  "mobile_actions.jsonl": {
+    "min_prompt_tokens": 860,
+    "max_prompt_tokens": 1080,
+    "samples": 1283
+  }
+}

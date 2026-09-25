@@ -1,0 +1,10 @@
+name: simpletool-4b-accuracy-0925c
+account: qz
+workspace: 分布式训练空间
+project: 多模态大模型新架构评测探索与scaling-law
+group: 开发区-H100-cuda13.2版本-183核
+quota: 1,20,200
+image: sglang:glm-5.3-flash-0918
+priority_requested: 4
+max_time_hours: 2
+purpose: HF RT-Qwen3-4B all 18 accuracy datasets; eager + no cascade; archived compiled failure

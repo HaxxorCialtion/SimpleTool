@@ -1,0 +1,50 @@
+{"id": "exec_multiple_0", "excluded": "missing_ground_truth"}
+{"id": "exec_multiple_1", "result": [{"name": "calculate_cosine_similarity", "arguments": {"vectorA": [0.5, 0.7, 0.2, 0.9, 0.1], "vectorB": [0.4, 0.6, 0.3, 0.8, 0.2]}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_2", "result": [{"name": "calculate_density", "arguments": {"mass": 50, "volume": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_3", "result": [{"name": "calculate_displacement", "arguments": {"initial_velocity": 15, "acceleration": 9.8, "time": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_4", "result": [{"name": "calculate_electrostatic_potential_energy", "arguments": {"charge": 5, "voltage": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_5", "result": [{"name": "calculate_final_velocity", "arguments": {"initial_velocity": 0, "acceleration": 9.8, "time": 12}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_6", "result": [{"name": "calculate_future_value", "arguments": {"present_value": 5000, "interest_rate": 0.05, "periods": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_7", "result": [{"name": "calculate_mean", "arguments": {"numbers": [22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80]}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_8", "result": [{"name": "calculate_permutations", "arguments": {"n": 26, "k": 5}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_9", "result": [{"name": "calculate_standard_deviation", "arguments": {"numbers": [1000, 2000, 3000, 4000, 5000, 7000, 9000, 15000, 20000, 30000]}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_10", "result": [{"name": "calculate_triangle_area", "arguments": {"base": 500, "height": 300}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_11", "result": [{"name": "convert_currency", "arguments": {"amount": 5000, "from_currency": "EUR", "to_currency": "JPY"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_12", "result": [{"name": "estimate_derivative", "arguments": {"function": "lambda t: 3 * t ** 2 + 2 * t + 1", "x": 5}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_13", "result": [{"name": "find_term_on_urban_dictionary", "arguments": {"term": "lit"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_14", "result": [{"name": "geometry_area_circle", "arguments": {"radius": 15}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_15", "result": [{"name": "get_active_covid_case_by_country", "arguments": {"country": "Brazil"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_16", "result": [{"name": "get_company_name_by_stock_name", "arguments": {"stock_name": "AAPL"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_17", "result": [{"name": "get_coordinate_by_ip_address", "arguments": {"ip_address": "192.168.1.1"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_18", "result": [{"name": "get_coordinates_from_city", "arguments": {"city_name": "Paris"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_19", "result": [{"name": "get_covid_death_by_country", "arguments": {"country": "Brazil"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_20", "result": [{"name": "get_distance", "arguments": {"pointA": [45.76, 4.85], "pointB": "(48.85, 2.35)"}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_21", "result": [{"name": "get_fibonacci_sequence", "arguments": {"n": 20}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_22", "result": [{"name": "get_price_by_amazon_ASIN", "arguments": {"ASIN": "B08PPDJWC8"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_23", "result": [{"name": "get_prime_factors", "arguments": {"number": 4567}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_24", "result": [{"name": "get_product_name_by_amazon_ASIN", "arguments": {"ASIN": "B08BHXG144"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_25", "result": [{"name": "get_rating_by_amazon_ASIN", "arguments": {"ASIN": "B07ZPKBL9V"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_26", "result": [{"name": "get_stock_history", "arguments": {"stock_name": "AAPL", "interval": "1mo", "diffandsplits": true}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_27", "result": [{"name": "get_stock_price_by_stock_name", "arguments": {"stock_name": "AAPL"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_28", "result": [{"name": "get_time_zone_by_coord", "arguments": {"long": 123.45, "lat": -67.89}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_29", "result": [{"name": "get_weather_data", "arguments": {"coordinates": [90.0, 0.0]}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_30", "result": [{"name": "get_zipcode_by_ip_address", "arguments": {"ip_address": "192.168.1.1"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_31", "result": [{"name": "mat_mul", "arguments": {"matA": [[1, 2], [3, 4]], "matB": [[5, 6], [7, 8]]}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_32", "result": [{"name": "math_factorial", "arguments": {"n": 7}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_33", "result": [{"name": "math_gcd", "arguments": {"a": 450, "b": 300}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_34", "result": [{"name": "math_lcm", "arguments": {"a": 24, "b": 24}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_35", "result": [{"name": "mortgage_calculator", "arguments": {"loan_amount": 350000, "interest_rate": 0.035, "loan_period": 30}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_36", "result": [{"name": "quadratic_roots", "arguments": {"a": 3, "b": 7, "c": -10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_37", "result": [{"name": "retrieve_city_based_on_zipcode", "arguments": {"zipcode": 90210}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_38", "result": [{"name": "retrieve_holiday_by_year", "arguments": {"year": 2010, "country": "FR"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_39", "result": [{"name": "sort_array", "arguments": {"array": [34, 2, 56, 7, 9, 12], "reverse": true}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_40", "result": [{"name": "add_binary_numbers", "arguments": {"a": 10011, "b": 1100}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_41", "result": [{"name": "linear_regression", "arguments": {"x": [1, 2, -3], "y": [4, -5, 6], "point": 10}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_42", "result": [{"name": "calculate_investment_value", "arguments": {"initial_investment": 10000, "annual_contribution": 1000, "years": 5, "annual_return": 0.05, "inflation_rate": [0.01, 0.02, 0.03, 0.04, 0.04], "adjust_for_inflation": true}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_43", "result": [{"name": "calculate_investment_value", "arguments": {"initial_investment": 1000000, "annual_contribution": 1000, "years": 3, "annual_return": 0.1, "inflation_rate": [0.01, 0.04, 0.04], "adjust_for_inflation": true}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_44", "result": [{"name": "calculate_nutritional_needs", "arguments": {"weight": 59, "height": 170, "age": 80, "gender": "female", "activity_level": 4, "goal": "lose"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_45", "result": [{"name": "book_room", "arguments": {"room_type": {"deluxe": true}, "check_in_date": "08-11-2024", "check_out_date": "08-15-2024", "customer_id": 123}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_46", "result": [{"name": "order_food", "arguments": {"item": ["dumplings", "rice bowls"], "quantity": [0.1, 10], "price": [0.1, 10]}}], "func_correct": true, "overall_correct": false}
+{"id": "exec_multiple_47", "result": [{"name": "get_movie_director", "arguments": {"movie_name": "Pulp Fiction"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_48", "result": [{"name": "get_movie_rating", "arguments": {"movie_name": "Avatar"}}], "func_correct": true, "overall_correct": true}
+{"id": "exec_multiple_49", "result": [{"name": "polygon_area", "arguments": {"vertices": [[1, 2], [3, 4], [1, 4], [3, 7]]}}], "func_correct": true, "overall_correct": true}

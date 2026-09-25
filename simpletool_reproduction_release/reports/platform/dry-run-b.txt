@@ -1,0 +1,10 @@
+Create plan: simpletool-4b-accuracy-0925b
+Project: 多模态大模型新架构评测探索与scaling-law
+Workspace: 分布式训练空间
+Compute: 开发区-H100-cuda13.2版本-183核
+Resource: 1,20,200
+Priority: 4
+Max runtime: 2.0 h
+Shared memory: 16 GiB
+Image: sglang:glm-5.3-flash-0918
+Command: bash -c 'bash /inspire/hdd/global_user/shixiaoxin-253107030017/simpletool-benchmark/scripts/gpu_job.sh'

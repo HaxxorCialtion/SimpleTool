@@ -1,0 +1,92 @@
+{"id": "toolalpaca_real_0_0", "ground_truth": [{"PublicHolidayIsTodayPublicHoliday": {"countryCode": ["CN"]}}]}
+{"id": "toolalpaca_real_0_1", "ground_truth": [{"CountryCountryInfo": {"countryCode": ["CN"]}}]}
+{"id": "toolalpaca_real_0_2", "ground_truth": [{"CountryAvailableCountries": {}}]}
+{"id": "toolalpaca_real_0_3", "ground_truth": [{"VersionGetVersion": {}}]}
+{"id": "toolalpaca_real_0_4", "ground_truth": [{"LongWeekendLongWeekend": {"year": [2024], "countryCode": ["US"]}}]}
+{"id": "toolalpaca_real_0_5", "ground_truth": [{"PublicHolidayNextPublicHolidays": {"countryCode": ["GB"]}}]}
+{"id": "toolalpaca_real_0_6", "ground_truth": [{"PublicHolidayPublicHolidaysV3": {"year": [2023], "countryCode": ["AU"]}}]}
+{"id": "toolalpaca_real_0_7", "ground_truth": [{"PublicHolidayNextPublicHolidaysWorldwide": {}}]}
+{"id": "toolalpaca_real_0_8", "ground_truth": [{"LongWeekendLongWeekend": {"year": [2023], "countryCode": ["JP"]}}]}
+{"id": "toolalpaca_real_0_9", "ground_truth": [{"PublicHolidayNextPublicHolidaysWorldwide": {}}]}
+{"id": "toolalpaca_real_0_10", "ground_truth": [{"CountryCountryInfo": {"countryCode": ["FR"]}}]}
+{"id": "toolalpaca_real_0_11", "ground_truth": [{"PublicHolidayNextPublicHolidays": {"countryCode": ["DE"]}}]}
+{"id": "toolalpaca_real_0_12", "ground_truth": [{"PublicHolidayPublicHolidaysV3": {"year": [2023], "countryCode": ["US"]}}]}
+{"id": "toolalpaca_real_0_13", "ground_truth": [{"CountryCountryInfo": {"countryCode": ["IT"]}}]}
+{"id": "toolalpaca_real_0_16", "ground_truth": [{"LongWeekendLongWeekend": {"year": [2023], "countryCode": ["DE"]}}]}
+{"id": "toolalpaca_real_1_0", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDF"]}}]}
+{"id": "toolalpaca_real_1_1", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDM"]}}]}
+{"id": "toolalpaca_real_1_2", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDF"]}}]}
+{"id": "toolalpaca_real_1_3", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDB"]}}]}
+{"id": "toolalpaca_real_1_4", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDM"]}}]}
+{"id": "toolalpaca_real_1_6", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDF"]}}]}
+{"id": "toolalpaca_real_1_7", "ground_truth": [{"AirportApi_getAirport": {"icao_code": ["EDDM"]}}]}
+{"id": "toolalpaca_real_2_0", "ground_truth": [{"airports_get": {"apt": ["AVL"]}}]}
+{"id": "toolalpaca_real_2_1", "ground_truth": [{"charts_get": {"apt": ["AVL"], "group": [1]}}]}
+{"id": "toolalpaca_real_2_2", "ground_truth": [{"charts_changes_get": {"apt": ["AVL"], "chart_name": ["Arriivals"]}}]}
+{"id": "toolalpaca_real_2_3", "ground_truth": [{"charts_afd_get": {"apt": ["AVL"]}}]}
+{"id": "toolalpaca_real_2_4", "ground_truth": [{"preferred-routes_get": {}}]}
+{"id": "toolalpaca_real_2_5", "ground_truth": [{"preferred-routes_search_get": {"origin": ["ACK"], "dest": ["ERI"], "type": ["L"]}}]}
+{"id": "toolalpaca_real_2_6", "ground_truth": [{"vatsim_pilots_get": {"apt": ["KATL"]}}]}
+{"id": "toolalpaca_real_2_7", "ground_truth": [{"vatsim_controllers_get": {"fac": ["CHI"]}}]}
+{"id": "toolalpaca_real_2_8", "ground_truth": [{"weather_metar_get": {"apt": ["KAVL"]}}]}
+{"id": "toolalpaca_real_2_9", "ground_truth": [{"weather_taf_get": {"apt": ["KAVL"]}}]}
+{"id": "toolalpaca_real_3_0", "ground_truth": [{"jokes_random_get": {}}]}
+{"id": "toolalpaca_real_3_1", "ground_truth": [{"jokes_random_category_get": {"category": ["music"]}}]}
+{"id": "toolalpaca_real_3_2", "ground_truth": [{"jokes_random_category_get": {"category": ["movie"]}}]}
+{"id": "toolalpaca_real_3_3", "ground_truth": [{"jokes_search_get": {"query": ["Texas"]}}]}
+{"id": "toolalpaca_real_3_4", "ground_truth": [{"jokes_search_get": {"query": ["sports"]}}]}
+{"id": "toolalpaca_real_4_0", "ground_truth": [{"api_v2_facts_random_get": {}}]}
+{"id": "toolalpaca_real_4_1", "ground_truth": [{"api_v2_facts_random_get": {}}]}
+{"id": "toolalpaca_real_4_2", "ground_truth": [{"api_v2_facts_random_get": {}}]}
+{"id": "toolalpaca_real_4_3", "ground_truth": [{"api_v2_facts_today_get": {}}]}
+{"id": "toolalpaca_real_4_4", "ground_truth": [{"api_v2_facts_today_get": {}}]}
+{"id": "toolalpaca_real_5_0", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["Paris"], "units": ["f"]}}]}
+{"id": "toolalpaca_real_5_2", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["San Francisco"]}}]}
+{"id": "toolalpaca_real_5_3", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["London"]}}]}
+{"id": "toolalpaca_real_5_5", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["Denver"], "units": ["s"]}}]}
+{"id": "toolalpaca_real_5_6", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["Toronto"], "units": ["f"]}}]}
+{"id": "toolalpaca_real_5_7", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["Los Angeles"]}}]}
+{"id": "toolalpaca_real_5_9", "ground_truth": [{"current_get": {"access_key": ["75619bf6f850d32727357000f37257d6"], "query": ["Miami"]}}]}
+{"id": "toolalpaca_real_6_0", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["quixotic"]}}]}
+{"id": "toolalpaca_real_6_1", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["serendipity"]}}]}
+{"id": "toolalpaca_real_6_2", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["beautiful"]}}]}
+{"id": "toolalpaca_real_6_3", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["ephemeral"]}}]}
+{"id": "toolalpaca_real_6_5", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["serendipity"]}}]}
+{"id": "toolalpaca_real_6_6", "ground_truth": [{"api_v2_entries_en_word_get": {"word": ["ephemeral"]}}]}
+{"id": "toolalpaca_real_7_0", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["current temperature in New York City in Fahrenheit"]}}]}
+{"id": "toolalpaca_real_7_1", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["the square root of 625"]}}]}
+{"id": "toolalpaca_real_7_2", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["convert 5 miles to kilometers"]}}]}
+{"id": "toolalpaca_real_7_3", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["the population of Tokyo"]}}]}
+{"id": "toolalpaca_real_7_4", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["the capital city of Australia"]}}]}
+{"id": "toolalpaca_real_7_5", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["the square root of 256"]}}]}
+{"id": "toolalpaca_real_7_6", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["how many moons Jupiter has"]}}]}
+{"id": "toolalpaca_real_7_7", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["what the average temperature is in Paris in July"]}}]}
+{"id": "toolalpaca_real_7_8", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["when Albert Einstein was born"]}}]}
+{"id": "toolalpaca_real_7_9", "ground_truth": [{"result_get": {"appid": ["LQGE4R-VPE825U26W"], "i": ["how many calories are in a medium-sized apple"]}}]}
+{"id": "toolalpaca_real_8_0", "ground_truth": [{"getFruitByName": {"name": ["mango"]}}]}
+{"id": "toolalpaca_real_8_1", "ground_truth": [{"getAllFruits": {}}]}
+{"id": "toolalpaca_real_8_2", "ground_truth": [{"getFruitByFamily": {"family": ["Rosaceae"]}}]}
+{"id": "toolalpaca_real_8_3", "ground_truth": [{"getFruitsByGenus": {"genus": ["Citrus"]}}]}
+{"id": "toolalpaca_real_8_4", "ground_truth": [{"getFruitsByOrder": {"order": ["Sapindales"]}}]}
+{"id": "toolalpaca_real_8_5", "ground_truth": [{"getFruitsByOrder": {"order": ["Rosales"]}}]}
+{"id": "toolalpaca_real_8_6", "ground_truth": [{"getFruitsByGenus": {"genus": ["Citrus"]}}]}
+{"id": "toolalpaca_real_8_7", "ground_truth": [{"getFruitByFamily": {"family": ["Solanaceae"]}}]}
+{"id": "toolalpaca_real_8_8", "ground_truth": [{"getFruitByName": {"name": ["apple"]}}]}
+{"id": "toolalpaca_real_9_0", "ground_truth": [{"getRandomCat": {"width": ["500"], "height": ["300"], "json": ["true"]}}]}
+{"id": "toolalpaca_real_9_1", "ground_truth": [{"findCatByTag": {"tag": ["cute"], "width": ["800"], "height": ["600"]}}]}
+{"id": "toolalpaca_real_9_2", "ground_truth": [{"findCatWithText": {"text": ["Happy Birthday!"]}}]}
+{"id": "toolalpaca_real_9_3", "ground_truth": [{"tags": {}}]}
+{"id": "toolalpaca_real_9_4", "ground_truth": [{"count": {}}]}
+{"id": "toolalpaca_real_9_6", "ground_truth": [{"getRandomCat": {"type": ["cute"]}}]}
+{"id": "toolalpaca_real_9_7", "ground_truth": [{"getRandomCat": {"type": ["tabby"], "width": ["500"], "height": ["300"]}}]}
+{"id": "toolalpaca_real_9_8", "ground_truth": [{"findCatWithText": {"text": ["Happy Birthday!"]}}]}
+{"id": "toolalpaca_real_9_9", "ground_truth": [{"findCatWithText": {"text": ["You're invited to a purr-fect party!"], "type": ["party hat"]}}]}
+{"id": "toolalpaca_real_9_10", "ground_truth": [{"findCatWithText": {"text": ["Welcome to my cat-tastic journey!"]}}]}
+{"id": "toolalpaca_real_9_11", "ground_truth": [{"findCatWithText": {"text": ["Happy Birthday!"], "type": ["cute"]}}]}
+{"id": "toolalpaca_real_10_0", "ground_truth": [{"latest_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "base": ["USD"], "symbols": ["EUR"]}}]}
+{"id": "toolalpaca_real_10_1", "ground_truth": [{"historical_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "base": ["GBP"], "date": ["2022-01-01"], "symbols": ["CAD"]}}]}
+{"id": "toolalpaca_real_10_2", "ground_truth": [{"timeseries_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "base": ["USD"], "start_date": ["2021-10-01"], "end_date": ["2021-11-30"], "symbols": ["JPY"]}}]}
+{"id": "toolalpaca_real_10_3", "ground_truth": [{"convert_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "from": ["EUR"], "to": ["USD"], "amount": [500]}}]}
+{"id": "toolalpaca_real_10_5", "ground_truth": [{"timeseries_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "base": ["THB"], "start_date": ["2023-01-01"], "end_date": ["2023-12-31"], "symbols": ["USD"]}}]}
+{"id": "toolalpaca_real_10_6", "ground_truth": [{"convert_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "from": ["USD"], "to": ["JPY"], "amount": [1000]}}]}
+{"id": "toolalpaca_real_10_7", "ground_truth": [{"convert_get": {"api_key": ["8BbG6gN9g3Y29h5EMMSEw6avX0c1LYkw"], "from": ["USD"], "to": ["EUR"], "amount": [200]}}]}

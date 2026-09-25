@@ -1,0 +1,115 @@
+{
+  "kind": "historical prediction scorer regression; NOT fresh HF inference",
+  "definition_parity": true,
+  "datasets": {
+    "BFCL_v3_live_simple": {
+      "prediction_sha256": "a8fad9a580768f573cb35fc4b81989b5d2a9ee8ebdaf8a33a3b7ee68234390ed",
+      "predictions": 258,
+      "scored": 244,
+      "metrics_identical": true
+    },
+    "BFCL_v3_simple": {
+      "prediction_sha256": "28a30cd767c275c56e4fc82f6dc4160fc815c6675e63f5eb60994d7e8f710765",
+      "predictions": 400,
+      "scored": 400,
+      "metrics_identical": true
+    },
+    "BFCL_v3_live_multiple": {
+      "prediction_sha256": "673ea6da469081040c63fa8ce1a08e8006f3421cb938917e5afb03aa8902dd03",
+      "predictions": 1053,
+      "scored": 885,
+      "metrics_identical": true
+    },
+    "BFCL_v3_multiple": {
+      "prediction_sha256": "8b89bed2fd7d9686cd411f2eeb656c84f686744164e402cd28bdaa85c4366fc5",
+      "predictions": 200,
+      "scored": 200,
+      "metrics_identical": true
+    },
+    "BFCL_v3_exec_multiple_dataset": {
+      "prediction_sha256": "83d4b18c398505d76f281c044b3a25da26b5dd1bc71c130f8b94a3892d5baf49",
+      "predictions": 50,
+      "scored": 49,
+      "metrics_identical": true
+    },
+    "BFCL_v3_exec_simple_dataset": {
+      "prediction_sha256": "69f1737a70395b3197ede4f84ea58ddfcfc36acaf0d9f33d981698cf57ee4076",
+      "predictions": 100,
+      "scored": 100,
+      "metrics_identical": true
+    },
+    "openfunctions_v1_test": {
+      "prediction_sha256": "293cf9b29d65d00e81791ffbaad4aa2a8e8a3a372402447e20eeab6d9363b7ae",
+      "predictions": 109,
+      "scored": 109,
+      "metrics_identical": true
+    },
+    "sealtools_test_1tools": {
+      "prediction_sha256": "0fd7c0be8324920bce7cc566bf0610dd3be3a5623ac783b63739d302f7269ad4",
+      "predictions": 293,
+      "scored": 292,
+      "metrics_identical": true
+    },
+    "sealtools_test_2tools": {
+      "prediction_sha256": "c15a0b7cfa30c0a6526bc693d36d816dfe24aaf84d72abc244eeb60611036e47",
+      "predictions": 293,
+      "scored": 291,
+      "metrics_identical": true
+    },
+    "sealtools_test_3tools": {
+      "prediction_sha256": "07307e46d01168f441212806ba8373f493cd4413d9a01c147edb7d5d929a0a3c",
+      "predictions": 293,
+      "scored": 288,
+      "metrics_identical": true
+    },
+    "sealtools_test_4tools": {
+      "prediction_sha256": "dc99d338ebad0d687d32fac62efd29e9a2972cc663cc350a3fb124b7ad5300f6",
+      "predictions": 293,
+      "scored": 287,
+      "metrics_identical": true
+    },
+    "sealtools_test_5tools": {
+      "prediction_sha256": "d146c17aac459d9c0d33fba5533d55c93c2f5135e0c82b2b00404025d4f162c4",
+      "predictions": 293,
+      "scored": 289,
+      "metrics_identical": true
+    },
+    "sealtools_test_6tools": {
+      "prediction_sha256": "c58685b2cc00d81efc223905833090a864486c59da1ebc27521fdf8a3002cfe7",
+      "predictions": 293,
+      "scored": 288,
+      "metrics_identical": true
+    },
+    "sealtools_test_in_domain": {
+      "prediction_sha256": "832d07c375a55e9b122c7d53086eb1a0c2c35d6f9ebfffa226275b36701b0364",
+      "predictions": 199,
+      "scored": 195,
+      "metrics_identical": true
+    },
+    "sealtools_test_out_domain": {
+      "prediction_sha256": "43721111d1d78f4896d33cc513901ac7ca7b3e6f5dbceaa69a771b09618036aa",
+      "predictions": 94,
+      "scored": 94,
+      "metrics_identical": true
+    },
+    "toolalpaca_test_real_converted": {
+      "prediction_sha256": "19305e21fc9be0e1cbfd5c337101289af77d4a1da141114954f871f62c8d47d5",
+      "predictions": 92,
+      "scored": 92,
+      "metrics_identical": true
+    },
+    "toolalpaca_test_simulated_converted": {
+      "prediction_sha256": "78aec07d762001486fdb9d4fa791eb0a49d1f38afd67278bb75357ae9e67c0d4",
+      "predictions": 51,
+      "scored": 51,
+      "metrics_identical": true
+    },
+    "mobile_actions": {
+      "prediction_sha256": "b02526b6c84c482b88c7f129591b729e8e26ccb9ac6e61d701af4370d003554b",
+      "predictions": 1283,
+      "scored": 1283,
+      "metrics_identical": true
+    }
+  },
+  "predictions_checked": 5647
+}
