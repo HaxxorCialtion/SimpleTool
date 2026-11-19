@@ -1,4 +1,4 @@
-[Gemma4 complete adapter packages and measured quality](gemma4/README.md) · **2026-11-19 首版源码更新：** [Qwen3.5/3.6 八分支模型、CUDA／Apple 推理、算子实验、训练源码与冻结评测](qwen35/README.md)。[已交付范围与训练语料缺项](qwen35/RELEASE_STATUS.md)。原论文复现代码保留。
+[Gemma4 完整适配器及评测](gemma4/README.md) · **2026-11-19 首版源码更新：** [Qwen3.5/3.6 八分支模型、CUDA／Apple 推理、算子实验、训练源码与冻结评测](qwen35/README.md)。[已交付范围与训练语料缺项](qwen35/RELEASE_STATUS.md)。原论文复现代码保留。
 
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>

@@ -10,7 +10,7 @@ Five completed 5% training checkpoints: E2B, E4B, 12B, 26B-A4B and 31B. **These 
 | 26B-A4B | [HF](https://huggingface.co/Cialtion/SimpleTool-Gemma4-26B-A4B-8Head-5pct-LoRA) | [ModelScope](https://modelscope.cn/models/cialtion/SimpleTool-Gemma4-26B-A4B-8Head-5pct-LoRA) | 577/800 | 781/800 |
 | 31B | [HF](https://huggingface.co/Cialtion/SimpleTool-Gemma4-31B-8Head-5pct-LoRA) | [ModelScope](https://modelscope.cn/models/cialtion/SimpleTool-Gemma4-31B-8Head-5pct-LoRA) | 643/800 | 784/800 |
 
-Publication status and completion receipts are in `publication.json`. Do not treat an empty repository as a completed upload.
+All five complete adapter packages are public on both Hugging Face and ModelScope as of 2026-11-19. Anonymous file access and matching weight sizes were checked; no new full inference run is implied.
 
 Scores are historical 2026-11-17 measurements on frozen [Diagnostic-800](../qwen35/evaluation/diagnostic800/README.md), using its typed literal matcher and schema validity gate, not an official BFCL score. 12B produced repeated malformed outputs and evaluation was halted; no 0/800 ability score is assigned. Vision, content and a parallel Gemma speed backend have not been accepted.
 
