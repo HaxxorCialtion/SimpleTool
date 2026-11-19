@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "cases": 4786,
+  "max_prompt_tokens": 4039,
+  "context_limit": 16384,
+  "max_tokens_per_head": 128,
+  "cases_sha256": "80694c46b01c6e1241010edaa9b2a94db20cbe642877a11655c3a301ebd57b6a",
+  "tokenizer_sha256": "fd593b949dab83979b52300a294913b77acb2b167ee27afed6ecdfdbab490d92",
+  "dataset_counts": {
+    "BFCL_v3_live_simple": 244,
+    "BFCL_v3_simple": 399,
+    "BFCL_v3_live_multiple": 884,
+    "BFCL_v3_multiple": 200,
+    "BFCL_v3_exec_multiple_dataset": 49,
+    "BFCL_v3_exec_simple_dataset": 100,
+    "openfunctions_v1_test": 109,
+    "sealtools_test_1tools": 292,
+    "sealtools_test_2tools": 291,
+    "sealtools_test_3tools": 288,
+    "sealtools_test_4tools": 287,
+    "sealtools_test_5tools": 289,
+    "sealtools_test_6tools": 288,
+    "sealtools_test_in_domain": 195,
+    "sealtools_test_out_domain": 94,
+    "toolalpaca_test_real_converted": 87,
+    "toolalpaca_test_simulated_converted": 50,
+    "mobile_actions": 640
+  },
+  "marker_single_token_verified": true,
+  "no_context_truncation": true
+}

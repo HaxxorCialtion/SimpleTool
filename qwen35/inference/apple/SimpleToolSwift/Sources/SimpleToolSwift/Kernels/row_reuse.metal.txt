@@ -1,0 +1,30 @@
+
+        const uint row0=(thread_position_in_grid.x/32)*ROWS;
+        const uint lane=thread_index_in_simdgroup;
+        if (row0>=N) return;
+        float acc[ROWS][M];
+        for (uint r=0;r<ROWS;++r)
+            for (uint m=0;m<M;++m) acc[r][m]=0.0f;
+        for (uint word=lane;word<K/8;word+=32) {
+            uint packed[ROWS];float s[ROWS],b[ROWS];
+            for (uint r=0;r<ROWS;++r) {
+                const uint row=row0+r;
+                packed[r]=row<N?w[row*(K/8)+word]:0u;
+                s[r]=row<N?scales[row*(K/64)+word/8]:0.0f;
+                b[r]=row<N?biases[row*(K/64)+word/8]:0.0f;
+            }
+            for (uint j=0;j<8;++j) {
+                float input[M];
+                for (uint m=0;m<M;++m) input[m]=x[m*K+word*8+j];
+                for (uint r=0;r<ROWS;++r) {
+                    const float value=float((packed[r]>>(4*j))&15)*s[r]+b[r];
+                    for (uint m=0;m<M;++m) acc[r][m]+=value*input[m];
+                }
+            }
+        }
+        for (uint r=0;r<ROWS;++r)
+            for (uint m=0;m<M;++m) {
+                const float sum=simd_sum(acc[r][m]);
+                if (lane==0 && row0+r<N) y[m*N+row0+r]=sum;
+            }
+    

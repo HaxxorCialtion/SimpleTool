@@ -1,0 +1,10 @@
+{
+  "scenario_id": "robot",
+  "request_id": "frame-42-with-content",
+  "environment": {"frame_id":42,"emergency_stop":true},
+  "history": [],
+  "include_content": true,
+  "max_tokens": 64,
+  "head_max_tokens": {"function":16,"content":96},
+  "temperature": 0
+}

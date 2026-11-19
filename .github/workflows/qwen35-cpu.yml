@@ -1,0 +1,16 @@
+name: Qwen3.5 release CPU checks
+on:
+  pull_request:
+    paths: ['qwen35/**', 'gemma4/**', '.github/workflows/qwen35-cpu.yml']
+  push:
+    paths: ['qwen35/**', 'gemma4/**', '.github/workflows/qwen35-cpu.yml']
+jobs:
+  cpu-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python qwen35/check_release.py
+      - run: python -m compileall -q gemma4/source

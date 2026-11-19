@@ -1,0 +1,4 @@
+mlx==0.32.3
+mlx-lm==0.32.0
+transformers==5.19.0
+tokenizers==0.23.2

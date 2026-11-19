@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-14",
+  "frozen_cases": 4786,
+  "cases_sha256": "80694c46b01c6e1241010edaa9b2a94db20cbe642877a11655c3a301ebd57b6a",
+  "source_hashes_verified": true,
+  "adapter_tests": 5,
+  "upstream_tests": 12,
+  "historical_rescore": {
+    "tag": "new-int4-2b",
+    "rows": 4786,
+    "all_rows_and_datasets_and_stops_match": true,
+    "outputs_sha256": "b84b6f705d8f32aace2223b2f948e1a7e0a588eb9c267b54e646d923bf48d094"
+  },
+  "gpu_inference_run": false,
+  "target_tokenizer_checked": false
+}

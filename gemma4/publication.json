@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-19",
+  "HF": {
+    "hub": "HF",
+    "status": "running",
+    "completed": [
+      {
+        "repo": "Cialtion/SimpleTool-Gemma4-E2B-8Head-5pct-LoRA",
+        "public": true,
+        "files": 15,
+        "revision": "5f473feaf67e2d0cbac5617886a87d20da139844"
+      }
+    ],
+    "current": "Cialtion/SimpleTool-Gemma4-E4B-8Head-5pct-LoRA"
+  },
+  "ModelScope": {
+    "hub": "MS",
+    "status": "running",
+    "completed": [
+      {
+        "repo": "cialtion/SimpleTool-Gemma4-E2B-8Head-5pct-LoRA",
+        "public": true,
+        "files": 15
+      },
+      {
+        "repo": "cialtion/SimpleTool-Gemma4-E4B-8Head-5pct-LoRA",
+        "public": true,
+        "files": 15
+      },
+      {
+        "repo": "cialtion/SimpleTool-Gemma4-12B-8Head-5pct-LoRA",
+        "public": true,
+        "files": 15
+      }
+    ],
+    "current": "cialtion/SimpleTool-Gemma4-26B-A4B-8Head-5pct-LoRA"
+  }
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ulimit -c 0
+ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+"${SL_GPU_PYTHON:?Set SL_GPU_PYTHON to the compatible GPU Python}" "$ROOT/rebase.py"
+cd "$ROOT"
+export PYTHONPATH="$ROOT/scenario_v2:$ROOT:$ROOT/runtime/prefill-only-20261110/code:$ROOT/runtime/code"
+export SL_PREFILL_ONLY=1 SL_EXACT_MAMBA_BLOCK_SIZE=16 SL_PREFILL_SHARE_HASHES=1 SL_PREFILL_ALLOW_ASYNC=1 SL_MAX_PREFILL_GRAPHS=24
+export VLLM_ENABLE_V1_MULTIPROCESSING=0 VLLM_WORKER_MULTIPROC_METHOD=spawn VLLM_USE_FLASHINFER_SAMPLER=0 OMP_NUM_THREADS=1
+export HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 TOKENIZERS_PARALLELISM=false PYTHONUNBUFFERED=1
+export TORCH_CUDA_ARCH_LIST=9.0 FLASHINFER_CUDA_ARCH_LIST=9.0
+export DG_JIT_CACHE_DIR="$ROOT/cache/deep_gemm" FLASHINFER_WORKSPACE_BASE="$ROOT/cache/flashinfer"
+export VLLM_CACHE_ROOT="$ROOT/cache/vllm" TRITON_CACHE_DIR="$ROOT/cache/triton"
+exec "$SL_GPU_PYTHON" "$ROOT/scenario_v2/bench_scenarios.py" "$@"

@@ -1,0 +1,43 @@
+{
+  "host": "127.0.0.1",
+  "port": 8000,
+  "model": "/absolute/path/to/downloaded-model",
+  "tp": 4,
+  "kv_cache_dtype": "auto",
+  "mamba_ssm_cache_dtype": "auto",
+  "kv_gib": 4,
+  "gpu_memory_utilization": 0.96,
+  "max_model_len": 4096,
+  "max_num_seqs": 8,
+  "max_num_batched_tokens": 4096,
+  "gdn_backend": "flashinfer",
+  "moe_backend": "auto",
+  "enforce_eager": false,
+  "prefill_graphs": true,
+  "max_prefill_graphs": 24,
+  "decode_capture_sizes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "verify_warmup": true,
+  "seed": 1114,
+  "max_scenarios": 4,
+  "queue_capacity": 4,
+  "max_body_bytes": 1048576,
+  "request_timeout_ms": 5000,
+  "initialize_timeout_ms": 180000,
+  "log_outputs": false,
+  "http_access_log": false,
+  "state_dir": "state",
+  "initial_scenarios": [
+    "robot.json"
+  ],
+  "enable_expert_parallel": false,
+  "all2all_backend": "allgather_reducescatter"
+}

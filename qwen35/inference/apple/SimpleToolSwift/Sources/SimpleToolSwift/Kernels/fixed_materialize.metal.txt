@@ -1,0 +1,21 @@
+
+    const uint n=thread_position_in_grid.z,b=n/Hv,hv=n%Hv,hk=hv/(Hv/Hk);
+    const uint local=thread_index_in_simdgroup&3;
+    const uint dv=thread_position_in_grid.y*8+thread_index_in_simdgroup/4;
+    if(dv>=Dv) return;
+    const device float* source=base+(((SB==1?0:b)*Hv+hv)*Dv+dv)*128+local*32;
+    float carry[32];
+    for(uint e=0;e<32;++e) carry[e]=source[e];
+
+    for(uint t=0;t<uint(pending);++t) {
+        const float past_g=history_g[(b*C+t)*Hv+hv];
+        const float past_delta=history_delta[((b*C+t)*Hv+hv)*Dv+dv];
+        auto past_k=history_k+((b*C+t)*Hk+hk)*128+local*32;
+        for(uint e=0;e<32;++e) {
+            carry[e]=carry[e]*past_g;
+            carry[e]=carry[e]+past_k[e]*past_delta;
+        }
+    }
+
+    device float* target=state_out+(n*Dv+dv)*128+local*32;
+    for(uint e=0;e<32;++e) target[e]=carry[e];

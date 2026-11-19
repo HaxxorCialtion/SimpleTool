@@ -1,0 +1,34 @@
+
+        const uint row0=(thread_position_in_grid.x/32)*ROWS;
+        const uint lane=thread_index_in_simdgroup;
+        if (row0>=N) return;
+        float gate[ROWS][M],up[ROWS][M];
+        for (uint r=0;r<ROWS;++r) for (uint m=0;m<M;++m) { gate[r][m]=0.0f;up[r][m]=0.0f; }
+        for (uint word=lane;word<K/8;word+=32) {
+            uint gp[ROWS],upack[ROWS];float gscale[ROWS],gbias[ROWS],uscale[ROWS],ubias[ROWS];
+            for (uint r=0;r<ROWS;++r) {
+                const uint row=row0+r;
+                gp[r]=row<N?gw[row*(K/8)+word]:0u;upack[r]=row<N?uw[row*(K/8)+word]:0u;
+                gscale[r]=row<N?float(gs[row*(K/64)+word/8]):0.0f;
+                gbias[r]=row<N?float(gb[row*(K/64)+word/8]):0.0f;
+                uscale[r]=row<N?float(us[row*(K/64)+word/8]):0.0f;
+                ubias[r]=row<N?float(ub[row*(K/64)+word/8]):0.0f;
+            }
+            for (uint j=0;j<8;++j) {
+                float input[M];for (uint m=0;m<M;++m) input[m]=x[m*K+word*8+j];
+                for (uint r=0;r<ROWS;++r) {
+                    const float gv=float((gp[r]>>(4*j))&15)*gscale[r]+gbias[r];
+                    const float uv=float((upack[r]>>(4*j))&15)*uscale[r]+ubias[r];
+                    for (uint m=0;m<M;++m) { gate[r][m]+=gv*input[m];up[r][m]+=uv*input[m]; }
+                }
+            }
+        }
+        for (uint r=0;r<ROWS;++r) for (uint m=0;m<M;++m) {
+            const float g=simd_sum(gate[r][m]),u=simd_sum(up[r][m]);
+            if (lane==0 && row0+r<N) {
+                const float t=1.0f/(1.0f+metal::precise::exp(metal::abs(g)));
+                const float sig=g<0.0f?t:1.0f-t;
+                y[m*N+row0+r]=(g*sig)*u;
+            }
+        }
+    

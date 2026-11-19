@@ -1,0 +1,44 @@
+{
+  "packages": {
+    "transformers": "5.20.2",
+    "flashinfer-python": "0.7.2.post1",
+    "vllm": "0.33.0",
+    "tokenizers": "0.23.3",
+    "nvidia-cudnn-cu13": "9.24.0.43",
+    "torch": "2.14.0",
+    "triton": "3.8.0",
+    "nvidia-nccl-cu13": "2.30.7",
+    "safetensors": "0.8.0",
+    "flashinfer-cubin": "0.7.2.post1",
+    "numpy": "2.3.5"
+  },
+  "allocated_gpus": "name, uuid, memory.total [MiB]\nNVIDIA H200, GPU-8a94d325-bec6-6a78-47d3-dc7e8e41b06c, 143771 MiB\nNVIDIA H200, GPU-4bebc7ef-c4aa-8af3-d16e-bb8039fe0a6c, 143771 MiB\nNVIDIA H200, GPU-ad079fea-3662-510a-82a3-5931d3f8f276, 143771 MiB\nNVIDIA H200, GPU-09b70906-7d2a-bd09-7d5b-138c8fda664a, 143771 MiB\n",
+  "overlay_manifest": {
+    "vllm.third_party.flash_linear_attention.ops.chunk_delta_h": {
+      "path": "/inspire/qb-ilm2/project/new-paradigm-of-manipulation/shixiaoxin-253107030017/simpletool_h200_speed_20261113/runtime/overlay/third_party/flash_linear_attention/ops/chunk_delta_h.py",
+      "original_sha256": "240fbe430200c4168799c05243edffc0b8dce7b41651b95233266d632b70071b",
+      "overlay_sha256": "be0be17083920dc0cdc61ba092acdaa23b1a3e6c221fe2f009072ec2ce34b045"
+    },
+    "vllm.model_executor.layers.mamba.gdn.qwen_gdn_linear_attn": {
+      "path": "/inspire/qb-ilm2/project/new-paradigm-of-manipulation/shixiaoxin-253107030017/simpletool_h200_speed_20261113/runtime/overlay/model_executor/layers/mamba/gdn/qwen_gdn_linear_attn.py",
+      "original_sha256": "c6c037ad94d217aa2710cf29d25d8fa6e3856d1be9fc67fa8bd8681b1f5417f9",
+      "overlay_sha256": "791956174eb7147515c6940a22772e5d679d515113bad2d6d58498630c500ab1"
+    },
+    "vllm.v1.core.sched.scheduler": {
+      "path": "/inspire/qb-ilm2/project/new-paradigm-of-manipulation/shixiaoxin-253107030017/simpletool_h200_speed_20261113/runtime/prefill-only-20261110/overlay/scheduler.py",
+      "parent_sha256": "35f800b94d7d4d83cb66a8e826b2528db0b07e2f41091c549c9712a373a9c0fb",
+      "overlay_sha256": "bbe59ec3b2bb8480d5d4594c413c2dd0b6d9affb1de7e6f747c2503c02e43cca"
+    },
+    "vllm.platforms.interface": {
+      "path": "/inspire/qb-ilm2/project/new-paradigm-of-manipulation/shixiaoxin-253107030017/simpletool_h200_speed_20261113/runtime/overlay/platforms/interface.py",
+      "original_sha256": "11f06cfa184fa7380177eaf26bca58c421306f0eea273c9f35519d35ff4a6f75",
+      "overlay_sha256": "03e08cb10056adf7e99e523f6f1f727489694e26fad21f47ecbe11e418fe9432"
+    }
+  },
+  "runtime_sha256": {
+    "bench.py": "34cc8a302e798e28f585a72a855aea2ee6d770ac4b68d862349fd5124aa631c6",
+    "tp_worker.py": "be32d38926422e721616c2d673c4bdc3e4bd002d03e41d13c37c7c49f2617253",
+    "fast_prefill.py": "094decdb97b328dd2dedf7d66866b059ed6a10b176650514e96e7826cc40a574",
+    "benchmark_lib.py": "742cc9d1dbac17083cfa55bf0115eba51407cd657b94a7206dbb37b3026e1066"
+  }
+}

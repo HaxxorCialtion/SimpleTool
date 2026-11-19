@@ -1,0 +1,130 @@
+{
+  "status": "prepared",
+  "source_commit": "ea920f4983579ded7f3349d673b11f970884366c",
+  "cases_sha256": "80694c46b01c6e1241010edaa9b2a94db20cbe642877a11655c3a301ebd57b6a",
+  "source_manifest_sha256": "058bfdb7698b12e82af3ee15f7097b8b27dd303ce29b73064b686ab7a4291a2e",
+  "datasets": {
+    "BFCL_v3_live_simple": {
+      "input": 258,
+      "included": 244,
+      "any_candidate_exceeds_six_parameters": 14,
+      "order_adapted": 7
+    },
+    "BFCL_v3_simple": {
+      "input": 400,
+      "included": 399,
+      "order_adapted": 7,
+      "reference_function_absent_from_candidates": 1
+    },
+    "BFCL_v3_live_multiple": {
+      "input": 1053,
+      "included": 884,
+      "order_adapted": 114,
+      "any_candidate_exceeds_six_parameters": 167,
+      "missing_required_parameter_annotation": 1,
+      "missing_or_invalid_ground_truth": 1
+    },
+    "BFCL_v3_multiple": {
+      "input": 200,
+      "included": 200,
+      "order_adapted": 8
+    },
+    "BFCL_v3_exec_multiple_dataset": {
+      "input": 50,
+      "missing_or_invalid_ground_truth": 1,
+      "included": 49
+    },
+    "BFCL_v3_exec_simple_dataset": {
+      "input": 100,
+      "included": 100,
+      "order_adapted": 2
+    },
+    "openfunctions_v1_test": {
+      "input": 109,
+      "included": 109
+    },
+    "sealtools_test_1tools": {
+      "input": 293,
+      "included": 292,
+      "any_candidate_exceeds_six_parameters": 1,
+      "order_adapted": 8
+    },
+    "sealtools_test_2tools": {
+      "input": 293,
+      "included": 291,
+      "any_candidate_exceeds_six_parameters": 2,
+      "order_adapted": 14
+    },
+    "sealtools_test_3tools": {
+      "input": 293,
+      "included": 288,
+      "any_candidate_exceeds_six_parameters": 5,
+      "order_adapted": 18
+    },
+    "sealtools_test_4tools": {
+      "input": 293,
+      "included": 287,
+      "order_adapted": 24,
+      "any_candidate_exceeds_six_parameters": 6
+    },
+    "sealtools_test_5tools": {
+      "input": 293,
+      "included": 289,
+      "any_candidate_exceeds_six_parameters": 4,
+      "order_adapted": 30
+    },
+    "sealtools_test_6tools": {
+      "input": 293,
+      "included": 288,
+      "any_candidate_exceeds_six_parameters": 5,
+      "order_adapted": 37
+    },
+    "sealtools_test_in_domain": {
+      "input": 199,
+      "included": 195,
+      "order_adapted": 31,
+      "any_candidate_exceeds_six_parameters": 4
+    },
+    "sealtools_test_out_domain": {
+      "input": 94,
+      "included": 94,
+      "order_adapted": 9
+    },
+    "toolalpaca_test_real_converted": {
+      "input": 92,
+      "included": 87,
+      "reference_function_absent_from_candidates": 5,
+      "order_adapted": 7
+    },
+    "toolalpaca_test_simulated_converted": {
+      "input": 51,
+      "included": 50,
+      "missing_required_parameter_annotation": 1,
+      "order_adapted": 2
+    },
+    "mobile_actions": {
+      "input": 1283,
+      "included": 640,
+      "entire_multi_call_mobile_task": 643
+    }
+  },
+  "total_input": 5647,
+  "total_included": 4786,
+  "total_excluded": 861,
+  "total_heads": 26251,
+  "policy": {
+    "single_call_only": true,
+    "mobile_entire_multi_task_excluded": true,
+    "required_first": true,
+    "candidate_order_preserved": true,
+    "required_list_follows_properties": true,
+    "source_type_names_preserved": true,
+    "source_environment_and_history_preserved": true,
+    "max_candidate_parameters": 6,
+    "gt_never_in_prompt": true,
+    "primary_metric": "exact function + required parameters via frozen upstream local acceptable-value matcher",
+    "full_metric": "strict_call: all annotated parameters, reject extras; local matcher, not official BFCL",
+    "heads": "content,function,arg1..argN; N=max arity of all candidate tools, independent of reference"
+  },
+  "warnings": []
+}

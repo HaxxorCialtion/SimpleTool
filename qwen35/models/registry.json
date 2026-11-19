@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-11-19T13:03:04.660060+00:00",
+  "verification": "Anonymous public file inventory and complete shard coverage checked on 2026-11-19; 191 weight shards present on both hubs.",
+  "models": [
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-0.8B-8Head-5pct-BF16",
+      "revision": "6e6ca0bc5c2b9a2a8470719bc592ed8069515138",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-0.8B-8Head-5pct-BF16",
+      "public": true,
+      "weight_bytes": 1746942632,
+      "weight_shards": 1
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-0.8B-8Head-5pct-INT4",
+      "revision": "b3450a39a2b9ccc53017d09d5281a11f4415986b",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-0.8B-8Head-5pct-INT4",
+      "public": true,
+      "weight_bytes": 1020852160,
+      "weight_shards": 1
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-122B-A10B-8Head-5pct-FP8",
+      "revision": "eed2f43ddd35f237bbf9e0a5d147a6cd38cb040c",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-122B-A10B-8Head-5pct-FP8",
+      "public": true,
+      "weight_bytes": 127163011928,
+      "weight_shards": 39
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-BF16",
+      "revision": "eb73f6f676e10fb184c727b04f0ba15eeebcd429",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-BF16",
+      "public": true,
+      "weight_bytes": 4548221520,
+      "weight_shards": 1
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-INT4",
+      "revision": "d19fa4505665df0dafc682fc34765f358bb0d091",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-2B-8Head-5pct-INT4",
+      "public": true,
+      "weight_bytes": 2544523808,
+      "weight_shards": 1
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-397B-A17B-8Head-5pct-FP8",
+      "revision": "b8042b4036b38f3a8ebab36bf69ad03f5c718328",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-397B-A17B-8Head-5pct-FP8",
+      "public": true,
+      "weight_bytes": 406151669552,
+      "weight_shards": 94
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-INT4",
+      "revision": "cb6f1b35ec941c695408054ef3595f0124c07cf7",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-INT4",
+      "public": true,
+      "weight_bytes": 4111397288,
+      "weight_shards": 2
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-INT4",
+      "revision": "c8afd3b0184811c87438f9fee8ce5a1420ed87f9",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-INT4",
+      "public": true,
+      "weight_bytes": 9208042616,
+      "weight_shards": 4
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-BF16",
+      "revision": "9fca9dcd9a5b6a794aa2e87487f1646e5fc9bff0",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-4B-8Head-5pct-BF16",
+      "public": true,
+      "weight_bytes": 9319828160,
+      "weight_shards": 2
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-BF16",
+      "revision": "c91a362e554d8c28f113c2e17483166e937f9e5d",
+      "modelscope": "cialtion/SimpleTool-Qwen3.5-9B-8Head-5pct-BF16",
+      "public": true,
+      "weight_bytes": 19306303856,
+      "weight_shards": 4
+    },
+    {
+      "repo_id": "Cialtion/SimpleTool-Qwen3.6-35B-A3B-8Head-5pct-FP8",
+      "revision": "4b64588d0f2f1f240fae7285574813c82112bcb3",
+      "modelscope": "cialtion/SimpleTool-Qwen3.6-35B-A3B-8Head-5pct-FP8",
+      "public": true,
+      "weight_bytes": 37463662192,
+      "weight_shards": 42
+    }
+  ]
+}

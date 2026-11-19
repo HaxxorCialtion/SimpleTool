@@ -1,0 +1,51 @@
+{"id": "toolalpaca_simulated_0_0", "ground_truth": [{"getRandomAxolotlImage": {}}]}
+{"id": "toolalpaca_simulated_0_1", "ground_truth": [{"searchAxolotlImages": {"color": ["wild"], "gender": [""], "size": ["medium"], "page": [1]}}]}
+{"id": "toolalpaca_simulated_0_2", "ground_truth": [{"getAxolotlFacts": {"category": ["habitat"], "limit": [3]}}]}
+{"id": "toolalpaca_simulated_0_3", "ground_truth": [{"getAxolotlFacts": {"category": ["physical characteristics"], "limit": [3]}}]}
+{"id": "toolalpaca_simulated_0_4", "ground_truth": [{"searchAxolotlImages": {"color": ["albino"], "gender": [""], "size": [""], "page": [1]}}]}
+{"id": "toolalpaca_simulated_0_5", "ground_truth": [{"getAxolotlFacts": {"category": ["physical characteristics"], "limit": [5]}}]}
+{"id": "toolalpaca_simulated_0_8", "ground_truth": [{"getAxolotlFacts": {"category": ["habits"], "limit": [1]}}]}
+{"id": "toolalpaca_simulated_1_1", "ground_truth": [{"searchAnime": {"filter": ["genre = 'Mystery' AND genre = 'Action' AND release_year = 2020 AND user_rating >= 4"]}}]}
+{"id": "toolalpaca_simulated_1_6", "ground_truth": [{"getAnimeDetails": {"animeId": [123456]}}]}
+{"id": "toolalpaca_simulated_2_1", "ground_truth": [{"reportAbusiveIP": {"ip": ["192.168.1.100"], "categories": [["brute-force", "DDoS"]], "comment": ["Multiple failed login attempts and DDoS attacks."]}}]}
+{"id": "toolalpaca_simulated_2_2", "ground_truth": [{"checkIPReputation": {"ip": ["123.45.67.89"]}}]}
+{"id": "toolalpaca_simulated_2_6", "ground_truth": [{"getPublishedDataFeeds": {"feedType": ["json"], "categories": [["malware", "hacking"]]}}]}
+{"id": "toolalpaca_simulated_2_8", "ground_truth": [{"reportAbusiveIP": {"ip": ["200.0.0.25"], "categories": [["Spam", "Phishing"]], "comment": ["Sending multiple spam emails and phishing attempts."]}}]}
+{"id": "toolalpaca_simulated_2_9", "ground_truth": [{"checkIPReputation": {"ip": ["168.0.99.1"], "maxAgeInDays": [45]}}]}
+{"id": "toolalpaca_simulated_3_1", "ground_truth": [{"generateAvatar": {"userId": ["123456789"], "style": ["grunge"], "format": ["png"]}}]}
+{"id": "toolalpaca_simulated_3_4", "ground_truth": [{"generateServerIcon": {"serverId": ["987654321"], "style": ["minimal"], "format": ["jpg"]}}]}
+{"id": "toolalpaca_simulated_3_5", "ground_truth": [{"listServerMembers": {"serverId": ["135792468"], "limit": [50], "offset": [10]}}]}
+{"id": "toolalpaca_simulated_3_6", "ground_truth": [{"searchUser": {"query": ["MisterArcade"]}}]}
+{"id": "toolalpaca_simulated_3_7", "ground_truth": [{"generateRandomImage": {"userId": ["246813579"], "category": ["nature"], "format": ["png"]}}]}
+{"id": "toolalpaca_simulated_3_8", "ground_truth": [{"generateAvatar": {"userId": ["321654987"], "style": ["minimal"], "format": ["jpg"]}}]}
+{"id": "toolalpaca_simulated_3_9", "ground_truth": [{"searchUser": {"query": ["SolarWinds42"]}}]}
+{"id": "toolalpaca_simulated_4_0", "ground_truth": [{"authenticateUser": {"provider": ["facebook"], "email": ["john.doe@gmail.com"], "password": ["Pa$$w0rd"]}}]}
+{"id": "toolalpaca_simulated_4_1", "ground_truth": [{"getUserProfile": {"userId": ["g-user123"], "accessToken": ["abcd1234"]}}]}
+{"id": "toolalpaca_simulated_4_2", "ground_truth": [{"updateUserProfile": {"userId": ["g-user123"], "accessToken": ["abcd1234"], "profileData": [{"profilePictureUrl": "https://example.com/new_image.jpg"}]}}]}
+{"id": "toolalpaca_simulated_4_3", "ground_truth": [{"assignUserRole": {"userId": ["user321"], "accessToken": ["abcd1234"], "roleId": ["role123"]}}]}
+{"id": "toolalpaca_simulated_4_4", "ground_truth": [{"listRoles": {"accessToken": ["abcd1234"]}}]}
+{"id": "toolalpaca_simulated_4_5", "ground_truth": [{"createRole": {"accessToken": ["abcd1234"], "roleName": ["Content Moderator"], "permissions": [[{"permissionId": "edit_content", "permissionName": "${string}"}, {"permissionId": "delete_content", "permissionName": "${string}"}]]}}]}
+{"id": "toolalpaca_simulated_4_6", "ground_truth": [{"deleteRole": {"accessToken": ["abcd1234"], "roleId": ["role456"]}}]}
+{"id": "toolalpaca_simulated_4_7", "ground_truth": [{"initiatePasswordlessAuthentication": {"provider": ["email"], "identifier": ["jane.doe@example.com"]}}]}
+{"id": "toolalpaca_simulated_4_8", "ground_truth": [{"verifyPasswordlessAuthentication": {"provider": ["sms"], "identifier": ["user's phone number"], "verificationCode": ["123456"]}}]}
+{"id": "toolalpaca_simulated_4_9", "ground_truth": [{"verifyPasswordlessAuthentication": {"provider": ["email"], "identifier": ["john.doe@gmail.com"], "verificationCode": ["456789"]}}]}
+{"id": "toolalpaca_simulated_5_0", "ground_truth": [{"getHolidaysByCountry": {"country": ["Japan"], "year": [2023], "language": ["English"]}}]}
+{"id": "toolalpaca_simulated_5_3", "ground_truth": [{"listCountries": {}}]}
+{"id": "toolalpaca_simulated_5_4", "ground_truth": [{"listLanguages": {}}]}
+{"id": "toolalpaca_simulated_5_5", "ground_truth": [{"searchHolidays": {"keywords": ["Diwali"]}}]}
+{"id": "toolalpaca_simulated_5_7", "ground_truth": [{"getHolidayDetails": {"holidayId": ["chinese-new-year"]}}]}
+{"id": "toolalpaca_simulated_5_8", "ground_truth": [{"listCountries": {}}]}
+{"id": "toolalpaca_simulated_5_9", "ground_truth": [{"listLanguages": {}}]}
+{"id": "toolalpaca_simulated_7_0", "ground_truth": [{"getBibleVersionList": {"language": ["English"]}}]}
+{"id": "toolalpaca_simulated_7_1", "ground_truth": [{"getAllVersesFromChapter": {"book": ["Job"], "chapter": [3], "version": ["New International Version"]}}]}
+{"id": "toolalpaca_simulated_7_2", "ground_truth": [{"getSpecificVerse": {"book": ["Proverbs"], "chapter": [18], "verse": [24]}}]}
+{"id": "toolalpaca_simulated_7_4", "ground_truth": [{"getSpecificVerse": {"book": ["Revelation"], "chapter": [22], "verse": [17], "version": ["New Living Translation"], "language": ["English"]}}]}
+{"id": "toolalpaca_simulated_7_7", "ground_truth": [{"searchVerses": {"text": ["Love is patient, love is kind"], "version": ["New International Version"], "language": ["English"]}}]}
+{"id": "toolalpaca_simulated_7_8", "ground_truth": [{"getBibleLanguages": {}}]}
+{"id": "toolalpaca_simulated_8_0", "ground_truth": [{"updateDataSource": {"sourceId": [85], "sourceName": ["Updated Sales Data"], "connectionString": ["postgres://user:password@newhost/dbname"]}}]}
+{"id": "toolalpaca_simulated_8_1", "ground_truth": [{"deleteDataSource": {"sourceId": [93]}}]}
+{"id": "toolalpaca_simulated_8_3", "ground_truth": [{"configureAlerts": {"email": ["john.doe@company.com"], "frequency": ["daily"]}}]}
+{"id": "toolalpaca_simulated_8_4", "ground_truth": [{"createDataSource": {"sourceName": ["MySQL_DS_ProjectA"], "connectionString": ["mysql://user:pass@localhost/db"], "type": ["mysql"]}}]}
+{"id": "toolalpaca_simulated_8_9", "ground_truth": [{"configureAlerts": {"email": ["janedoe@company.com"], "frequency": ["weekly"]}}]}
+{"id": "toolalpaca_simulated_9_0", "ground_truth": [{"verifyUSAddress": {"addressLine1": ["123 Main St"], "addressLine2": ["Apt 4B"], "city": ["New York"], "state": ["NY"], "zipCode": ["10001"]}}]}
+{"id": "toolalpaca_simulated_9_1", "ground_truth": [{"standardizeUSAddress": {"addressLine1": ["456 Elm Street"], "addressLine2": ["Suite 789"], "city": ["Los Angeles"], "state": ["CA"], "zipCode": ["90012"]}}]}

@@ -1,0 +1,36 @@
+{
+  "scenario_id": "robot",
+  "request_id": "robot-frame-10002",
+  "environment": {
+    "frame_id": 10002,
+    "task_id": "pick-0002",
+    "emergency_stop": false,
+    "obstruction": false,
+    "object_in_gripper": false,
+    "at_pick": false,
+    "at_drop": false,
+    "placement_verified": false,
+    "pick_target": {
+      "x_mm": 212,
+      "y_mm": -88,
+      "z_mm": 107
+    },
+    "drop_target": {
+      "x_mm": 332,
+      "y_mm": 72,
+      "z_mm": 127
+    },
+    "requested_speed_mm_s": 37,
+    "gripper_close_width_mm": 20,
+    "gripper_force_n": 11,
+    "gripper_open_width_mm": 72,
+    "joint_encoder_deg": [
+      13,
+      -22,
+      39,
+      -46,
+      61,
+      65
+    ]
+  }
+}

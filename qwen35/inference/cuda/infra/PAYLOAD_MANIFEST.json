@@ -1,0 +1,102 @@
+{
+  "rebase.py": {
+    "bytes": 454,
+    "sha256": "c1c4d60995b28cb3f5dbc4608f567e24698a105b07f4e99c14e498aa39858455"
+  },
+  "tp_worker.py": {
+    "bytes": 2453,
+    "sha256": "be32d38926422e721616c2d673c4bdc3e4bd002d03e41d13c37c7c49f2617253"
+  },
+  "launch.sh": {
+    "bytes": 964,
+    "sha256": "d2c32f1cc124b54a866180f03bd206782313f8e4322ab8ac77a4cc4be31501b2"
+  },
+  "benchmark_lib.py": {
+    "bytes": 10819,
+    "sha256": "742cc9d1dbac17083cfa55bf0115eba51407cd657b94a7206dbb37b3026e1066"
+  },
+  "fast_prefill.py": {
+    "bytes": 11535,
+    "sha256": "094decdb97b328dd2dedf7d66866b059ed6a10b176650514e96e7826cc40a574"
+  },
+  "bench.py": {
+    "bytes": 29358,
+    "sha256": "34cc8a302e798e28f585a72a855aea2ee6d770ac4b68d862349fd5124aa631c6"
+  },
+  "README.md": {
+    "bytes": 2218,
+    "sha256": "6e2b9f4d5a38e0d9422f162c5b7791f0c2003233c78345faf3ff5c3a101eded7"
+  },
+  "OVERLAY_RELATIVE.json": {
+    "bytes": 1999,
+    "sha256": "db282f313967e8debef93e29a8c6dc1a8c9e2d3befc01309f956fc37d8673a92"
+  },
+  "ENVIRONMENT.json": {
+    "bytes": 2789,
+    "sha256": "738b6592bde3f8ac64b51dd8d4f9e96f07e5cc060e120947b39bcf4e05394310"
+  },
+  "PROTOCOL.md": {
+    "bytes": 8427,
+    "sha256": "fcce9568fa439ac1fddeca126cf5accbf05e17684d4faa09fd6470ef51675855"
+  },
+  "scenario_v2/workload.py.inc": {
+    "bytes": 8952,
+    "sha256": "52e23da1f375ae652a59da8183932fd42a095e5a54ad886384c18d5cd74a01ec"
+  },
+  "scenario_v2/bench_scenarios.py": {
+    "bytes": 24190,
+    "sha256": "015f7a4b411b06353ece8eef1e66ded92ebf54ce6860f0d0324f335ae7aba967"
+  },
+  "scenario_v2/make_scenarios.py": {
+    "bytes": 9221,
+    "sha256": "2b0b9b9125bd567f02edceaf8e2ce609adba30504484f907c30429a521f00b4d"
+  },
+  "scenario_v2/DRIVER_PROVENANCE.json": {
+    "bytes": 498,
+    "sha256": "f40888b60b4c3a406bcbd6ce3c2dfb80aad58046829d3c3765a55724056e97ab"
+  },
+  "scenario_v2/DATA_MANIFEST.json": {
+    "bytes": 458,
+    "sha256": "6fac617a5f98f4e3958f90176170ea8ca05800d749a525b105d1af4914281950"
+  },
+  "scenario_v2/data/npc.jsonl": {
+    "bytes": 310546,
+    "sha256": "6a3f7715e142dd8a9f822349bc50d8bcb7fbf20ef543451e517248c466e53c87"
+  },
+  "scenario_v2/data/avatar.jsonl": {
+    "bytes": 304882,
+    "sha256": "2dd5f6df0b3c9580930a963e5588bb9351c33ebea86c360b3744bbbbc3aabbc4"
+  },
+  "scenario_v2/data/robot.jsonl": {
+    "bytes": 294772,
+    "sha256": "be7f968a6e71fe2edbc97946f603d1a684e5a9a149497ae5cb9817b0aada1ddf"
+  },
+  "runtime/code/export_endpoint.py": {
+    "bytes": 5327,
+    "sha256": "f8e97212207c6f575bb5a120fca40c80542687996548af1e72e25eef758e4c5d"
+  },
+  "runtime/prefill-only-20261110/code/prefill_runtime.py": {
+    "bytes": 11788,
+    "sha256": "c64dca6a3e54bfb241e7c60b03ecd8ed16bf2acd080bf7df09d5ccedf69602cc"
+  },
+  "runtime/prefill-only-20261110/code/sitecustomize.py": {
+    "bytes": 525,
+    "sha256": "4d2abb22fe7c8fa1363e906bdc00fb14d2289d1778bf46d0c5c06a64aeb4bb06"
+  },
+  "runtime/prefill-only-20261110/overlay/scheduler.py": {
+    "bytes": 180854,
+    "sha256": "bbe59ec3b2bb8480d5d4594c413c2dd0b6d9affb1de7e6f747c2503c02e43cca"
+  },
+  "runtime/overlay/platforms/interface.py": {
+    "bytes": 58199,
+    "sha256": "03e08cb10056adf7e99e523f6f1f727489694e26fad21f47ecbe11e418fe9432"
+  },
+  "runtime/overlay/third_party/flash_linear_attention/ops/chunk_delta_h.py": {
+    "bytes": 13553,
+    "sha256": "be0be17083920dc0cdc61ba092acdaa23b1a3e6c221fe2f009072ec2ce34b045"
+  },
+  "runtime/overlay/model_executor/layers/mamba/gdn/qwen_gdn_linear_attn.py": {
+    "bytes": 90221,
+    "sha256": "791956174eb7147515c6940a22772e5d679d515113bad2d6d58498630c500ab1"
+  }
+}

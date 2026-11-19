@@ -1,0 +1,1877 @@
+[
+  {
+    "id": "env_01_a",
+    "objective": "根据剪贴板实际类型选择粘贴接口。",
+    "tags": [
+      "environment_sensitive",
+      "clipboard_type_dispatch"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "paste_text",
+          "description": "把剪贴板中的文本粘贴到指定输入框；仅支持 kind=text。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "description": "输入框 ID"
+              }
+            },
+            "required": [
+              "target_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "clear_clipboard",
+          "description": "清空剪贴板。",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "paste_image",
+          "description": "把剪贴板中的图片粘贴到指定输入框；仅支持 kind=image。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "description": "输入框 ID"
+              }
+            },
+            "required": [
+              "target_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "clipboard_kind": "text",
+      "focused_input_id": "chat-compose"
+    },
+    "history": [],
+    "query": "把当前剪贴板内容粘贴到焦点输入框。",
+    "expected": {
+      "name": "paste_text",
+      "arguments": {
+        "target_id": "chat-compose"
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_text",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_text",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      },
+      "122B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_text",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_text",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      },
+      "397B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_text",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_text",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "env_01_b",
+    "objective": "根据剪贴板实际类型选择粘贴接口。",
+    "tags": [
+      "environment_sensitive",
+      "clipboard_type_dispatch"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "paste_text",
+          "description": "把剪贴板中的文本粘贴到指定输入框；仅支持 kind=text。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "description": "输入框 ID"
+              }
+            },
+            "required": [
+              "target_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "clear_clipboard",
+          "description": "清空剪贴板。",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "paste_image",
+          "description": "把剪贴板中的图片粘贴到指定输入框；仅支持 kind=image。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "target_id": {
+                "type": "string",
+                "description": "输入框 ID"
+              }
+            },
+            "required": [
+              "target_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "clipboard_kind": "image",
+      "focused_input_id": "chat-compose"
+    },
+    "history": [],
+    "query": "把当前剪贴板内容粘贴到焦点输入框。",
+    "expected": {
+      "name": "paste_image",
+      "arguments": {
+        "target_id": "chat-compose"
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_image",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_image",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      },
+      "122B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_image",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_image",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      },
+      "397B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "paste_image",
+          "arg1": "chat-compose"
+        },
+        "predicted": {
+          "name": "paste_image",
+          "arguments": {
+            "target_id": "chat-compose"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "env_02_a",
+    "objective": "读取连接前置状态，避免跳过必要步骤。",
+    "tags": [
+      "environment_sensitive",
+      "connectivity_prerequisite"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "set_wifi_enabled",
+          "description": "开关 Wi-Fi。连接网络前必须先开启 Wi-Fi。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "enabled": {
+                "type": "boolean",
+                "description": "是否开启"
+              }
+            },
+            "required": [
+              "enabled"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "connect_saved_wifi",
+          "description": "连接已保存网络；Wi-Fi 已开启时才能调用。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "network_id": {
+                "type": "string",
+                "description": "已保存网络 ID"
+              }
+            },
+            "required": [
+              "network_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "forget_wifi",
+          "description": "删除已保存的网络。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "network_id": {
+                "type": "string",
+                "description": "网络 ID"
+              }
+            },
+            "required": [
+              "network_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "wifi_enabled": false,
+      "home_network_id": "wifi-home-1"
+    },
+    "history": [],
+    "query": "连接家庭 Wi-Fi；若尚未开启 Wi-Fi，下一步先开启，否则直接连接。只调用一步。",
+    "expected": {
+      "name": "set_wifi_enabled",
+      "arguments": {
+        "enabled": true
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_wifi_enabled",
+          "arg1": "true"
+        },
+        "predicted": {
+          "name": "set_wifi_enabled",
+          "arguments": {
+            "enabled": true
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": false,
+        "raw_heads": {
+          "function": "set_wifi_enabled",
+          "arg1": "wifi-home-1"
+        },
+        "predicted": {
+          "name": "set_wifi_enabled",
+          "arguments": {}
+        }
+      },
+      "397B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_wifi_enabled",
+          "arg1": "true"
+        },
+        "predicted": {
+          "name": "set_wifi_enabled",
+          "arguments": {
+            "enabled": true
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "env_05_b",
+    "objective": "识别小于而非小于等于的电量边界。",
+    "tags": [
+      "environment_sensitive",
+      "strict_threshold_boundary"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "set_brightness",
+          "description": "设置亮度百分比。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "percent": {
+                "type": "integer",
+                "description": "0 到 100 的整数"
+              }
+            },
+            "required": [
+              "percent"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "set_power_mode",
+          "description": "设置电源模式。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "mode": {
+                "type": "string",
+                "description": "目标模式",
+                "enum": [
+                  "low",
+                  "standard"
+                ]
+              }
+            },
+            "required": [
+              "mode"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "open_battery_settings",
+          "description": "打开电池设置。",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "battery_percent": 20
+    },
+    "history": [],
+    "query": "电量低于20%设为低电量模式，否则设为标准模式。",
+    "expected": {
+      "name": "set_power_mode",
+      "arguments": {
+        "mode": "standard"
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_power_mode",
+          "arg1": "low"
+        },
+        "predicted": {
+          "name": "set_power_mode",
+          "arguments": {
+            "mode": "low"
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_power_mode",
+          "arg1": "low"
+        },
+        "predicted": {
+          "name": "set_power_mode",
+          "arguments": {
+            "mode": "low"
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_power_mode",
+          "arg1": "low"
+        },
+        "predicted": {
+          "name": "set_power_mode",
+          "arguments": {
+            "mode": "low"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "history_16_b",
+    "objective": "区分助手猜测与工具实测，按实测媒体音量切换静音。",
+    "tags": [
+      "pseudo_multiturn",
+      "observation_over_assistant_claim",
+      "state_toggle",
+      "evidence_provenance"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "set_ringtone_volume",
+          "description": "设置铃声音量百分比。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "percent": {
+                "type": "integer",
+                "description": "0 到 100 的整数",
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "percent"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "read_volume",
+          "description": "读取媒体音量，无参数。",
+          "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": [],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "set_volume",
+          "description": "设置媒体音量百分比。",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "percent": {
+                "type": "integer",
+                "description": "0 到 100 的整数",
+                "minimum": 0,
+                "maximum": 100
+              }
+            },
+            "required": [
+              "percent"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "unmute_percent": 30
+    },
+    "history": [
+      {
+        "role": "assistant",
+        "content": "媒体应该已经静音了。"
+      },
+      {
+        "role": "tool",
+        "content": "{\"operation\":\"read_volume\",\"media_percent\":10}"
+      }
+    ],
+    "query": "以刚才工具实际读数为准切换媒体静音：若为 0 则恢复到 30%，否则设为 0。",
+    "expected": {
+      "name": "set_volume",
+      "arguments": {
+        "percent": 0
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_volume",
+          "arg1": "30"
+        },
+        "predicted": {
+          "name": "set_volume",
+          "arguments": {
+            "percent": 30
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_volume",
+          "arg1": "30"
+        },
+        "predicted": {
+          "name": "set_volume",
+          "arguments": {
+            "percent": 30
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "set_volume",
+          "arg1": "30"
+        },
+        "predicted": {
+          "name": "set_volume",
+          "arguments": {
+            "percent": 30
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "hard_en_transformation_01_a",
+    "objective": "One source sample can trigger a full extra aligned frame.",
+    "tags": [
+      "rational_ceiling",
+      "alignment_boundary",
+      "operation_order",
+      "environment_sensitive"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "defer_reserve_resampled_audio",
+          "description": "Record a deferral only when explicitly requested; does not execute.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "resource_id": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "resource_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "reserve_resampled_audio",
+          "description": "valid_samples=ceil(input_samples*target_rate/source_rate); padded_samples is valid_samples rounded upward to a multiple of hop. frames=padded_samples/hop.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "buffer_id": {
+                "type": "string",
+                "description": ""
+              },
+              "valid_samples": {
+                "type": "integer",
+                "description": ""
+              },
+              "padded_samples": {
+                "type": "integer",
+                "description": ""
+              },
+              "frames": {
+                "type": "integer",
+                "description": ""
+              }
+            },
+            "required": [
+              "buffer_id",
+              "valid_samples",
+              "padded_samples",
+              "frames"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "inspect_reserve_resampled_audio",
+          "description": "Inspect only; never performs the requested operation.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "resource_id": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "resource_id"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "buffer_id": "ab5",
+      "input_samples": 1536,
+      "source_rate": 48000,
+      "target_rate": 16000,
+      "hop": 128
+    },
+    "history": [],
+    "query": "Reserve resampled audio using rational ceiling before hop alignment.",
+    "expected": {
+      "name": "reserve_resampled_audio",
+      "arguments": {
+        "buffer_id": "ab5",
+        "valid_samples": 512,
+        "padded_samples": 512,
+        "frames": 4
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "reserve_resampled_audio",
+          "arg1": "ab5",
+          "arg2": "1536",
+          "arg3": "1536",
+          "arg4": "12"
+        },
+        "predicted": {
+          "name": "reserve_resampled_audio",
+          "arguments": {
+            "buffer_id": "ab5",
+            "valid_samples": 1536,
+            "padded_samples": 1536,
+            "frames": 12
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "reserve_resampled_audio",
+          "arg1": "ab5",
+          "arg2": "512",
+          "arg3": "512",
+          "arg4": "12"
+        },
+        "predicted": {
+          "name": "reserve_resampled_audio",
+          "arguments": {
+            "buffer_id": "ab5",
+            "valid_samples": 512,
+            "padded_samples": 512,
+            "frames": 12
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "reserve_resampled_audio",
+          "arg1": "ab5",
+          "arg2": "512",
+          "arg3": "512",
+          "arg4": "160"
+        },
+        "predicted": {
+          "name": "reserve_resampled_audio",
+          "arguments": {
+            "buffer_id": "ab5",
+            "valid_samples": 512,
+            "padded_samples": 512,
+            "frames": 160
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ma_en_roles_03_b",
+    "objective": "Read and write credentials cannot be interchanged.",
+    "tags": [
+      "arity_4",
+      "role_specific_credentials",
+      "partial_invariance",
+      "environment_sensitive"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "configure_read_write_database_roles",
+          "description": "read_role and write_role resolve cluster IDs. read_uri/read_credential come from the read cluster; write_uri/write_credential from the write cluster. Apply the complete operation only when environment.mode=apply.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "read_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "read_credential": {
+                "type": "string",
+                "description": ""
+              },
+              "write_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "write_credential": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "read_uri",
+              "read_credential",
+              "write_uri",
+              "write_credential"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "queue_configure_read_write_database_roles",
+          "description": "read_role and write_role resolve cluster IDs. read_uri/read_credential come from the read cluster; write_uri/write_credential from the write cluster. Queue the complete operation without executing immediately, only when environment.mode=queue.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "read_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "read_credential": {
+                "type": "string",
+                "description": ""
+              },
+              "write_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "write_credential": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "read_uri",
+              "read_credential",
+              "write_uri",
+              "write_credential"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "preview_configure_read_write_database_roles",
+          "description": "read_role and write_role resolve cluster IDs. read_uri/read_credential come from the read cluster; write_uri/write_credential from the write cluster. Preview the complete operation without committing, only when environment.mode=preview.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "read_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "read_credential": {
+                "type": "string",
+                "description": ""
+              },
+              "write_uri": {
+                "type": "string",
+                "description": ""
+              },
+              "write_credential": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "read_uri",
+              "read_credential",
+              "write_uri",
+              "write_credential"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "read_role": "replica",
+      "write_role": "mirror",
+      "roles": {
+        "replica": "db1",
+        "primary": "db2",
+        "mirror": "db3"
+      },
+      "clusters": {
+        "db1": {
+          "uri": "db:read",
+          "credential": "k1"
+        },
+        "db2": {
+          "uri": "db:write",
+          "credential": "k2"
+        },
+        "db3": {
+          "uri": "db:mirror",
+          "credential": "k3"
+        }
+      },
+      "mode": "apply"
+    },
+    "history": [],
+    "query": "Handle the database read/write configuration according to mode.",
+    "expected": {
+      "name": "configure_read_write_database_roles",
+      "arguments": {
+        "read_uri": "db:read",
+        "read_credential": "k1",
+        "write_uri": "db:mirror",
+        "write_credential": "k3"
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "configure_read_write_database_roles",
+          "arg1": "db:read",
+          "arg2": "k1",
+          "arg3": "db:mirror",
+          "arg4": "k3"
+        },
+        "predicted": {
+          "name": "configure_read_write_database_roles",
+          "arguments": {
+            "read_uri": "db:read",
+            "read_credential": "k1",
+            "write_uri": "db:mirror",
+            "write_credential": "k3"
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "configure_read_write_database_roles",
+          "arg1": "db:read",
+          "arg2": "k1",
+          "arg3": "db:write",
+          "arg4": "k3"
+        },
+        "predicted": {
+          "name": "configure_read_write_database_roles",
+          "arguments": {
+            "read_uri": "db:read",
+            "read_credential": "k1",
+            "write_uri": "db:write",
+            "write_credential": "k3"
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "configure_read_write_database_roles",
+          "arg1": "db:read",
+          "arg2": "k1",
+          "arg3": "db:write",
+          "arg4": "k3"
+        },
+        "predicted": {
+          "name": "configure_read_write_database_roles",
+          "arguments": {
+            "read_uri": "db:read",
+            "read_credential": "k1",
+            "write_uri": "db:write",
+            "write_credential": "k3"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ma_en_arrays_02_a",
+    "objective": "A budget boundary changes row membership across five columns.",
+    "tags": [
+      "arity_5",
+      "inclusive_boundary",
+      "filter_then_sort",
+      "parallel_arrays",
+      "environment_sensitive"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "queue_compose_affordable_listing_columns",
+          "description": "Keep listings with price_cents<=budget; sort by price_cents ascending, then id ascending. Output id,price_cents,seller,url,delivery_days in that order. Queue the complete operation without executing immediately, only when environment.mode=queue.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "prices_cents": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "sellers": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "urls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "delivery_days": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              }
+            },
+            "required": [
+              "ids",
+              "prices_cents",
+              "sellers",
+              "urls",
+              "delivery_days"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "preview_compose_affordable_listing_columns",
+          "description": "Keep listings with price_cents<=budget; sort by price_cents ascending, then id ascending. Output id,price_cents,seller,url,delivery_days in that order. Preview the complete operation without committing, only when environment.mode=preview.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "prices_cents": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "sellers": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "urls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "delivery_days": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              }
+            },
+            "required": [
+              "ids",
+              "prices_cents",
+              "sellers",
+              "urls",
+              "delivery_days"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "compose_affordable_listing_columns",
+          "description": "Keep listings with price_cents<=budget; sort by price_cents ascending, then id ascending. Output id,price_cents,seller,url,delivery_days in that order. Apply the complete operation only when environment.mode=apply.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "ids": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "prices_cents": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "sellers": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "urls": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "description": ""
+                },
+                "description": ""
+              },
+              "delivery_days": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "description": ""
+                },
+                "description": ""
+              }
+            },
+            "required": [
+              "ids",
+              "prices_cents",
+              "sellers",
+              "urls",
+              "delivery_days"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "budget": 500,
+      "listings": [
+        {
+          "id": "b",
+          "price_cents": 500,
+          "seller": "v2",
+          "url": "item:b",
+          "delivery_days": 2
+        },
+        {
+          "id": "c",
+          "price_cents": 700,
+          "seller": "v3",
+          "url": "item:c",
+          "delivery_days": 1
+        },
+        {
+          "id": "a",
+          "price_cents": 500,
+          "seller": "v1",
+          "url": "item:a",
+          "delivery_days": 3
+        }
+      ],
+      "mode": "apply"
+    },
+    "history": [],
+    "query": "Handle the affordable listing columns under mode.",
+    "expected": {
+      "name": "compose_affordable_listing_columns",
+      "arguments": {
+        "ids": [
+          "a",
+          "b"
+        ],
+        "prices_cents": [
+          500,
+          500
+        ],
+        "sellers": [
+          "v1",
+          "v2"
+        ],
+        "urls": [
+          "item:a",
+          "item:b"
+        ],
+        "delivery_days": [
+          3,
+          2
+        ]
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "compose_affordable_listing_columns",
+          "arg1": "[\"b\",\"a\"]",
+          "arg2": "[500,700,500]",
+          "arg3": "[\"v1\",\"v2\"]",
+          "arg4": "[\"item:a\",\"item:b\"]",
+          "arg5": "[2,1,3]"
+        },
+        "predicted": {
+          "name": "compose_affordable_listing_columns",
+          "arguments": {
+            "ids": [
+              "b",
+              "a"
+            ],
+            "prices_cents": [
+              500,
+              700,
+              500
+            ],
+            "sellers": [
+              "v1",
+              "v2"
+            ],
+            "urls": [
+              "item:a",
+              "item:b"
+            ],
+            "delivery_days": [
+              2,
+              1,
+              3
+            ]
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "compose_affordable_listing_columns",
+          "arg1": "[\"b\",\"a\"]",
+          "arg2": "[500,700,500]",
+          "arg3": "[\"v2\",\"v1\"]",
+          "arg4": "[\"item:b\",\"item:a\"]",
+          "arg5": "[2,3]"
+        },
+        "predicted": {
+          "name": "compose_affordable_listing_columns",
+          "arguments": {
+            "ids": [
+              "b",
+              "a"
+            ],
+            "prices_cents": [
+              500,
+              700,
+              500
+            ],
+            "sellers": [
+              "v2",
+              "v1"
+            ],
+            "urls": [
+              "item:b",
+              "item:a"
+            ],
+            "delivery_days": [
+              2,
+              3
+            ]
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "compose_affordable_listing_columns",
+          "arg1": "[\"b\",\"c\",\"a\"]",
+          "arg2": "[500,700,500]",
+          "arg3": "[\"v2\",\"v3\",\"v1\"]",
+          "arg4": "[\"item:b\",\"item:c\",\"item:a\"]",
+          "arg5": "[2,1,3]"
+        },
+        "predicted": {
+          "name": "compose_affordable_listing_columns",
+          "arguments": {
+            "ids": [
+              "b",
+              "c",
+              "a"
+            ],
+            "prices_cents": [
+              500,
+              700,
+              500
+            ],
+            "sellers": [
+              "v2",
+              "v3",
+              "v1"
+            ],
+            "urls": [
+              "item:b",
+              "item:c",
+              "item:a"
+            ],
+            "delivery_days": [
+              2,
+              1,
+              3
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ma_en_history_01_a",
+    "objective": "Multi-field event reconstruction: Recover the live encoder settings.",
+    "tags": [
+      "arity_6",
+      "event_status",
+      "partial_patch",
+      "later_override",
+      "pseudo_multiturn"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "preview_restore_stream_encoder_state",
+          "description": "Recover the live encoder settings. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Preview the complete operation without committing, only when environment.mode=preview.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "codec": {
+                "type": "string",
+                "description": ""
+              },
+              "bitrate": {
+                "type": "integer",
+                "description": ""
+              },
+              "width": {
+                "type": "integer",
+                "description": ""
+              },
+              "height": {
+                "type": "integer",
+                "description": ""
+              },
+              "audio": {
+                "type": "boolean",
+                "description": ""
+              },
+              "gop": {
+                "type": "integer",
+                "description": ""
+              }
+            },
+            "required": [
+              "codec",
+              "bitrate",
+              "width",
+              "height",
+              "audio",
+              "gop"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "restore_stream_encoder_state",
+          "description": "Recover the live encoder settings. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Apply the complete operation only when environment.mode=apply.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "codec": {
+                "type": "string",
+                "description": ""
+              },
+              "bitrate": {
+                "type": "integer",
+                "description": ""
+              },
+              "width": {
+                "type": "integer",
+                "description": ""
+              },
+              "height": {
+                "type": "integer",
+                "description": ""
+              },
+              "audio": {
+                "type": "boolean",
+                "description": ""
+              },
+              "gop": {
+                "type": "integer",
+                "description": ""
+              }
+            },
+            "required": [
+              "codec",
+              "bitrate",
+              "width",
+              "height",
+              "audio",
+              "gop"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "queue_restore_stream_encoder_state",
+          "description": "Recover the live encoder settings. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Queue the complete operation without executing immediately, only when environment.mode=queue.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "codec": {
+                "type": "string",
+                "description": ""
+              },
+              "bitrate": {
+                "type": "integer",
+                "description": ""
+              },
+              "width": {
+                "type": "integer",
+                "description": ""
+              },
+              "height": {
+                "type": "integer",
+                "description": ""
+              },
+              "audio": {
+                "type": "boolean",
+                "description": ""
+              },
+              "gop": {
+                "type": "integer",
+                "description": ""
+              }
+            },
+            "required": [
+              "codec",
+              "bitrate",
+              "width",
+              "height",
+              "audio",
+              "gop"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "target": "restore_stream_encoder_state",
+      "initial": {
+        "codec": "h264",
+        "bitrate": 2000,
+        "width": 1280,
+        "height": 720,
+        "audio": true,
+        "gop": 30
+      },
+      "mode": "apply"
+    },
+    "history": [
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_stream_encoder_state\",\"status\":\"applied\",\"kind\":\"patch\",\"values\":{\"codec\":\"hevc\",\"bitrate\":2500}}"
+      },
+      {
+        "role": "user",
+        "content": "Try the 4K preset next week."
+      },
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_stream_encoder_state\",\"status\":\"failed\",\"kind\":\"patch\",\"values\":{\"width\":1920,\"height\":1080,\"gop\":60}}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_stream_encoder_state\",\"status\":\"applied\",\"kind\":\"patch\",\"values\":{\"audio\":false}}"
+      },
+      {
+        "role": "assistant",
+        "content": "A higher bitrate might help."
+      }
+    ],
+    "query": "Handle the final configuration of this target according to mode.",
+    "expected": {
+      "name": "restore_stream_encoder_state",
+      "arguments": {
+        "codec": "hevc",
+        "bitrate": 2500,
+        "width": 1280,
+        "height": 720,
+        "audio": false,
+        "gop": 30
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_stream_encoder_state",
+          "arg1": "hevc",
+          "arg2": "2500",
+          "arg3": "1280",
+          "arg4": "1080",
+          "arg5": "false",
+          "arg6": "30"
+        },
+        "predicted": {
+          "name": "restore_stream_encoder_state",
+          "arguments": {
+            "codec": "hevc",
+            "bitrate": 2500,
+            "width": 1280,
+            "height": 1080,
+            "audio": false,
+            "gop": 30
+          }
+        }
+      },
+      "122B": {
+        "correct": true,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_stream_encoder_state",
+          "arg1": "hevc",
+          "arg2": "2500",
+          "arg3": "1280",
+          "arg4": "720",
+          "arg5": "false",
+          "arg6": "30"
+        },
+        "predicted": {
+          "name": "restore_stream_encoder_state",
+          "arguments": {
+            "codec": "hevc",
+            "bitrate": 2500,
+            "width": 1280,
+            "height": 720,
+            "audio": false,
+            "gop": 30
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_stream_encoder_state",
+          "arg1": "hevc",
+          "arg2": "2500",
+          "arg3": "1280",
+          "arg4": "720",
+          "arg5": "false",
+          "arg6": "60"
+        },
+        "predicted": {
+          "name": "restore_stream_encoder_state",
+          "arguments": {
+            "codec": "hevc",
+            "bitrate": 2500,
+            "width": 1280,
+            "height": 720,
+            "audio": false,
+            "gop": 60
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": "ma_en_history_06_a",
+    "objective": "Multi-field event reconstruction: Recover a dataset export after a replacement snapshot.",
+    "tags": [
+      "arity_5",
+      "snapshot_status",
+      "partial_rollback",
+      "later_override",
+      "pseudo_multiturn"
+    ],
+    "tools": [
+      {
+        "type": "function",
+        "function": {
+          "name": "preview_restore_dataset_export_state",
+          "description": "Recover a dataset export after a replacement snapshot. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Preview the complete operation without committing, only when environment.mode=preview.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "dataset": {
+                "type": "string",
+                "description": ""
+              },
+              "format": {
+                "type": "string",
+                "description": ""
+              },
+              "delimiter": {
+                "type": "string",
+                "description": ""
+              },
+              "header": {
+                "type": "boolean",
+                "description": ""
+              },
+              "destination": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "dataset",
+              "format",
+              "delimiter",
+              "header",
+              "destination"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "restore_dataset_export_state",
+          "description": "Recover a dataset export after a replacement snapshot. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Apply the complete operation only when environment.mode=apply.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "dataset": {
+                "type": "string",
+                "description": ""
+              },
+              "format": {
+                "type": "string",
+                "description": ""
+              },
+              "delimiter": {
+                "type": "string",
+                "description": ""
+              },
+              "header": {
+                "type": "boolean",
+                "description": ""
+              },
+              "destination": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "dataset",
+              "format",
+              "delimiter",
+              "header",
+              "destination"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      {
+        "type": "function",
+        "function": {
+          "name": "queue_restore_dataset_export_state",
+          "description": "Recover a dataset export after a replacement snapshot. Start with initial. In history order replay only tool records with resource equal to target and status=applied. A patch overwrites only its listed fields; a snapshot replaces the whole configuration. User requests, assistant proposals and failed records never change state. Output the current complete configuration. Queue the complete operation without executing immediately, only when environment.mode=queue.",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "dataset": {
+                "type": "string",
+                "description": ""
+              },
+              "format": {
+                "type": "string",
+                "description": ""
+              },
+              "delimiter": {
+                "type": "string",
+                "description": ""
+              },
+              "header": {
+                "type": "boolean",
+                "description": ""
+              },
+              "destination": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "dataset",
+              "format",
+              "delimiter",
+              "header",
+              "destination"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    ],
+    "environment": {
+      "target": "restore_dataset_export_state",
+      "initial": {
+        "dataset": "d1",
+        "format": "csv",
+        "delimiter": ",",
+        "header": true,
+        "destination": "store:a"
+      },
+      "mode": "apply"
+    },
+    "history": [
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_dataset_export_state\",\"status\":\"applied\",\"kind\":\"patch\",\"values\":{\"delimiter\":\";\",\"header\":false}}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_dataset_export_state\",\"status\":\"applied\",\"kind\":\"snapshot\",\"values\":{\"dataset\":\"d2\",\"format\":\"tsv\",\"delimiter\":\"\\t\",\"header\":true,\"destination\":\"store:b\"}}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"restore_dataset_export_state\",\"status\":\"applied\",\"kind\":\"patch\",\"values\":{\"destination\":\"store:c\"}}"
+      },
+      {
+        "role": "tool",
+        "content": "{\"resource\":\"other_export\",\"status\":\"applied\",\"kind\":\"patch\",\"values\":{\"format\":\"json\"}}"
+      }
+    ],
+    "query": "Handle the final configuration of this target according to mode.",
+    "expected": {
+      "name": "restore_dataset_export_state",
+      "arguments": {
+        "dataset": "d2",
+        "format": "tsv",
+        "delimiter": "\t",
+        "header": true,
+        "destination": "store:c"
+      }
+    },
+    "outputs": {
+      "35B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_dataset_export_state",
+          "arg1": "d2",
+          "arg2": "tsv",
+          "arg3": "\\t",
+          "arg4": "true",
+          "arg5": "store:c"
+        },
+        "predicted": {
+          "name": "restore_dataset_export_state",
+          "arguments": {
+            "dataset": "d2",
+            "format": "tsv",
+            "delimiter": "\\t",
+            "header": true,
+            "destination": "store:c"
+          }
+        }
+      },
+      "122B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_dataset_export_state",
+          "arg1": "d2",
+          "arg2": "tsv",
+          "arg3": "<|null|>",
+          "arg4": "true",
+          "arg5": "store:c"
+        },
+        "predicted": {
+          "name": "restore_dataset_export_state",
+          "arguments": {
+            "dataset": "d2",
+            "format": "tsv",
+            "delimiter": "<|null|>",
+            "header": true,
+            "destination": "store:c"
+          }
+        }
+      },
+      "397B": {
+        "correct": false,
+        "schema_valid": true,
+        "raw_heads": {
+          "function": "restore_dataset_export_state",
+          "arg1": "d2",
+          "arg2": "tsv",
+          "arg3": "\\t",
+          "arg4": "true",
+          "arg5": "store:c"
+        },
+        "predicted": {
+          "name": "restore_dataset_export_state",
+          "arguments": {
+            "dataset": "d2",
+            "format": "tsv",
+            "delimiter": "\\t",
+            "header": true,
+            "destination": "store:c"
+          }
+        }
+      }
+    }
+  }
+]
