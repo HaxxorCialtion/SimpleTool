@@ -1,0 +1,12 @@
+{
+  "english_rows": 200,
+  "chinese_rows": 200,
+  "chinese_cases_path": "../cf-zh/cases.jsonl",
+  "chinese_cases_sha256": "1b0232c53c922b04cbe7191b71b3bba9f33e445c3581316fbb2ad8e3480e2438",
+  "exact_query_overlap": [],
+  "exact_candidate_schema_overlap_count": 0,
+  "expected_function_name_overlap": [],
+  "cjk_in_model_input_ids": [],
+  "authorship": "New English scenarios, facts, tool APIs and questions authored directly; shared capability categories and scoring code reused.",
+  "limitation": "Literal overlap checks cannot detect translation, paraphrase or training contamination. Independent authorship is a provenance statement, not proved by these checks."
+}

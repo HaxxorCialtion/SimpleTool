@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "cases_sha256": "80694c46b01c6e1241010edaa9b2a94db20cbe642877a11655c3a301ebd57b6a",
+  "splits": {
+    "train": 71524,
+    "val": 3775
+  },
+  "unparsed": 0,
+  "exact_train_overlap_uids": [
+    "BFCL_v3_simple/simple_310",
+    "BFCL_v3_simple/simple_9"
+  ],
+  "normalized_train_overlap_uids": [
+    "BFCL_v3_simple/simple_310",
+    "BFCL_v3_simple/simple_9"
+  ],
+  "matches": [
+    {
+      "source": "/inspire/hdd/global_user/shixiaoxin-253107030017/sxx/multi-head/rethinking/pretrain_level/final/glm51/sota/hermes/simpletool/final_data/09_train_ready.jsonl",
+      "line": 91212,
+      "split": "train",
+      "exact_uids": [
+        "BFCL_v3_simple/simple_9"
+      ],
+      "normalized_uids": [
+        "BFCL_v3_simple/simple_9"
+      ]
+    },
+    {
+      "source": "/inspire/hdd/global_user/shixiaoxin-253107030017/sxx/multi-head/rethinking/pretrain_level/final/glm51/sota/hermes/simpletool/final_data/09b_train_ready.jsonl",
+      "line": 924685,
+      "split": "train",
+      "exact_uids": [
+        "BFCL_v3_simple/simple_310"
+      ],
+      "normalized_uids": [
+        "BFCL_v3_simple/simple_310"
+      ]
+    }
+  ],
+  "exact_by_dataset": {
+    "BFCL_v3_simple": 2
+  },
+  "normalized_by_dataset": {
+    "BFCL_v3_simple": 2
+  },
+  "limitation": "Only final-user text exact and case/whitespace-normalized overlap across selected raw 5% rows; removes Mobile Actions environment/history prefix from eval user text. Includes quarantined rows; 4B only trained its 2353-step prefix. Not semantic/pretraining decontamination."
+}

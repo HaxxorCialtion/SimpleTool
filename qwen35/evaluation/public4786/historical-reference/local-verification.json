@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "run_count": 12,
+  "rows": 57432,
+  "heads": 257580,
+  "runs": {
+    "old-fp16-0p8b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "old-int4-0p8b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-fp16-0p8b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-int4-0p8b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "old-fp16-2b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "old-int4-2b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-fp16-2b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-int4-2b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "old-fp16-4b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "old-int4-4b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-fp16-4b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    },
+    "new-int4-4b": {
+      "rows": 4786,
+      "heads": 21465,
+      "raw_rescore_matches": true
+    }
+  },
+  "verified_at": "2026-11-08T19:54:57Z"
+}

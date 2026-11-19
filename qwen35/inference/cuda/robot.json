@@ -1,0 +1,240 @@
+{
+  "id": "robot",
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "move_cartesian",
+        "description": "Move in the base frame to the supplied target position.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "x_mm": {
+              "type": "integer"
+            },
+            "y_mm": {
+              "type": "integer"
+            },
+            "z_mm": {
+              "type": "integer"
+            },
+            "speed_mm_s": {
+              "type": "integer"
+            },
+            "frame": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "x_mm",
+            "y_mm",
+            "z_mm",
+            "speed_mm_s",
+            "frame"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "set_gripper",
+        "description": "Set the specified gripper width and force.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "width_mm": {
+              "type": "integer"
+            },
+            "force_n": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "width_mm",
+            "force_n"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "stop_motion",
+        "description": "Stop immediately with the supplied safety reason.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "reason": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "reason"
+          ],
+          "additionalProperties": false
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "finish_task",
+        "description": "Report completion of the current task.",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "task_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "task_id"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ],
+  "policy": "Next safe robot action. Priority: emergency_stop -> stop_motion(reason=\"emergency_stop\"); obstruction -> stop_motion(reason=\"obstruction\"); placement_verified -> finish_task; object_in_gripper and at_drop -> open gripper with force_n=0; at_pick and not object_in_gripper -> close gripper; otherwise move_cartesian to pick_target using requested speed and frame=\"base\". Read all coordinates and settings from this observation.",
+  "suffix_tokens": 512,
+  "max_suffix_tokens": 2048,
+  "max_tokens": 64,
+  "head_max_tokens": {
+    "function": 16
+  },
+  "stop_unused_heads": true,
+  "warmup_cap": 8,
+  "warmup_observations": [
+    {
+      "frame_id": 100000,
+      "task_id": "pick-90000",
+      "emergency_stop": true,
+      "obstruction": false,
+      "object_in_gripper": false,
+      "at_pick": false,
+      "at_drop": false,
+      "placement_verified": false,
+      "pick_target": {
+        "x_mm": 226,
+        "y_mm": -85,
+        "z_mm": 106
+      },
+      "drop_target": {
+        "x_mm": 337,
+        "y_mm": 83,
+        "z_mm": 141
+      },
+      "requested_speed_mm_s": 35,
+      "gripper_close_width_mm": 18,
+      "gripper_force_n": 9,
+      "gripper_open_width_mm": 70,
+      "joint_encoder_deg": [
+        11,
+        -24,
+        38,
+        -48,
+        59,
+        63
+      ]
+    },
+    {
+      "frame_id": 100001,
+      "task_id": "pick-90001",
+      "emergency_stop": false,
+      "obstruction": true,
+      "object_in_gripper": false,
+      "at_pick": false,
+      "at_drop": false,
+      "placement_verified": false,
+      "pick_target": {
+        "x_mm": 227,
+        "y_mm": -84,
+        "z_mm": 107
+      },
+      "drop_target": {
+        "x_mm": 338,
+        "y_mm": 84,
+        "z_mm": 142
+      },
+      "requested_speed_mm_s": 36,
+      "gripper_close_width_mm": 19,
+      "gripper_force_n": 10,
+      "gripper_open_width_mm": 71,
+      "joint_encoder_deg": [
+        12,
+        -23,
+        39,
+        -47,
+        60,
+        64
+      ]
+    },
+    {
+      "frame_id": 100002,
+      "task_id": "pick-90002",
+      "emergency_stop": false,
+      "obstruction": false,
+      "object_in_gripper": false,
+      "at_pick": false,
+      "at_drop": false,
+      "placement_verified": false,
+      "pick_target": {
+        "x_mm": 228,
+        "y_mm": -83,
+        "z_mm": 108
+      },
+      "drop_target": {
+        "x_mm": 339,
+        "y_mm": 85,
+        "z_mm": 143
+      },
+      "requested_speed_mm_s": 37,
+      "gripper_close_width_mm": 20,
+      "gripper_force_n": 11,
+      "gripper_open_width_mm": 72,
+      "joint_encoder_deg": [
+        13,
+        -22,
+        40,
+        -46,
+        61,
+        65
+      ]
+    },
+    {
+      "frame_id": 100003,
+      "task_id": "pick-90003",
+      "emergency_stop": false,
+      "obstruction": false,
+      "object_in_gripper": false,
+      "at_pick": true,
+      "at_drop": false,
+      "placement_verified": false,
+      "pick_target": {
+        "x_mm": 229,
+        "y_mm": -82,
+        "z_mm": 109
+      },
+      "drop_target": {
+        "x_mm": 340,
+        "y_mm": 86,
+        "z_mm": 125
+      },
+      "requested_speed_mm_s": 38,
+      "gripper_close_width_mm": 21,
+      "gripper_force_n": 12,
+      "gripper_open_width_mm": 73,
+      "joint_encoder_deg": [
+        14,
+        -21,
+        41,
+        -45,
+        62,
+        66
+      ]
+    }
+  ]
+}

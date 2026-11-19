@@ -1,0 +1,43 @@
+
+        const uint lane=thread_index_in_simdgroup;
+        const uint row0=(thread_position_in_grid.x/32)*ROWS;
+        if (row0>=N) return;
+        float result[ROWS][M];
+        for (uint r=0;r<ROWS;++r) for (uint m=0;m<M;++m) result[r][m]=0.0f;
+        for (uint block=0;block<K;block+=512) {
+            const uint base=block+lane*16;
+            float partial[ROWS][M],sum[M];
+            for (uint r=0;r<ROWS;++r) for (uint m=0;m<M;++m) partial[r][m]=0.0f;
+            for (uint m=0;m<M;++m) sum[m]=0.0f;
+            for (uint i=0;i<4;++i) {
+                float values[M][4];
+                for (uint m=0;m<M;++m) {
+                    const uint offset=m*K+base+i*4;
+                    sum[m]+=x[offset]+x[offset+1]+x[offset+2]+x[offset+3];
+                    values[m][0]=x[offset];values[m][1]=x[offset+1]/16.0f;
+                    values[m][2]=x[offset+2]/256.0f;values[m][3]=x[offset+3]/4096.0f;
+                }
+                for (uint r=0;r<ROWS;++r) {
+                    const uint row=min(row0+r,uint(N-1));
+                    const device ushort* words=(const device ushort*)(w+row*(K/8)+base/8);
+                    const ushort packed=words[i];
+                    for (uint m=0;m<M;++m) {
+                        partial[r][m]+=(values[m][0]*(packed&0x000f)
+                            +values[m][1]*(packed&0x00f0)
+                            +values[m][2]*(packed&0x0f00)
+                            +values[m][3]*(packed&0xf000));
+                    }
+                }
+            }
+            for (uint r=0;r<ROWS;++r) {
+                const uint row=min(row0+r,uint(N-1));
+                const float s=float(scales[row*(K/64)+base/64]);
+                const float b=float(biases[row*(K/64)+base/64]);
+                for (uint m=0;m<M;++m) result[r][m]+=s*partial[r][m]+sum[m]*b;
+            }
+        }
+        for (uint r=0;r<ROWS;++r) for (uint m=0;m<M;++m) {
+            const float value=simd_sum(result[r][m]);
+            if (lane==0 && row0+r<N) y[m*N+row0+r]=value;
+        }
+    

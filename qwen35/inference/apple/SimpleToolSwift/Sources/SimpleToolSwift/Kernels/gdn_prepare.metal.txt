@@ -1,0 +1,34 @@
+
+    const uint lane=thread_index_in_simdgroup;
+    const uint group=thread_position_in_grid.x/32;
+    const uint heads=2*Hk+Hv;
+    if(group>=B*heads) return;
+    const uint batch=group/heads,head=group%heads;
+    float values[4];
+    for(uint i=0;i<4;++i) {
+        const uint c=head*128+lane*4+i;
+        float acc=0.0f;
+        for(uint j=0;j<3;++j) acc+=history[(batch*3+j)*D+c]*weight[c*4+j];
+        acc+=qkv[batch*D+c]*weight[c*4+3];
+        const float t=1.0f/(1.0f+metal::exp(metal::abs(acc)));
+        const float sig=acc<0.0f?t:1.0f-t;
+        values[i]=acc*sig;
+        next_history[(batch*3+0)*D+c]=history[(batch*3+1)*D+c];
+        next_history[(batch*3+1)*D+c]=history[(batch*3+2)*D+c];
+        next_history[(batch*3+2)*D+c]=qkv[batch*D+c];
+    }
+    if(head<2*Hk) {
+        float sum=0.0f;
+        for(uint i=0;i<4;++i) sum+=values[i]*values[i];
+        sum=simd_sum(sum);
+        const float inv=metal::precise::rsqrt(sum/128.0f+(1.0e-6f/128.0f));
+        for(uint i=0;i<4;++i) {
+            const uint index=(batch*Hk+head%Hk)*128+lane*4+i;
+            const float normalized=values[i]*inv;
+            if(head<Hk) q[index]=normalized*(1.0f/128.0f);
+            else k[index]=normalized*0.08838834764831845f;
+        }
+    } else {
+        for(uint i=0;i<4;++i)
+            v[(batch*Hv+head-2*Hk)*128+lane*4+i]=values[i];
+    }

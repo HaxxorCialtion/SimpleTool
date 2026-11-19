@@ -1,0 +1,17 @@
+{
+  "robot.jsonl": {
+    "rows": 60,
+    "unique_observations": 60,
+    "sha256": "be7f968a6e71fe2edbc97946f603d1a684e5a9a149497ae5cb9817b0aada1ddf"
+  },
+  "npc.jsonl": {
+    "rows": 60,
+    "unique_observations": 60,
+    "sha256": "6a3f7715e142dd8a9f822349bc50d8bcb7fbf20ef543451e517248c466e53c87"
+  },
+  "avatar.jsonl": {
+    "rows": 60,
+    "unique_observations": 60,
+    "sha256": "2dd5f6df0b3c9580930a963e5588bb9351c33ebea86c360b3744bbbbc3aabbc4"
+  }
+}

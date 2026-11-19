@@ -1,0 +1,32 @@
+
+        const uint n=thread_position_in_grid.z,b=n/Hv,hv=n%Hv,hk=hv/(Hv/Hk);
+        const uint lane=thread_index_in_simdgroup,local=lane&3;
+        const uint dv=thread_position_in_grid.y*8+lane/4;
+        const device float* ql=q+(b*Hk+hk)*128+local*32;
+        const device float* kl=k+(b*Hk+hk)*128+local*32;
+        const device float* source=prefix+(hv*Dv+dv)*128+local*32;
+        device float* target=state+(n*Dv+dv)*128+local*32;
+        float carry[32],part[8];
+        for (uint i=0;i<32;++i) carry[i]=source[i];
+        for (uint pb=0;pb<8;++pb) {
+            float acc=0.0f;
+            for (uint i=0;i<4;++i) {
+                const uint e=pb*4+i;carry[e]=carry[e]*g[n];acc+=carry[e]*kl[e];
+            }
+            part[pb]=acc;
+        }
+        float kv=((part[0]+part[1])+(part[2]+part[3]))+((part[4]+part[5])+(part[6]+part[7]));
+        kv+=simd_shuffle_xor(kv,1);kv+=simd_shuffle_xor(kv,2);
+        const float delta=(v[n*Dv+dv]-kv)*beta[n];
+        for (uint pb=0;pb<8;++pb) {
+            float acc=0.0f;
+            for (uint i=0;i<4;++i) {
+                const uint e=pb*4+i;carry[e]=carry[e]+kl[e]*delta;acc+=carry[e]*ql[e];
+            }
+            part[pb]=acc;
+        }
+        float out=((part[0]+part[1])+(part[2]+part[3]))+((part[4]+part[5])+(part[6]+part[7]));
+        out+=simd_shuffle_xor(out,1);out+=simd_shuffle_xor(out,2);
+        if (local==0) y[n*Dv+dv]=out;
+        for (uint i=0;i<32;++i) target[i]=carry[i];
+    

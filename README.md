@@ -1,3 +1,5 @@
+[Gemma4 complete adapter packages and measured quality](gemma4/README.md) · **2026-11-19 source release:** [Qwen3.5/3.6 eight-branch models, CUDA/Apple inference, operator experiments, training sources and frozen evaluation](qwen35/README.md). [Current scope and remaining training-data gap](qwen35/RELEASE_STATUS.md). Original paper reproduction is preserved.
+
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
@@ -20,7 +22,7 @@
   <a href="https://icml.cc/virtual/2026/poster/62617"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><img src="https://img.shields.io/badge/SimpleTool--VLM-Release-2E8B57?style=for-the-badge"></a>
-  <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
+  <img src="https://img.shields.io/badge/CUDA%20%7C%20Apple-Source%20Release-2E8B57?style=for-the-badge">
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#demo-videos"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -35,7 +37,7 @@
 <p align="center">
   <b>News:</b> Accepted to <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 2026</b></a> as <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i>. This repository hosts the SimpleTool/RealtimeTool open-source implementation, models, demos, and <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>.
   <br>
-  <b>Multimodal extension:</b> see the separate <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><b>SimpleTool-VLM</b></a> repository. Native inference backends for <b>Windows, Mac, and iPhone</b> remain on the roadmap.
+  <b>Multimodal extension:</b> see the separate <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><b>SimpleTool-VLM</b></a> repository. The newer Qwen3.5/3.6 CUDA and Apple source snapshots are in <a href="qwen35/README.md">qwen35/</a>; Windows packaging remains on the roadmap.
 </p>
 
 ---
@@ -274,7 +276,7 @@ Feed **`simpletool-game.skill.md`** along with this **`README.md`** into your AI
 - [ ] **World Simulation** — Large-scale (1,000+ NPCs) real-time AI world simulation with < 200ms action latency per agent
 - [ ] **Speculative & Multi-Token Decoding** — Speculative decoding and multi-token prediction for further latency reduction
 - [x] **VLM Backbone Release** — Maintained in the separate [SimpleTool-VLM repository](https://github.com/HaxxorCialtion/SimpleTool-VLM)
-- [ ] **Native Inference Backends** — Windows, Mac, and iPhone runtimes for local deployment without server round-trips
+- [x] **CUDA / Apple research runtime sources** — [Qwen3.5/3.6 release](qwen35/README.md); Windows packaging and clean-machine device acceptance remain open
 - [ ] **v3 Architecture** — Fast thinking (real-time SimpleTool) + slow thinking (async meta-cognition) fusion
 - [ ] **Embodied Intelligence** — Virtual 3D digital humans, large-scale game engine integration demos
 - [ ] **Open Source Training** — Full training code and dataset release

@@ -1,0 +1,19 @@
+// Decode only. One SIMD group per key position, immutable B1 prefix plus Bx tail.
+const uint lane=thread_index_in_simdgroup;
+const uint token=thread_position_in_grid.x/32;
+const uint head=thread_position_in_grid.y;
+if(token>=PN+TN || head>=B*H) return;
+const uint batch=head/H,kh=(head%H)/(H/HK);
+float acc=0.0f;
+for(uint d=lane;d<D;d+=32) {
+    const uint word=token<PN ? pk[(kh*PC+token)*(D/4)+d/4]
+                            : tk[((batch*HK+kh)*TC+token-PN)*(D/4)+d/4];
+    const uint group=token<PN ? (kh*PC+token)*(D/64)+d/64
+                             : ((batch*HK+kh)*TC+token-PN)*(D/64)+d/64;
+    const float scale=token<PN ? float(ps[group]):float(ts[group]);
+    const float bias=token<PN ? float(pb[group]):float(tb[group]);
+    const float key=float((word>>(8*(d%4)))&255)*scale+bias;
+    acc+=float(query[head*D+d])*key;
+}
+acc=simd_sum(acc);
+if(lane==0) scores[head*(PN+TN)+token]=acc;

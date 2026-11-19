@@ -1,3 +1,5 @@
+[Gemma4 complete adapter packages and measured quality](gemma4/README.md) · **2026-11-19 首版源码更新：** [Qwen3.5/3.6 八分支模型、CUDA／Apple 推理、算子实验、训练源码与冻结评测](qwen35/README.md)。[已交付范围与训练语料缺项](qwen35/RELEASE_STATUS.md)。原论文复现代码保留。
+
 <p align="center">
   <a href="README.md">English</a> | <a href="README_zh.md">中文</a>
 </p>
@@ -20,7 +22,7 @@
   <a href="https://icml.cc/virtual/2026/poster/62617"><img src="https://img.shields.io/badge/ICML%202026-ACCEPTED-4B8BBE?style=for-the-badge"></a>
   <a href="assets/realtimetool_icml2026_poster.pdf"><img src="https://img.shields.io/badge/ICML%202026-Poster-8A2BE2?style=for-the-badge"></a>
   <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><img src="https://img.shields.io/badge/SimpleTool--VLM-Release-2E8B57?style=for-the-badge"></a>
-  <img src="https://img.shields.io/badge/Win%20%7C%20Mac%20%7C%20iPhone-Backends%20Soon-2E8B57?style=for-the-badge">
+  <img src="https://img.shields.io/badge/CUDA%20%7C%20Apple-Source%20Release-2E8B57?style=for-the-badge">
   <a href="https://huggingface.co/Cialtion/SimpleTool"><img src="https://img.shields.io/badge/🤗-Models-yellow"></a>
   <a href="https://www.modelscope.cn/models/cialtion/SimpleTool"><img src="https://img.shields.io/badge/ModelScope-Models-blue"></a>
   <a href="#演示视频"><img src="https://img.shields.io/badge/Bilibili-Demo-00A1D6?logo=bilibili&logoColor=white"></a>
@@ -35,7 +37,7 @@
 <p align="center">
   <b>最新消息：</b>论文以 <i>RealtimeTool: Parallel Decoding for Real-Time LLM Function Calling</i> 为题被 <a href="https://icml.cc/virtual/2026/poster/62617"><b>ICML 2026</b></a> 接收。本仓库提供 SimpleTool/RealtimeTool 的开源实现、模型、Demo 与 <a href="assets/realtimetool_icml2026_poster.pdf">ICML poster</a>。
   <br>
-  <b>多模态扩展：</b>请见独立的 <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><b>SimpleTool-VLM</b></a> 仓库；<b>Windows、Mac、iPhone</b> 原生推理 backend 仍在路线图中。
+  <b>多模态扩展：</b>请见独立的 <a href="https://github.com/HaxxorCialtion/SimpleTool-VLM"><b>SimpleTool-VLM</b></a> 仓库；新 Qwen3.5/3.6 的 CUDA 与 Apple 源码已见 <a href="qwen35/README.md">qwen35/</a>；Windows 打包仍在路线图中。
 </p>
 
 ---
@@ -272,7 +274,7 @@ SimpleTool/
 - [ ] **世界模拟** — 大规模（1,000+ NPC）实时 AI 异步世界模拟，单智能体行动端到端延迟 < 200ms
 - [ ] **推测解码与多 Token 预测** — 引入推测解码（Speculative Decoding）和多 Token 预测，进一步压缩推理延迟
 - [x] **VLM Backbone 开源** — 已迁移到独立的 [SimpleTool-VLM 仓库](https://github.com/HaxxorCialtion/SimpleTool-VLM)
-- [ ] **原生推理 Backend** — Windows、Mac、iPhone 本地运行，减少服务端往返延迟
+- [x] **CUDA／Apple 研究推理源码** — [Qwen3.5/3.6 首版](qwen35/README.md)；Windows 打包与干净设备验收仍待完成
 - [ ] **v3 架构** — 快思考（实时 SimpleTool）+ 慢思考（异步元认知）融合
 - [ ] **具身智能** — 虚拟 3D 数字人，大型游戏引擎集成演示
 - [ ] **开源训练** — 完整训练代码与数据集开放

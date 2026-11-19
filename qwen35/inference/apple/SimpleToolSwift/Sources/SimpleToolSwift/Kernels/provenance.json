@@ -1,0 +1,68 @@
+{
+  "row_reuse": {
+    "source": "simpletool/row_reuse_int4.py",
+    "sha256": "3a9e9545dcb7b80b8c69e0a240841f1eda54e915475844283ed361dd3a51e930"
+  },
+  "compact_qmv": {
+    "source": "simpletool/compact_qmv.py",
+    "sha256": "570071b7a225132b87d02c77e304a65b81c062c63962007de8e7b37174126cd7"
+  },
+  "shared_gdn": {
+    "source": "simpletool/shared_gdn_seed.py",
+    "sha256": "707016914f520d38bba702d180aded4c2c337ef5bab86427e590e84673ecfbb4"
+  },
+  "packed_gdn": {
+    "source": "/Users/cialtionshi/mlx_env/lib/python3.14/site-packages/mlx_lm/models/gated_delta.py",
+    "sha256": "f69e837ea68641dbb06fdb5dcc024a9a7e1d9353f08ae58c05275253a0c39428",
+    "attribution": "Apple Inc. MIT; existing packed layout not our new contribution"
+  },
+  "stream_qmv": {
+    "source": "simpletool/stream_grouped_qmv.py",
+    "sha256": "5b3e509740817bbb80460ad5bda4b2f30263e2ff93037e4614eb4c963113b354",
+    "attribution": "project kernels; Apple MIT QMV arithmetic for stream"
+  },
+  "fused_swiglu": {
+    "source": "simpletool/fused_swiglu_int4.py",
+    "sha256": "3787e2a7d7ceb04ede4d8ffbee902c5b279288021547562612557c8995b7595d",
+    "attribution": "project kernels; Apple MIT QMV arithmetic for stream"
+  },
+  "deferred_gdn": {
+    "source": "simpletool/deferred_gdn.py",
+    "expression": "STEP",
+    "sha256": "6878f2bc7e7a984f14f94e18fd47f06ee3e2f44da54ff0c758ebc15b5f251744",
+    "license": "packed reduction arithmetic: Apple MLX-LM MIT; exact-order history representation: own project"
+  },
+  "deferred_materialize": {
+    "source": "simpletool/deferred_gdn.py",
+    "expression": "MATERIALIZE",
+    "sha256": "2685cae2d77131aa44ede51085c16214c49f7802037251a2c50ae8f62dfd2277",
+    "license": "packed reduction arithmetic: Apple MLX-LM MIT; exact-order history representation: own project"
+  },
+  "fixed_history": {
+    "source": "simpletool/fixed_history_gdn.py",
+    "expression": "FIXED_STEP",
+    "sha256": "0f51465f789144c11546af311286fbab8f33a85a8527d0a744aee219e3cf7131",
+    "license": "Apple MLX-LM MIT packed arithmetic; own fixed history/copy implementation"
+  },
+  "fixed_materialize": {
+    "source": "simpletool/fixed_history_gdn.py",
+    "expression": "FIXED_MATERIALIZE",
+    "sha256": "6dcf4613cd33b515edc6867ad8dcfd861d9d70c18228b1537af23672aed7f799",
+    "license": "Apple MLX-LM MIT packed arithmetic; own fixed history/copy implementation"
+  },
+  "fused_history": {
+    "source": "simpletool/fixed_history_gdn.py",
+    "expression": "FUSED_STEP",
+    "sha256": "1aac59d4792ffd713cd149bc91e49ca1d84918e1b258f1b560be3a78af68c7d8",
+    "license": "Apple MLX-LM MIT packed arithmetic; own fixed history/copy implementation"
+  },
+  "gdn_prepare": {
+    "source": "simpletool/gdn_prepare.py",
+    "expression": "SOURCE",
+    "transformation": "precise::exp -> exp to match pinned MLX core unary_ops.h Sigmoid",
+    "reference": "artifacts/swift_vendor/mlx-swift/Source/Cmlx/mlx/mlx/backend/metal/kernels/unary_ops.h",
+    "upstream_sha256": "b8448bde3acd81ea6c9c4fceaf2c2d7558e034afef4502946d3ed29d97576ac6",
+    "sha256": "4d1e0164dccc1c2421017360d3d35bf608a92a1b49addfd302b1a35d5a99fbd4",
+    "license": "Apple MLX MIT conv/SiLU/RMS arithmetic; own merged prepare/history implementation"
+  }
+}

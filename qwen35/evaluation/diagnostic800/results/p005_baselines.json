@@ -1,0 +1,121 @@
+[
+  {
+    "size": "0.8B",
+    "ratio": "5%",
+    "tag": "new-int4-0p8b",
+    "cases": 800,
+    "correct": 301,
+    "function_correct": 733,
+    "per_batch": [
+      0.56,
+      0.565,
+      0.26,
+      0.12
+    ],
+    "precision": "INT4",
+    "compute": "FP16",
+    "protocol": "历史head直接前缀"
+  },
+  {
+    "size": "2B",
+    "ratio": "5%",
+    "tag": "new-int4-2b",
+    "cases": 800,
+    "correct": 376,
+    "function_correct": 743,
+    "per_batch": [
+      0.685,
+      0.68,
+      0.29,
+      0.225
+    ],
+    "precision": "INT4",
+    "compute": "FP16",
+    "protocol": "历史head直接前缀"
+  },
+  {
+    "size": "4B",
+    "ratio": "5%",
+    "tag": "new-int4-4b",
+    "cases": 800,
+    "correct": 520,
+    "function_correct": 775,
+    "per_batch": [
+      0.845,
+      0.835,
+      0.455,
+      0.465
+    ],
+    "precision": "INT4",
+    "compute": "FP16",
+    "protocol": "历史head直接前缀"
+  },
+  {
+    "size": "9B",
+    "ratio": "5%",
+    "tag": "p005-9b-int4",
+    "cases": 800,
+    "correct": 551,
+    "function_correct": 770,
+    "per_batch": [
+      0.83,
+      0.865,
+      0.435,
+      0.625
+    ],
+    "precision": "INT4",
+    "compute": "FP16",
+    "protocol": "导出契约：空think后接head"
+  },
+  {
+    "size": "35B",
+    "ratio": "5%",
+    "tag": "p005-35b-fp8",
+    "cases": 800,
+    "correct": 643,
+    "function_correct": 786,
+    "per_batch": [
+      0.94,
+      0.96,
+      0.585,
+      0.73
+    ],
+    "precision": "FP8",
+    "compute": "FP16",
+    "protocol": "显式空think块"
+  },
+  {
+    "size": "122B",
+    "ratio": "5%",
+    "tag": "p005-122b-fp8",
+    "cases": 800,
+    "correct": 668,
+    "function_correct": 787,
+    "per_batch": [
+      0.93,
+      0.945,
+      0.67,
+      0.795
+    ],
+    "precision": "FP8",
+    "compute": "FP16",
+    "protocol": "显式空think块"
+  },
+  {
+    "size": "397B",
+    "ratio": "5%",
+    "tag": "p005397-fp8-bfloat16-default-1111-r3",
+    "cases": 800,
+    "correct": 682,
+    "function_correct": 792,
+    "per_batch": [
+      0.95,
+      0.975,
+      0.72,
+      0.765
+    ],
+    "precision": "FP8",
+    "compute": "BF16",
+    "protocol": "显式空think块"
+  }
+]

@@ -1,3 +1,21 @@
 models/
 .ipynb_checkpoints
 core
+
+# Qwen3.5 release runtime outputs
+__pycache__/
+*.pyc
+.DS_Store
+.build/
+DerivedData/
+qwen35/inference/cuda/engine.json
+qwen35/inference/cuda/state/
+qwen35/inference/cuda/cache/
+qwen35/inference/cuda/infra/cache/
+qwen35/inference/cuda/infra/runtime/prefill-only-20261110/overlay/manifest.json
+qwen35/benchmarks/throughput/*/results/
+qwen35/benchmarks/throughput/*/cache/
+qwen35/benchmarks/throughput/*/state/
+qwen35/benchmarks/throughput/*/runtime/prefill-only-20261110/overlay/manifest.json
+!qwen35/models/
+!qwen35/models/**

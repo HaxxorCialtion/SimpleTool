@@ -1,0 +1,22 @@
+{
+  "vllm.third_party.flash_linear_attention.ops.chunk_delta_h": {
+    "original_sha256": "240fbe430200c4168799c05243edffc0b8dce7b41651b95233266d632b70071b",
+    "overlay_sha256": "be0be17083920dc0cdc61ba092acdaa23b1a3e6c221fe2f009072ec2ce34b045",
+    "relative_path": "runtime/overlay/third_party/flash_linear_attention/ops/chunk_delta_h.py"
+  },
+  "vllm.model_executor.layers.mamba.gdn.qwen_gdn_linear_attn": {
+    "original_sha256": "c6c037ad94d217aa2710cf29d25d8fa6e3856d1be9fc67fa8bd8681b1f5417f9",
+    "overlay_sha256": "791956174eb7147515c6940a22772e5d679d515113bad2d6d58498630c500ab1",
+    "relative_path": "runtime/overlay/model_executor/layers/mamba/gdn/qwen_gdn_linear_attn.py"
+  },
+  "vllm.v1.core.sched.scheduler": {
+    "parent_sha256": "35f800b94d7d4d83cb66a8e826b2528db0b07e2f41091c549c9712a373a9c0fb",
+    "overlay_sha256": "bbe59ec3b2bb8480d5d4594c413c2dd0b6d9affb1de7e6f747c2503c02e43cca",
+    "relative_path": "runtime/prefill-only-20261110/overlay/scheduler.py"
+  },
+  "vllm.platforms.interface": {
+    "original_sha256": "11f06cfa184fa7380177eaf26bca58c421306f0eea273c9f35519d35ff4a6f75",
+    "overlay_sha256": "03e08cb10056adf7e99e523f6f1f727489694e26fad21f47ecbe11e418fe9432",
+    "relative_path": "runtime/overlay/platforms/interface.py"
+  }
+}

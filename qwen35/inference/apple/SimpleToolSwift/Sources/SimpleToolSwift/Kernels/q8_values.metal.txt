@@ -1,0 +1,21 @@
+// Four lanes reduce each output dimension; no dense KV materialization.
+const uint lane=thread_index_in_simdgroup;
+const uint d=(thread_position_in_grid.x/32)*8+lane/4;
+const uint head=thread_position_in_grid.y;
+if(d>=D || head>=B*H) return;
+const uint batch=head/H,kh=(head%H)/(H/HK),part=lane%4;
+float acc=0.0f;
+for(uint n=part;n<PN;n+=4) {
+    const uint word=pv[(kh*PC+n)*(D/4)+d/4];
+    const uint group=(kh*PC+n)*(D/64)+d/64;
+    const float value=float((word>>(8*(d%4)))&255)*float(ps[group])+float(pb[group]);
+    acc+=float(prob[head*(PN+TN)+n])*value;
+}
+for(uint n=part;n<TN;n+=4) {
+    const uint word=tv[((batch*HK+kh)*TC+n)*(D/4)+d/4];
+    const uint group=((batch*HK+kh)*TC+n)*(D/64)+d/64;
+    const float value=float((word>>(8*(d%4)))&255)*float(ts[group])+float(tb[group]);
+    acc+=float(prob[head*(PN+TN)+PN+n])*value;
+}
+acc+=simd_shuffle_xor(acc,1);acc+=simd_shuffle_xor(acc,2);
+if(part==0) output[head*D+d]=acc;

@@ -1,0 +1,18 @@
+{
+  "cf-zh": {
+    "cases.jsonl": "1b0232c53c922b04cbe7191b71b3bba9f33e445c3581316fbb2ad8e3480e2438",
+    "prompts.jsonl": "e17f883d93bf5c98be1dd7c71f0557e613dac8ae66815cb189bef472b269e5be"
+  },
+  "cf-en": {
+    "cases.jsonl": "555e7495c8bcdd164f047b116c470c836b675f9f40b74f41a4a3d583a7981409",
+    "prompts.jsonl": "648c7f2c0872d87c3ea643513573d16655e8f611c189c2e80d5876bb9eab19ee"
+  },
+  "hard": {
+    "cases.jsonl": "e2c4df75f4cf313da961fc2724f883440cfc758c559611cabb2c0ecb56b5be1f",
+    "prompts.jsonl": "6ad433e1cb8197c82ed407d6108783aa83eef73155a2ff79a5a02410557a1a12"
+  },
+  "multiarg": {
+    "cases.jsonl": "ca38449938a2dd53f33d1d0ea0aee096846b00b482c79564a40c55ff35c4cbc2",
+    "prompts.jsonl": "87848c6435dec78519f087db45797bd5a0e242e9b992d2e418ae527ce113a6b1"
+  }
+}

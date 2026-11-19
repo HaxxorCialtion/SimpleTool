@@ -1,0 +1,12 @@
+{
+  "parent_sha256": "34cc8a302e798e28f585a72a855aea2ee6d770ac4b68d862349fd5124aa631c6",
+  "derived_sha256": "015f7a4b411b06353ece8eef1e66ded92ebf54ce6860f0d0324f335ae7aba967",
+  "changes": [
+    "7 tool heads only; content excluded",
+    "optional native cache_salt for genuine cold control",
+    "explicit pinned public boundaries",
+    "180 distinct real scenario inputs, interleaved",
+    "fixed512-token changing suffix; pure512+512",
+    "bounded graph captures verified before timing"
+  ]
+}

@@ -1,0 +1,130 @@
+
+CHECK . -m unittest discover -s tests -v
+test_candidate_max_and_unused_heads (test_reference.Reference.test_candidate_max_and_unused_heads) ... ok
+test_prompt_preserves_order (test_reference.Reference.test_prompt_preserves_order) ... ok
+test_required_order_rejected (test_reference.Reference.test_required_order_rejected) ... ok
+test_scalar_types_and_null (test_reference.Reference.test_scalar_types_and_null) ... ok
+test_unclosed_is_invalid (test_reference.Reference.test_unclosed_is_invalid) ... ok
+test_unknown_function_is_invalid (test_reference.Reference.test_unknown_function_is_invalid) ... ok
+test_zero_argument_keeps_null_arg1 (test_reference.Reference.test_zero_argument_keeps_null_arg1) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.004s
+
+OK
+
+CHECK inference/cuda -m unittest test_protocol test_runtime_content test_server -v
+test_content_cap_and_maximum_heads (test_protocol.Contracts.test_content_cap_and_maximum_heads) ... ok
+test_content_request_does_not_change_common_prompt (test_protocol.Contracts.test_content_request_does_not_change_common_prompt) ... ok
+test_invalid_call_does_not_get_coerced (test_protocol.Contracts.test_invalid_call_does_not_get_coerced) ... ok
+test_max_arity_and_closure_contract (test_protocol.Contracts.test_max_arity_and_closure_contract) ... ok
+test_observation_and_revision (test_protocol.Contracts.test_observation_and_revision) ... ok
+test_optional_null_and_exact_strings (test_protocol.Contracts.test_optional_null_and_exact_strings) ... ok
+test_property_required_alignment (test_protocol.Contracts.test_property_required_alignment) ... ok
+test_reject_unordered_strict (test_protocol.Contracts.test_reject_unordered_strict) ... ok
+test_typed_arguments_preserve_false_and_zero (test_protocol.Contracts.test_typed_arguments_preserve_false_and_zero) ... ok
+test_unrecognized_config_rejected (test_protocol.Contracts.test_unrecognized_config_rejected) ... ok
+test_capacity_and_context_reject_before_scheduling (test_runtime_content.Content.test_capacity_and_context_reject_before_scheduling) ... ok
+test_content_truncation_does_not_invalidate_tools (test_runtime_content.Content.test_content_truncation_does_not_invalidate_tools) ... ok
+test_default_does_not_schedule_content (test_runtime_content.Content.test_default_does_not_schedule_content) ... ok
+test_toggle_is_per_request (test_runtime_content.Content.test_toggle_is_per_request) ... ok
+test_zero_argument_tool_never_cancels_requested_content (test_runtime_content.Content.test_zero_argument_tool_never_cancels_requested_content) ... ok
+test_full_queue_is_429_and_does_not_execute (test_server.Admission.test_full_queue_is_429_and_does_not_execute) ... ok
+test_http_readiness_and_json_failure (test_server.Admission.test_http_readiness_and_json_failure) ... ok
+test_not_ready_is_503 (test_server.Admission.test_not_ready_is_503) ... ok
+test_single_owner_accepts_and_records_result (test_server.Admission.test_single_owner_accepts_and_records_result) ... SIMPLETOOL_READY {"status": "ready", "started_unix": 1795094064.435269, "active": null, "completed": 0, "failed": 0, "ready_unix": 1795094064.4363039, "queue_depth": 0, "queue_capacity": 1}
+ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.546s
+
+OK
+
+CHECK evaluation/public4786 check_frozen.py
+{
+  "status": "passed",
+  "cases": 4786,
+  "cases_sha256": "80694c46b01c6e1241010edaa9b2a94db20cbe642877a11655c3a301ebd57b6a",
+  "source_hashes_verified": true,
+  "target_tokenizer_checked": false
+}
+
+CHECK evaluation/public4786 -m unittest test_adapter -v
+test_actual_environment_preserved_and_gt_absent (test_adapter.AdapterTests.test_actual_environment_preserved_and_gt_absent) ... ok
+test_boolean_numeric_coercion_is_separate_typed_diagnostic (test_adapter.AdapterTests.test_boolean_numeric_coercion_is_separate_typed_diagnostic) ... ok
+test_owner_abi_required_first_without_mutating_source (test_adapter.AdapterTests.test_owner_abi_required_first_without_mutating_source) ... ok
+test_unused_heads_and_optional_do_not_gate_required (test_adapter.AdapterTests.test_unused_heads_and_optional_do_not_gate_required) ... ok
+test_wrong_function_and_missing_required_fail (test_adapter.AdapterTests.test_wrong_function_and_missing_required_fail) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK
+
+CHECK evaluation/public4786/upstream -m unittest discover -s tests -v
+test_generate_is_one_question_at_a_time (test_bfcl_latency.BFCLLatencyTests.test_generate_is_one_question_at_a_time) ... ok
+test_heads_use_all_candidates_not_answer (test_bfcl_latency.BFCLLatencyTests.test_heads_use_all_candidates_not_answer) ... ok
+test_null_and_every_head_closer_are_stops (test_bfcl_latency.BFCLLatencyTests.test_null_and_every_head_closer_are_stops) ... ok
+test_prompt_preserves_order_and_excludes_answer (test_bfcl_latency.BFCLLatencyTests.test_prompt_preserves_order_and_excludes_answer) ... ok
+test_rate_inverse_mean_includes_incorrect_calls (test_bfcl_latency.BFCLLatencyTests.test_rate_inverse_mean_includes_incorrect_calls) ... ok
+test_reset_supports_v1_none_return_and_rejects_false (test_bfcl_latency.BFCLLatencyTests.test_reset_supports_v1_none_return_and_rejects_false) ... ok
+test_aggregate_keeps_zero_groups (test_reproduction.ReproductionTests.test_aggregate_keeps_zero_groups) ... ok
+test_argument_order_types_and_null (test_reproduction.ReproductionTests.test_argument_order_types_and_null) ... ok
+test_coverage_does_not_drop_failures (test_reproduction.ReproductionTests.test_coverage_does_not_drop_failures) ... ok
+test_filter_any_candidate_tool (test_reproduction.ReproductionTests.test_filter_any_candidate_tool) ... ok
+test_legacy_first_call_extra_args (test_reproduction.ReproductionTests.test_legacy_first_call_extra_args) ... ok
+test_legacy_optional_alternatives_and_normalization (test_reproduction.ReproductionTests.test_legacy_optional_alternatives_and_normalization) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
+
+CHECK evaluation/diagnostic800/frozen/cf-zh/scripts -m unittest test_benchmark -v
+test_bad_structured_head_json_and_duplicate_keys (test_benchmark.BenchmarkTests.test_bad_structured_head_json_and_duplicate_keys) ... ok
+test_boolean_not_integer (test_benchmark.BenchmarkTests.test_boolean_not_integer) ... ok
+test_both_wrong_but_changed_is_not_pair_success (test_benchmark.BenchmarkTests.test_both_wrong_but_changed_is_not_pair_success) ... ok
+test_dataset_and_all_literal_oracles (test_benchmark.BenchmarkTests.test_dataset_and_all_literal_oracles) ... ok
+test_exact_case_and_whitespace (test_benchmark.BenchmarkTests.test_exact_case_and_whitespace) ... ok
+test_frozen_dataset_and_public_inputs (test_benchmark.BenchmarkTests.test_frozen_dataset_and_public_inputs) ... ok
+test_head_adapter_ignores_unused_tail (test_benchmark.BenchmarkTests.test_head_adapter_ignores_unused_tail) ... ok
+test_invalid_function_type (test_benchmark.BenchmarkTests.test_invalid_function_type) ... ok
+test_missing_required_head (test_benchmark.BenchmarkTests.test_missing_required_head) ... ok
+test_nested_object_typed_and_order_independent (test_benchmark.BenchmarkTests.test_nested_object_typed_and_order_independent) ... ok
+test_optional_omission_policy (test_benchmark.BenchmarkTests.test_optional_omission_policy) ... ok
+test_parallel_arrays_do_not_sort_independently (test_benchmark.BenchmarkTests.test_parallel_arrays_do_not_sort_independently) ... ok
+test_prompt_metadata_cannot_leak (test_benchmark.BenchmarkTests.test_prompt_metadata_cannot_leak) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.037s
+
+OK
+
+CHECK evaluation/diagnostic800/frozen/cf-en/scripts -m unittest test_benchmark -v
+test_200_rows_100_pairs_and_all_literal_oracles (test_benchmark.EnglishBenchmarkTests.test_200_rows_100_pairs_and_all_literal_oracles) ... ok
+test_english_only_inputs_and_labels (test_benchmark.EnglishBenchmarkTests.test_english_only_inputs_and_labels) ... ok
+test_false_is_not_zero_and_integer_types (test_benchmark.EnglishBenchmarkTests.test_false_is_not_zero_and_integer_types) ... ok
+test_frozen_export (test_benchmark.EnglishBenchmarkTests.test_frozen_export) ... ok
+test_independent_arithmetic_binding (test_benchmark.EnglishBenchmarkTests.test_independent_arithmetic_binding) ... ok
+test_independent_arithmetic_environment (test_benchmark.EnglishBenchmarkTests.test_independent_arithmetic_environment) ... ok
+test_independent_arithmetic_semantics (test_benchmark.EnglishBenchmarkTests.test_independent_arithmetic_semantics) ... ok
+test_invalid_json_and_function (test_benchmark.EnglishBenchmarkTests.test_invalid_json_and_function) ... ok
+test_line_ending_and_case_fidelity (test_benchmark.EnglishBenchmarkTests.test_line_ending_and_case_fidelity) ... ok
+test_metadata_not_in_prompt (test_benchmark.EnglishBenchmarkTests.test_metadata_not_in_prompt) ... ok
+test_nested_objects_and_parallel_arrays (test_benchmark.EnglishBenchmarkTests.test_nested_objects_and_parallel_arrays) ... ok
+test_no_literal_overlap_with_previous_suite (test_benchmark.EnglishBenchmarkTests.test_no_literal_overlap_with_previous_suite) ... ok
+test_sixth_argument_is_scored (test_benchmark.EnglishBenchmarkTests.test_sixth_argument_is_scored) ... ok
+test_wrong_but_changed_does_not_count (test_benchmark.EnglishBenchmarkTests.test_wrong_but_changed_does_not_count) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.042s
+
+OK
+
+CHECK evaluation/diagnostic800/frozen/hard/scripts -c import json; from pathlib import Path; from benchmark_lib import score_case,validate_rows; rows=[json.loads(x) for x in Path('../cases.jsonl').read_text().splitlines()]; validate_rows(rows); assert len(rows)==200; assert all(score_case(r['expected'],r)['exact_correct'] for r in rows); print('200 literal oracles passed')
+200 literal oracles passed
+
+CHECK evaluation/diagnostic800/frozen/multiarg/scripts -c import json; from pathlib import Path; from benchmark_lib import score_case,validate_rows; rows=[json.loads(x) for x in Path('../cases.jsonl').read_text().splitlines()]; validate_rows(rows); assert len(rows)==200; assert all(score_case(r['expected'],r)['exact_correct'] for r in rows); print('200 literal oracles passed')
+200 literal oracles passed
+
+Release CPU acceptance passed. GPU/iPhone inference not rerun.
