@@ -34,3 +34,15 @@ python /path/to/adapter-package/infer.py --base /path/to/base \
 `source/` contains the original training, data preparation, custom text model loading, PLE and grouped-expert LoRA logic. Publication changes only replace machine-specific source/config paths. Edit each config's `model_dir`, `data_dir`, `output_dir`; set `SIMPLETOOL_TRAINING_DATA` to the original three-JSONL pool. Preparation writes caches under `source/data/`; align the training config's data directory with that result. `prepare_31b_reuse.py` requires independently verified 26B/31B tokenizer and template equality.
 
 This release has syntax checks, not a fresh clean-machine training or Hub weight reload acceptance. The full training corpus is being published separately by the cloud data agent; evaluation data is not a substitute.
+
+## Frozen Diagnostic-800 evaluation
+
+`source/evaluate_gemma.py` is the actual native batched evaluator with only machine-path/CLI adaptation. It preserves frozen bodies, replaces the ChatML role shell with the trained native Gemma shell, decodes no content, stops each branch independently and uses the frozen local scorers. Example from the repository root:
+
+```bash
+python gemma4/source/evaluate_gemma.py --model e4b \
+  --base /path/to/gemma-4-E4B-it --artifact /path/to/complete-adapter \
+  --datasets qwen35/evaluation/diagnostic800/frozen --output gemma-evaluation
+```
+
+The historical minimum batches are E2B/E4B=32, 12B/26B=16 and 31B=8, requiring suitable GPU memory. Do not use 12B for a reported ability result before resolving its documented abnormal output. This reference is not the optimized Qwen shared-state CUDA path. Publication changes have syntax/contract checks; no new full Gemma run is claimed.

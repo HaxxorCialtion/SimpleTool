@@ -14,3 +14,4 @@ jobs:
           python-version: '3.12'
       - run: python qwen35/check_release.py
       - run: python -m compileall -q gemma4/source
+      - run: python -m unittest discover -s gemma4/tests -v

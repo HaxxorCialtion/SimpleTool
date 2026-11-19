@@ -1,13 +1,14 @@
 {
   "date": "2026-11-19",
-  "cpu_unittests": 70,
+  "cpu_unittests": 73,
   "public_frozen_cases": 4786,
   "diagnostic_literal_oracles": 800,
-  "python_syntax_files": 399,
+  "python_syntax_files": 401,
   "portable_overlay_snapshots_checked": 3,
   "swift_package_manifest": "parsed",
   "gpu_inference_rerun": false,
   "iphone_inference_rerun": false,
   "clean_training_rerun": false,
-  "gemma_adapter_code_syntax_checked": true
+  "gemma_adapter_code_syntax_checked": true,
+  "gemma_prompt_contract_tests": 3
 }
